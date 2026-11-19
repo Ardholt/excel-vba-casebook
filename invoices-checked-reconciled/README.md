@@ -1,10 +1,12 @@
-# Invoices that don’t add up: 7 totals flagged
+# Paid invoice, wrong total
 
-<p align="center">
-  <img src="media/hero.png" width="600" alt="Before: totals and payments unchecked. After: an invoice-by-invoice list showing paid, part-paid and credit amounts.">
-</p>
+The payment covers the lines below, but the invoice asks for **£2.35 too much**. The check keeps that difference open for review.
 
-**[120 invoices checked; 7 totals need review.](output/reconciliation.md) The payment list shows what is paid, what is still owed and what needs checking.**
+<img src="media/hero.png" width="560" alt="INV-0017 source beside Ledger row 18. Net £227.49 + tax £10.63 = gross £238.12. Stated £240.47 − calculated £238.12 = £2.35 to review. Gross £238.12 − recorded payment PAY-0017 £238.12 = £0.00 remaining. Payment covered; invoice total still needs checking.">
+
+Trace this check: [source invoice and payment](input/input.xlsx) · [ledger row](output/invoices.csv) · [line calculations](output/lines.csv) · [£2.35 review entry](output/exceptions.csv).
+
+**[120 invoices checked; 7 totals need review.](output/reconciliation.md)** The checked workbook keeps the total check separate from the payment check.
 
 <sub>Case 06 of 8 in [Excel & VBA casebook](../README.md)</sub>
 
@@ -35,9 +37,20 @@ The [Payment list in the checked workbook](output/checked-ledger.xlsx) shows eac
 
 Every [payment entry is kept in the payment file](output/payments.csv). The repeated entries need checking against the payment records before anyone can say how much of them was actually received. They are not counted as additional money received.
 
-<img src="images/invoice.png" width="600" alt="Invoice INV-0017: calculated total £238.12, stated total £240.47, difference £2.35, payment £238.12 and nothing left to pay against the calculated total.">
+### Follow the invoice in the first image
 
-For [INV-0017](output/invoices.csv), the lines add up to **[£238.12](output/lines.csv)**; the invoice states **[£240.47](input/input.xlsx)**. The **[£2.35 difference](output/exceptions.csv)** stays on the review list. Its **[£238.12 payment](output/payments.csv)** covers the calculated total, so the issue is the invoice total rather than a missing payment.
+The image is a compact view of **INV-0017** from the supplied workbook beside its checked ledger entry. It shows the full check, without cropping a longer payment list.
+
+In [input.xlsx](input/input.xlsx), the invoice is on **Invoices row 18**, its lines are on **Lines rows 50–52**, and **PAY-0017** is on **Payments row 18**. The corresponding [checked workbook](output/checked-ledger.xlsx) entry is **Ledger row 18**; its `total_check` is `REVIEW` even though its payment balance is `SETTLED`.
+
+| Line | Net calculation (£) | Tax calculation (£) | Gross (£) |
+|---|---|---|---:|
+| L01 | 4 × 21.93 = 87.72 | 87.72 × 0% = 0.00 | 87.72 |
+| L02 | 5 × 23.10 = 115.50 | 115.50 × 5% → 5.78 | 121.28 |
+| L03 | 1 × 24.27 = 24.27 | 24.27 × 20% → 4.85 | 29.12 |
+| Total | 227.49 | 10.63 | 238.12 |
+
+These values are in [lines.csv](output/lines.csv). Net and tax are each rounded half-up to pennies per line before summing. The [invoice ledger](output/invoices.csv) records **£227.49 + £10.63 = £238.12**, and **£240.47 − £238.12 = £2.35** to review. The [payment file](output/payments.csv) records **PAY-0017: £238.12**, giving **£238.12 − £238.12 = £0.00** remaining against the calculated total. The [exception](output/exceptions.csv) remains open; the stated invoice has not been silently changed.
 
 **Download:** [original workbook](input/input.xlsx) · [checked workbook with payment list](output/checked-ledger.xlsx) · [invoice views](output/invoice-views.xlsx) · [entries to review](output/exceptions.csv) · [full reconciliation](output/reconciliation.md)
 

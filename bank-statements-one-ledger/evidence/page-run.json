@@ -1,5 +1,16 @@
 {
-  "source": "README.md",
-  "captures_included": false,
-  "scope": "Page-preview captures are not included in this repository. Run the page script to make a local capture; it does not establish live CI status."
+  "command": "pagerender README.md evidence/page-preview",
+  "runtime_seconds": 7.683788,
+  "readme_sha256": "99841a9ee2c58314b08433fcd61586c33dd5cb68338a1aa9a4726fd371e03a91",
+  "remote_ci_badge_omitted_in_preview_only": true,
+  "badge_url": "https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg",
+  "preview_badge": "Remote badge image omitted; no replacement status shown",
+  "readme_kept_unchanged": true,
+  "captures": {
+    "evidence/page-preview/1366-first.png": "f36d5875c15b6826660cb5395d68c85c8190f3956e57944db4ec4573b95aa4ea",
+    "evidence/page-preview/1366-full.png": "ef7dfce4a66ed8fed70770acf7e4be320932476fca48a5963fcc97b7ba06dd18",
+    "evidence/page-preview/390-first.png": "b9542e3279439f9de1d550df9ee2e064ba72e476ba1d2a362fb0f77cf45df3f7",
+    "evidence/page-preview/390-full.png": "cd18db3157fe84f9c12de96a705993e8f911d7c9374da617872c7d3084017e64"
+  },
+  "limitation": "GitHub-style README body; if the remote badge cannot load, only that badge below the fold is omitted."
 }

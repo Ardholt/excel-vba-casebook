@@ -1,10 +1,14 @@
-# Customer list with duplicates: 65 repeat entries removed
+# Customer list cleaned
+
+Repeated entries, mixed dates and amounts — cleaned with every change recorded.
 
 <p align="center">
-  <img src="media/hero.png" width="600" alt="Before: repeated customer entries and mixed date and amount formats. After: the cleaned list shows each matching entry once, with consistent dates and amounts.">
+  <img src="media/hero.png" width="600" alt="Before: Account N-01 appears twice. After: Account N-01 and Account W-01 are both fully shown. Change log: row 2 spacing, date and amount cleaned; row 3 removed as a repeat of row 2.">
 </p>
 
-**[All 550 entries accounted for: 472 kept, 65 repeats removed and 13 saved for review.](output/report.json)**
+[Change log](output/changes.csv) · [Removed repeats](output/duplicates.csv) · [Trace these rows](evidence/proof-source.json)
+
+**[550 entries: 472 kept · 65 repeats removed · 13 saved for review.](output/report.json)**
 
 <sub>Case 01 of 8 in [Excel & VBA casebook](../README.md)</sub>
 

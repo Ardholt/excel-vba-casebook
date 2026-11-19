@@ -3,6 +3,6 @@
   "rows": 5520,
   "amount_total": "238441.92",
   "source_to_output_cells_equal": true,
-  "seconds": 1.787,
+  "seconds": 7.574,
   "docker_mount_route": "Not run in this environment"
 }

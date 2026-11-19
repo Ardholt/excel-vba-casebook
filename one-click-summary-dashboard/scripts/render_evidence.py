@@ -26,7 +26,8 @@ def render(source, dest):
 
 if __name__ == '__main__':
     captures = [render('output/vba-after.xlsx', 'images/dashboard.png'),
-                render('output/vba-before.xlsx', 'images/before.png')]
+                render('output/vba-before.xlsx', 'images/before.png'),
+                render('output/vba-repeat.xlsx', 'images/repeat.png')]
     with tempfile.TemporaryDirectory(prefix='.view-', dir='output') as tmp:
         path = Path(tmp) / 'breakdown.xlsx'
         book = openpyxl.load_workbook('output/vba-after.xlsx')

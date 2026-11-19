@@ -1,7 +1,14 @@
 {
-  "actual_vba_result": "PASS: baseline, append and repeat",
+  "actual_button_result": "PASS: baseline, append, repeat, and saved-workbook reopen",
   "reference": "output/runtime.json",
-  "macro_execution": "evidence/vba-run.json",
-  "macro_packaging": "evidence/macro-package.json",
-  "desktop_excel": "not_run"
+  "macro_execution": "output/vba-run.json",
+  "macro_packaging": "output/macro-package.json",
+  "tests": {
+    "result": "PASS",
+    "exit_code": 0,
+    "passed": 29,
+    "elapsed_seconds": 9.748,
+    "command": "python3 -m pytest -q -p no:cacheprovider tests",
+    "scope": "Python business logic and current button-run artifact checks; button execution is recorded in vba-run.json"
+  }
 }

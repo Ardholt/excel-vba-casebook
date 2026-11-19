@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-19T13:23:44.469888+00:00",
+  "command": "python3 scripts/render_hero.py && python3 scripts/preview_page.py && pytest -q",
+  "result": "PASS",
+  "tests": "31 passed in 1.48s",
+  "hero_values": "Source invoice, line calculations, payment and cached ledger agreed.",
+  "page_render": "pagerender; offline CI badge replaced with a text link in the preview only",
+  "visual_review": {
+    "390-first.png": "Complete source invoice extract, ledger row, net + tax, stated \u2212 calculated and gross \u2212 payment visible, uncut.",
+    "1366-first.png": "Complete source invoice extract, ledger row, net + tax, stated \u2212 calculated and gross \u2212 payment visible, uncut."
+  },
+  "preview_scope": "Local GitHub-style README body; site navigation is not reproduced. Captures are in ignored evidence/page/.",
+  "files": {
+    "media/hero.png": {
+      "sha256": "c0ee19039ba52641ff74a7ef8738c726c1721978745b104b0b8f9e2b1347eb27",
+      "pixels": [
+        1360,
+        1280
+      ]
+    },
+    "evidence/page/390-first.png": {
+      "sha256": "8698ce85174a5b25cc9ee56cbda1b8a7892b86362356ad9eb0945b466ed28940",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    "evidence/page/1366-first.png": {
+      "sha256": "176b42f85b0da5d3dc05e536c3d4c8c1f12dfd52472bad7bb09646b24f3f7eda",
+      "pixels": [
+        1366,
+        900
+      ]
+    }
+  },
+  "readme_sha256": "6259912700c21dff95ab0415696fbe4264530d744b3cd432a5f80af90d5958b6",
+  "source_sha256": {
+    "scripts/render_hero.py": "803baf02e2759531ffee64850cc537f16840b3c39cbead62486d62ec710c553c",
+    "scripts/render_proof.sh": "0f800cc667d8e232ab58a88426d8a78b54147850296d98dc896265e9a8af0e16",
+    "scripts/preview_page.py": "0d3b793c730b27eddc6e49d48abfb68cb9031a134b7557132ed0b261044b63ff",
+    "tests/test_reconcile.py": "49e7777845ada2adaa360a783c4e7b8471bfd82fefbf5f1288839a82a0f02e22"
+  }
+}

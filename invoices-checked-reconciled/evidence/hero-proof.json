@@ -1,0 +1,90 @@
+{
+  "method": "Typeset source extract beside a transposed ledger row; values verified against cached workbook and CSVs.",
+  "invoice_id": "INV-0017",
+  "source": {
+    "file": "input/input.xlsx",
+    "Invoices": 18,
+    "Lines": [
+      50,
+      51,
+      52
+    ],
+    "Payments": 18
+  },
+  "ledger": {
+    "file": "output/checked-ledger.xlsx",
+    "sheet": "Ledger",
+    "row": 18
+  },
+  "invoice": {
+    "invoice_id": "INV-0017",
+    "declared_total": "240.47",
+    "source_row": 18,
+    "net": "227.49",
+    "tax": "10.63",
+    "gross": "238.12",
+    "difference": "2.35",
+    "total_check": "REVIEW",
+    "allocated": "238.12",
+    "balance": "0.00",
+    "balance_status": "SETTLED"
+  },
+  "lines": [
+    {
+      "invoice_id": "INV-0017",
+      "line_id": "L01",
+      "source_row": 50,
+      "quantity": "4",
+      "unit_price": "21.93",
+      "tax_rate": "0",
+      "net": "87.72",
+      "tax": "0.00",
+      "gross": "87.72",
+      "status": "calculated"
+    },
+    {
+      "invoice_id": "INV-0017",
+      "line_id": "L02",
+      "source_row": 51,
+      "quantity": "5",
+      "unit_price": "23.1",
+      "tax_rate": "0.05",
+      "net": "115.50",
+      "tax": "5.78",
+      "gross": "121.28",
+      "status": "calculated"
+    },
+    {
+      "invoice_id": "INV-0017",
+      "line_id": "L03",
+      "source_row": 52,
+      "quantity": "1",
+      "unit_price": "24.27",
+      "tax_rate": "0.20",
+      "net": "24.27",
+      "tax": "4.85",
+      "gross": "29.12",
+      "status": "calculated"
+    }
+  ],
+  "payment": {
+    "payment_id": "PAY-0017",
+    "invoice_id": "INV-0017",
+    "amount": "238.12",
+    "source_row": 18,
+    "status": "allocated"
+  },
+  "source_sha256": {
+    "input/input.xlsx": "30ef38846848df140e8b77c5be60d55f3c9eb0edfd473bbc86dd22f530c7dc20",
+    "output/checked-ledger.xlsx": "d617229443de9d477f73dae9a987ca570c05a7ca982a057c92112cc9f3daa84b",
+    "output/invoices.csv": "ab10e1f3b8ab64860b3d3390a08a2b7a44c7715cb0447883f9b91f97b4e62a3a",
+    "output/lines.csv": "b91108bcfceb841331b5681156d5c6fd4c04d0a12989069c6f91e71c9a965107",
+    "output/payments.csv": "2613f9a8b944e52837361e9f6cf29c5d1692f4d5b8e62ce45b69a51db21891f4",
+    "output/exceptions.csv": "3122db7154805cfb9db5ed9c70aa7451d2040b7f0a7a710d1294f857ce77114e"
+  },
+  "render": {
+    "file": "media/hero.png",
+    "width": 1360,
+    "height": 1280
+  }
+}

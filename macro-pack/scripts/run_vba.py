@@ -3,6 +3,7 @@ import json, time, subprocess, tempfile, shutil, socket, hashlib, platform
 import uno
 from com.sun.star.beans import PropertyValue
 import openpyxl, xlsxwriter, pytest, PIL
+from zipfile import is_zipfile
 from reference import table, REQUIRED, render_letter
 
 def prop(n,v):
@@ -24,7 +25,11 @@ def run():
             except Exception: time.sleep(.1)
         else: raise RuntimeError('Office listener did not start')
         desktop=remote.ServiceManager.createInstanceWithContext('com.sun.star.frame.Desktop',remote)
-        doc=desktop.loadComponentFromURL(Path('macro-pack.xlsm').resolve().as_uri(),'_blank',0,(prop('Hidden',True),prop('MacroExecutionMode',4),prop('UpdateDocMode',3)))
+        work=Path('.build/vba-run')
+        if work.exists(): shutil.rmtree(work)
+        work.mkdir(parents=True)
+        shutil.copyfile('macro-pack.xlsm',work/'macro-pack.xlsm')
+        doc=desktop.loadComponentFromURL((work/'macro-pack.xlsm').resolve().as_uri(),'_blank',0,(prop('Hidden',True),prop('MacroExecutionMode',4),prop('UpdateDocMode',3)))
         assert doc
         libs=doc.BasicLibraries; print('Imported VBA libraries:',libs.getElementNames())
         library='VBAProject' if libs.hasByName('VBAProject') else libs.getElementNames()[0]
@@ -44,6 +49,17 @@ def run():
             return round(time.perf_counter()-tick,3)
         def snapshot(name):
             doc.storeToURL(Path('output/vba',name+'.xlsx').resolve().as_uri(),(prop('FilterName','Calc MS Excel 2007 XML'),prop('Overwrite',True)))
+        def compare_split():
+            manifest=values('__MP_Split')[1:]
+            assert {p.name for p in (work/'output/split').glob('group-*.xlsx')}=={r[1] for r in manifest}
+            for group,name,count in manifest:
+                path=work/'output/split'/name
+                assert is_zipfile(path), 'Macro must write real XLSX, not renamed OLE'
+                book=openpyxl.load_workbook(path)
+                assert book.sheetnames==['Data']
+                rows=table(book['Data'],REQUIRED['Data'])
+                expected=[r for r in values('Data')[1:] if str(r[1])==str(group)]
+                assert rows==expected and len(rows)==count
         def compare(name):
             actual=values(name); want=[list(r[:3]) for r in ref[name].values]
             if name=='__MP_Letters':
@@ -52,39 +68,57 @@ def run():
         for action,sheet in [('Split','__MP_Split'),('Merge','__MP_Merged'),('Rename','__MP_Rename'),('Letters','__MP_Letters')]:
             snapshot(action.lower()+'-before')
             if action=='Letters':
-                for path in Path('output/letters').glob('*.txt'): path.unlink()
+                for path in Path('.build/vba-run/output/letters').glob('*.txt'): path.unlink()
             elapsed=invoke(action); compare(sheet)
             if action=='Split':
-                for _,name,_ in values('__MP_Split')[1:]: compare(name)
+                compare_split()
+                shutil.copytree(work/'output/split','output/vba/split',dirs_exist_ok=True)
             if action=='Rename':
                 for old,new,status in list(ref['__MP_Rename'].values)[1:]:
                     if status=='renamed': assert values(new)==[list(r) for r in source[old].values]
                     elif old in source.sheetnames: assert values(old)==[list(r) for r in source[old].values]
             if action=='Letters':
                 for rid,name,amount in list(source['Recipients'].values)[1:]:
-                    assert Path('output/letters',rid+'.txt').read_text()==render_letter(Path('input/template.txt').read_text(),[rid,name,amount])+'\n'
+                    assert Path('.build/vba-run/output/letters',rid+'.txt').read_text()==render_letter(Path('input/template.txt').read_text(),[rid,name,amount])+'\n'
             snapshot(action.lower()+'-after')
             actions.append({'action':action,'seconds':elapsed,'matches_reference':True,'snapshot':f'../output/vba/{action.lower()}-after.xlsx'})
         # Repeated actions preserve business data. The rename log accurately changes to missing source.
         names=list(doc.Sheets.getElementNames())
         for action,sheet in [('Split','__MP_Split'),('Merge','__MP_Merged'),('Letters','__MP_Letters')]: invoke(action); compare(sheet)
+        compare_split()
         invoke('Rename'); assert set(names)==set(doc.Sheets.getElementNames())
         for source_name in REQUIRED:
             assert values(source_name)==[list(r) for r in source[source_name].values], source_name
+        # A new group requires a new workbook, with no prepared group tab.
+        data_sheet=doc.Sheets.getByName('Data')
+        data_sheet.getCellRangeByName('A1202:C1203').setDataArray((('NEW','A/B',-7.5),('NEW','A/B',-7.5)))
+        invoke('Split'); compare_split()
+        assert len(values('__MP_Split'))==8
+        assert (work/'output/split/group-007.xlsx').exists()
+        (work/'output/split/retain.me').write_text('unrelated file')
+        data_sheet.getCellRangeByName('A1202:C1203').clearContents(1023)
+        invoke('Split'); compare_split(); compare('__MP_Split')
+        assert not (work/'output/split/group-007.xlsx').exists()
+        assert (work/'output/split/retain.me').read_text()=='unrelated file'
+        saved_data=data_sheet.getCellRangeByName('A2:C1201').getDataArray()
+        data_sheet.getCellRangeByName('A2:C1201').clearContents(1023)
+        invoke('Split'); compare_split(); assert len(values('__MP_Split'))==1
+        data_sheet.getCellRangeByName('A2:C1201').setDataArray(saved_data)
+        invoke('Split'); compare_split(); compare('__MP_Split')
         # Removing a recipient removes only the prior generated letter, not a stray unrelated file.
         recipients=doc.Sheets.getByName('Recipients'); last=recipients.getCellRangeByName('A81:C81'); saved=last.getDataArray()
-        Path('output/letters/retain.me').write_text('unrelated file')
+        Path('.build/vba-run/output/letters/retain.me').write_text('unrelated file')
         last.clearContents(1023); invoke('Letters')
-        assert not Path('output/letters/C080.txt').exists()
-        assert Path('output/letters/retain.me').read_text()=='unrelated file'
-        last.setDataArray(saved); invoke('Letters'); compare('__MP_Letters'); Path('output/letters/retain.me').unlink()
+        assert not Path('.build/vba-run/output/letters/C080.txt').exists()
+        assert Path('.build/vba-run/output/letters/retain.me').read_text()=='unrelated file'
+        last.setDataArray(saved); invoke('Letters'); compare('__MP_Letters'); Path('.build/vba-run/output/letters/retain.me').unlink()
         # Invalid identifiers must stop before mutating the prior letters.
         first=recipients.getCellRangeByName('A2'); original=first.getString(); first.setString('../outside')
         rejected=doc.getScriptProvider().getScript(f'vnd.sun.star.script:{library}.Module1.RunLetters?language=Basic&location=document').invoke((),(),())[0]
-        assert str(rejected).startswith('ERROR'); assert len(list(Path('output/letters').glob('*.txt')))==80
+        assert str(rejected).startswith('ERROR'); assert len(list(Path('.build/vba-run/output/letters').glob('*.txt')))==80
         first.setString(original)
         doc.close(True); desktop.terminate()
-        runtime={'system':platform.freedesktop_os_release()['PRETTY_NAME'],'python':platform.python_version(),'libreoffice':subprocess.check_output(['libreoffice','--version'],text=True).strip(),'openpyxl':openpyxl.__version__,'xlsxwriter':xlsxwriter.__version__,'pytest':pytest.__version__,'pillow':PIL.__version__,'vba_source_matches_import':True,'vba_source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(Path('vba').glob('*.bas'))},'actions':actions,'repeat_preserves_business_data':True,'input_tables_preserved':True,'removed_recipient_letter_removed':True,'unrelated_file_preserved':True,'unsafe_recipient_rejected_before_write':True,'elapsed_seconds':round(time.perf_counter()-start,3),'excel_status':'Not yet run in Microsoft Excel','prepared_output_tabs':True,'dynamic_sheet_creation_status':'Not validated: supplied workbook has blank output tabs prepared. New-group tab creation needs Excel acceptance.','export_note':'Snapshots are UNO exports after VBA execution. VBA SaveAs was not used. GIFs show sheet snapshots from these runs, not desktop screen recordings.'}
+        runtime={'system':platform.freedesktop_os_release()['PRETTY_NAME'],'python':platform.python_version(),'libreoffice':subprocess.check_output(['libreoffice','--version'],text=True).strip(),'openpyxl':openpyxl.__version__,'xlsxwriter':xlsxwriter.__version__,'pytest':pytest.__version__,'pillow':PIL.__version__,'vba_source_matches_import':True,'vba_source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(Path('vba').glob('*.bas'))},'actions':actions,'repeat_preserves_business_data':True,'input_tables_preserved':True,'removed_recipient_letter_removed':True,'unrelated_file_preserved':True,'unsafe_recipient_rejected_before_write':True,'elapsed_seconds':round(time.perf_counter()-start,3),'split_files_are_ooxml':True,'split_new_group_and_duplicates_checked':True,'split_removed_group_and_empty_input_checked':True,'split_unrelated_file_preserved':True,'export_note':'LibreOffice executed the imported macros. SaveGroup uses its LibreOffice branch with the native OOXML filter; the Excel SaveAs branch is separate. Snapshots are UNO exports after macro execution. GIFs show sheet snapshots, not desktop recordings.'}
         (dest/'runtime.json').write_text(json.dumps(runtime,indent=2)+'\n')
         print('PASS actual VBA outputs match reference')
     finally:

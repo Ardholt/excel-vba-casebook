@@ -1,12 +1,25 @@
 {
   "file": "media/hero.png",
+  "width": 760,
+  "height": 724,
   "source": "output/vba-after.xlsx",
-  "width": 780,
-  "height": 930,
-  "sha256": "f93d5d0c0e84ab64c2f66fc6fffd61ae40247b2ec595d5bcaa7ebf6e875a8031",
-  "source_sha256": "d618c83c264f5a4e2c29ee4634f39fbd95901e671e0aa433348f9a4ac4a4c9bc",
-  "region": "Dashboard!A11:B33",
+  "source_sha256": "b33f21c38694146a057c393f25e02c85752e0d54589e0fd252e18ed89e895700",
+  "button_run": "output/vba-run.json",
+  "regions": [
+    "Dashboard!A3",
+    "Dashboard!A12:B24",
+    "Dashboard!A27:B33"
+  ],
   "visible_months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
     "2025-10",
     "2025-11",
     "2025-12",
@@ -21,6 +34,6 @@
     "Repairs",
     "Tools"
   ],
-  "presentation": "Earlier months hidden; month heading shortened. All figures are unchanged saved VBA results.",
-  "figures": "output/report.json"
+  "presentation": "Typeset proof graphic from saved workbook cells and recorded button actions; not an application screenshot.",
+  "sha256": "c71f6613cef6cbbca57374fd1e39f7f560ea1a70699ef8a186b4aa7781cef7cc"
 }

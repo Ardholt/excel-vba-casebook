@@ -1,30 +1,37 @@
 {
   "command": "bash scripts/inner.sh",
-  "checked_utc": "2026-11-19T07:29:17Z",
+  "checked_utc": "2026-11-19T13:36:13.838552+00:00",
   "exit_code": 0,
-  "seconds": 8.158,
+  "seconds": 36.811,
   "test_summaries": [
-    "24 passed in 6.75s"
+    "26 passed in 32.24s"
   ],
   "inputs_unchanged": true,
   "input_sha256": {
     "input/input.xlsx": "6b45850809c89878434d88626b5a0562007b642d948054bd376ad93e5672f8ba",
     "input/template.txt": "351f9c420061db1d12f533cab278218d416a3f3e22fe850c96639171d90c710a"
   },
-  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "scope": "Reference outputs and business tests executed in the container. Actual macro execution is recorded separately in runtime.json.",
   "source_sha256": {
-    "scripts/check_output.py": "e1f36d129ed677369a5f28b60155f809311d7eb0310cff034bb59dc40ef2e689",
+    "run.sh": "1c5fd9eccfc5b373e5681e59252cff8b081cf0c4e2415f0a5809a0b8397b051b",
+    "scripts/build_candidate.py": "ae5570d9fd084cdacb63c7dbe61f777b04de145136e39b7a94ab70cd3bd59b8d",
+    "scripts/check_output.py": "d9beb33381447810633d82938b60c12a84bf204216b656c18e34dd3348706cb1",
     "scripts/inner.sh": "b47c1e8926e7b47f27dfb3aa388f6495dfaf0bd8f22050a821f655d7f9f5b3a4",
-    "scripts/make_gifs.py": "51bfc7890a445feabb0dd8cc09b9152014f61afadfd09fe03436d2640d9ef39d",
-    "scripts/page_preview.py": "f9136d97420ce33ada1276f1898a90fdd3fd7a01328ea4ec0044a6d19676cd27",
+    "scripts/make_gifs.py": "f0e496bfc70c3d872e7281dfec81f7900c2485dc2996d71550062d5fdcdde472",
+    "scripts/make_hero.py": "5ba0b4abb3f99a5ceee0003d085d51834f639e049d5aea096e0a6ef229a5bb3f",
     "scripts/make_input.py": "8cc69726db6f1100be5a227e550c286bec32b37c091afff258d00d687296ce69",
-    "scripts/scrub.py": "d6896f12068110be09d1795c8628aad6f47d3a7e969234a2f50ffaa51107bb68",
+    "scripts/make_views.py": "91cf8f1a55bb2e4836cab1180df7fd65ac347fd253af609177965393cad7d97f",
     "scripts/package_license.py": "e2cbc518fa8b5c72ff1b1750dcaca9c9ce62c7115027cd279f6caf655ffb3fcc",
-    "scripts/make_views.py": "39af89e57d818bb4bcbe7b3caa45ecc0ca373b110d7b244d437529d24183a0db",
-    "scripts/build_candidate.py": "390cc3ea68b109a082947cf8a6518dd0695b9f81b47f204e8091ffaad0e7e6ed",
-    "scripts/reference.py": "3bfdfa7f62d09215b5d80016f40f6bf77a925f83f779c49fd4328e38f88ab1d9",
     "scripts/package_vba.py": "81d443c1d8f8470ff4b3f816b4e77f96c05489d80986bff5b68b194d567cb90c",
-    "scripts/run_vba.py": "6297988e44463e05df8dfda67276104e6c45434e4221411bd46c892f8ea89928",
-    "tests/test_business.py": "b4008169b2ca3214fb03d155878e543945479a002971a6484e10bd9b17df02b9"
+    "scripts/page_preview.py": "f9136d97420ce33ada1276f1898a90fdd3fd7a01328ea4ec0044a6d19676cd27",
+    "scripts/reference.py": "d0cbb94fe4b525bc7a95442571a294d52efd677dfc683226b5f21828a39ac852",
+    "scripts/run_vba.py": "c1f707497067dd8f038e6bcc491fca329cecd1f0db52d34b19cb41a02a569b3d",
+    "scripts/scrub.py": "d6896f12068110be09d1795c8628aad6f47d3a7e969234a2f50ffaa51107bb68",
+    "scripts/verify_case.py": "f43ef92038bf3669ce9af1524aaf0b85ad6da9fbbda34d28f4ec4cd7fc854730",
+    "tests/test_business.py": "22419a38318a476aef7656e1215d38aded6b093942de24e44009e69094147125",
+    "vba/MakeLetters.bas": "008b81a2ea4db5eb27e8f1a564b788ca6d1534a13213e4c6ecd43c40d0bd8af3",
+    "vba/MergeTables.bas": "7dd71fb2c9b28acdc8175bb08a5dd8d566d1c4bcfc9aa6ab1dcf55f5a2b91592",
+    "vba/RenameSheets.bas": "06582e747e631d209b49ab786c7c6475f349c0c19fb54af921096af3dc986dfb",
+    "vba/SplitRows.bas": "e77b85d64aa29172c7727841e69a965c2278f98c4b42d8913113e2673ecf2c88"
   }
 }

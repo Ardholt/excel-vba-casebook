@@ -1,4 +1,4 @@
-"""Run, recalculate and independently verify the reference workbooks."""
+"""Reference stage only; inner.sh separately builds and activates the macro button."""
 import argparse
 import hashlib
 import importlib.metadata
@@ -63,14 +63,14 @@ def run(input_dir, output_dir):
     report['runtime_seconds'] = round(time.perf_counter() - start, 3)
     (out / 'report.json').write_text(json.dumps(report, indent=2) + '\n')
     runtime = {'executed_at_utc': datetime.now(timezone.utc).isoformat(),
-               'execution': 'Python reference; LibreOffice formula recalculation with macros disabled',
+               'execution': 'Python reference stage; LibreOffice formula recalculation with macros disabled',
                'python': platform.python_version(),
                'libreoffice': subprocess.check_output(['libreoffice', '--version'], text=True).strip(),
                'packages': {n: importlib.metadata.version(n) for n in ['openpyxl', 'XlsxWriter', 'pytest', 'Pillow']},
                'elapsed_seconds': report['runtime_seconds'],
                'input_sha256': report['input_sha256'],
                'output_sha256': {name: hashlib.sha256((out/name).read_bytes()).hexdigest() for name, _ in files},
-               'excel_vba_execution': 'not_run', 'limitations': 'No desktop Excel, VBA button, or browser execution is established by this run.'}
+               'stage': 'reference', 'button_execution_record': 'vba-run.json'}
     (out / 'runtime.json').write_text(json.dumps(runtime, indent=2) + '\n')
     lines = ['# Sales reconciliation', '', f"Paid revenue: £{report['paid_revenue']} across {report['paid_count']} paid transactions.",
              f"Pending: £{report['pending_amount']} across {report['pending_count']} transactions; excluded from paid revenue.",
@@ -85,7 +85,7 @@ def run(input_dir, output_dir):
         lines += ['', f"Before: £{report['before']['paid_revenue']}; after: £{report['paid_revenue']}; change: £{report['paid_revenue_change']}."]
     lines += ['', '[Machine-readable figures](report.json) · [Row-by-row audit](audit.csv) · [Runtime](runtime.json)', '',
               'All totals are derived from accepted rows using decimal arithmetic, then compared with the recalculated workbook.',
-              'Reference execution does not establish desktop macro execution.']
+              'For button activation and saved-workbook checks, see [the button run](vba-run.json).']
     (out / 'reconciliation.md').write_text('\n'.join(lines)+'\n')
     print(f"Paid £{report['paid_revenue']} | {report['paid_count']} paid | {report['rejected_records']} review | {report['runtime_seconds']:.3f}s")
     print('PASS: records, decimal totals and recalculated formulas agree')

@@ -1,10 +1,10 @@
-# Three bank accounts, one sheet: all 810 transactions kept
+# Three bank statements, one checked ledger
 
-<p align="center">
-  <img src="media/hero.png" width="600" alt="Before: separate statements show an unchecked closing balance. After: 810 transactions are checked and a 25p discrepancy is flagged.">
-</p>
+Different money columns, one sheet. **810 transactions kept; two accounts balance, one statement is 25p short.**
 
-**[A full quarter from each account, all 810 transactions retained, and a 25p balance discrepancy made visible.](output/report.json)**
+<img src="media/hero.png" width="440" alt="Three source formats become ledger rows A002 −£125.50, B002 −£500.00 and C002 −£200.00. Account A closes at £10,808.28 and B at £9,817.04, both OK. C reports £9,904.25 against £9,904.50 calculated: £0.25 short, review required.">
+
+[Source rows → ledger](media/README.md) · [All account checks](output/reconciliation.md)
 
 <sub>Case 02 of 8 in [Excel & VBA casebook](../README.md)</sub>
 

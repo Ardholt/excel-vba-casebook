@@ -32,8 +32,29 @@
   "rendering_evidence": "evidence/rendering.json",
   "post_render_tests": {
     "command": "python3 -m pytest -q -p no:cacheprovider tests",
-    "summary": "24 passed in 2.73s",
+    "summary": "24 passed in 8.10s",
     "exit_code": 0,
-    "seconds": 2.885
+    "seconds": 8.587
+  },
+  "page_preview": {
+    "source": "README.md",
+    "source_sha256": "e23ef4b797d57de582282c03b2c80669b008f0bc4718502d82427fa0d491d8f9",
+    "renderer": "pagerender",
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        1366,
+        900
+      ]
+    ],
+    "remote_badge": {
+      "url": "https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg",
+      "preview_response": "Remote badge omitted visually in offline capture; no replacement button or status",
+      "reason": "Network is disabled in the execution container. README and its badge URL are unchanged."
+    },
+    "scope": "GitHub-style body preview; no live site or live CI-status claim."
   }
 }

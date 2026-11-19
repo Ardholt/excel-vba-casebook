@@ -7,7 +7,7 @@ for action,before,after in [('split','Data','__MP_Split'),('merge','MergeB','__M
     for state,sheet in [('before',before),('after',after)]:
         source=openpyxl.load_workbook(f'output/vba/{action}-{state}.xlsx',data_only=True)
         rows=[list(r) for r in source[sheet].values]
-        headings={'record_id':'Record','group':'Group','value':'Value','sheet':'Separate sheet','rows':'Rows','old':'Current tab','new':'Requested name','status':'Result','recipient_id':'Account','display_name':'Name','amount':'Amount'}
+        headings={'record_id':'Record','group':'Group','value':'Value','file':'Workbook','rows':'Rows','old':'Current tab','new':'Requested name','status':'Result','recipient_id':'Account','display_name':'Name','amount':'Amount'}
         rows[0]=[headings.get(v,v) for v in rows[0]]
         if action=='rename' and state=='after':
             for row in rows[1:]:

@@ -73,7 +73,7 @@
     "50_2025-09_B02.xlsx": "23c3b2d7cc4d29b7b5d22365918420f553fe2c29df54fd77d5ca91c9fa428d66",
     "~$01_2025-01_B01.xlsx": "1a7143631cf2a31dbfd6ae3179afb4c293914ded3c282a71d8b7b14290c0e0f7"
   },
-  "reference_seconds": 0.995,
+  "reference_seconds": 1.877,
   "checks": {
     "manifest_rows_equal_output": true,
     "unique_provenance": true

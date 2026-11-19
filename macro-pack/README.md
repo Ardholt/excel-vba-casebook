@@ -1,29 +1,33 @@
-# Sheets and letters by hand? 1,200 rows put in order
+# Separate workbooks. Finished letters.
 
-<p align="center"><img src="media/hero.png" width="600" alt="Before: account names and amounts waiting to become letters. After: a complete letter with the account's own name and amount, ready to review."></p>
+Splitting rows into files and copying account details into letters by hand invites mistakes.
 
-**[1,200 rows sorted into 6 sheets, 840 rows combined and 80 letters prepared](output/report.json). [2 tab names changed; 5 requests left unchanged with reasons](output/renames.csv).**
+**[1,200 rows → 6 separate workbooks](output/split-workbooks.zip)** · [Check every group](output/split.csv)
+
+<img src="media/hero.png" width="500" alt="Complete letter C001: Dear Account 001, Your statement amount is GBP 12.25. Please keep this letter with your records.">
+
+[Read this letter](output/letters/C001.txt) · [Download all 80 letters](output/letters.zip)
 
 <sub>Case 07 of 8 in [Excel & VBA casebook](../README.md)</sub>
 
 ## What was wrong
 
-- Sorting rows into separate sheets by hand made it easy to miss one.
+- Sorting rows into separate files by hand made it easy to miss one.
 - Combining tables put values under the wrong headings, and some requested tab names could not be used.
 - Each letter needed the right account name and amount, without copying another account's details.
 
 ## What I did
 
-- I made a separate sheet for each group and checked that every row was kept.
+- I made a separate workbook for each group and checked that every row was kept.
 - I combined the tables by their headings, keeping repeated rows rather than silently removing them.
 - I changed the usable tab names and left the others untouched, with a reason for each.
 - I prepared a complete letter for each account, ready to review. The letters are saved as files; they are not sent.
 
 ## Proof
 
-**Separate sheets, with every row accounted for.** The [group list](output/split.csv) shows all [6 groups and 1,200 rows](output/report.json). Each group has its own tab in the [finished workbook](output/after.xlsx).
+**Separate files, with every row accounted for.** The [group list](output/split.csv) maps all [6 groups and 1,200 rows](output/report.json) to their own workbooks. [Download the six workbooks together](output/split-workbooks.zip), or open [the first group’s workbook](output/split/group-001.xlsx). Each contains only that group’s rows and the column headings. The [summary workbook](output/after.xlsx) holds the file list and the other results.
 
-![All six groups, their separate sheet names and their row counts](images/sheets/01-split-after.png)
+![All six groups, their separate workbook filenames and their row counts](images/sheets/01-split-after.png)
 
 **One table with the headings lined up.** [480 rows plus 360 rows become 840 rows](output/report.json), including [12 repeated rows kept intact](output/report.json). These are the opening rows; [download the complete table](output/merged.csv).
 
@@ -51,11 +55,13 @@ It rebuilds the reference output and runs the checks. [Setup, input format and m
 
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
-Run in: LibreOffice Calc 24.2.7.2 (headless), each macro checked against independent reference outputs.
+Run with Python/openpyxl for the reference outputs and business tests, and LibreOffice Calc 24.2.7.2 (headless) for the imported macros. Each macro’s result is checked against the source data and reference outputs.
 
 The [tests](tests/test_business.py) check row and value conservation, header alignment, duplicate preservation, rejected renames, exact letter contents and repeat runs. [Test results](evidence/tests.txt) · [versions, timings and VBA checks](evidence/runtime.json).
 
-The checked macro workbook has its output tabs prepared. Creating tabs for newly added groups is outside the validated VBA path. The command above runs the Python reference and its tests; the [separate VBA runner](scripts/run_vba.py) checks the actual macros.
+Split checks open every generated `.xlsx` as an OOXML workbook and compare its headings, rows and values, including repeated rows. They also cover a new group, unsafe group labels, removed groups, empty input and repeat runs. Numbered filenames keep group labels out of file paths. The ZIP contents are checked against the individual files.
+
+The command above runs the Python reference and its tests; the [separate VBA runner](scripts/run_vba.py) executes the imported macros. The split macro uses LibreOffice’s native OOXML export in that run; its Excel branch uses `Workbook.SaveAs`. [Macro-produced group workbooks](output/vba/split/) are retained separately from the Python downloads.
 
 The retained before/after animations use workbook snapshots from those macro runs: [split](images/split.gif), [merge](images/merge.gif), [rename](images/rename.gif), [letters](images/letters.gif). The full [split](output/vba/split-after.xlsx), [merge](output/vba/merge-after.xlsx), [rename](output/vba/rename-after.xlsx) and [letter](output/vba/letters-after.xlsx) snapshots are available to inspect.
 

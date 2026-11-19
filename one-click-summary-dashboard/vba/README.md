@@ -1,20 +1,36 @@
-# Desktop refresh setup
+# Refreshing the sales dashboard
 
-The actual packaged VBA refresh was run in [LibreOffice 24.2.7.2, headless](../evidence/vba-run.json). Baseline, appended sales and repeat refresh match the Python reference, including every accepted/audit row, both chart ranges, source preservation and saved workbook totals. `RefreshDashboardHeadless` calls the same `RefreshSalesCore` as `RefreshDashboard`, omitting button installation and the interactive dialog. No Dictionary or external scripting runtime is used.
+The [downloadable workbook](../output/sales-dashboard.xlsm) includes the **Refresh sales** Forms button and its VBA. It opens with the completed sales list and the £133,102.36 result. The [recorded LibreOffice run](../output/vba-run.json) pressed the installed button before and after the additions, pressed it again, saved the macro workbook, then reopened it and pressed its button again.
 
-See the [execution status](../README.md#how-it-is-tested). `OnAction` assignment and the button click were not exercised in the headless run.
+## For staff
 
+1. Open `sales-dashboard.xlsm` in desktop Excel. Review [SalesDashboard.bas](SalesDashboard.bas) and enable macros for this workbook.
+2. Append new entries to **Sales**, keeping the existing columns and one header row. Use [the input format](../input/SCHEMA.md).
+3. On **Dashboard**, click **Refresh sales**, below the total. The total, both breakdowns and both charts rebuild from the sales list.
+4. Check for **“Checked: all source rows accounted for”** below the total. Read **Audit** for rejected entries and their reasons; correct **Sales**, then refresh again. Save when finished.
 
-Use Microsoft Excel for Mac or Windows with macros enabled for this workbook after reviewing the source. The module uses native worksheets, charts and a shape button; it has no automatic startup event, network call, file operation, ActiveX control or external scripting dependency.
+The refresh leaves **Sales** unchanged. **ValidSales**, **Audit** and **Dashboard** are dedicated output sheets whose contents are rebuilt. Keep these tabs in place and put personal notes elsewhere. All occurrences of a duplicate order number stay excluded until corrected. Refunds reduce paid sales; pending and cancelled entries stay out of the paid total.
 
-Open [sales-dashboard.xlsm](../output/sales-dashboard.xlsm), which contains the before-state sales and the readable code in `Module1`. [Packaging and opening checks](../evidence/macro-package.json) verify the module source and baseline values with macros disabled; real Excel acceptance is still required. Run `InstallRefreshButton` once from the Macros dialog, then save.
+A failed refresh writes **“REFRESH FAILED - correct source and retry”** and displays the error. Resolve the cause and refresh successfully before using the figures.
 
-If Excel rejects the candidate or requests repair, use this fallback: open [the before dashboard](../output/before-dashboard.xlsx), save a copy as **Excel Macro-Enabled Workbook (.xlsm)** named `sales-dashboard.xlsm`, open the Visual Basic Editor, and import [SalesDashboard.bas](SalesDashboard.bas) using **File → Import File**. Run `InstallRefreshButton` once from the Macros dialog. The imported module is named `Module1`. It adds the **Refresh sales** shape button. Save the workbook.
+## Rehearse the sample addition
 
-Click **Refresh sales** to rebuild from its `Sales` sheet. Append the data rows from [new-sales.xlsx](../input/new-sales.xlsx) to the bottom of `Sales` without repeating its header, then click again. Compare the dashboard with [the reconciliation](../output/reconciliation.md), and click once more to confirm the same result. Never append these rows to `input.xlsx`, which already includes them.
+The finished download already includes the new rows. To reproduce the before/after sequence in your own copy:
 
-The source `Sales` sheet is untouched. `ValidSales`, `Audit` and `Dashboard` are required, dedicated derived sheets whose contents are rebuilt on refresh; keep these tabs in place and keep your own notes elsewhere. Review rejected rows in `Audit`, correct `Sales`, then refresh. All instances of duplicate IDs stay excluded until the IDs are resolved.
+1. Open a copy of the button workbook. In **Sales**, replace the existing data rows with the rows from [before.xlsx](../input/before.xlsx), keeping one header. Click **Refresh sales**: £132,141.82.
+2. Append the 12 data rows from [new-sales.xlsx](../input/new-sales.xlsx), without its header. Click **Refresh sales**: £133,102.36, including January at £960.54 and Repairs at £325.50.
+3. Click again: £133,102.36. Compare [the reconciliation](../output/reconciliation.md) and save.
 
-The macro parses and totals integer cents, then checks row conservation, paid/pending totals, and month/category totals before showing its successful check line. A failure shows a dialog and must be resolved before using the results. The supported source format and validation rules are in [the schema](../input/SCHEMA.md).
+## Rebuild or install manually
 
-The candidate uses the embedded workbook-project template from pyOpenVBA under its [MIT licence](PACKAGING-LICENSE.txt). The sales data, dashboard and module are authored for this case.
+`../run.sh` packages the current module and a Forms button bound to `RefreshDashboard`, then runs the button checks and saves fresh outputs. No separate installation macro is needed.
+
+For manual assembly in Excel, open [before-dashboard.xlsx](../output/before-dashboard.xlsx), save it as **Excel Macro-Enabled Workbook (.xlsm)**, and import [SalesDashboard.bas](SalesDashboard.bas) in the Visual Basic Editor using **File → Import File**. On **Dashboard**, insert a **Button (Form Control)** from the Developer tab, assign **RefreshDashboard**, label it **Refresh sales**, then save.
+
+## Implementation and checks
+
+The button invokes `Module1.RefreshDashboard`, which calls `RefreshSalesCore`. The module uses worksheet ranges, integer-cent arithmetic and charts. It has no automatic startup event, network call, file operation, ActiveX control, Dictionary or external scripting dependency. It validates rows before rebuilding, checks row conservation and paid/pending/month/category totals, and restores calculation, events and screen updating on success or failure.
+
+[How it is tested](../README.md#how-it-is-tested) describes the actual run: LibreOffice imports the packaged Forms button and its `actionPerformed` binding, then the runner activates its `XAccessibleAction`. No direct call to a separate headless macro is used. Python independently verifies every accepted and audit row, source preservation, totals, chart ranges and saved files. [Package verification](../output/macro-package.json) compares extracted VBA with the source after saving.
+
+The workbook project template comes from pyOpenVBA under its [MIT licence](PACKAGING-LICENSE.txt). The sales data, dashboard, button and module are authored for this case.

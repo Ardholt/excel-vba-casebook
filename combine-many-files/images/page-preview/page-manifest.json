@@ -1,0 +1,38 @@
+{
+  "renders": [
+    {
+      "file": "390-first.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "full_page": false
+    },
+    {
+      "file": "390-full.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "full_page": true
+    },
+    {
+      "file": "1366-first.png",
+      "viewport": [
+        1366,
+        900
+      ],
+      "full_page": false
+    },
+    {
+      "file": "1366-full.png",
+      "viewport": [
+        1366,
+        900
+      ],
+      "full_page": true
+    }
+  ],
+  "offline_badge": "Remote CI badge replaced by a link for offline rendering only. README keeps the required badge.",
+  "source": "README.md"
+}

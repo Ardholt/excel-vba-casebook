@@ -1,6 +1,6 @@
 Python reference result
-Split: 1200 rows into 6 groups; no lost rows.
+Split: 1200 rows into 6 separate workbooks; no lost rows.
 Merge: 840 rows; 12 repeated rows retained.
 Rename: 2 renamed, 5 rejected; see renames.csv.
 Letters: 80 text files; nothing sent.
-Elapsed: 0.485 seconds.
+Elapsed: 1.244 seconds.

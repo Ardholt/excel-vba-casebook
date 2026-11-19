@@ -1,0 +1,50 @@
+{
+  "renderer": "pagerender via scripts/preview_page.py",
+  "scope": "GitHub-style README body; GitHub site navigation is not reproduced.",
+  "visually_inspected": [
+    "page-preview/390-first.png",
+    "page-preview/1366-first.png"
+  ],
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      1366,
+      900
+    ]
+  ],
+  "findings": {
+    "both_first_screens": "Problem, all four saved fields beside their scan crops, field-level accuracy denominator, unresolved queue examples and full queue link are visible without clipping.",
+    "saved_row": {
+      "source": "output/reviewed.xlsx",
+      "sheet": "Data",
+      "image": "entry-42.png",
+      "form_id": "F282",
+      "item_code": null,
+      "quantity": 55,
+      "amount": 885.46
+    },
+    "accuracy_source": "output/accuracy.json",
+    "queue_source": "output/unresolved.csv",
+    "queue_examples": [
+      "F242: Quantity",
+      "F282: Item code"
+    ]
+  },
+  "local_links_checked": 39,
+  "missing_local_links": [],
+  "tests": {
+    "command": "python3 -m pytest -q -p no:cacheprovider tests",
+    "summary": "24 passed in 8.10s",
+    "exit_code": 0,
+    "seconds": 8.587
+  },
+  "sha256": {
+    "README.md": "e23ef4b797d57de582282c03b2c80669b008f0bc4718502d82427fa0d491d8f9",
+    "media/hero.png": "2d797f97c8901fad2ce4393e0aae2ce75827b2593f447af4b685bed5127f761f",
+    "page-preview/390-first.png": "05a6faeb4f90ad74371d2d3174c9099ecc1c9e0c824ede08a79345af6e639260",
+    "page-preview/1366-first.png": "14401e65adddcfccdf927fcbbfa71996dd2751c6429ad108458814c7e6083fdd"
+  }
+}

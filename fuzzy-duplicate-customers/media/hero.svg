@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="640" viewBox="0 0 720 640">
+<rect width="720" height="640" fill="#10100f"/>
+<text x="28" y="43" font-family="Liberation Sans" font-size="25" font-weight="bold" fill="#f4f1eb">TWO NAMES</text>
+<text x="28" y="77" font-family="Liberation Mono" font-size="23" font-weight="normal" fill="#c4c1b8">input/input.xlsx</text>
+<text x="28" y="122" font-family="Liberation Mono" font-size="26" font-weight="normal" fill="#f4f1eb">C0003</text>
+<text x="140" y="122" font-family="Liberation Sans" font-size="27" font-weight="normal" fill="#f4f1eb">Willow account 003 Ltd</text>
+<text x="28" y="162" font-family="Liberation Mono" font-size="26" font-weight="normal" fill="#f4f1eb">C0403</text>
+<text x="140" y="162" font-family="Liberation Sans" font-size="27" font-weight="normal" fill="#f4f1eb">Willow acount 003 Limited</text>
+<path d="M28 187 H692" stroke="#575750"/>
+<text x="28" y="228" font-family="Liberation Sans" font-size="25" font-weight="bold" fill="#b8e7ce">SAVED APPROVAL</text>
+<text x="28" y="262" font-family="Liberation Mono" font-size="23" font-weight="normal" fill="#c4c1b8">input/confirmed.csv</text>
+<rect x="28" y="280" width="664" height="135" rx="5" fill="#eff6f5"/>
+<text x="46" y="313" font-family="Liberation Sans" font-size="24" font-weight="normal" fill="#183d4a">Old number</text>
+<text x="370" y="313" font-family="Liberation Sans" font-size="24" font-weight="normal" fill="#183d4a">Number to keep</text>
+<text x="46" y="350" font-family="Liberation Mono" font-size="25" font-weight="normal" fill="#183d4a">source_id</text>
+<text x="370" y="350" font-family="Liberation Mono" font-size="25" font-weight="normal" fill="#183d4a">target_id</text>
+<text x="46" y="394" font-family="Liberation Mono" font-size="34" font-weight="bold" fill="#183d4a">C0403</text>
+<text x="303" y="392" font-family="Liberation Sans" font-size="34" font-weight="normal" fill="#183d4a">→</text>
+<text x="370" y="394" font-family="Liberation Mono" font-size="34" font-weight="bold" fill="#183d4a">C0003</text>
+<text x="28" y="461" font-family="Liberation Sans" font-size="25" font-weight="bold" fill="#f4f1eb">KEPT IN THE RESULT</text>
+<text x="28" y="495" font-family="Liberation Mono" font-size="23" font-weight="normal" fill="#c4c1b8">output/result.xlsx</text>
+<text x="28" y="538" font-family="Liberation Mono" font-size="26" font-weight="normal" fill="#f4f1eb">C0003</text>
+<text x="140" y="538" font-family="Liberation Sans" font-size="27" font-weight="normal" fill="#f4f1eb">Willow account 003 Ltd</text>
+<path d="M28 562 H692" stroke="#575750"/>
+<text x="28" y="595" font-family="Liberation Mono" font-size="23" font-weight="normal" fill="#c4c1b8">output/audit.csv</text>
+<text x="28" y="626" font-family="Liberation Sans" font-size="25" font-weight="normal" fill="#f4f1eb">C0403 → C0003 · Explicit confirmation</text>
+</svg>

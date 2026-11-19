@@ -15,7 +15,7 @@
   "source_id_count": 480,
   "retained_id_count": 440,
   "no_confirmation_unchanged_count": 480,
-  "check_seconds": 0.2832,
+  "check_seconds": 0.6419,
   "limitations": [
     "Proposals are limited to nonblank equal normalized area codes and name similarity at least 0.82; they may miss duplicates or suggest distinct customers.",
     "Customer fields come from the retained target; original fields remain in Audit."

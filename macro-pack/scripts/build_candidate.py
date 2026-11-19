@@ -9,7 +9,7 @@ for i,s in enumerate(src,1):
         for c,v in enumerate(row):
             if v is not None: ws.write(r,c,v,h if r==0 else normal)
 groups=list(dict.fromkeys(str(r[1]) for r in list(src['Data'].values)[1:]))
-for name in ['__MP_Split','__MP_Merged','__MP_Rename','__MP_Letters']+['__MP_G'+str(i).zfill(3) for i in range(1,len(groups)+1)]:
+for name in ['__MP_Split','__MP_Merged','__MP_Rename','__MP_Letters']:
     ws=b.add_worksheet(name); ws.set_column('A:C',24)
 ws=b.add_worksheet('Template'); ws.write_string(0,0,Path('input/template.txt').read_text()); ws.set_column('A:A',75)
 b.close()

@@ -1,0 +1,4 @@
+{
+  "source": "README.md",
+  "preview_note": "README content with only the remote CI badge omitted from this offline render. The public README retains the real badge URL; live CI status was not fetched."
+}

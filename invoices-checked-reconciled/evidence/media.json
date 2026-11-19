@@ -1,5 +1,5 @@
 {
-  "method": "LibreOffice sheet export from single-sheet copies; PNG metadata stripped; shared casebook hero layout",
+  "method": "LibreOffice sheet captures; hero typeset directly from source and checked ledger; PNG metadata stripped.",
   "images": [
     {
       "file": "../images/before.png",
@@ -22,10 +22,15 @@
     {
       "file": "../media/hero.png",
       "sources": [
-        "../images/before.png",
-        "../images/after.png"
+        "../input/input.xlsx",
+        "../output/checked-ledger.xlsx",
+        "../output/invoices.csv",
+        "../output/lines.csv",
+        "../output/payments.csv",
+        "../output/exceptions.csv"
       ],
-      "numbers": "../output/report.json"
+      "numbers": "hero-proof.json",
+      "recipe": "../scripts/render_hero.py"
     }
   ],
   "page_preview": "Page-preview captures are not included in this repository."

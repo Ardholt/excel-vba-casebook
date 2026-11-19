@@ -35,7 +35,14 @@
     "output/hero-before.xlsx",
     "output/hero-after.xlsx"
   ],
-  "presentation": "Actual scan field crops rearranged into a compact grid, paired with values from the reviewed workbook; blank cell shaded for checking.",
+  "presentation": "Four scan crops beside all four saved fields, arranged vertically for narrow screens. Blank* labels an empty cell; it is not a saved value.",
   "forms": 48,
-  "remaining_checks": 31
+  "remaining_checks": 31,
+  "value_source": "output/reviewed.xlsx",
+  "worksheet": "Data",
+  "workbook_row": 43,
+  "source_sha256": {
+    "input/forms/entry-42.png": "a306360755587973b60828cdb876fc01b77a2081b8f11f2ba03c858dc5836943",
+    "output/reviewed.xlsx": "48f31da57188140f155aaee88294e2c2548e439ccf3a39ba9843dffbc9760e76"
+  }
 }

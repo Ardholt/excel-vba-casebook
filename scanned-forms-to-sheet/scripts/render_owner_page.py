@@ -21,6 +21,9 @@ for name in ['Before','After']:
 run('python3','scripts/make_page_assets.py')
 with Image.open('media/hero.png') as im:evidence['hero']['pixels']=list(im.size)
 evidence['hero']['sha256']=hashlib.sha256(Path('media/hero.png').read_bytes()).hexdigest()
+evidence['method']='LibreOffice sheet export and Poppler rasterisation for sheet views; Pillow composition of actual scan crops and openpyxl-read workbook values for the compact page figure.'
+evidence['hero']['source_views']=['input/forms/'+json.loads(Path('evidence/hero-source.json').read_text())['image'],'output/reviewed.xlsx']
+evidence['hero']['template']='Four field comparison rows, sized for a narrow GitHub README; scripts/make_page_assets.py.'
 Path('evidence/rendering.json').write_text(json.dumps(evidence,indent=2)+'\n')
 shutil.rmtree('render-temp')
 run('python3','scripts/write_page.py')

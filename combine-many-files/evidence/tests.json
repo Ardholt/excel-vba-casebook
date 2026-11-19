@@ -1,11 +1,11 @@
 {
-  "tests_collected": 14,
-  "passed": 14,
+  "tests_collected": 22,
+  "passed": 22,
   "failed": 0,
   "error": 0,
   "skipped": 0,
   "exit_code": 0,
-  "seconds": 2.702,
+  "seconds": 8.821,
   "command": "python3 -m pytest -q tests",
   "environment": "Linux container"
 }

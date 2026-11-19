@@ -1,30 +1,30 @@
 {
   "engine": "LibreOffice 24.2.7.2 420(Build:2)",
   "macro": "Module1.RefreshFolder",
+  "timing_scope": "Each refresh timing includes macro invocation and source-to-cell comparison.",
   "source_sha256": "dac8da4e88049156e5acb3e5761f44f7df02162b5a0b09fd41123e8f998f2171",
   "embedded_source_matches": true,
   "runs": [
     {
       "operation": "first_refresh",
-      "seconds": 3.899,
+      "seconds": 7.745,
       "rows": 5520,
       "cells_equal_reference": true
     },
     {
       "operation": "repeat_refresh",
-      "seconds": 3.771,
+      "seconds": 8.597,
       "rows": 5520,
       "cells_equal_reference": true
     },
     {
       "operation": "added_file_refresh",
-      "seconds": 3.84,
+      "seconds": 11.781,
       "rows": 5521,
       "cells_equal_reference": true
     }
   ],
   "export": "UNO XLSX export; VBA SaveAs was not used",
   "excel_run": "Not yet run in Microsoft Excel",
-  "seconds": 12.925,
-  "timing_scope": "Each refresh timing includes macro invocation and source-to-cell comparison."
+  "seconds": 31.465
 }

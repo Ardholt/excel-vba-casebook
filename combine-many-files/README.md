@@ -1,10 +1,14 @@
-# 50 Shop Files: 5,520 Rows in One Monthly Table
+# Combine monthly shop files
 
-<p align="center">
-  <img src="media/hero.png" width="600" alt="Before: shop files put the columns in different orders. After: their entries sit together, with the original filename beside each amount.">
+Separate shop spreadsheets, with columns in different orders. Bring them into one table, then refresh without doubling the figures.
+
+**[50 files: 46 filled, 2 empty, 2 rejected](output/manifest.csv).** [1 temporary file ignored, outside the 50](output/report.json).
+
+<p>
+  <img src="images/refresh.gif" width="510" alt="RefreshFolder runs: 0 to 5,520 rows; run again: 5,520 to 5,520; add one row and run: 5,520 to 5,521. Full file breakdown and one complete output entry below.">
 </p>
 
-**[5,520 rows from 46 filled files](output/report.json), together in one table. [Refreshing again doesn't double your figures.](evidence/vba-run.json)**
+Replay of the [recorded refresh log](evidence/refresh-trace.json) · [still image](media/hero.png) · [finished spreadsheet](output/consolidated.xlsx).
 
 <sub>Case 8 of 8 in [Excel & VBA casebook](../README.md)</sub>
 
@@ -23,7 +27,7 @@
 
 ## Proof
 
-The picture shows [entries from the finished table](evidence/table-preview.json), with their original filenames. Open the [full combined spreadsheet](output/consolidated.xlsx) to see all the rows.
+The animation replays the recorded refresh actions and row counts. The entry beneath them comes from the [finished table and its original source row](evidence/table-preview.json). Open the [full combined spreadsheet](output/consolidated.xlsx) to see all the rows.
 
 | What was checked | What happened |
 |---|---|
@@ -44,7 +48,7 @@ Optional technical check for a developer, from this folder with Docker running:
 ./run.sh
 ```
 
-It rebuilds the output, checks the results and prints `PASS: combine checks`. [Developer setup and file requirements](USAGE.md).
+It starts in a fresh results folder, keeps the sources read-only, checks the results and prints `PASS: combine checks` plus the results path. [Developer setup and file requirements](USAGE.md).
 
 ## How it is tested
 
@@ -52,7 +56,9 @@ It rebuilds the output, checks the results and prints `PASS: combine checks`. [D
 
 Run in: [LibreOffice Calc 24.2.7.2 (headless)](evidence/runtime.json), the macro checked against an independent Python reference.
 
-[14 passing tests](evidence/tests.json) check row counts, amount totals, every source value and unchanged input files. They cover reordered columns, extra fields, empty and invalid files, temporary files, repeat updates and a newly added file. The [actual VBA run](evidence/vba-run.json) matched the reference cell by cell; its saved workbook used UNO export rather than VBA SaveAs.
+[Passing tests](evidence/tests.json) check row counts, amount totals, every source value and unchanged input files. They cover reordered columns, extra fields, empty and invalid files, temporary files, repeat updates and a newly added file. The [actual VBA run](evidence/vba-run.json) matched the reference cell by cell; its saved workbook used UNO export rather than VBA SaveAs.
+
+The opening animation is a [replay of events captured around those macro calls](evidence/proof-media.json), not an application screen recording. The run starts with an empty table. It refreshes twice, then refreshes a temporary copy of the source folder with one extra entry. Every result is compared with the Python reference. Launcher tests use a Docker command double to check read-only mounts and fresh destinations; the full demo pipeline is also run in a fresh folder inside the Linux container.
 
 For the developer checking the implementation: [tests](tests/test_combine.py) · [VBA source](vba/CombineFiles.bas) · [versions and execution evidence](evidence/runtime.json).
 

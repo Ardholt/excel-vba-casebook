@@ -10,8 +10,8 @@ Put `input.xlsx` in the directory passed to `--input`. It must contain a `Sales`
 
 Completely blank required fields are ignored. A partially completed row is reviewed. Formulas and error cells in required fields are rejected; export literal values first. Pending totals are shown separately. Cancelled rows remain in the audit and accepted-data sheet but do not contribute to paid revenue. Review priority is missing ID, duplicate ID, formula/error, date, category, amount, then status; one reason is recorded per rejected row.
 
-`before.xlsx` is an optional earlier snapshot used only to produce the before dashboard and comparison. `new-sales.xlsx` holds the additional sales rows for the desktop run; it is not loaded by the command. `input.xlsx` already contains those appended rows. The included inputs can be rebuilt with `python3 scripts/generate_input.py` inside the supplied container.
+`before.xlsx` is an optional earlier snapshot used for the first button run and comparison. Its rows must be an unchanged prefix of `input.xlsx`; omit it to refresh the current input in all three phases. `new-sales.xlsx` holds the additional sales rows for the desktop run; it is not loaded by the command. `input.xlsx` already contains those appended rows. The included inputs can be rebuilt with `python3 scripts/generate_input.py` inside the supplied container.
 
 The audit CSV prefixes formula-like text with an apostrophe so spreadsheet applications open it as text. Numeric amounts remain numeric text. The workbook audit stores those fields as literal text.
 
-The source files are never modified. Choose a separate output directory. The run overwrites its named reports and workbooks there; unrelated files are left alone. The run is a Python reference, not a macro runner.
+The source files are never modified. Choose a separate output directory. The run overwrites its named reports and workbooks there; unrelated files are left alone. The run rebuilds the macro workbook, presses its installed button in LibreOffice, saves the resulting snapshots and refreshed macro workbook, and compares them with the Python reference.

@@ -6,7 +6,7 @@ Download the repository ZIP and extract it, or clone the repository. Open a term
 ./run.sh
 ```
 
-The command builds the shared image, rebuilds the reference table, packages and runs the VBA module in LibreOffice headless, compares the results, runs the tests and prints `PASS: combine checks`. A rejected input file is a visible diagnostic; it does not make the valid exports disappear. Failed checks return a nonzero status.
+The command creates a new empty `runs/run.XXXXXXXX` folder and prints its path on completion. It mounts the case and original inputs read-only, with only that new folder writable. It copies code and tests into the run folder, builds the reference table from scratch, packages and runs the VBA module in LibreOffice headless, compares the results, runs the tests and prints `PASS: combine checks`. Published downloads in `output/` remain available. Each repeat invocation gets a separate fresh folder. A rejected input file is a visible diagnostic; it does not make the valid exports disappear. Failed checks return a nonzero status.
 
 To consolidate your own exports, keep input and output in separate, non-nested folders:
 
@@ -14,7 +14,7 @@ To consolidate your own exports, keep input and output in separate, non-nested f
 ./run.sh --input "/path/to/branch exports" --output "/path/to/results"
 ```
 
-This route processes your files with the Python reference and checks every resulting cell against those sources. It does not run a macro on your files. Input is mounted read-only. Output is written only into the output folder; existing generated output files there are replaced. It accepts paths containing spaces. Workbook values, dates and amounts must follow the contract below.
+This route processes your files with the Python reference and checks every resulting cell against those sources. It does not run a macro on your files. Input and case code are mounted read-only. The output folder must be empty or new; a nonempty folder is refused before Docker starts. Omit `--output` to create a fresh folder under `runs/`. It accepts paths containing spaces. Workbook values, dates and amounts must follow the contract below.
 
 ## Input contract
 
@@ -32,6 +32,8 @@ Extra columns are retained. Missing extra values stay blank. Headers must be uni
 The temporary `~$` files, non-XLSX files and known outputs (`consolidated.xlsx`, `vba-result.xlsx`, `combine.xlsm`) are excluded. Keep other output filenames outside the source folder. Subfolders are not traversed.
 
 ## Output files and sheets
+
+The paths below link to the published example. A default command run writes its own `output/`, `evidence/` and `combine.xlsm` inside the printed run folder. A custom-input run writes the reference files directly into its chosen result folder.
 
 | File or sheet | What it shows |
 |---|---|

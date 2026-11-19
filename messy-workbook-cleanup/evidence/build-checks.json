@@ -11,8 +11,23 @@
   ],
   "hero_inspected": "../media/hero.png",
   "page_preview": {
-    "captures_included": false,
+    "captures_included": true,
     "phone_first_screen_inspected": true,
-    "scope": "The local README preview was inspected at 390 pixels; captures are not included in this repository."
+    "laptop_first_screen_inspected": true,
+    "files": [
+      "page-preview/390-first.png",
+      "page-preview/1366-first.png"
+    ],
+    "scope": "Both pagerender first screens show the problem, two complete cleaned rows and all three change-log lines. Offline GitHub-style README body; live GitHub navigation is not reproduced."
+  },
+  "presentation_recheck": {
+    "commands": [
+      "python3 scripts/render_assets.py",
+      "python3 scripts/render_page.py",
+      "pytest -q"
+    ],
+    "test_result": "37 passed in 16.90s",
+    "hero_evidence": "hero.json",
+    "preview_method": "page-preview/preview-method.json"
   }
 }

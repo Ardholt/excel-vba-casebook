@@ -1,5 +1,5 @@
 """Write the case page from the current measured reports."""
-import json
+import csv,json
 from pathlib import Path
 r=json.loads(Path('output/report.json').read_text())
 a=json.loads(Path('output/accuracy.json').read_text())
@@ -7,14 +7,30 @@ v=json.loads(Path('evidence/runtime.json').read_text())
 s=v['software'];n=a['denominator']
 forms = r['input_forms']
 size_line = (f'This case at its size ({forms} forms): £{10 * ((forms + 14) // 15)} fixed, £10 for each 15 pages.\n\n' if forms > 15 else '')
-title=f"Scans to a spreadsheet: {r['input_forms']} forms, unclear entries flagged"
+source=json.loads(Path('evidence/hero-source.json').read_text())
+with Path('output/unresolved.csv').open() as f:
+    queue=list(csv.DictReader(f))
+assert len(queue)==a['reviewed']['unresolved']
+examples=[queue[0],next(row for row in queue if row['image']==source['image'] and row['field']==source['field'])]
+queue_text='\n'.join(f"| [{row['form_id']}](input/forms/{row['image']}) | {row['field'].lower()} |" for row in examples)
+field_values={field['field']:field['value'] for field in source['fields']}
+alt=f"{source['image']}: full saved row — form {field_values['Form ID']}, item code blank for checking, quantity {field_values['Quantity']}, amount {field_values['Amount']}."
+title='Scans to a spreadsheet'
 text=f'''# {title}
 
-<p align="center">
-  <img src="media/hero.png" width="600" alt="Before: a faint item code beside the form number, quantity and amount. After: the uncertain code stays blank and is marked for checking.">
-</p>
+{r['input_forms']} forms to Excel, with doubtful entries left blank for checking.
 
-[**{r['input_forms']} forms in .xlsx workbooks; {a['reviewed']['unresolved']} entries still need checking after {r['reviewed']['confirmations_applied']} supplied corrections.**](output/report.json)
+[**{a['raw']['correct']}/{n} fields correct on first reading; {a['reviewed']['correct']}/{n} after {r['reviewed']['confirmations_applied']} supplied corrections.**](output/accuracy.json) {a['reviewed']['errors']} wrong values accepted in this batch against the answer key.
+
+<img src="media/hero.png" width="560" alt="{alt}">
+
+[Scan {source['form_id']}](input/forms/{source['image']}) → [complete saved row](output/reviewed.xlsx) · [image sources](evidence/hero-source.json)
+
+**{len(queue)} fields still to check** · [Full queue](output/unresolved.csv). Two examples with uncertain readings:
+
+| Form | Check against the scan |
+|---|---|
+{queue_text}
 
 <sub>Case 05 of 8 in [Excel & VBA casebook](../README.md)</sub>
 

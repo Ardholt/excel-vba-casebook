@@ -95,10 +95,22 @@ def run(input_dir,output_dir):
         if path.is_file() and path.suffix=='.txt': path.unlink()
     groups=collections.OrderedDict()
     for row in tables['Data']: groups.setdefault(str(row[1]),[]).append(row)
+    split_dir=out/'split'
+    if split_dir.is_symlink(): raise ValueError('Split directory must not be a symbolic link')
+    split_dir.mkdir(exist_ok=True)
+    # Numbered filenames never interpolate group labels into filesystem paths.
+    for path in split_dir.iterdir():
+        if re.fullmatch(r'group-\d{3,}\.xlsx',path.name): path.unlink()
     manifest=[]
     for i,(group,rows) in enumerate(groups.items(),1):
-        name=f'{PREFIX}G{i:03}'; add(book,name,REQUIRED['Data'],rows); manifest.append([group,name,len(rows)])
-    add(book,PREFIX+'Split',['group','sheet','rows'],manifest)
+        name=f'group-{i:03}.xlsx'
+        separate=openpyxl.Workbook(); separate.remove(separate.active)
+        add(separate,'Data',REQUIRED['Data'],rows)
+        separate.properties.creator=''; separate.properties.lastModifiedBy=''
+        separate.save(split_dir/name); manifest.append([group,name,len(rows)])
+    with ZipFile(out/'split-workbooks.zip','w',ZIP_DEFLATED) as archive:
+        for _,name,_ in manifest: archive.write(split_dir/name,name)
+    add(book,PREFIX+'Split',['group','file','rows'],manifest)
     merged=tables['MergeA']+tables['MergeB']; add(book,PREFIX+'Merged',REQUIRED['Data'],merged)
     renames=rename_plan(book.sheetnames,tables['RenameMap'])
     for old,new,status in renames:
@@ -114,11 +126,11 @@ def run(input_dir,output_dir):
     summary=[['Split rows',len(tables['Data']),sum(len(r) for r in groups.values())],['Merged rows',len(merged),len(merged)],['Rename requests',len(renames),sum(r[2]=='renamed' for r in renames)],['Letters',len(tables['Recipients']),len(letter_rows)]]
     ws=add(book,'Results',['Action','Input','Output'],summary); book.active=book.index(ws)
     book.properties.creator=''; book.properties.lastModifiedBy=''; book.save(out/'after.xlsx')
-    for name,heads,rows in [('split', ['group','sheet','rows'],manifest),('renames',['old','new','status'],renames),('merged',REQUIRED['Data'],merged)]:
+    for name,heads,rows in [('split', ['group','file','rows'],manifest),('renames',['old','new','status'],renames),('merged',REQUIRED['Data'],merged)]:
         with (out/(name+'.csv')).open('w',newline='') as f: w=csv.writer(f); w.writerow(heads); w.writerows(rows)
-    report={'implementation':'Python reference','input_records':{'split':len(tables['Data']),'merge_a':len(tables['MergeA']),'merge_b':len(tables['MergeB']),'rename':len(renames),'recipients':len(letter_rows)},'split':{'rows':len(tables['Data']),'groups':len(groups),'output_rows':sum(len(v) for v in groups.values()),'value_total':str(sum(Decimal(str(r[2])) for r in tables['Data']))},'merge':{'rows':len(merged),'duplicate_rows_preserved':sum(n-1 for n in collections.Counter(tuple(r) for r in merged).values()),'value_total':str(sum(Decimal(str(r[2])) for r in merged))},'rename':{'renamed':sum(r[2]=='renamed' for r in renames),'rejected':sum(r[2]!='renamed' for r in renames)},'letters':{'written':len(letter_rows)},'exclusions':{'split':0,'merge':0,'letters':0,'rename_reasons':renames},'runtime_seconds':round(time.perf_counter()-start,3),'checks':{'split_conserved':sum(len(r) for r in groups.values())==len(tables['Data']),'merge_conserved':len(merged)==len(tables['MergeA'])+len(tables['MergeB']),'letter_count_matches':len(letter_rows)==len(tables['Recipients'])}}
+    report={'implementation':'Python reference','input_records':{'split':len(tables['Data']),'merge_a':len(tables['MergeA']),'merge_b':len(tables['MergeB']),'rename':len(renames),'recipients':len(letter_rows)},'split':{'rows':len(tables['Data']),'groups':len(groups),'workbooks':len(manifest),'output_rows':sum(len(v) for v in groups.values()),'value_total':str(sum(Decimal(str(r[2])) for r in tables['Data']))},'merge':{'rows':len(merged),'duplicate_rows_preserved':sum(n-1 for n in collections.Counter(tuple(r) for r in merged).values()),'value_total':str(sum(Decimal(str(r[2])) for r in merged))},'rename':{'renamed':sum(r[2]=='renamed' for r in renames),'rejected':sum(r[2]!='renamed' for r in renames)},'letters':{'written':len(letter_rows)},'exclusions':{'split':0,'merge':0,'letters':0,'rename_reasons':renames},'runtime_seconds':round(time.perf_counter()-start,3),'checks':{'split_conserved':sum(len(r) for r in groups.values())==len(tables['Data']),'merge_conserved':len(merged)==len(tables['MergeA'])+len(tables['MergeB']),'letter_count_matches':len(letter_rows)==len(tables['Recipients'])}}
     (out/'report.json').write_text(json.dumps(report,indent=2)+'\n')
-    (out/'run.txt').write_text(f"Python reference result\nSplit: {report['split']['rows']} rows into {len(groups)} groups; no lost rows.\nMerge: {len(merged)} rows; {report['merge']['duplicate_rows_preserved']} repeated rows retained.\nRename: {report['rename']['renamed']} renamed, {report['rename']['rejected']} rejected; see renames.csv.\nLetters: {len(letter_rows)} text files; nothing sent.\nElapsed: {report['runtime_seconds']} seconds.\n")
+    (out/'run.txt').write_text(f"Python reference result\nSplit: {report['split']['rows']} rows into {len(groups)} separate workbooks; no lost rows.\nMerge: {len(merged)} rows; {report['merge']['duplicate_rows_preserved']} repeated rows retained.\nRename: {report['rename']['renamed']} renamed, {report['rename']['rejected']} rejected; see renames.csv.\nLetters: {len(letter_rows)} text files; nothing sent.\nElapsed: {report['runtime_seconds']} seconds.\n")
     return report
 
 if __name__=='__main__':

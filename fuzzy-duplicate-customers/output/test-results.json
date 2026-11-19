@@ -3,7 +3,7 @@
   "pytest": "7.4.4",
   "tests": 23,
   "passed": 23,
-  "duration_seconds": 1.5183,
+  "duration_seconds": 3.6419,
   "results": [
     {
       "test": "test_bundled_approval_conserves_every_id",

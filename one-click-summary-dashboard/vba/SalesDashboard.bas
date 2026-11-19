@@ -3,33 +3,13 @@ Option Explicit
 
 ' Integer-cent arithmetic; no external references, automatic events, or file access.
 ' Derived sheets are rebuilt. Sales is never changed by this module.
-Public Sub InstallRefreshButton()
-    Dim ws As Worksheet, button As Shape
-    Set ws = ThisWorkbook.Worksheets("Dashboard")
-    On Error Resume Next
-    Set button = ws.Shapes("RefreshSales")
-    On Error GoTo 0
-    If button Is Nothing Then
-        Set button = ws.Shapes.AddShape(msoShapeRoundedRectangle, 385, 8, 200, 38)
-        button.Name = "RefreshSales"
-    End If
-    button.TextFrame.Characters.Text = "Refresh sales"
-    button.Fill.ForeColor.RGB = RGB(8, 127, 115)
-    button.TextFrame.Characters.Font.Color = RGB(255, 255, 255)
-    button.OnAction = "'" & Replace(ThisWorkbook.Name, "'", "''") & "'!RefreshDashboard"
-End Sub
-
 Public Sub RefreshDashboard()
     Dim result As String
-    result = RefreshSalesCore(True)
+    result = RefreshSalesCore()
     If Left$(result, 4) <> "PASS" Then MsgBox result, vbExclamation, "Sales dashboard"
 End Sub
 
-Public Function RefreshDashboardHeadless() As String
-    RefreshDashboardHeadless = RefreshSalesCore(False)
-End Function
-
-Private Function RefreshSalesCore(ByVal interactive As Boolean) As String
+Private Function RefreshSalesCore() As String
     Dim src As Worksheet, valid As Worksheet, audit As Worksheet, dash As Worksheet
     Dim headers As Variant, col(0 To 4) As Long, found As Long, headerRow As Long
     Dim last As Range, lastRow As Long, lastCol As Long, r As Long, c As Long, j As Long
@@ -227,10 +207,7 @@ Private Function RefreshSalesCore(ByVal interactive As Boolean) As String
     If catN > 0 Then AddChart dash, catStart, catStart + catN, "Paid by category", 380
     valid.Columns.AutoFit: audit.Columns.AutoFit
     StyleHeading valid.Range("A1:G1"): StyleHeading audit.Range("A1:H1")
-    If interactive Then
-        InstallRefreshButton
-        dash.Activate
-    End If
+    dash.Activate
     Application.Calculation = previousCalculation
     Application.EnableEvents = prevEvents
     Application.ScreenUpdating = prevScreen

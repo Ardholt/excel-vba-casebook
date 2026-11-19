@@ -1,11 +1,16 @@
 {
-  "implementation": "VBA from output/sales-dashboard.xlsm; RefreshDashboardHeadless invokes the same RefreshSalesCore as the button",
+  "implementation": "Packaged Forms button activated through LibreOffice XAccessibleAction; its imported actionPerformed binding calls Module1.RefreshDashboard",
+  "executed_at_utc": "2026-11-19T13:39:19.212718+00:00",
   "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
-  "source_sha256": "3a3f0dc83426a5403e0f9d0443ff354f7de68fb2cce8f60ffde9fc4d4a47c528",
-  "workbook_sha256": "1e8ca7e67a1b0d32a434e590a13f3149eea54c51ad4e6ade8fa0ae9a0b2f842c",
+  "source_sha256": "c38019cbf60ca42022a9c58b21fff45ee47b3c95b1f61f10fff47c993707bd97",
+  "workbook_sha256": "214dfbaf1f5c4063150bce47910c8f55f75430a69203ecde8d296a0c26f87508",
+  "interaction": "LibreOffice accessibility button press, not a physical mouse click",
+  "input_sha256": {
+    "before.xlsx": "bbcdfb7ae1f25e854254c371419eedad71ae2be0c96084dab7e1d169cb33183a",
+    "input.xlsx": "da9a440ee54f6c2cb7ea17c68f16ed52eb37764b2d1b75c39c15d70aec81c5f0"
+  },
   "not_exercised": [
     "Excel desktop execution",
-    "Shape OnAction assignment and button click",
     "Interactive failure dialog"
   ],
   "excel_execution": "not_run",
@@ -57,9 +62,11 @@
         }
       ],
       "phase": "before",
-      "seconds": 7.575,
-      "saved_output": "output/vba-before.xlsx",
-      "saved_sha256": "bb9326d95e1ebb4c6ae53fef1881999168e2c17fa1a6076bf9a570c3903646e8"
+      "seconds": 6.424,
+      "button_activated": true,
+      "cleared_outputs_rebuilt": true,
+      "saved_output": "vba-before.xlsx",
+      "saved_sha256": "58ddc903d02154ebafc0975e99770352459902fdd7cdff947d3d2b2b3996a1ad"
     },
     {
       "paid_revenue": "133102.36",
@@ -110,9 +117,11 @@
         }
       ],
       "phase": "after",
-      "seconds": 7.537,
-      "saved_output": "output/vba-after.xlsx",
-      "saved_sha256": "d618c83c264f5a4e2c29ee4634f39fbd95901e671e0aa433348f9a4ac4a4c9bc"
+      "seconds": 6.996,
+      "button_activated": true,
+      "cleared_outputs_rebuilt": true,
+      "saved_output": "vba-after.xlsx",
+      "saved_sha256": "b33f21c38694146a057c393f25e02c85752e0d54589e0fd252e18ed89e895700"
     },
     {
       "paid_revenue": "133102.36",
@@ -163,12 +172,30 @@
         }
       ],
       "phase": "repeat",
-      "seconds": 7.518,
-      "saved_output": "output/vba-repeat.xlsx",
-      "saved_sha256": "095968d8ef68d3dbaa958c0d2a867d95a8493f90bfee8a09c05bfef13fe6c6c1"
+      "seconds": 6.36,
+      "button_activated": true,
+      "cleared_outputs_rebuilt": true,
+      "saved_output": "vba-repeat.xlsx",
+      "saved_sha256": "c0dd7ec74f470fad1f41bd11ea7a52ead425dd3259d2b1ae9f69b6ca2620f333"
     }
   ],
   "imported_source_matches": true,
+  "button": {
+    "caption": "Refresh sales",
+    "binding": "vnd.sun.star.script:VBAProject.Module1.RefreshDashboard?language=Basic&location=document",
+    "event": "actionPerformed",
+    "activation": "XAccessibleAction.doAccessibleAction(0)",
+    "installed_in_package": true
+  },
+  "vba_document_names_preserved": [
+    "ThisWorkbook",
+    "Sheet1",
+    "Sheet2",
+    "Sheet3",
+    "Sheet4"
+  ],
+  "refreshed_workbook_sha256": "0acd1464d3936cbc6382af59343e58938cbac1c7fe1e6815d87d43528939e9aa",
+  "saved_workbook_reopened_and_button_retested": true,
   "result": "PASS",
-  "elapsed_seconds": 25.855
+  "elapsed_seconds": 36.675
 }

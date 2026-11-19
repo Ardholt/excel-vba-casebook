@@ -1,6 +1,6 @@
 {
-  "executed_at_utc": "2026-11-19T04:57:10.244868+00:00",
-  "execution": "Python reference; LibreOffice formula recalculation with macros disabled",
+  "executed_at_utc": "2026-11-19T13:39:16.684075+00:00",
+  "execution": "Python reference stage; LibreOffice formula recalculation with macros disabled",
   "python": "3.12.3",
   "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
   "packages": {
@@ -9,12 +9,12 @@
     "pytest": "7.4.4",
     "Pillow": "10.2.0"
   },
-  "elapsed_seconds": 4.334,
+  "elapsed_seconds": 9.808,
   "input_sha256": "da9a440ee54f6c2cb7ea17c68f16ed52eb37764b2d1b75c39c15d70aec81c5f0",
   "output_sha256": {
-    "dashboard.xlsx": "4e660285075a9e51e11a7091c25a2ed99ce1f36aac14e5f1aeec0c89ba4ce52d",
-    "before-dashboard.xlsx": "fc11676a0d461c17f7c97e3688012d59817a2dcef0b6922543619a20501988a0"
+    "dashboard.xlsx": "ab59ff82e1977cd8db6e657edde4c2d48c992b321548959736af2ed1b4519f2f",
+    "before-dashboard.xlsx": "8d59621eec566a8f676a077cc58e84704c11ad90ed9d8553b1126c95c00f952b"
   },
-  "excel_vba_execution": "not_run",
-  "limitations": "No desktop Excel, VBA button, or browser execution is established by this run."
+  "stage": "reference",
+  "button_execution_record": "vba-run.json"
 }

@@ -13,7 +13,7 @@ def prop(name,value):
     p=PropertyValue(); p.Name=name; p.Value=value
     return p
 
-expected=json.loads(Path('output/report.json').read_text())['before']
+expected=json.loads(Path('output/report.json').read_text())
 start=time.perf_counter()
 with tempfile.TemporaryDirectory(prefix='.macro-open-',dir='output') as tmp:
     with socket.socket() as sock:
@@ -43,14 +43,14 @@ with tempfile.TemporaryDirectory(prefix='.macro-open-',dir='output') as tmp:
         assert round(dashboard.getCellRangeByName('A3').getValue(),2)==float(expected['paid_revenue'])
         assert dashboard.getCellRangeByName('B6').getValue()==expected['paid_count']
         doc.close(True)
-        record=json.loads(Path('evidence/macro-package.json').read_text())
+        record=json.loads(Path('output/macro-package.json').read_text())
         record['opened_in']=subprocess.check_output(['libreoffice','--version'],text=True).strip()
         record['opened_with_macros_disabled']=True
-        record['baseline_revenue_checked']=expected['paid_revenue']
-        record['baseline_paid_count_checked']=expected['paid_count']
+        record['saved_revenue_checked']=expected['paid_revenue']
+        record['saved_paid_count_checked']=expected['paid_count']
         record['open_check_seconds']=round(time.perf_counter()-start,3)
-        Path('evidence/macro-package.json').write_text(json.dumps(record,indent=2)+'\n')
-        print('PASS: candidate XLSM opens; baseline revenue and transaction count agree')
+        Path('output/macro-package.json').write_text(json.dumps(record,indent=2)+'\n')
+        print('PASS: candidate XLSM opens; saved revenue and transaction count agree')
     finally:
         process.terminate()
         try: process.wait(timeout=10)

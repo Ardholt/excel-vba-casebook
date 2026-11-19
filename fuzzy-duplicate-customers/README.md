@@ -1,8 +1,12 @@
-# Repeated customer names: 40 approved joins
+# Join customers only with approval
+
+A typo and “Ltd” versus “Limited” can hide a repeated customer. The saved approval below authorises this join.
 
 <p align="center">
-  <img src="media/hero.png" width="600" alt="Before: a typo and Ltd versus Limited give a customer different names. After: the approved pair becomes one entry, with the customer number chosen to keep.">
+  <img src="media/hero.png" width="600" alt="Two names: C0003 Willow account 003 Ltd and C0403 Willow acount 003 Limited. Approval file input/confirmed.csv contains source_id C0403, target_id C0003. The result keeps C0003; the audit records Explicit confirmation.">
 </p>
+
+**[Open the approval record](input/confirmed.csv): `C0403 → C0003`.** Old number → number to keep. Without that approval, these entries stay separate.
 
 **[480 entries became 440. Only the 40 approved pairs were joined; every original entry is recorded.](output/evidence.md)**
 
@@ -32,7 +36,7 @@
 | Suggestions left separate | [39 pairs without approval](output/report.json) |
 | Original entries accounted for | [All 480; none lost](output/report.json) |
 
-The [North/South pair stays separate](output/audit.csv), even though its names are close. The opening picture shows a [typo and Ltd/Limited spelling difference](output/proposed.csv) from the included workbooks. You can also approve a match that the suggestions missed; [the approval checks](tests/test_customers.py) still apply.
+The [North/South pair stays separate](output/audit.csv), even though its names are close. The opening picture shows a [typo and Ltd/Limited spelling difference](output/proposed.csv), the exact [confirmation row](input/confirmed.csv) and the resulting [audit entry](output/audit.csv). To approve a join, save the old number and the number to keep in the approval list, then rerun against the original register. You can also approve a match that the suggestions missed; [the approval checks](tests/test_customers.py) still apply.
 
 <img src="images/proposed/01-Proposed.png" width="600" alt="Possible matches show the spelling difference and stay for review until approved.">
 

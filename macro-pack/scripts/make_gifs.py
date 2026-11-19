@@ -3,7 +3,7 @@ from PIL import Image
 for action in ['split','merge','rename','letters']:
     frames=[]
     for state in ['before','after']:
-        matches=list(Path('images/sheets').glob('*'+action+'-'+state+'*.png'))
+        matches=[Path('images/sheets')/('01-'+action+'-'+state+'.png')]
         assert len(matches)==1, matches
         im=Image.open(matches[0]).convert('RGB'); im.thumbnail((780,580)); frames.append(im)
     width=max(i.width for i in frames); height=max(i.height for i in frames)

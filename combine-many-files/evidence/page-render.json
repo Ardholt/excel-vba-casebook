@@ -1,5 +1,11 @@
 {
   "renderer": "pagerender",
-  "captures_included": false,
-  "scope": "Page-preview captures are not included in this repository. Run scripts/preview.py to create a local capture; it does not establish live CI status."
+  "renderer_sha256": "344ac04ca9fb877f998da7be8e13ab45dbf659b28999e95100d491c4075989bb",
+  "viewports": [
+    390,
+    1366
+  ],
+  "scope": "Offline approximation of the GitHub README body; no GitHub navigation.",
+  "remote_badge": "Replaced with a linked text placeholder in preview only; README retains the CI badge.",
+  "browser_version": "Not recorded by the renderer"
 }

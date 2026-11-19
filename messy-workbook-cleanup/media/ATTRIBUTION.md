@@ -1,3 +1,5 @@
-# Hero typography
+# Hero sources and typography
 
-The hero uses Inter, Instrument Serif and JetBrains Mono, each licensed under the SIL Open Font License 1.1. The type is rendered into the image. Font binaries and their licences are included in [the shared hero tool](https://github.com/Ardholt/excel-vba-casebook/blob/main/tools/hero/README.md). The workbook views and captions are produced from this case’s own inputs and outputs.
+The hero combines complete rows from this case’s LibreOffice worksheet renders with changes read from `output/changes.csv` and `output/duplicates.csv`. `scripts/build_hero.py` assembles it; `evidence/hero.json` records the crops and source hashes. No worksheet values are redrawn.
+
+Captions use DejaVu Sans, under the [DejaVu fonts licence](https://dejavu-fonts.github.io/License.html). The worksheet renders use Carlito, under the SIL Open Font License 1.1. Both are supplied by the rendering container; the type is rendered into the image.

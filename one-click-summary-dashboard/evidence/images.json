@@ -5,15 +5,22 @@
       "file": "images/dashboard.png",
       "source": "output/vba-after.xlsx",
       "width": 780,
-      "height": 664,
-      "sha256": "536c8b623f2585fcfabac0f64e51501b9857652b887a9f9a5c28a37b40bdbf82"
+      "height": 663,
+      "sha256": "bf012d44600b9d3c56d2f1854ed337bff5d88401c4aed874042f1d7e99d12c1c"
     },
     {
       "file": "images/before.png",
       "source": "output/vba-before.xlsx",
       "width": 780,
-      "height": 664,
-      "sha256": "a17111421d9a3144f53f3003642ca89d9fcd6acca610274885388017f88f7936"
+      "height": 663,
+      "sha256": "0fa62da28d6e6b236a5636fe0e1b67f0beb2c8461d56b4b11ae53ac374421029"
+    },
+    {
+      "file": "images/repeat.png",
+      "source": "output/vba-repeat.xlsx",
+      "width": 780,
+      "height": 663,
+      "sha256": "bf012d44600b9d3c56d2f1854ed337bff5d88401c4aed874042f1d7e99d12c1c"
     },
     {
       "file": "images/breakdown.png",

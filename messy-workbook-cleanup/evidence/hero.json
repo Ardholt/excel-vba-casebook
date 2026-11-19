@@ -1,24 +1,27 @@
 {
+  "file": "media/hero.png",
+  "renderer": "scripts/build_hero.py; Pillow",
   "source_images": [
     "images/before.png",
     "images/after.png"
   ],
+  "source_sha256": {
+    "images/before.png": "dfccd14faaaebfc5a8f38834412e81b2388a126b0bec8867dd4e5de1fa810f7a",
+    "images/after.png": "dc324cce0f309ce946549b06077535b90b539c4e4e47530064acebbc52c14d3d",
+    "output/changes.csv": "ebf9f562f1afac943da0bdbe89d700ebbbf900a8477fc395e0ffb0945785e88e",
+    "output/duplicates.csv": "add184c41b37237efec7c6e1424aae022ff339eaa16d8cd17b96d92530183c58",
+    "output/report.json": "47b8bdd59cecf1e7c4dad7cbed8922f18e301f89df9284d62a51e5387e50dc87"
+  },
   "crop_each": {
-    "width": 780,
-    "height": 247,
     "x": 0,
-    "y": 141
+    "y": 158,
+    "width": 780,
+    "height": 213
   },
   "canvas_pixels": [
-    1200,
-    1178
+    780,
+    724
   ],
-  "title": "65 repeated customer entries removed",
-  "before_note": "Same customer entry listed twice",
-  "after_note": "Repeat removed from cleaned list",
-  "counts_from": "output/report.json",
-  "report_sha256": "47b8bdd59cecf1e7c4dad7cbed8922f18e301f89df9284d62a51e5387e50dc87",
-  "typography_licences": "media/ATTRIBUTION.md",
   "before_source_sheet_rows": [
     2,
     3
@@ -32,12 +35,16 @@
     4
   ],
   "trace": "proof-source.json",
-  "renderer": "../tools/hero/make-hero",
-  "sha256": "83a9e6fc9791ac20cc566ded2597b5599a2bf17beac80888ca18bf57fc5c49ca",
+  "change_log": [
+    "Row 2 \u00b7 spaces trimmed; date \u2192 2026-04-03",
+    "Row 2 \u00b7 \u00a31,240.50 \u2192 1240.50",
+    "Row 3 \u00b7 repeat removed; row 2 kept"
+  ],
+  "typography_licences": "media/ATTRIBUTION.md",
+  "sha256": "8ba0f52ed0b26b4ff2e1e42d05509405ab41f0d681e18bc978e71f7a12c1065e",
   "sheet_render_seconds": {
-    "before": 1.6437,
-    "after": 1.9649
+    "before": 3.0257,
+    "after": 3.2835
   },
-  "total_seconds": 5.7927,
-  "file": "media/hero.png"
+  "total_seconds": 7.7497
 }

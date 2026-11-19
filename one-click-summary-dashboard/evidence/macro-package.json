@@ -1,22 +1,18 @@
 {
-  "workbook": "output/sales-dashboard.xlsm",
+  "workbook": "sales-dashboard.xlsm",
   "module": "Module1",
   "source": "vba/SalesDashboard.bas",
   "packaging_library": "pyOpenVBA 6.6.0",
   "source_matches_embedded_module": true,
   "project_modules": [
+    "Module1",
     "ThisWorkbook",
-    "Sheet1",
-    "Module1"
+    "Sheet1"
   ],
-  "source_sha256": "3a3f0dc83426a5403e0f9d0443ff354f7de68fb2cce8f60ffde9fc4d4a47c528",
-  "vba_project_sha256": "d1fddbe6691c174d1dee0153f4e395a9a134096d2dc31baf9a5b25cc2e706e19",
-  "workbook_sha256": "1e8ca7e67a1b0d32a434e590a13f3149eea54c51ad4e6ade8fa0ae9a0b2f842c",
-  "excel_execution": "not_run",
-  "scope": "Packaging and source extraction, not compilation or macro execution",
-  "opened_in": "LibreOffice 24.2.7.2 420(Build:2)",
-  "opened_with_macros_disabled": true,
-  "baseline_revenue_checked": "132141.82",
-  "baseline_paid_count_checked": 1139,
-  "open_check_seconds": 1.069
+  "source_sha256": "c38019cbf60ca42022a9c58b21fff45ee47b3c95b1f61f10fff47c993707bd97",
+  "vba_project_sha256": "bd76445d308a5ecfd4f4d467b7fc395c61c5ab322167740b01b369280757e51a",
+  "workbook_sha256": "0acd1464d3936cbc6382af59343e58938cbac1c7fe1e6815d87d43528939e9aa",
+  "source_verified_after_button_run_and_save": true,
+  "scope": "Embedded source extraction and identity; button execution recorded in vba-run.json",
+  "packaged_input_sha256": "214dfbaf1f5c4063150bce47910c8f55f75430a69203ecde8d296a0c26f87508"
 }

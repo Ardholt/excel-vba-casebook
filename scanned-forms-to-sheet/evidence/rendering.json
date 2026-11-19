@@ -1,5 +1,5 @@
 {
-  "method": "LibreOffice sheet export and Poppler rasterisation; shared before/after figure composition",
+  "method": "LibreOffice sheet export and Poppler rasterisation for sheet views; Pillow composition of actual scan crops and openpyxl-read workbook values for the compact page figure.",
   "sheets": [
     {
       "image": "images/01-Proof.png",
@@ -28,7 +28,7 @@
         780,
         287
       ],
-      "render_seconds": 1.215,
+      "render_seconds": 2.633,
       "sha256": "17f2b2a6a58aae2d92e034975124c97383904ee51a2ac4a8823415aaa6ccf668"
     },
     {
@@ -38,21 +38,21 @@
         780,
         302
       ],
-      "render_seconds": 1.212,
+      "render_seconds": 2.634,
       "sha256": "9182d5620d4cc1ecb27ad669b45a303ef27d874fad22e6c7ee4b044042b2e9dd"
     }
   ],
   "hero": {
     "image": "media/hero.png",
     "pixels": [
-      1200,
-      1178
+      720,
+      410
     ],
     "source_views": [
-      "media/before.png",
-      "media/after.png"
+      "input/forms/entry-42.png",
+      "output/reviewed.xlsx"
     ],
-    "sha256": "d69850c36d9b8e4e2aa98ecc1313e6b3831f7be888e8e66f8b804b8788a373cf",
-    "template": "Shared casebook stacked before/after style; renderer and fonts in tools/hero."
+    "sha256": "2d797f97c8901fad2ce4393e0aae2ce75827b2593f447af4b685bed5127f761f",
+    "template": "Four field comparison rows, sized for a narrow GitHub README; scripts/make_page_assets.py."
   }
 }

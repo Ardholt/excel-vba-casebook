@@ -1,6 +1,6 @@
 {
   "command": "python3 -m pytest -q -p no:cacheprovider tests",
-  "summary": "24 passed in 2.73s",
+  "summary": "24 passed in 8.10s",
   "exit_code": 0,
-  "seconds": 2.885
+  "seconds": 8.587
 }

@@ -124,6 +124,7 @@ def make_book(path, source, accepted, audit, report, phase='REFRESHED', vba_proj
         dash = book.add_worksheet('Dashboard')
         if vba_project:
             dash.set_vba_name('Sheet1')
+            dash.insert_button('A5', {'macro': 'RefreshDashboard', 'caption': 'Refresh sales', 'width': 170, 'height': 28, 'y_offset': 2})
         dash.hide_gridlines(2)
         dash.set_column('A:A', 29)
         dash.set_column('B:B', 21)

@@ -47,4 +47,4 @@ Before: £132141.82; after: £133102.36; change: £960.54.
 [Machine-readable figures](report.json) · [Row-by-row audit](audit.csv) · [Runtime](runtime.json)
 
 All totals are derived from accepted rows using decimal arithmetic, then compared with the recalculated workbook.
-Reference execution does not establish desktop macro execution.
+For button activation and saved-workbook checks, see [the button run](vba-run.json).

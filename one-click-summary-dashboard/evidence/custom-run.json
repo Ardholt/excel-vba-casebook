@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Separate directories with spaces; numeric amount and appended zero amount; full inner.sh workflow",
+  "paid_revenue": "10.50",
+  "paid_count": 2,
+  "button_phases": [
+    "before",
+    "after",
+    "repeat"
+  ],
+  "saved_workbook_reopened_and_button_retested": true
+}

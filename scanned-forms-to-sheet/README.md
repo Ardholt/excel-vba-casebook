@@ -1,10 +1,19 @@
-# Scans to a spreadsheet: 48 forms, unclear entries flagged
+# Scans to a spreadsheet
 
-<p align="center">
-  <img src="media/hero.png" width="600" alt="Before: a faint item code beside the form number, quantity and amount. After: the uncertain code stays blank and is marked for checking.">
-</p>
+48 forms to Excel, with doubtful entries left blank for checking.
 
-[**48 forms in .xlsx workbooks; 31 entries still need checking after 8 supplied corrections.**](output/report.json)
+[**153/192 fields correct on first reading; 161/192 after 8 supplied corrections.**](output/accuracy.json) 0 wrong values accepted in this batch against the answer key.
+
+<img src="media/hero.png" width="560" alt="entry-42.png: full saved row — form F282, item code blank for checking, quantity 55, amount 885.46.">
+
+[Scan F282](input/forms/entry-42.png) → [complete saved row](output/reviewed.xlsx) · [image sources](evidence/hero-source.json)
+
+**31 fields still to check** · [Full queue](output/unresolved.csv). Two examples with uncertain readings:
+
+| Form | Check against the scan |
+|---|---|
+| [F242](input/forms/entry-02.png) | quantity |
+| [F282](input/forms/entry-42.png) | item code |
 
 <sub>Case 05 of 8 in [Excel & VBA casebook](../README.md)</sub>
 

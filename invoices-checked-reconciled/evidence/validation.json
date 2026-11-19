@@ -23,8 +23,8 @@
     },
     {
       "file": "media/hero.png",
-      "width": 1200,
-      "height": 1178
+      "width": 1360,
+      "height": 1280
     }
   ],
   "final_tests": {
@@ -33,5 +33,6 @@
     "verification": "verification.json"
   },
   "source_unchanged": true,
-  "shared_repository_links": "Root README and shared Dockerfile are supplied by the containing repository."
+  "shared_repository_links": "Root README and shared Dockerfile are supplied by the containing repository.",
+  "page_review": "page-review.json"
 }

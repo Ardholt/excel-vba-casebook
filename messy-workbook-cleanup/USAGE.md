@@ -30,4 +30,4 @@ Records is the usable table. Duplicates links removed rows to retained rows. Rej
 
 ## Rebuild the worksheet pictures
 
-After the normal run, execute `python3 scripts/render_assets.py` inside the shared container, with the repository mounted so `../tools/hero/` is available. It rebuilds the proof workbook, before/after PNGs, two-frame GIF and hero from the current input and output. `python3 scripts/generate_input.py` restores the included input workbook before a full rebuild.
+After the normal run, execute `python3 scripts/render_assets.py` inside the shared container with `xlrender` available. It rebuilds the proof workbook, before/after PNGs, two-frame GIF and hero from the current input and output. The case-local `scripts/build_hero.py` combines complete worksheet rows and the CSV change log. `python3 scripts/generate_input.py` restores the included input workbook before a full rebuild.

@@ -1,0 +1,5 @@
+{
+  "source": "README.md",
+  "offline_adjustment": "The remote CI status image is replaced by its text link for this offline capture. The published README retains the requested badge.",
+  "limitations": "This is a local page rendering, not a deployed GitHub or Pages session."
+}

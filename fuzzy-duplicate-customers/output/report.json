@@ -11,7 +11,7 @@
   "unchanged_without_confirmations": 480,
   "audit_rows": 480,
   "conservation": true,
-  "runtime_seconds": 0.6096,
+  "runtime_seconds": 0.9321,
   "input_sha256": "5b2c8987f85d40a1d3591e5db971e3819d2f3c5b2088d897c27c3bd968ec7984",
   "confirmed_sha256": "c187ab259847c39958c84a714daffa716c093b3a29b0e2cec8fea059da71016f",
   "policy": "Only explicit confirmations change identity. Any invalid confirmation rejects the entire batch. Retained target fields are preserved; source fields remain in Audit."

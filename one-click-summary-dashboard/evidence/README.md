@@ -1,14 +1,9 @@
 # Execution evidence
 
-[The report](../output/report.json) and [reconciliation](../output/reconciliation.md) account for the full year and appended sales. [The audit](../output/audit.csv) preserves every source row and exclusion reason.
+[Button execution](../output/vba-run.json) records the installed Forms button, its imported action binding and LibreOffice accessibility activation. The baseline, appended sales and repeat press match the Python reference for every source value, accepted row, audit row, total, breakdown and chart range. Each snapshot is saved and checked. The refreshed macro workbook is also saved, reopened and its button retested. [Package verification](../output/macro-package.json) proves the final embedded VBA matches the source.
 
-[Runtime](runtime.json) records the Python reference, software versions and actual LibreOffice formula recalculation. [Business tests](../output/tests.json) record the checks run again after the final page render.
+[Reference runtime](../output/runtime.json) separately records Python and LibreOffice formula recalculation with macros disabled. [Business tests](../output/tests.json) record pytest results. [Reconciliation](../output/reconciliation.md) and [audit](../output/audit.csv) account for all the input rows and money.
 
-[The actual VBA execution](vba-run.json) ran the packaged Module1 in LibreOffice 24.2.7.2 headless. The baseline, appended rows and repeat refresh each matched the reference for every accepted row, audit decision, source value, paid/pending total, month/category total and chart range. The saved outputs were checked independently as well. [Packaging](macro-package.json) records source identity and the separate opening check.
+[Hero evidence](hero.json) identifies the saved values in the typeset summary graphic; all months, categories and the overall total are visible. [Refresh replay](refresh-demo.json) identifies the saved views and recorded button actions shown in the GIF. [Sheet captures](images.json) identify the workbook renders. [Page captures](page-runtime.json) record the phone and laptop previews. The [offline rendering note](page-source.json) documents the remote badge substitution. These are local previews of the README, not visits to the published sites.
 
-The headless entry calls the same refresh core as the button, while omitting shape OnAction assignment, the click and interactive failure dialog. The supplied fixed tabs are required; recreation of deleted tabs is not supported by this workflow. See the [execution status](../README.md#how-it-is-tested).
-
-
-[Sheet captures](images.json) identify the actual VBA output workbooks. [Hero evidence](hero.json) records the visible month/category rows and their saved-workbook source. [Page evidence](page-runtime.json) records browser versions and capture hashes. The [phone first screen](page-preview/390-first.png) shows the title, recent months and every category. The [offline rendering note](page-source.json) explains why the remote badge image is omitted from the captures. These are local previews, not visits to the published site.
-
-[Validation](validation.json) records the successful final executions and call totals. [Final file checks](file-checks.json) cover identifying properties, metadata, vocabulary and local links.
+[Validation](validation.json), [reproduction checks](verification.json) and [file checks](file-checks.json) record the final local verification. The runtime, package and button JSON files in this folder mirror the corresponding run records in `output/`.

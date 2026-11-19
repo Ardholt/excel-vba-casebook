@@ -64,8 +64,18 @@ jobs:
         env:
           CASE_FOLDER: ${{ matrix.case }}
         run: |
+          case_root="$GITHUB_WORKSPACE/$CASE_FOLDER"
+          test_root="$case_root"
+          extra_mounts=()
+          if [[ "$CASE_FOLDER" == combine-many-files ]]; then
+            run_dirs=("$case_root"/runs/run.*)
+            [[ ${#run_dirs[@]} == 1 && -d "${run_dirs[0]}" ]]
+            test_root="${run_dirs[0]}"
+            extra_mounts=(--mount "type=bind,source=$case_root/input/files,target=/source,readonly")
+          fi
           docker run --rm --network none --user "$(id -u):$(id -g)" \
             -e HOME=/tmp -e PYTHONDONTWRITEBYTECODE=1 \
-            --mount "type=bind,source=$GITHUB_WORKSPACE/$CASE_FOLDER,target=/case" \
+            "${extra_mounts[@]}" \
+            --mount "type=bind,source=$test_root,target=/case" \
             --workdir /case excel-vba-casebook \
             python3 -m pytest -q -p no:cacheprovider tests

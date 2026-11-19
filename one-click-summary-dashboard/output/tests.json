@@ -1,8 +1,8 @@
 {
   "result": "PASS",
   "exit_code": 0,
-  "passed": 24,
-  "elapsed_seconds": 2.34,
+  "passed": 29,
+  "elapsed_seconds": 9.748,
   "command": "python3 -m pytest -q -p no:cacheprovider tests",
-  "scope": "Python reference business logic; no VBA execution"
+  "scope": "Python business logic and current button-run artifact checks; button execution is recorded in vba-run.json"
 }

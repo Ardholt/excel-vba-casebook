@@ -1,11 +1,24 @@
 {
-  "command": "bash scripts/inner.sh",
-  "executed_at_utc": "2026-11-19T07:28:34Z",
-  "runtime_seconds": 5.978,
+  "command": "python3 -m pytest -q -p no:cacheprovider tests",
+  "environment": "Case container; Python pytest",
+  "recorded_at_utc": "2026-11-19T13:23:52.056336+00:00",
+  "summary": "30 passed in 5.79s",
+  "pytest_seconds": 5.79,
   "passed": 30,
+  "failed": 0,
   "exit_code": 0,
   "result": "PASS",
-  "verification": "verification.json",
   "tests_sha256": "10036c7c251a7c3c12a2bf34e63f0bc48e12caf95382be3dc8e55b9fcbe291c8",
-  "readme_sha256": "2e64885c31cad53443874309afcfb0060043e962667e39f785037e5df86de584"
+  "readme_sha256": "99841a9ee2c58314b08433fcd61586c33dd5cb68338a1aa9a4726fd371e03a91",
+  "hero_sha256": "16ea284cb333c905f4e605317dd9f5ad66d9122a96a66e0a7c4b1cfc7f9c50c4",
+  "visual_review": {
+    "method": "Opened and visually inspected both pagerender first-screen PNGs.",
+    "screens": [
+      "evidence/page-preview/390-first.png",
+      "evidence/page-preview/1366-first.png"
+    ],
+    "both_show_problem_three_source_formats_matching_ledger_rows_and_all_account_checks_uncut": true,
+    "page_capture_record": "evidence/page-run.json",
+    "scope": "GitHub-style README body preview; not a live GitHub navigation capture."
+  }
 }

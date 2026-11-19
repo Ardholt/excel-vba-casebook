@@ -1,0 +1,201 @@
+{
+  "implementation": "Packaged Forms button activated through LibreOffice XAccessibleAction; its imported actionPerformed binding calls Module1.RefreshDashboard",
+  "executed_at_utc": "2026-11-19T13:39:19.212718+00:00",
+  "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
+  "source_sha256": "c38019cbf60ca42022a9c58b21fff45ee47b3c95b1f61f10fff47c993707bd97",
+  "workbook_sha256": "214dfbaf1f5c4063150bce47910c8f55f75430a69203ecde8d296a0c26f87508",
+  "interaction": "LibreOffice accessibility button press, not a physical mouse click",
+  "input_sha256": {
+    "before.xlsx": "bbcdfb7ae1f25e854254c371419eedad71ae2be0c96084dab7e1d169cb33183a",
+    "input.xlsx": "da9a440ee54f6c2cb7ea17c68f16ed52eb37764b2d1b75c39c15d70aec81c5f0"
+  },
+  "not_exercised": [
+    "Excel desktop execution",
+    "Interactive failure dialog"
+  ],
+  "excel_execution": "not_run",
+  "runs": [
+    {
+      "paid_revenue": "132141.82",
+      "paid_count": 1139,
+      "pending_amount": "12805.32",
+      "input_records": 1320,
+      "accepted_records": 1288,
+      "rejected_records": 32,
+      "paid_by_month": {
+        "2025-01": "6973.95",
+        "2025-02": "7541.38",
+        "2025-03": "8803.11",
+        "2025-04": "9868.83",
+        "2025-05": "10521.09",
+        "2025-06": "10121.77",
+        "2025-07": "11545.58",
+        "2025-08": "12651.48",
+        "2025-09": "10673.51",
+        "2025-10": "11710.97",
+        "2025-11": "14113.52",
+        "2025-12": "17616.63"
+      },
+      "paid_by_category": {
+        "Garden": "23270.70",
+        "Hardware": "21180.17",
+        "Household": "21473.76",
+        "Lighting": "19708.35",
+        "Paint": "23505.85",
+        "Tools": "23002.99"
+      },
+      "source_rows_unchanged": true,
+      "all_accepted_rows_match": true,
+      "all_audit_rows_match": true,
+      "chart_ranges": [
+        {
+          "start_row": 11,
+          "end_row": 23,
+          "start_column": 1,
+          "end_column": 2
+        },
+        {
+          "start_row": 25,
+          "end_row": 31,
+          "start_column": 1,
+          "end_column": 2
+        }
+      ],
+      "phase": "before",
+      "seconds": 6.424,
+      "button_activated": true,
+      "cleared_outputs_rebuilt": true,
+      "saved_output": "vba-before.xlsx",
+      "saved_sha256": "58ddc903d02154ebafc0975e99770352459902fdd7cdff947d3d2b2b3996a1ad"
+    },
+    {
+      "paid_revenue": "133102.36",
+      "paid_count": 1149,
+      "pending_amount": "13055.32",
+      "input_records": 1332,
+      "accepted_records": 1300,
+      "rejected_records": 32,
+      "paid_by_month": {
+        "2025-01": "6973.95",
+        "2025-02": "7541.38",
+        "2025-03": "8803.11",
+        "2025-04": "9868.83",
+        "2025-05": "10521.09",
+        "2025-06": "10121.77",
+        "2025-07": "11545.58",
+        "2025-08": "12651.48",
+        "2025-09": "10673.51",
+        "2025-10": "11710.97",
+        "2025-11": "14113.52",
+        "2025-12": "17616.63",
+        "2026-01": "960.54"
+      },
+      "paid_by_category": {
+        "Garden": "23358.10",
+        "Hardware": "21187.72",
+        "Household": "21492.51",
+        "Lighting": "19773.25",
+        "Paint": "23533.34",
+        "Repairs": "325.50",
+        "Tools": "23431.94"
+      },
+      "source_rows_unchanged": true,
+      "all_accepted_rows_match": true,
+      "all_audit_rows_match": true,
+      "chart_ranges": [
+        {
+          "start_row": 11,
+          "end_row": 24,
+          "start_column": 1,
+          "end_column": 2
+        },
+        {
+          "start_row": 26,
+          "end_row": 33,
+          "start_column": 1,
+          "end_column": 2
+        }
+      ],
+      "phase": "after",
+      "seconds": 6.996,
+      "button_activated": true,
+      "cleared_outputs_rebuilt": true,
+      "saved_output": "vba-after.xlsx",
+      "saved_sha256": "b33f21c38694146a057c393f25e02c85752e0d54589e0fd252e18ed89e895700"
+    },
+    {
+      "paid_revenue": "133102.36",
+      "paid_count": 1149,
+      "pending_amount": "13055.32",
+      "input_records": 1332,
+      "accepted_records": 1300,
+      "rejected_records": 32,
+      "paid_by_month": {
+        "2025-01": "6973.95",
+        "2025-02": "7541.38",
+        "2025-03": "8803.11",
+        "2025-04": "9868.83",
+        "2025-05": "10521.09",
+        "2025-06": "10121.77",
+        "2025-07": "11545.58",
+        "2025-08": "12651.48",
+        "2025-09": "10673.51",
+        "2025-10": "11710.97",
+        "2025-11": "14113.52",
+        "2025-12": "17616.63",
+        "2026-01": "960.54"
+      },
+      "paid_by_category": {
+        "Garden": "23358.10",
+        "Hardware": "21187.72",
+        "Household": "21492.51",
+        "Lighting": "19773.25",
+        "Paint": "23533.34",
+        "Repairs": "325.50",
+        "Tools": "23431.94"
+      },
+      "source_rows_unchanged": true,
+      "all_accepted_rows_match": true,
+      "all_audit_rows_match": true,
+      "chart_ranges": [
+        {
+          "start_row": 11,
+          "end_row": 24,
+          "start_column": 1,
+          "end_column": 2
+        },
+        {
+          "start_row": 26,
+          "end_row": 33,
+          "start_column": 1,
+          "end_column": 2
+        }
+      ],
+      "phase": "repeat",
+      "seconds": 6.36,
+      "button_activated": true,
+      "cleared_outputs_rebuilt": true,
+      "saved_output": "vba-repeat.xlsx",
+      "saved_sha256": "c0dd7ec74f470fad1f41bd11ea7a52ead425dd3259d2b1ae9f69b6ca2620f333"
+    }
+  ],
+  "imported_source_matches": true,
+  "button": {
+    "caption": "Refresh sales",
+    "binding": "vnd.sun.star.script:VBAProject.Module1.RefreshDashboard?language=Basic&location=document",
+    "event": "actionPerformed",
+    "activation": "XAccessibleAction.doAccessibleAction(0)",
+    "installed_in_package": true
+  },
+  "vba_document_names_preserved": [
+    "ThisWorkbook",
+    "Sheet1",
+    "Sheet2",
+    "Sheet3",
+    "Sheet4"
+  ],
+  "refreshed_workbook_sha256": "0acd1464d3936cbc6382af59343e58938cbac1c7fe1e6815d87d43528939e9aa",
+  "saved_workbook_reopened_and_button_retested": true,
+  "result": "PASS",
+  "elapsed_seconds": 36.675
+}

@@ -63,6 +63,22 @@ def test_changed_inputs_not_fixed_answers(work):
 def test_removed_recipient_clears_stale_letters(work):
     inp,out=work; run(inp,out); b=openpyxl.load_workbook(inp/'input.xlsx'); b['Recipients'].delete_rows(81); b.save(inp/'input.xlsx'); run(inp,out); check(inp,out); assert not (out/'letters/C080.txt').exists()
 
+def test_split_files_duplicate_rows_and_unsafe_group_labels(work):
+    inp,out=work; b=openpyxl.load_workbook(inp/'input.xlsx')
+    for group in ['../escape', 'CON', 'A/B', 'a/b']:
+        b['Data'].append(['00001',group,-7.5]); b['Data'].append(['00001',group,-7.5])
+    b.save(inp/'input.xlsx'); report=run(inp,out); check(inp,out)
+    assert report['split']['workbooks']==10
+    assert list(openpyxl.load_workbook(out/'split/group-007.xlsx')['Data'].values)[1:]==[('00001','../escape',-7.5)]*2
+
+def test_removed_groups_and_empty_rerun_clear_only_generated_files(work):
+    inp,out=work; run(inp,out)
+    (out/'split/retain.me').write_text('unrelated')
+    b=openpyxl.load_workbook(inp/'input.xlsx'); b['Data'].delete_rows(2,1200); b.save(inp/'input.xlsx')
+    run(inp,out); check(inp,out)
+    assert not list((out/'split').glob('*.xlsx'))
+    assert (out/'split/retain.me').read_text()=='unrelated'
+
 @pytest.mark.parametrize('rid',['CON','nul','LPT1','X'*65])
 def test_portable_letter_filenames(work,rid):
     inp,out=work; b=openpyxl.load_workbook(inp/'input.xlsx'); b['Recipients']['A2']=rid; b.save(inp/'input.xlsx')

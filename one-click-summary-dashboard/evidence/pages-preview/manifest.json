@@ -1,0 +1,5 @@
+{
+  "readme_sha256": "3521519e0bc59970e0d0952a103ab21466bfa4efc89bd3f32c932b6877bc20ec",
+  "css_sha256": "20108cc2bb31f0cf50004804549c3ebe281bdc1bc2fcecb353fd8b53e553b166",
+  "scope": "Offline Pages body with captured repository CSS and text header; excludes analytics and remote CI badge. Not a live-site visit."
+}

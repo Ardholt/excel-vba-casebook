@@ -1,0 +1,22 @@
+{
+  "kind": "Animated replay of measured macro invocation events; not an application screen recording",
+  "events": "evidence/refresh-trace.json",
+  "counts": "output/report.json",
+  "sample": "evidence/table-preview.json",
+  "frame_durations_ms": [
+    1800,
+    2400,
+    1800,
+    2400,
+    1800,
+    4000
+  ],
+  "playback": "Retimed for reading; measured elapsed times remain in the event trace.",
+  "poster": "media/hero.png",
+  "animation": "images/refresh.gif",
+  "dimensions": [
+    760,
+    714
+  ],
+  "font": "DejaVu Sans / DejaVu Sans Mono"
+}

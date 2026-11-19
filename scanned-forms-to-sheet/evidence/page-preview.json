@@ -1,5 +1,21 @@
 {
   "source": "README.md",
-  "captures_included": false,
-  "scope": "Page-preview captures are not included in this repository. Run the page script to make a local capture; it does not establish live CI status."
+  "source_sha256": "e23ef4b797d57de582282c03b2c80669b008f0bc4718502d82427fa0d491d8f9",
+  "renderer": "pagerender",
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      1366,
+      900
+    ]
+  ],
+  "remote_badge": {
+    "url": "https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg",
+    "preview_response": "Remote badge omitted visually in offline capture; no replacement button or status",
+    "reason": "Network is disabled in the execution container. README and its badge URL are unchanged."
+  },
+  "scope": "GitHub-style body preview; no live site or live CI-status claim."
 }

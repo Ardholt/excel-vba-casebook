@@ -24,4 +24,4 @@ docker build -t excel-vba-casebook "$case_dir/../docker"
 docker run --rm --network none --user "$(id -u):$(id -g)" \
   -v "$case_dir:/case:ro" -v "$input_dir:/input:ro" -v "$output_dir:/output:rw" \
   -w /case excel-vba-casebook bash scripts/inner.sh --input /input --output /output
-echo 'PASS: dashboard container run'
+echo 'PASS: fresh macro workbook, three LibreOffice button refreshes and business tests'

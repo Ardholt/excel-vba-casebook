@@ -1,0 +1,29 @@
+{
+  "renderer": "pagerender",
+  "scope": "GitHub README body approximation",
+  "readme_sha256": "4e8806cf9772e164d3b2e5d71ead0e25fa114c3a6e2cb5fc47be91a69278d93f",
+  "screens": [
+    {
+      "file": "images/page-preview/390-first.png",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "e3ae5626c04ec373451c9a5e702afe9fefe6eb937a3d39dff295e9f78987f1ea",
+      "visually_inspected": true,
+      "problem_refresh_counts_and_output_sample_visible_uncut": true
+    },
+    {
+      "file": "images/page-preview/1366-first.png",
+      "dimensions": [
+        1366,
+        900
+      ],
+      "sha256": "be95a9ab6997da6cabbe598c7832f901c5213c820897d4ab55960a8fc9886fb9",
+      "visually_inspected": true,
+      "problem_refresh_counts_and_output_sample_visible_uncut": true
+    }
+  ],
+  "animation_frames": 6,
+  "local_document_links_resolve": true
+}

@@ -51,6 +51,16 @@ def compare(doc, folder):
 
 
 started = time.perf_counter()
+events = []
+def trace(operation, phase, rows):
+    events.append({'operation': operation, 'phase': phase, 'rows': rows,
+                   'elapsed_seconds': round(time.perf_counter() - started, 3)})
+    print(json.dumps(events[-1]), flush=True)
+
+def source_hashes(folder):
+    return {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+            for p in sorted(folder.iterdir()) if p.is_file()}
+
 Path('evidence').mkdir(exist_ok=True)
 Path('output').mkdir(exist_ok=True)
 source = Path('vba/CombineFiles.bas').read_text()
@@ -84,18 +94,20 @@ with tempfile.TemporaryDirectory(prefix='combine-') as td:
         script = doc.getScriptProvider().getScript('vnd.sun.star.script:VBAProject.Module1.RefreshFolder?language=Basic&location=document')
         cfg = doc.Sheets.getByName('Config')
         source_folder = Path('input/files').resolve()
+        original_hashes = source_hashes(source_folder)
         cfg.getCellRangeByName('B2').String = str(source_folder)
         timings = []
         baseline = None
         for label in ['first_refresh', 'repeat_refresh']:
             t = time.perf_counter()
-            print('Executing refresh', flush=True)
+            trace(label, 'invoke RefreshFolder', int(cfg.getCellRangeByName('B4').Value))
             script.invoke((), (), ())
             assert cfg.getCellRangeByName('B3').String == 'Complete', cfg.getCellRangeByName('B3').String
             count, digest = compare(doc, source_folder)
             if baseline:
                 assert digest == baseline, 'Repeat changed business result'
             baseline = digest
+            trace(label, 'Complete', count)
             timings.append({'operation': label, 'seconds': round(time.perf_counter()-t, 3), 'rows': count, 'cells_equal_reference': True})
         cfg.getCellRangeByName('B2').String = 'input/files'
         doc.DocumentProperties.Author = 'Genco Doganay'
@@ -112,11 +124,19 @@ with tempfile.TemporaryDirectory(prefix='combine-') as td:
         wb.save(extra/'51_new_branch.xlsx')
         cfg.getCellRangeByName('B2').String = str(extra)
         t = time.perf_counter()
-        print('Executing added-file refresh', flush=True)
+        trace('added_file_refresh', 'invoke RefreshFolder', int(cfg.getCellRangeByName('B4').Value))
         script.invoke((), (), ())
         assert cfg.getCellRangeByName('B3').String == 'Complete'
         count, _ = compare(doc, extra)
         assert count == timings[0]['rows'] + 1
+        trace('added_file_refresh', 'Complete', count)
+        assert source_hashes(source_folder) == original_hashes, 'Original input files changed'
+        Path('evidence/refresh-trace.json').write_text(json.dumps({
+            'engine': 'LibreOffice Calc headless', 'macro': 'Module1.RefreshFolder',
+            'capture': 'Events recorded immediately before invocation and after cell-by-cell verification.',
+            'events': events, 'original_sources_unchanged': True,
+            'source_sha256': original_hashes,
+        }, indent=2) + '\n')
         timings.append({'operation': 'added_file_refresh', 'seconds': round(time.perf_counter()-t,3), 'rows':count, 'cells_equal_reference':True})
         result = {'engine': subprocess.check_output(['libreoffice','--version'],text=True).strip(),
                   'macro': 'Module1.RefreshFolder', 'timing_scope': 'Each refresh timing includes macro invocation and source-to-cell comparison.', 'source_sha256': hashlib.sha256(source.encode()).hexdigest(),

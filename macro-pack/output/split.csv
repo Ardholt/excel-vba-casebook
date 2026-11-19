@@ -1,7 +1,7 @@
-group,sheet,rows
-G01,__MP_G001,200
-G02,__MP_G002,200
-G03,__MP_G003,200
-G04,__MP_G004,200
-G05,__MP_G005,200
-G06,__MP_G006,200
+group,file,rows
+G01,group-001.xlsx,200
+G02,group-002.xlsx,200
+G03,group-003.xlsx,200
+G04,group-004.xlsx,200
+G05,group-005.xlsx,200
+G06,group-006.xlsx,200

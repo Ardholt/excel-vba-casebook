@@ -1,74 +1,11 @@
 [
   {
-    "sheet": "letters-after",
-    "png": "01-letters-after.png",
-    "source_workbook": "../../evidence/views/letters-after.xlsx",
-    "size": [
-      780,
-      235
-    ]
-  },
-  {
-    "sheet": "letters-before",
-    "png": "01-letters-before.png",
-    "source_workbook": "../../evidence/views/letters-before.xlsx",
-    "size": [
-      780,
-      509
-    ]
-  },
-  {
-    "sheet": "merge-after",
-    "png": "01-merge-after.png",
-    "source_workbook": "../../evidence/views/merge-after.xlsx",
-    "size": [
-      780,
-      509
-    ]
-  },
-  {
-    "sheet": "merge-before",
-    "png": "01-merge-before.png",
-    "source_workbook": "../../evidence/views/merge-before.xlsx",
-    "size": [
-      780,
-      509
-    ]
-  },
-  {
-    "sheet": "rename-after",
-    "png": "01-rename-after.png",
-    "source_workbook": "../../evidence/views/rename-after.xlsx",
-    "size": [
-      780,
-      808
-    ]
-  },
-  {
-    "sheet": "rename-before",
-    "png": "01-rename-before.png",
-    "source_workbook": "../../evidence/views/rename-before.xlsx",
-    "size": [
-      780,
-      808
-    ]
-  },
-  {
     "sheet": "split-after",
     "png": "01-split-after.png",
-    "source_workbook": "../../evidence/views/split-after.xlsx",
+    "pdf": "01-split-after.pdf",
     "size": [
       780,
-      450
-    ]
-  },
-  {
-    "sheet": "split-before",
-    "png": "01-split-before.png",
-    "source_workbook": "../../evidence/views/split-before.xlsx",
-    "size": [
-      780,
-      509
+      451
     ]
   }
 ]
