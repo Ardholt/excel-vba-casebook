@@ -10,8 +10,7 @@
 {% assign hero = page.dir | append: 'media/hero.png' %}{% assign hero_file = site.static_files | where: "path", hero | first %}{% if hero_file %}<meta property="og:image" content="{{ hero | absolute_url }}">{% endif %}
 <meta name="theme-color" content="#0b0a0a">
 <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
-<!-- ANALYTICS SLOT (storefront): the Cloudflare Web Analytics beacon goes on the next line, nothing else here. -->
-<!-- /ANALYTICS SLOT -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6024478cd19340d6a45d671dc47d0403"}'></script>
 </head>
 <body>
 <header class="top">

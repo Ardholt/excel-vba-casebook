@@ -1,5 +1,5 @@
 /* Ardholt casebook: one small stylesheet for the GitHub Pages copy of each repo. Mobile first, system fonts.
-   Colours are the storefront's (ardholt.com/p/): near-black ground, warm ink, one red-orange accent. */
+   Colours: near-black ground, warm ink, one red-orange accent. */
 :root{
   --bg:#0b0a0a; --bg-2:#141110; --ink:#f1ece6; --ink-2:#cfc8c0; --mute:#8e8782;
   --line:#262121; --line-2:#352f2e; --acc:#ff3b1f;

@@ -51,7 +51,7 @@ It rebuilds the reference output and runs the checks. [Setup, input format and m
 
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
-Run in: LibreOffice Calc 24.2.7.2 (headless), each macro checked against independent reference outputs. Microsoft Excel: not yet run.
+Run in: LibreOffice Calc 24.2.7.2 (headless), each macro checked against independent reference outputs.
 
 The [tests](tests/test_business.py) check row and value conservation, header alignment, duplicate preservation, rejected renames, exact letter contents and repeat runs. [Test results](evidence/tests.txt) · [versions, timings and VBA checks](evidence/runtime.json).
 

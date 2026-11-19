@@ -47,7 +47,7 @@ Creates the reference dashboard and row-by-row checks, then prints PASS. [Setup]
 
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
-Run in: [LibreOffice Calc 24.2.7.2 (headless)](evidence/vba-run.json), with the refresh macro checked against an independent reference calculation. **Microsoft Excel: not yet run.**
+Run in: [LibreOffice Calc 24.2.7.2 (headless)](evidence/vba-run.json), with the refresh macro checked against an independent reference calculation.
 
 - [24 business tests](output/tests.json) check totals, refunds, unpaid/cancelled orders, duplicate IDs, invalid entries, moved headers and repeat runs.
 - [The actual VBA checks](evidence/vba-run.json) compare every accepted row, audit decision, source value, summary and chart range before and after appending rows, then on repeat. Saved workbooks match too.
