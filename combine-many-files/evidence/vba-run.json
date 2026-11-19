@@ -25,7 +25,6 @@
   ],
   "export": "UNO XLSX export; VBA SaveAs was not used",
   "excel_run": "Not yet run in Microsoft Excel",
-  "power_query_run": "Not run",
   "seconds": 12.925,
   "timing_scope": "Each refresh timing includes macro invocation and source-to-cell comparison."
 }

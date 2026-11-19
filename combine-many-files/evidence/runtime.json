@@ -7,6 +7,5 @@
   "vba_seconds": 12.925,
   "execution": "Linux container; Python reference and actual VBA module in LibreOffice headless",
   "microsoft_excel": "Not yet run",
-  "power_query": "Source provided; not run",
   "vba_xlsx_export": "UNO; not VBA SaveAs"
 }

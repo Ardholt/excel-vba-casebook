@@ -121,13 +121,13 @@ with tempfile.TemporaryDirectory(prefix='combine-') as td:
         result = {'engine': subprocess.check_output(['libreoffice','--version'],text=True).strip(),
                   'macro': 'Module1.RefreshFolder', 'timing_scope': 'Each refresh timing includes macro invocation and source-to-cell comparison.', 'source_sha256': hashlib.sha256(source.encode()).hexdigest(),
                   'embedded_source_matches': True, 'runs': timings, 'export': 'UNO XLSX export; VBA SaveAs was not used',
-                  'excel_run': 'Not yet run in Microsoft Excel', 'power_query_run': 'Not run',
+                  'excel_run': 'Not yet run in Microsoft Excel',
                   'seconds': round(time.perf_counter()-started,3)}
         Path('evidence/vba-run.json').write_text(json.dumps(result,indent=2)+'\n')
         runtime = {'python':platform.python_version(), 'openpyxl':openpyxl.__version__, 'libreoffice':result['engine'],
                    'vba_packager':'pyOpenVBA 6.6.0', 'reference':json.loads(Path('output/report.json').read_text())['reference_seconds'],
                    'vba_seconds':result['seconds'], 'execution':'Linux container; Python reference and actual VBA module in LibreOffice headless',
-                   'microsoft_excel':'Not yet run', 'power_query':'Source provided; not run', 'vba_xlsx_export':'UNO; not VBA SaveAs'}
+                   'microsoft_excel':'Not yet run', 'vba_xlsx_export':'UNO; not VBA SaveAs'}
         Path('evidence/runtime.json').write_text(json.dumps(runtime,indent=2)+'\n')
         print(json.dumps(result,indent=2))
     finally:

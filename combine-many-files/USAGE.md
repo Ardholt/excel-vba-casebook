@@ -52,6 +52,3 @@ See [How it is tested](README.md#how-it-is-tested) for the recorded execution an
 Open [combine.xlsm](combine.xlsm), review [the readable module](vba/CombineFiles.bas), and enable macros only for this trusted workbook. Enter the full local source-folder path in `Config!B2`. A relative folder starts beside the workbook. Use Excel's Macros menu to run `RefreshFolder`. Review `Config` status and the `Combined` and `Manifest` sheets. Run it again to refresh. Save a separate copy after checking the results.
 
 If the embedded project cannot open without repair, create a workbook with `Config`, `Combined` and `Manifest` sheets, import `vba/CombineFiles.bas` in the VBA editor, set `Config!B2`, and save as XLSM. There is no auto-run or button; the macro performs no file deletion or network access. Sources are opened read-only with link updates disabled. Source macros are disabled while reading and the prior application settings are restored afterwards.
-
-For a query-driven refresh, use [Power Query setup](power-query/SETUP.md).
-
