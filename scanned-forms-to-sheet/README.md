@@ -48,6 +48,9 @@ The [batch record](validation/batch.json) describes the clear, faint, blurred an
 
 The reusable process supports the [same printed form layout](LAYOUT.md). A different order layout needs its fields mapped before it can be processed.
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself
 
 **Optional technical check for a developer.** From this case folder, with the [setup](RUNNING.md) complete:
@@ -68,11 +71,13 @@ The [verification record](evidence/verification.json) is a historical run; its s
 - They check conflicting corrections, duplicate IDs, damaged files and repeat-run stability.
 - [Recorded test results](evidence/final-tests.json) cover the business checks. The .xlsx workbooks were produced and checked with [Python 3.12.3 / openpyxl 3.1.2 and LibreOffice 24.2.7.2 420(Build:2)](evidence/runtime.json); workbook values matched after opening and saving in LibreOffice.
 
+</details>
+
 This batch has [48 separate form images, one form per image](validation/batch.json). For this batch, each image counts as a page: [48 pages](evidence/page-scope.json), above the advertised page limit below. A batch this size needs a written quote before work starts.
 
 ---
 
-[£10 fixed, up to 15 pages, unclear entries listed for you, 2 working days.](https://ardholt.com/p/prices/) Order through the platform.
+[£10 fixed, up to 15 pages, unclear entries listed for you, 2 working days.](https://ardholt.com/p/prices/) Contact me through the platform where you found this case.
 
 This case at its size (48 forms): £40 fixed, £10 for each 15 pages.
 

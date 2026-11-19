@@ -38,6 +38,9 @@ The balance after the last transaction and the final account total show the **sa
 
 **See the detail:** [original layouts](images/statement-layouts.png) · [all account checks](images/balance-checks.png) · [flagged row and its source](images/trace-a-balance.png)
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself
 
 Optional technical check for a developer:
@@ -62,11 +65,14 @@ The [verification record](evidence/verification.json) is a historical run; its s
 
 <sub>Maintained by Genco Doganay, Ardholt</sub>
 
+</details>
+
+
 ---
 
 The [price below](https://ardholt.com/p/prices/) is based on statement pages, not transaction count. For a quarterly job, I confirm the page count and price before starting.
 
-Order through the platform.
+Contact me through the platform where you found this case.
 
 [£10 fixed, up to 15 pages, every figure keyed twice and balances tied, 2 working days.](https://ardholt.com/p/prices/)
 

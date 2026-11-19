@@ -54,6 +54,9 @@ These values are in [lines.csv](output/lines.csv). Net and tax are each rounded 
 
 **Download:** [original workbook](input/input.xlsx) · [checked workbook with payment list](output/checked-ledger.xlsx) · [invoice views](output/invoice-views.xlsx) · [entries to review](output/exceptions.csv) · [full reconciliation](output/reconciliation.md)
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself — optional developer check
 
 A developer can reproduce the checks with Docker from this case folder:
@@ -74,11 +77,14 @@ The `.xlsx` workbooks were produced with [Python 3.12.3 and openpyxl 3.1.2](evid
 [31 tests passed](evidence/runtime.json), covering rounding, refunds, part-payments, repeated payment references and payments with no matching invoice.
 The tests also check that no records disappear, the input stays unchanged and repeat runs give the same result. [Tests](tests/test_reconcile.py) · [replacement-input checks](evidence/replacement-input.json) · [technical rules and workbook tabs](docs/USAGE.md).
 
+</details>
+
+
 ---
 
 The files above show [120 invoices](output/report.json). The offer below covers a smaller batch; for your larger pile, I quote the total through the platform before I start.
 
-[£10 fixed, up to 20 invoices, net/VAT/gross that checks itself, 2 working days.](https://ardholt.com/p/prices/) Order through the platform.
+[£10 fixed, up to 20 invoices, net/VAT/gross that checks itself, 2 working days.](https://ardholt.com/p/prices/) Contact me through the platform where you found this case.
 
 This case at its size (120 invoices): £60 fixed, £10 for each 20 invoices.
 

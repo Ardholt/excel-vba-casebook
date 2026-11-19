@@ -51,6 +51,9 @@ The supplied workbook already contains the new entries. For a rehearsal from the
 
 **Files:** [button workbook](output/sales-dashboard.xlsm) · [before](output/vba-before.xlsx) · [after](output/vba-after.xlsx) · [repeat](output/vba-repeat.xlsx) · [sales list](input/input.xlsx) · [totals and checks](output/reconciliation.md).
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself
 
 From this folder in the full repository, with Docker running:
@@ -73,8 +76,11 @@ All workbooks and run records go to `output/`. Use `./run.sh --input /path/to/in
 
 The summary graphic above is typeset from the [saved button-run values](evidence/hero.json). [Page previews](evidence/page-runtime.json) record the local phone and laptop render checks.
 
+</details>
+
+
 ---
 
 [£45 fixed, up to 5,000 rows, 3 working days.](https://ardholt.com/p/prices/)
 
-More rows or pages: I quote the difference in writing before I start. Order through the platform.
+More rows or pages: I quote the difference in writing before I start. Contact me through the platform where you found this case.

@@ -37,6 +37,9 @@ The picture shows the opening entries before cleanup and the cleaned list afterw
 
 **Follow any change:** [what changed](output/changes.csv) · [removed repeats and the entries kept](output/duplicates.csv) · [entries needing review](output/rejected.csv) · [decision for every entry](output/audit.csv).
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself
 
 **Optional technical check for a developer:** from this case folder, with Docker running:
@@ -57,10 +60,13 @@ The [verification record](evidence/verification.json) is a historical run; its s
 - [Executed checks](evidence/runtime.json) verify repeatability, unchanged sources and every sheet's values after a LibreOffice load/export; [folder names containing spaces](evidence/path-options.json) also passed.
 - The .xlsx workbooks were produced and checked with [Python 3.12.3, openpyxl 3.1.2, LibreOffice 24.2.7.2 and pytest 7.4.4](evidence/runtime.json).
 
+</details>
+
+
 ---
 
 [This kind of job: £45 fixed, up to 5,000 rows, cleaned with every change logged and summed on one page, 3 working days.](https://ardholt.com/p/prices/)
 
 More rows or pages: I quote the difference in writing before I start.
 
-Order through the platform.
+Contact me through the platform where you found this case.

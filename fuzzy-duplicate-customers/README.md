@@ -6,7 +6,7 @@ A typo and “Ltd” versus “Limited” can hide a repeated customer. The save
   <img src="media/hero.png" width="600" alt="Two names: C0003 Willow account 003 Ltd and C0403 Willow acount 003 Limited. Approval file input/confirmed.csv contains source_id C0403, target_id C0003. The result keeps C0003; the audit records Explicit confirmation.">
 </p>
 
-**[Open the approval record](input/confirmed.csv): `C0403 → C0003`.** Old number → number to keep. Without that approval, these entries stay separate.
+**[Open the approval record](input/confirmed.csv): <code>C0403&nbsp;→&nbsp;C0003</code>.** Old number → number to keep. Without that approval, these entries stay separate.
 
 **[480 entries became 440. Only the 40 approved pairs were joined; every original entry is recorded.](output/evidence.md)**
 
@@ -46,6 +46,9 @@ The [North/South pair stays separate](output/audit.csv), even though its names a
 
 **Review files:** [approval list](input/confirmed.csv) · [blank approval list](output/confirmed-template.csv) · [record of every original entry](output/audit.csv).
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself
 
 Optional technical check for your developer. With the repository and Docker ready, run this from the case folder:
@@ -64,8 +67,11 @@ It rebuilds the .xlsx workbooks and prints PASS or FAIL. Open `output/result.xls
 - Incorrect approvals must leave the whole customer list unchanged, including conflicting choices and circular links.
 - The .xlsx workbooks were produced with [Python 3.12.3 and openpyxl 3.1.2, then checked with LibreOffice 24.2.7.2](evidence/runtime.json). Every sheet's values were compared after reopening and saving.
 
+</details>
+
+
 ---
 
-[£45 fixed, up to 5,000 rows, the confirmed list with every merge logged, 3 working days.](https://ardholt.com/p/prices/) Order through the platform.
+[£45 fixed, up to 5,000 rows, the confirmed list with every merge logged, 3 working days.](https://ardholt.com/p/prices/) Contact me through the platform where you found this case.
 
 More rows or pages: I quote the difference in writing before I start.

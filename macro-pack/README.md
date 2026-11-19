@@ -41,6 +41,9 @@ Splitting rows into files and copying account details into letters by hand invit
 
 **Workbooks:** [before](input/input.xlsx) · [after](output/after.xlsx) · [macro workbook](macro-pack.xlsm). **Details:** [letter template](input/template.txt) · [result report](output/report.json) · [run log](output/run.txt).
 
+<details markdown="1">
+<summary>Developer details: reproduce the results and inspect the checks</summary>
+
 ## Try it yourself
 
 Optional technical check for a developer, from this folder with Docker installed:
@@ -61,7 +64,7 @@ The [tests](tests/test_business.py) check row and value conservation, header ali
 
 Split checks open every generated `.xlsx` as an OOXML workbook and compare its headings, rows and values, including repeated rows. They also cover a new group, unsafe group labels, removed groups, empty input and repeat runs. Numbered filenames keep group labels out of file paths. The ZIP contents are checked against the individual files.
 
-The command above runs the Python reference and its tests; the [separate VBA runner](scripts/run_vba.py) executes the imported macros. The split macro uses LibreOffice’s native OOXML export in that run; its Excel branch uses `Workbook.SaveAs`. [Macro-produced group workbooks](output/vba/split/) are retained separately from the Python downloads.
+The command above runs the Python reference and its tests; the [separate VBA runner](scripts/run_vba.py) executes the imported macros. The split macro uses LibreOffice’s native OOXML export in that run; its Excel branch uses `Workbook.SaveAs`. [Macro-produced group workbooks: group 1](output/vba/split/group-001.xlsx) · [2](output/vba/split/group-002.xlsx) · [3](output/vba/split/group-003.xlsx) · [4](output/vba/split/group-004.xlsx) · [5](output/vba/split/group-005.xlsx) · [6](output/vba/split/group-006.xlsx) are retained separately from the Python downloads.
 
 The retained before/after animations use workbook snapshots from those macro runs: [split](images/split.gif), [merge](images/merge.gif), [rename](images/rename.gif), [letters](images/letters.gif). The full [split](output/vba/split-after.xlsx), [merge](output/vba/merge-after.xlsx), [rename](output/vba/rename-after.xlsx) and [letter](output/vba/letters-after.xlsx) snapshots are available to inspect.
 
@@ -69,7 +72,11 @@ The [publishing correction record](evidence/publishing-corrections.json) documen
 
 Readable VBA: [split](vba/SplitRows.bas) · [merge](vba/MergeTables.bas) · [rename](vba/RenameSheets.bas) · [letters](vba/MakeLetters.bas).
 
+</details>
+
+
 ---
 
-[£39 a task automated, 5 working days.](https://ardholt.com/p/prices/) Order through the platform.
-More rows or pages: I quote the difference in writing before I start.
+[£39 for one agreed automation task, 5 working days.](https://ardholt.com/p/prices/) Splitting workbooks, merging tables, renaming tabs and preparing letters are separate tasks; £39 covers one agreed task.
+
+Contact me through the platform where you found this case. I confirm the task and quote any additional work in writing before I start.

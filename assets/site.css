@@ -27,7 +27,7 @@ a:hover,a:focus-visible{text-decoration-color:var(--acc)}
 .md li{margin:0 0 8px;color:var(--ink-2)}
 .md li::marker{color:var(--mute)}
 .md strong{color:var(--ink);font-weight:600}
-.md p > strong:only-child{display:block;font-size:19px;line-height:1.5}
+.md p > strong:only-child{font-size:19px;line-height:1.5}
 .md sub{font:12px/1.5 var(--mono);letter-spacing:.04em;color:var(--mute);vertical-align:baseline}
 .md img{max-width:100%;height:auto;border:0}
 .md p[align=center]{text-align:center;margin:0 0 20px}
