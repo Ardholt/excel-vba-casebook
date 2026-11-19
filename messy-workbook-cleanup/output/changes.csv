@@ -1,0 +1,1086 @@
+source_row,row_id,field,before,after,status
+2,R001,customer_id, 00071 ,00071,kept
+2,R001,name,  ACCOUNT   N-01 ,ACCOUNT N-01,kept
+2,R001,date,03/04/2026,2026-04-03,kept
+2,R001,amount,"£1,240.50",1240.50,kept
+3,R002,amount,"1,240.50",1240.50,duplicate
+4,R003,name,Account W-01 ,Account W-01,kept
+4,R003,date,17/04/2026,2026-04-17,kept
+4,R003,amount,(£85.20),-85.20,kept
+7,R006,date,07/04/2026,2026-04-07,kept
+7,R006,amount,£84.87,84.87,kept
+9,R008,date,09/04/2026,2026-04-09,kept
+10,R009,amount,£126.24,126.24,kept
+11,R010,date,11/04/2026,2026-04-11,kept
+13,R012,date,13/04/2026,2026-04-13,kept
+13,R012,amount,£167.61,167.61,kept
+15,R014,date,15/04/2026,2026-04-15,kept
+16,R015,amount,£208.98,208.98,kept
+17,R016,date,17/04/2026,2026-04-17,kept
+19,R018,date,19/04/2026,2026-04-19,kept
+19,R018,amount,£250.35,250.35,kept
+21,R020,date,21/04/2026,2026-04-21,kept
+22,R021,amount,£291.72,291.72,kept
+23,R022,date,23/04/2026,2026-04-23,kept
+25,R024,name,  ACCOUNT 005  ,ACCOUNT 005,duplicate
+26,R025,name,  ACCOUNT 008  ,ACCOUNT 008,duplicate
+26,R025,date,09/04/2026,2026-04-09,duplicate
+27,R026,name,  ACCOUNT 012  ,ACCOUNT 012,duplicate
+27,R026,date,13/04/2026,2026-04-13,duplicate
+27,R026,amount,£167.61,167.61,duplicate
+28,R027,name,  ACCOUNT 017  ,ACCOUNT 017,duplicate
+31,R030,date,03/04/2026,2026-04-03,kept
+31,R030,amount,"£1,240.50",1240.50,kept
+32,R031,customer_id, 00500 ,00500,kept
+32,R031,name,  ACCOUNT 0500  ,ACCOUNT 0500,kept
+32,R031,amount,(£5.00),-5.00,kept
+33,R032,date,02/04/2026,2026-04-02,kept
+33,R032,amount,£84.19,84.19,kept
+34,R033,date,03/04/2026,2026-04-03,kept
+34,R033,amount,£163.38,163.38,kept
+35,R034,amount,£242.57,242.57,kept
+36,R035,name,  ACCOUNT 0504  ,ACCOUNT 0504,kept
+36,R035,date,05/04/2026,2026-04-05,kept
+36,R035,amount,£321.76,321.76,kept
+37,R036,customer_id, 00505 ,00505,kept
+37,R036,date,06/04/2026,2026-04-06,kept
+37,R036,amount,£400.95,400.95,kept
+38,R037,amount,£480.14,480.14,kept
+39,R038,date,08/04/2026,2026-04-08,kept
+39,R038,amount,£559.33,559.33,kept
+40,R039,name,  ACCOUNT 0508  ,ACCOUNT 0508,kept
+40,R039,date,09/04/2026,2026-04-09,kept
+40,R039,amount,£638.52,638.52,kept
+41,R040,amount,£717.71,717.71,kept
+42,R041,customer_id, 00510 ,00510,kept
+42,R041,date,11/04/2026,2026-04-11,kept
+42,R041,amount,£796.90,796.90,kept
+43,R042,date,12/04/2026,2026-04-12,kept
+43,R042,amount,£876.09,876.09,kept
+44,R043,name,  ACCOUNT 0512  ,ACCOUNT 0512,kept
+44,R043,amount,£60.28,60.28,kept
+45,R044,date,14/04/2026,2026-04-14,kept
+45,R044,amount,£139.47,139.47,kept
+46,R045,date,15/04/2026,2026-04-15,kept
+46,R045,amount,£218.66,218.66,kept
+47,R046,customer_id, 00515 ,00515,kept
+47,R046,amount,£297.85,297.85,kept
+48,R047,name,  ACCOUNT 0516  ,ACCOUNT 0516,kept
+48,R047,date,17/04/2026,2026-04-17,kept
+48,R047,amount,£377.04,377.04,kept
+49,R048,date,18/04/2026,2026-04-18,kept
+49,R048,amount,(£456.23),-456.23,kept
+50,R049,amount,£535.42,535.42,kept
+51,R050,date,20/04/2026,2026-04-20,kept
+51,R050,amount,£614.61,614.61,kept
+52,R051,customer_id, 00520 ,00520,kept
+52,R051,name,  ACCOUNT 0520  ,ACCOUNT 0520,kept
+52,R051,date,21/04/2026,2026-04-21,kept
+52,R051,amount,£693.80,693.80,kept
+53,R052,amount,£772.99,772.99,kept
+54,R053,date,23/04/2026,2026-04-23,kept
+54,R053,amount,£852.18,852.18,kept
+55,R054,date,24/04/2026,2026-04-24,kept
+55,R054,amount,£36.37,36.37,kept
+56,R055,name,  ACCOUNT 0524  ,ACCOUNT 0524,kept
+56,R055,amount,£115.56,115.56,kept
+57,R056,customer_id, 00525 ,00525,kept
+57,R056,date,26/04/2026,2026-04-26,kept
+57,R056,amount,£194.75,194.75,kept
+58,R057,date,27/04/2026,2026-04-27,kept
+58,R057,amount,£273.94,273.94,kept
+59,R058,amount,£353.13,353.13,kept
+60,R059,name,  ACCOUNT 0528  ,ACCOUNT 0528,kept
+60,R059,date,29/04/2026,2026-04-29,kept
+60,R059,amount,£432.32,432.32,kept
+61,R060,date,30/04/2026,2026-04-30,kept
+61,R060,amount,£511.51,511.51,kept
+62,R061,customer_id, 00530 ,00530,kept
+62,R061,amount,£590.70,590.70,kept
+63,R062,date,02/05/2026,2026-05-02,kept
+63,R062,amount,£669.89,669.89,kept
+64,R063,name,  ACCOUNT 0532  ,ACCOUNT 0532,kept
+64,R063,date,03/05/2026,2026-05-03,kept
+64,R063,amount,£749.08,749.08,kept
+65,R064,amount,£828.27,828.27,kept
+66,R065,date,05/05/2026,2026-05-05,kept
+66,R065,amount,(£12.46),-12.46,kept
+67,R066,customer_id, 00535 ,00535,kept
+67,R066,date,06/05/2026,2026-05-06,kept
+67,R066,amount,£91.65,91.65,kept
+68,R067,name,  ACCOUNT 0536  ,ACCOUNT 0536,kept
+68,R067,amount,£170.84,170.84,kept
+69,R068,date,08/05/2026,2026-05-08,kept
+69,R068,amount,£250.03,250.03,kept
+70,R069,date,09/05/2026,2026-05-09,kept
+70,R069,amount,£329.22,329.22,kept
+71,R070,amount,£408.41,408.41,kept
+72,R071,customer_id, 00540 ,00540,kept
+72,R071,name,  ACCOUNT 0540  ,ACCOUNT 0540,kept
+72,R071,date,11/05/2026,2026-05-11,kept
+72,R071,amount,£487.60,487.60,kept
+73,R072,date,12/05/2026,2026-05-12,kept
+73,R072,amount,£566.79,566.79,kept
+74,R073,amount,£645.98,645.98,kept
+75,R074,date,14/05/2026,2026-05-14,kept
+75,R074,amount,£725.17,725.17,kept
+76,R075,name,  ACCOUNT 0544  ,ACCOUNT 0544,kept
+76,R075,date,15/05/2026,2026-05-15,kept
+76,R075,amount,£804.36,804.36,kept
+77,R076,customer_id, 00545 ,00545,kept
+77,R076,amount,£883.55,883.55,kept
+78,R077,date,17/05/2026,2026-05-17,kept
+78,R077,amount,£67.74,67.74,kept
+79,R078,date,18/05/2026,2026-05-18,kept
+79,R078,amount,£146.93,146.93,kept
+80,R079,name,  ACCOUNT 0548  ,ACCOUNT 0548,kept
+80,R079,amount,£226.12,226.12,kept
+81,R080,date,20/05/2026,2026-05-20,kept
+81,R080,amount,£305.31,305.31,kept
+82,R081,customer_id, 00550 ,00550,kept
+82,R081,date,21/05/2026,2026-05-21,kept
+82,R081,amount,£384.50,384.50,kept
+83,R082,amount,(£463.69),-463.69,kept
+84,R083,name,  ACCOUNT 0552  ,ACCOUNT 0552,kept
+84,R083,date,23/05/2026,2026-05-23,kept
+84,R083,amount,£542.88,542.88,kept
+85,R084,date,24/05/2026,2026-05-24,kept
+85,R084,amount,£622.07,622.07,kept
+86,R085,amount,£701.26,701.26,kept
+87,R086,customer_id, 00555 ,00555,kept
+87,R086,date,26/05/2026,2026-05-26,kept
+87,R086,amount,£780.45,780.45,kept
+88,R087,name,  ACCOUNT 0556  ,ACCOUNT 0556,kept
+88,R087,date,27/05/2026,2026-05-27,kept
+88,R087,amount,£859.64,859.64,kept
+89,R088,amount,£43.83,43.83,kept
+90,R089,date,29/05/2026,2026-05-29,kept
+90,R089,amount,£123.02,123.02,kept
+91,R090,date,30/05/2026,2026-05-30,kept
+91,R090,amount,£202.21,202.21,kept
+92,R091,customer_id, 00560 ,00560,kept
+92,R091,name,  ACCOUNT 0560  ,ACCOUNT 0560,kept
+92,R091,amount,£281.40,281.40,kept
+93,R092,date,01/06/2026,2026-06-01,kept
+93,R092,amount,£360.59,360.59,kept
+94,R093,date,02/06/2026,2026-06-02,kept
+94,R093,amount,£439.78,439.78,kept
+95,R094,amount,£518.97,518.97,kept
+96,R095,name,  ACCOUNT 0564  ,ACCOUNT 0564,kept
+96,R095,date,04/06/2026,2026-06-04,kept
+96,R095,amount,£598.16,598.16,kept
+97,R096,customer_id, 00565 ,00565,kept
+97,R096,date,05/06/2026,2026-06-05,kept
+97,R096,amount,£677.35,677.35,kept
+98,R097,amount,£756.54,756.54,kept
+99,R098,date,07/06/2026,2026-06-07,kept
+99,R098,amount,£835.73,835.73,kept
+100,R099,name,  ACCOUNT 0568  ,ACCOUNT 0568,kept
+100,R099,date,08/06/2026,2026-06-08,kept
+100,R099,amount,(£19.92),-19.92,kept
+101,R100,amount,£99.11,99.11,kept
+102,R101,customer_id, 00570 ,00570,kept
+102,R101,date,10/06/2026,2026-06-10,kept
+102,R101,amount,£178.30,178.30,kept
+103,R102,date,11/06/2026,2026-06-11,kept
+103,R102,amount,£257.49,257.49,kept
+104,R103,name,  ACCOUNT 0572  ,ACCOUNT 0572,kept
+104,R103,amount,£336.68,336.68,kept
+105,R104,date,13/06/2026,2026-06-13,kept
+105,R104,amount,£415.87,415.87,kept
+106,R105,date,14/06/2026,2026-06-14,kept
+106,R105,amount,£495.06,495.06,kept
+107,R106,customer_id, 00575 ,00575,kept
+107,R106,amount,£574.25,574.25,kept
+108,R107,name,  ACCOUNT 0576  ,ACCOUNT 0576,kept
+108,R107,date,16/06/2026,2026-06-16,kept
+108,R107,amount,£653.44,653.44,kept
+109,R108,date,17/06/2026,2026-06-17,kept
+109,R108,amount,£732.63,732.63,kept
+110,R109,amount,£811.82,811.82,kept
+111,R110,date,19/06/2026,2026-06-19,kept
+111,R110,amount,£891.01,891.01,kept
+112,R111,customer_id, 00580 ,00580,kept
+112,R111,name,  ACCOUNT 0580  ,ACCOUNT 0580,kept
+112,R111,date,20/06/2026,2026-06-20,kept
+112,R111,amount,£75.20,75.20,kept
+113,R112,amount,£154.39,154.39,kept
+114,R113,date,22/06/2026,2026-06-22,kept
+114,R113,amount,£233.58,233.58,kept
+115,R114,date,23/06/2026,2026-06-23,kept
+115,R114,amount,£312.77,312.77,kept
+116,R115,name,  ACCOUNT 0584  ,ACCOUNT 0584,kept
+116,R115,amount,£391.96,391.96,kept
+117,R116,customer_id, 00585 ,00585,kept
+117,R116,date,25/06/2026,2026-06-25,kept
+117,R116,amount,(£471.15),-471.15,kept
+118,R117,date,26/06/2026,2026-06-26,kept
+118,R117,amount,£550.34,550.34,kept
+119,R118,amount,£629.53,629.53,kept
+120,R119,name,  ACCOUNT 0588  ,ACCOUNT 0588,kept
+120,R119,date,28/06/2026,2026-06-28,kept
+120,R119,amount,£708.72,708.72,kept
+121,R120,date,29/06/2026,2026-06-29,kept
+121,R120,amount,£787.91,787.91,kept
+122,R121,customer_id, 00590 ,00590,kept
+122,R121,amount,£867.10,867.10,kept
+123,R122,date,02/04/2026,2026-04-02,kept
+123,R122,amount,£51.29,51.29,kept
+124,R123,name,  ACCOUNT 0592  ,ACCOUNT 0592,kept
+124,R123,date,03/04/2026,2026-04-03,kept
+124,R123,amount,£130.48,130.48,kept
+125,R124,amount,£209.67,209.67,kept
+126,R125,date,05/04/2026,2026-04-05,kept
+126,R125,amount,£288.86,288.86,kept
+127,R126,customer_id, 00595 ,00595,kept
+127,R126,date,06/04/2026,2026-04-06,kept
+127,R126,amount,£368.05,368.05,kept
+128,R127,name,  ACCOUNT 0596  ,ACCOUNT 0596,kept
+128,R127,amount,£447.24,447.24,kept
+129,R128,date,08/04/2026,2026-04-08,kept
+129,R128,amount,£526.43,526.43,kept
+130,R129,date,09/04/2026,2026-04-09,kept
+130,R129,amount,£605.62,605.62,kept
+131,R130,amount,£684.81,684.81,kept
+132,R131,customer_id, 00600 ,00600,kept
+132,R131,name,  ACCOUNT 0600  ,ACCOUNT 0600,kept
+132,R131,date,11/04/2026,2026-04-11,kept
+132,R131,amount,£764.00,764.00,kept
+133,R132,date,12/04/2026,2026-04-12,kept
+133,R132,amount,£843.19,843.19,kept
+134,R133,amount,(£27.38),-27.38,kept
+135,R134,date,14/04/2026,2026-04-14,kept
+135,R134,amount,£106.57,106.57,kept
+136,R135,name,  ACCOUNT 0604  ,ACCOUNT 0604,kept
+136,R135,date,15/04/2026,2026-04-15,kept
+136,R135,amount,£185.76,185.76,kept
+137,R136,customer_id, 00605 ,00605,kept
+137,R136,amount,£264.95,264.95,kept
+138,R137,date,17/04/2026,2026-04-17,kept
+138,R137,amount,£344.14,344.14,kept
+139,R138,date,18/04/2026,2026-04-18,kept
+139,R138,amount,£423.33,423.33,kept
+140,R139,name,  ACCOUNT 0608  ,ACCOUNT 0608,kept
+140,R139,amount,£502.52,502.52,kept
+141,R140,date,20/04/2026,2026-04-20,kept
+141,R140,amount,£581.71,581.71,kept
+142,R141,customer_id, 00610 ,00610,kept
+142,R141,date,21/04/2026,2026-04-21,kept
+142,R141,amount,£660.90,660.90,kept
+143,R142,amount,£740.09,740.09,kept
+144,R143,name,  ACCOUNT 0612  ,ACCOUNT 0612,kept
+144,R143,date,23/04/2026,2026-04-23,kept
+144,R143,amount,£819.28,819.28,kept
+145,R144,date,24/04/2026,2026-04-24,kept
+145,R144,amount,£898.47,898.47,kept
+146,R145,amount,£82.66,82.66,kept
+147,R146,customer_id, 00615 ,00615,kept
+147,R146,date,26/04/2026,2026-04-26,kept
+147,R146,amount,£161.85,161.85,kept
+148,R147,name,  ACCOUNT 0616  ,ACCOUNT 0616,kept
+148,R147,date,27/04/2026,2026-04-27,kept
+148,R147,amount,£241.04,241.04,kept
+149,R148,amount,£320.23,320.23,kept
+150,R149,date,29/04/2026,2026-04-29,kept
+150,R149,amount,£399.42,399.42,kept
+151,R150,date,30/04/2026,2026-04-30,kept
+151,R150,amount,(£478.61),-478.61,kept
+152,R151,customer_id, 00620 ,00620,kept
+152,R151,name,  ACCOUNT 0620  ,ACCOUNT 0620,kept
+152,R151,amount,£557.80,557.80,kept
+153,R152,date,02/05/2026,2026-05-02,kept
+153,R152,amount,£636.99,636.99,kept
+154,R153,date,03/05/2026,2026-05-03,kept
+154,R153,amount,£716.18,716.18,kept
+155,R154,amount,£795.37,795.37,kept
+156,R155,name,  ACCOUNT 0624  ,ACCOUNT 0624,kept
+156,R155,date,05/05/2026,2026-05-05,kept
+156,R155,amount,£874.56,874.56,kept
+157,R156,customer_id, 00625 ,00625,kept
+157,R156,date,06/05/2026,2026-05-06,kept
+157,R156,amount,£58.75,58.75,kept
+158,R157,amount,£137.94,137.94,kept
+159,R158,date,08/05/2026,2026-05-08,kept
+159,R158,amount,£217.13,217.13,kept
+160,R159,name,  ACCOUNT 0628  ,ACCOUNT 0628,kept
+160,R159,date,09/05/2026,2026-05-09,kept
+160,R159,amount,£296.32,296.32,kept
+161,R160,amount,£375.51,375.51,kept
+162,R161,customer_id, 00630 ,00630,kept
+162,R161,date,11/05/2026,2026-05-11,kept
+162,R161,amount,£454.70,454.70,kept
+163,R162,date,12/05/2026,2026-05-12,kept
+163,R162,amount,£533.89,533.89,kept
+164,R163,name,  ACCOUNT 0632  ,ACCOUNT 0632,kept
+164,R163,amount,£613.08,613.08,kept
+165,R164,date,14/05/2026,2026-05-14,kept
+165,R164,amount,£692.27,692.27,kept
+166,R165,date,15/05/2026,2026-05-15,kept
+166,R165,amount,£771.46,771.46,kept
+167,R166,customer_id, 00635 ,00635,kept
+167,R166,amount,£850.65,850.65,kept
+168,R167,name,  ACCOUNT 0636  ,ACCOUNT 0636,kept
+168,R167,date,17/05/2026,2026-05-17,kept
+168,R167,amount,(£34.84),-34.84,kept
+169,R168,date,18/05/2026,2026-05-18,kept
+169,R168,amount,£114.03,114.03,kept
+170,R169,amount,£193.22,193.22,kept
+171,R170,date,20/05/2026,2026-05-20,kept
+171,R170,amount,£272.41,272.41,kept
+172,R171,customer_id, 00640 ,00640,kept
+172,R171,name,  ACCOUNT 0640  ,ACCOUNT 0640,kept
+172,R171,date,21/05/2026,2026-05-21,kept
+172,R171,amount,£351.60,351.60,kept
+173,R172,amount,£430.79,430.79,kept
+174,R173,date,23/05/2026,2026-05-23,kept
+174,R173,amount,£509.98,509.98,kept
+175,R174,date,24/05/2026,2026-05-24,kept
+175,R174,amount,£589.17,589.17,kept
+176,R175,name,  ACCOUNT 0644  ,ACCOUNT 0644,kept
+176,R175,amount,£668.36,668.36,kept
+177,R176,customer_id, 00645 ,00645,kept
+177,R176,date,26/05/2026,2026-05-26,kept
+177,R176,amount,£747.55,747.55,kept
+178,R177,date,27/05/2026,2026-05-27,kept
+178,R177,amount,£826.74,826.74,kept
+179,R178,amount,£10.93,10.93,kept
+180,R179,name,  ACCOUNT 0648  ,ACCOUNT 0648,kept
+180,R179,date,29/05/2026,2026-05-29,kept
+180,R179,amount,£90.12,90.12,kept
+181,R180,date,30/05/2026,2026-05-30,kept
+181,R180,amount,£169.31,169.31,kept
+182,R181,customer_id, 00650 ,00650,kept
+182,R181,amount,£248.50,248.50,kept
+183,R182,date,01/06/2026,2026-06-01,kept
+183,R182,amount,£327.69,327.69,kept
+184,R183,name,  ACCOUNT 0652  ,ACCOUNT 0652,kept
+184,R183,date,02/06/2026,2026-06-02,kept
+184,R183,amount,£406.88,406.88,kept
+185,R184,amount,(£486.07),-486.07,kept
+186,R185,date,04/06/2026,2026-06-04,kept
+186,R185,amount,£565.26,565.26,kept
+187,R186,customer_id, 00655 ,00655,kept
+187,R186,date,05/06/2026,2026-06-05,kept
+187,R186,amount,£644.45,644.45,kept
+188,R187,name,  ACCOUNT 0656  ,ACCOUNT 0656,kept
+188,R187,amount,£723.64,723.64,kept
+189,R188,date,07/06/2026,2026-06-07,kept
+189,R188,amount,£802.83,802.83,kept
+190,R189,date,08/06/2026,2026-06-08,kept
+190,R189,amount,£882.02,882.02,kept
+191,R190,amount,£66.21,66.21,kept
+192,R191,customer_id, 00660 ,00660,kept
+192,R191,name,  ACCOUNT 0660  ,ACCOUNT 0660,kept
+192,R191,date,10/06/2026,2026-06-10,kept
+192,R191,amount,£145.40,145.40,kept
+193,R192,date,11/06/2026,2026-06-11,kept
+193,R192,amount,£224.59,224.59,kept
+194,R193,amount,£303.78,303.78,kept
+195,R194,date,13/06/2026,2026-06-13,kept
+195,R194,amount,£382.97,382.97,kept
+196,R195,name,  ACCOUNT 0664  ,ACCOUNT 0664,kept
+196,R195,date,14/06/2026,2026-06-14,kept
+196,R195,amount,£462.16,462.16,kept
+197,R196,customer_id, 00665 ,00665,kept
+197,R196,amount,£541.35,541.35,kept
+198,R197,date,16/06/2026,2026-06-16,kept
+198,R197,amount,£620.54,620.54,kept
+199,R198,date,17/06/2026,2026-06-17,kept
+199,R198,amount,£699.73,699.73,kept
+200,R199,name,  ACCOUNT 0668  ,ACCOUNT 0668,kept
+200,R199,amount,£778.92,778.92,kept
+201,R200,date,19/06/2026,2026-06-19,kept
+201,R200,amount,£858.11,858.11,kept
+202,R201,customer_id, 00670 ,00670,kept
+202,R201,date,20/06/2026,2026-06-20,kept
+202,R201,amount,(£42.30),-42.30,kept
+203,R202,amount,£121.49,121.49,kept
+204,R203,name,  ACCOUNT 0672  ,ACCOUNT 0672,kept
+204,R203,date,22/06/2026,2026-06-22,kept
+204,R203,amount,£200.68,200.68,kept
+205,R204,date,23/06/2026,2026-06-23,kept
+205,R204,amount,£279.87,279.87,kept
+206,R205,amount,£359.06,359.06,kept
+207,R206,customer_id, 00675 ,00675,kept
+207,R206,date,25/06/2026,2026-06-25,kept
+207,R206,amount,£438.25,438.25,kept
+208,R207,name,  ACCOUNT 0676  ,ACCOUNT 0676,kept
+208,R207,date,26/06/2026,2026-06-26,kept
+208,R207,amount,£517.44,517.44,kept
+209,R208,amount,£596.63,596.63,kept
+210,R209,date,28/06/2026,2026-06-28,kept
+210,R209,amount,£675.82,675.82,kept
+211,R210,date,29/06/2026,2026-06-29,kept
+211,R210,amount,£755.01,755.01,kept
+212,R211,customer_id, 00680 ,00680,kept
+212,R211,name,  ACCOUNT 0680  ,ACCOUNT 0680,kept
+212,R211,amount,£834.20,834.20,kept
+213,R212,date,02/04/2026,2026-04-02,kept
+213,R212,amount,£18.39,18.39,kept
+214,R213,date,03/04/2026,2026-04-03,kept
+214,R213,amount,£97.58,97.58,kept
+215,R214,amount,£176.77,176.77,kept
+216,R215,name,  ACCOUNT 0684  ,ACCOUNT 0684,kept
+216,R215,date,05/04/2026,2026-04-05,kept
+216,R215,amount,£255.96,255.96,kept
+217,R216,customer_id, 00685 ,00685,kept
+217,R216,date,06/04/2026,2026-04-06,kept
+217,R216,amount,£335.15,335.15,kept
+218,R217,amount,£414.34,414.34,kept
+219,R218,date,08/04/2026,2026-04-08,kept
+219,R218,amount,(£493.53),-493.53,kept
+220,R219,name,  ACCOUNT 0688  ,ACCOUNT 0688,kept
+220,R219,date,09/04/2026,2026-04-09,kept
+220,R219,amount,£572.72,572.72,kept
+221,R220,amount,£651.91,651.91,kept
+222,R221,customer_id, 00690 ,00690,kept
+222,R221,date,11/04/2026,2026-04-11,kept
+222,R221,amount,£731.10,731.10,kept
+223,R222,date,12/04/2026,2026-04-12,kept
+223,R222,amount,£810.29,810.29,kept
+224,R223,name,  ACCOUNT 0692  ,ACCOUNT 0692,kept
+224,R223,amount,£889.48,889.48,kept
+225,R224,date,14/04/2026,2026-04-14,kept
+225,R224,amount,£73.67,73.67,kept
+226,R225,date,15/04/2026,2026-04-15,kept
+226,R225,amount,£152.86,152.86,kept
+227,R226,customer_id, 00695 ,00695,kept
+227,R226,amount,£232.05,232.05,kept
+228,R227,name,  ACCOUNT 0696  ,ACCOUNT 0696,kept
+228,R227,date,17/04/2026,2026-04-17,kept
+228,R227,amount,£311.24,311.24,kept
+229,R228,date,18/04/2026,2026-04-18,kept
+229,R228,amount,£390.43,390.43,kept
+230,R229,amount,£469.62,469.62,kept
+231,R230,date,20/04/2026,2026-04-20,kept
+231,R230,amount,£548.81,548.81,kept
+232,R231,customer_id, 00700 ,00700,kept
+232,R231,name,  ACCOUNT 0700  ,ACCOUNT 0700,kept
+232,R231,date,21/04/2026,2026-04-21,kept
+232,R231,amount,£628.00,628.00,kept
+233,R232,amount,£707.19,707.19,kept
+234,R233,date,23/04/2026,2026-04-23,kept
+234,R233,amount,£786.38,786.38,kept
+235,R234,date,24/04/2026,2026-04-24,kept
+235,R234,amount,£865.57,865.57,kept
+236,R235,name,  ACCOUNT 0704  ,ACCOUNT 0704,kept
+236,R235,amount,(£49.76),-49.76,kept
+237,R236,customer_id, 00705 ,00705,kept
+237,R236,date,26/04/2026,2026-04-26,kept
+237,R236,amount,£128.95,128.95,kept
+238,R237,date,27/04/2026,2026-04-27,kept
+238,R237,amount,£208.14,208.14,kept
+239,R238,amount,£287.33,287.33,kept
+240,R239,name,  ACCOUNT 0708  ,ACCOUNT 0708,kept
+240,R239,date,29/04/2026,2026-04-29,kept
+240,R239,amount,£366.52,366.52,kept
+241,R240,date,30/04/2026,2026-04-30,kept
+241,R240,amount,£445.71,445.71,kept
+242,R241,customer_id, 00710 ,00710,kept
+242,R241,amount,£524.90,524.90,kept
+243,R242,date,02/05/2026,2026-05-02,kept
+243,R242,amount,£604.09,604.09,kept
+244,R243,name,  ACCOUNT 0712  ,ACCOUNT 0712,kept
+244,R243,date,03/05/2026,2026-05-03,kept
+244,R243,amount,£683.28,683.28,kept
+245,R244,amount,£762.47,762.47,kept
+246,R245,date,05/05/2026,2026-05-05,kept
+246,R245,amount,£841.66,841.66,kept
+247,R246,customer_id, 00715 ,00715,kept
+247,R246,date,06/05/2026,2026-05-06,kept
+247,R246,amount,£25.85,25.85,kept
+248,R247,name,  ACCOUNT 0716  ,ACCOUNT 0716,kept
+248,R247,amount,£105.04,105.04,kept
+249,R248,date,08/05/2026,2026-05-08,kept
+249,R248,amount,£184.23,184.23,kept
+250,R249,date,09/05/2026,2026-05-09,kept
+250,R249,amount,£263.42,263.42,kept
+251,R250,amount,£342.61,342.61,kept
+252,R251,customer_id, 00720 ,00720,kept
+252,R251,name,  ACCOUNT 0720  ,ACCOUNT 0720,kept
+252,R251,date,11/05/2026,2026-05-11,kept
+252,R251,amount,£421.80,421.80,kept
+253,R252,date,12/05/2026,2026-05-12,kept
+253,R252,amount,(£500.99),-500.99,kept
+254,R253,amount,£580.18,580.18,kept
+255,R254,date,14/05/2026,2026-05-14,kept
+255,R254,amount,£659.37,659.37,kept
+256,R255,name,  ACCOUNT 0724  ,ACCOUNT 0724,kept
+256,R255,date,15/05/2026,2026-05-15,kept
+256,R255,amount,£738.56,738.56,kept
+257,R256,customer_id, 00725 ,00725,kept
+257,R256,amount,£817.75,817.75,kept
+258,R257,date,17/05/2026,2026-05-17,kept
+258,R257,amount,£896.94,896.94,kept
+259,R258,date,18/05/2026,2026-05-18,kept
+259,R258,amount,£81.13,81.13,kept
+260,R259,name,  ACCOUNT 0728  ,ACCOUNT 0728,kept
+260,R259,amount,£160.32,160.32,kept
+261,R260,date,20/05/2026,2026-05-20,kept
+261,R260,amount,£239.51,239.51,kept
+262,R261,customer_id, 00730 ,00730,kept
+262,R261,date,21/05/2026,2026-05-21,kept
+262,R261,amount,£318.70,318.70,kept
+263,R262,amount,£397.89,397.89,kept
+264,R263,name,  ACCOUNT 0732  ,ACCOUNT 0732,kept
+264,R263,date,23/05/2026,2026-05-23,kept
+264,R263,amount,£477.08,477.08,kept
+265,R264,date,24/05/2026,2026-05-24,kept
+265,R264,amount,£556.27,556.27,kept
+266,R265,amount,£635.46,635.46,kept
+267,R266,customer_id, 00735 ,00735,kept
+267,R266,date,26/05/2026,2026-05-26,kept
+267,R266,amount,£714.65,714.65,kept
+268,R267,name,  ACCOUNT 0736  ,ACCOUNT 0736,kept
+268,R267,date,27/05/2026,2026-05-27,kept
+268,R267,amount,£793.84,793.84,kept
+269,R268,amount,£873.03,873.03,kept
+270,R269,date,29/05/2026,2026-05-29,kept
+270,R269,amount,(£57.22),-57.22,kept
+271,R270,date,30/05/2026,2026-05-30,kept
+271,R270,amount,£136.41,136.41,kept
+272,R271,customer_id, 00740 ,00740,kept
+272,R271,name,  ACCOUNT 0740  ,ACCOUNT 0740,kept
+272,R271,amount,£215.60,215.60,kept
+273,R272,date,01/06/2026,2026-06-01,kept
+273,R272,amount,£294.79,294.79,kept
+274,R273,date,02/06/2026,2026-06-02,kept
+274,R273,amount,£373.98,373.98,kept
+275,R274,amount,£453.17,453.17,kept
+276,R275,name,  ACCOUNT 0744  ,ACCOUNT 0744,kept
+276,R275,date,04/06/2026,2026-06-04,kept
+276,R275,amount,£532.36,532.36,kept
+277,R276,customer_id, 00745 ,00745,kept
+277,R276,date,05/06/2026,2026-06-05,kept
+277,R276,amount,£611.55,611.55,kept
+278,R277,amount,£690.74,690.74,kept
+279,R278,date,07/06/2026,2026-06-07,kept
+279,R278,amount,£769.93,769.93,kept
+280,R279,name,  ACCOUNT 0748  ,ACCOUNT 0748,kept
+280,R279,date,08/06/2026,2026-06-08,kept
+280,R279,amount,£849.12,849.12,kept
+281,R280,amount,£33.31,33.31,kept
+282,R281,customer_id, 00750 ,00750,kept
+282,R281,date,10/06/2026,2026-06-10,kept
+282,R281,amount,£112.50,112.50,kept
+283,R282,date,11/06/2026,2026-06-11,kept
+283,R282,amount,£191.69,191.69,kept
+284,R283,name,  ACCOUNT 0752  ,ACCOUNT 0752,kept
+284,R283,amount,£270.88,270.88,kept
+285,R284,date,13/06/2026,2026-06-13,kept
+285,R284,amount,£350.07,350.07,kept
+286,R285,date,14/06/2026,2026-06-14,kept
+286,R285,amount,£429.26,429.26,kept
+287,R286,customer_id, 00755 ,00755,kept
+287,R286,amount,(£508.45),-508.45,kept
+288,R287,name,  ACCOUNT 0756  ,ACCOUNT 0756,kept
+288,R287,date,16/06/2026,2026-06-16,kept
+288,R287,amount,£587.64,587.64,kept
+289,R288,date,17/06/2026,2026-06-17,kept
+289,R288,amount,£666.83,666.83,kept
+290,R289,amount,£746.02,746.02,kept
+291,R290,date,19/06/2026,2026-06-19,kept
+291,R290,amount,£825.21,825.21,kept
+292,R291,customer_id, 00760 ,00760,kept
+292,R291,name,  ACCOUNT 0760  ,ACCOUNT 0760,kept
+292,R291,date,20/06/2026,2026-06-20,kept
+292,R291,amount,£9.40,9.40,kept
+293,R292,amount,£88.59,88.59,kept
+294,R293,date,22/06/2026,2026-06-22,kept
+294,R293,amount,£167.78,167.78,kept
+295,R294,date,23/06/2026,2026-06-23,kept
+295,R294,amount,£246.97,246.97,kept
+296,R295,name,  ACCOUNT 0764  ,ACCOUNT 0764,kept
+296,R295,amount,£326.16,326.16,kept
+297,R296,customer_id, 00765 ,00765,kept
+297,R296,date,25/06/2026,2026-06-25,kept
+297,R296,amount,£405.35,405.35,kept
+298,R297,date,26/06/2026,2026-06-26,kept
+298,R297,amount,£484.54,484.54,kept
+299,R298,amount,£563.73,563.73,kept
+300,R299,name,  ACCOUNT 0768  ,ACCOUNT 0768,kept
+300,R299,date,28/06/2026,2026-06-28,kept
+300,R299,amount,£642.92,642.92,kept
+301,R300,date,29/06/2026,2026-06-29,kept
+301,R300,amount,£722.11,722.11,kept
+302,R301,customer_id, 00770 ,00770,kept
+302,R301,amount,£801.30,801.30,kept
+303,R302,date,02/04/2026,2026-04-02,kept
+303,R302,amount,£880.49,880.49,kept
+304,R303,name,  ACCOUNT 0772  ,ACCOUNT 0772,kept
+304,R303,date,03/04/2026,2026-04-03,kept
+304,R303,amount,(£64.68),-64.68,kept
+305,R304,amount,£143.87,143.87,kept
+306,R305,date,05/04/2026,2026-04-05,kept
+306,R305,amount,£223.06,223.06,kept
+307,R306,customer_id, 00775 ,00775,kept
+307,R306,date,06/04/2026,2026-04-06,kept
+307,R306,amount,£302.25,302.25,kept
+308,R307,name,  ACCOUNT 0776  ,ACCOUNT 0776,kept
+308,R307,amount,£381.44,381.44,kept
+309,R308,date,08/04/2026,2026-04-08,kept
+309,R308,amount,£460.63,460.63,kept
+310,R309,date,09/04/2026,2026-04-09,kept
+310,R309,amount,£539.82,539.82,kept
+311,R310,amount,£619.01,619.01,kept
+312,R311,customer_id, 00780 ,00780,kept
+312,R311,name,  ACCOUNT 0780  ,ACCOUNT 0780,kept
+312,R311,date,11/04/2026,2026-04-11,kept
+312,R311,amount,£698.20,698.20,kept
+313,R312,date,12/04/2026,2026-04-12,kept
+313,R312,amount,£777.39,777.39,kept
+314,R313,amount,£856.58,856.58,kept
+315,R314,date,14/04/2026,2026-04-14,kept
+315,R314,amount,£40.77,40.77,kept
+316,R315,name,  ACCOUNT 0784  ,ACCOUNT 0784,kept
+316,R315,date,15/04/2026,2026-04-15,kept
+316,R315,amount,£119.96,119.96,kept
+317,R316,customer_id, 00785 ,00785,kept
+317,R316,amount,£199.15,199.15,kept
+318,R317,date,17/04/2026,2026-04-17,kept
+318,R317,amount,£278.34,278.34,kept
+319,R318,date,18/04/2026,2026-04-18,kept
+319,R318,amount,£357.53,357.53,kept
+320,R319,name,  ACCOUNT 0788  ,ACCOUNT 0788,kept
+320,R319,amount,£436.72,436.72,kept
+321,R320,date,20/04/2026,2026-04-20,kept
+321,R320,amount,(£515.91),-515.91,kept
+322,R321,customer_id, 00790 ,00790,kept
+322,R321,date,21/04/2026,2026-04-21,kept
+322,R321,amount,£595.10,595.10,kept
+323,R322,amount,£674.29,674.29,kept
+324,R323,name,  ACCOUNT 0792  ,ACCOUNT 0792,kept
+324,R323,date,23/04/2026,2026-04-23,kept
+324,R323,amount,£753.48,753.48,kept
+325,R324,date,24/04/2026,2026-04-24,kept
+325,R324,amount,£832.67,832.67,kept
+326,R325,amount,£16.86,16.86,kept
+327,R326,customer_id, 00795 ,00795,kept
+327,R326,date,26/04/2026,2026-04-26,kept
+327,R326,amount,£96.05,96.05,kept
+328,R327,name,  ACCOUNT 0796  ,ACCOUNT 0796,kept
+328,R327,date,27/04/2026,2026-04-27,kept
+328,R327,amount,£175.24,175.24,kept
+329,R328,amount,£254.43,254.43,kept
+330,R329,date,29/04/2026,2026-04-29,kept
+330,R329,amount,£333.62,333.62,kept
+331,R330,date,30/04/2026,2026-04-30,kept
+331,R330,amount,£412.81,412.81,kept
+332,R331,customer_id, 00800 ,00800,kept
+332,R331,name,  ACCOUNT 0800  ,ACCOUNT 0800,kept
+332,R331,amount,£492.00,492.00,kept
+333,R332,date,02/05/2026,2026-05-02,kept
+333,R332,amount,£571.19,571.19,kept
+334,R333,date,03/05/2026,2026-05-03,kept
+334,R333,amount,£650.38,650.38,kept
+335,R334,amount,£729.57,729.57,kept
+336,R335,name,  ACCOUNT 0804  ,ACCOUNT 0804,kept
+336,R335,date,05/05/2026,2026-05-05,kept
+336,R335,amount,£808.76,808.76,kept
+337,R336,customer_id, 00805 ,00805,kept
+337,R336,date,06/05/2026,2026-05-06,kept
+337,R336,amount,£887.95,887.95,kept
+338,R337,amount,(£72.14),-72.14,kept
+339,R338,date,08/05/2026,2026-05-08,kept
+339,R338,amount,£151.33,151.33,kept
+340,R339,name,  ACCOUNT 0808  ,ACCOUNT 0808,kept
+340,R339,date,09/05/2026,2026-05-09,kept
+340,R339,amount,£230.52,230.52,kept
+341,R340,amount,£309.71,309.71,kept
+342,R341,customer_id, 00810 ,00810,kept
+342,R341,date,11/05/2026,2026-05-11,kept
+342,R341,amount,£388.90,388.90,kept
+343,R342,date,12/05/2026,2026-05-12,kept
+343,R342,amount,£468.09,468.09,kept
+344,R343,name,  ACCOUNT 0812  ,ACCOUNT 0812,kept
+344,R343,amount,£547.28,547.28,kept
+345,R344,date,14/05/2026,2026-05-14,kept
+345,R344,amount,£626.47,626.47,kept
+346,R345,date,15/05/2026,2026-05-15,kept
+346,R345,amount,£705.66,705.66,kept
+347,R346,customer_id, 00815 ,00815,kept
+347,R346,amount,£784.85,784.85,kept
+348,R347,name,  ACCOUNT 0816  ,ACCOUNT 0816,kept
+348,R347,date,17/05/2026,2026-05-17,kept
+348,R347,amount,£864.04,864.04,kept
+349,R348,date,18/05/2026,2026-05-18,kept
+349,R348,amount,£48.23,48.23,kept
+350,R349,amount,£127.42,127.42,kept
+351,R350,date,20/05/2026,2026-05-20,kept
+351,R350,amount,£206.61,206.61,kept
+352,R351,customer_id, 00820 ,00820,kept
+352,R351,name,  ACCOUNT 0820  ,ACCOUNT 0820,kept
+352,R351,date,21/05/2026,2026-05-21,kept
+352,R351,amount,£285.80,285.80,kept
+353,R352,amount,£364.99,364.99,kept
+354,R353,date,23/05/2026,2026-05-23,kept
+354,R353,amount,£444.18,444.18,kept
+355,R354,date,24/05/2026,2026-05-24,kept
+355,R354,amount,(£523.37),-523.37,kept
+356,R355,name,  ACCOUNT 0824  ,ACCOUNT 0824,kept
+356,R355,amount,£602.56,602.56,kept
+357,R356,customer_id, 00825 ,00825,kept
+357,R356,date,26/05/2026,2026-05-26,kept
+357,R356,amount,£681.75,681.75,kept
+358,R357,date,27/05/2026,2026-05-27,kept
+358,R357,amount,£760.94,760.94,kept
+359,R358,amount,£840.13,840.13,kept
+360,R359,name,  ACCOUNT 0828  ,ACCOUNT 0828,kept
+360,R359,date,29/05/2026,2026-05-29,kept
+360,R359,amount,£24.32,24.32,kept
+361,R360,date,30/05/2026,2026-05-30,kept
+361,R360,amount,£103.51,103.51,kept
+362,R361,customer_id, 00830 ,00830,kept
+362,R361,amount,£182.70,182.70,kept
+363,R362,date,01/06/2026,2026-06-01,kept
+363,R362,amount,£261.89,261.89,kept
+364,R363,name,  ACCOUNT 0832  ,ACCOUNT 0832,kept
+364,R363,date,02/06/2026,2026-06-02,kept
+364,R363,amount,£341.08,341.08,kept
+365,R364,amount,£420.27,420.27,kept
+366,R365,date,04/06/2026,2026-06-04,kept
+366,R365,amount,£499.46,499.46,kept
+367,R366,customer_id, 00835 ,00835,kept
+367,R366,date,05/06/2026,2026-06-05,kept
+367,R366,amount,£578.65,578.65,kept
+368,R367,name,  ACCOUNT 0836  ,ACCOUNT 0836,kept
+368,R367,amount,£657.84,657.84,kept
+369,R368,date,07/06/2026,2026-06-07,kept
+369,R368,amount,£737.03,737.03,kept
+370,R369,date,08/06/2026,2026-06-08,kept
+370,R369,amount,£816.22,816.22,kept
+371,R370,amount,£895.41,895.41,kept
+372,R371,customer_id, 00840 ,00840,kept
+372,R371,name,  ACCOUNT 0840  ,ACCOUNT 0840,kept
+372,R371,date,10/06/2026,2026-06-10,kept
+372,R371,amount,(£79.60),-79.60,kept
+373,R372,date,11/06/2026,2026-06-11,kept
+373,R372,amount,£158.79,158.79,kept
+374,R373,amount,£237.98,237.98,kept
+375,R374,date,13/06/2026,2026-06-13,kept
+375,R374,amount,£317.17,317.17,kept
+376,R375,name,  ACCOUNT 0844  ,ACCOUNT 0844,kept
+376,R375,date,14/06/2026,2026-06-14,kept
+376,R375,amount,£396.36,396.36,kept
+377,R376,customer_id, 00845 ,00845,kept
+377,R376,amount,£475.55,475.55,kept
+378,R377,date,16/06/2026,2026-06-16,kept
+378,R377,amount,£554.74,554.74,kept
+379,R378,date,17/06/2026,2026-06-17,kept
+379,R378,amount,£633.93,633.93,kept
+380,R379,name,  ACCOUNT 0848  ,ACCOUNT 0848,kept
+380,R379,amount,£713.12,713.12,kept
+381,R380,date,19/06/2026,2026-06-19,kept
+381,R380,amount,£792.31,792.31,kept
+382,R381,customer_id, 00850 ,00850,kept
+382,R381,date,20/06/2026,2026-06-20,kept
+382,R381,amount,£871.50,871.50,kept
+383,R382,amount,£55.69,55.69,kept
+384,R383,name,  ACCOUNT 0852  ,ACCOUNT 0852,kept
+384,R383,date,22/06/2026,2026-06-22,kept
+384,R383,amount,£134.88,134.88,kept
+385,R384,date,23/06/2026,2026-06-23,kept
+385,R384,amount,£214.07,214.07,kept
+386,R385,amount,£293.26,293.26,kept
+387,R386,customer_id, 00855 ,00855,kept
+387,R386,date,25/06/2026,2026-06-25,kept
+387,R386,amount,£372.45,372.45,kept
+388,R387,name,  ACCOUNT 0856  ,ACCOUNT 0856,kept
+388,R387,date,26/06/2026,2026-06-26,kept
+388,R387,amount,£451.64,451.64,kept
+389,R388,amount,(£530.83),-530.83,kept
+390,R389,date,28/06/2026,2026-06-28,kept
+390,R389,amount,£610.02,610.02,kept
+391,R390,date,29/06/2026,2026-06-29,kept
+391,R390,amount,£689.21,689.21,kept
+392,R391,customer_id, 00860 ,00860,kept
+392,R391,name,  ACCOUNT 0860  ,ACCOUNT 0860,kept
+392,R391,amount,£768.40,768.40,kept
+393,R392,date,02/04/2026,2026-04-02,kept
+393,R392,amount,£847.59,847.59,kept
+394,R393,date,03/04/2026,2026-04-03,kept
+394,R393,amount,£31.78,31.78,kept
+395,R394,amount,£110.97,110.97,kept
+396,R395,name,  ACCOUNT 0864  ,ACCOUNT 0864,kept
+396,R395,date,05/04/2026,2026-04-05,kept
+396,R395,amount,£190.16,190.16,kept
+397,R396,customer_id, 00865 ,00865,kept
+397,R396,date,06/04/2026,2026-04-06,kept
+397,R396,amount,£269.35,269.35,kept
+398,R397,amount,£348.54,348.54,kept
+399,R398,date,08/04/2026,2026-04-08,kept
+399,R398,amount,£427.73,427.73,kept
+400,R399,name,  ACCOUNT 0868  ,ACCOUNT 0868,kept
+400,R399,date,09/04/2026,2026-04-09,kept
+400,R399,amount,£506.92,506.92,kept
+401,R400,amount,£586.11,586.11,kept
+402,R401,customer_id, 00870 ,00870,kept
+402,R401,date,11/04/2026,2026-04-11,kept
+402,R401,amount,£665.30,665.30,kept
+403,R402,date,12/04/2026,2026-04-12,kept
+403,R402,amount,£744.49,744.49,kept
+404,R403,name,  ACCOUNT 0872  ,ACCOUNT 0872,kept
+404,R403,amount,£823.68,823.68,kept
+405,R404,date,14/04/2026,2026-04-14,kept
+405,R404,amount,£7.87,7.87,kept
+406,R405,date,15/04/2026,2026-04-15,kept
+406,R405,amount,(£87.06),-87.06,kept
+407,R406,customer_id, 00875 ,00875,kept
+407,R406,amount,£166.25,166.25,kept
+408,R407,name,  ACCOUNT 0876  ,ACCOUNT 0876,kept
+408,R407,date,17/04/2026,2026-04-17,kept
+408,R407,amount,£245.44,245.44,kept
+409,R408,date,18/04/2026,2026-04-18,kept
+409,R408,amount,£324.63,324.63,kept
+410,R409,amount,£403.82,403.82,kept
+411,R410,date,20/04/2026,2026-04-20,kept
+411,R410,amount,£483.01,483.01,kept
+412,R411,customer_id, 00880 ,00880,kept
+412,R411,name,  ACCOUNT 0880  ,ACCOUNT 0880,kept
+412,R411,date,21/04/2026,2026-04-21,kept
+412,R411,amount,£562.20,562.20,kept
+413,R412,amount,£641.39,641.39,kept
+414,R413,date,23/04/2026,2026-04-23,kept
+414,R413,amount,£720.58,720.58,kept
+415,R414,date,24/04/2026,2026-04-24,kept
+415,R414,amount,£799.77,799.77,kept
+416,R415,name,  ACCOUNT 0884  ,ACCOUNT 0884,kept
+416,R415,amount,£878.96,878.96,kept
+417,R416,customer_id, 00885 ,00885,kept
+417,R416,date,26/04/2026,2026-04-26,kept
+417,R416,amount,£63.15,63.15,kept
+418,R417,date,27/04/2026,2026-04-27,kept
+418,R417,amount,£142.34,142.34,kept
+419,R418,amount,£221.53,221.53,kept
+420,R419,name,  ACCOUNT 0888  ,ACCOUNT 0888,kept
+420,R419,date,29/04/2026,2026-04-29,kept
+420,R419,amount,£300.72,300.72,kept
+421,R420,date,30/04/2026,2026-04-30,kept
+421,R420,amount,£379.91,379.91,kept
+422,R421,customer_id, 00890 ,00890,kept
+422,R421,amount,£459.10,459.10,kept
+423,R422,date,02/05/2026,2026-05-02,kept
+423,R422,amount,(£538.29),-538.29,kept
+424,R423,name,  ACCOUNT 0892  ,ACCOUNT 0892,kept
+424,R423,date,03/05/2026,2026-05-03,kept
+424,R423,amount,£617.48,617.48,kept
+425,R424,amount,£696.67,696.67,kept
+426,R425,date,05/05/2026,2026-05-05,kept
+426,R425,amount,£775.86,775.86,kept
+427,R426,customer_id, 00895 ,00895,kept
+427,R426,date,06/05/2026,2026-05-06,kept
+427,R426,amount,£855.05,855.05,kept
+428,R427,name,  ACCOUNT 0896  ,ACCOUNT 0896,kept
+428,R427,amount,£39.24,39.24,kept
+429,R428,date,08/05/2026,2026-05-08,kept
+429,R428,amount,£118.43,118.43,kept
+430,R429,date,09/05/2026,2026-05-09,kept
+430,R429,amount,£197.62,197.62,kept
+431,R430,amount,£276.81,276.81,kept
+432,R431,customer_id, 00900 ,00900,kept
+432,R431,name,  ACCOUNT 0900  ,ACCOUNT 0900,kept
+432,R431,date,11/05/2026,2026-05-11,kept
+432,R431,amount,£356.00,356.00,kept
+433,R432,date,12/05/2026,2026-05-12,kept
+433,R432,amount,£435.19,435.19,kept
+434,R433,amount,£514.38,514.38,kept
+435,R434,date,14/05/2026,2026-05-14,kept
+435,R434,amount,£593.57,593.57,kept
+436,R435,name,  ACCOUNT 0904  ,ACCOUNT 0904,kept
+436,R435,date,15/05/2026,2026-05-15,kept
+436,R435,amount,£672.76,672.76,kept
+437,R436,customer_id, 00905 ,00905,kept
+437,R436,amount,£751.95,751.95,kept
+438,R437,date,17/05/2026,2026-05-17,kept
+438,R437,amount,£831.14,831.14,kept
+439,R438,date,18/05/2026,2026-05-18,kept
+439,R438,amount,£15.33,15.33,kept
+440,R439,name,  ACCOUNT 0908  ,ACCOUNT 0908,kept
+440,R439,amount,(£94.52),-94.52,kept
+441,R440,date,20/05/2026,2026-05-20,kept
+441,R440,amount,£173.71,173.71,kept
+442,R441,customer_id, 00910 ,00910,kept
+442,R441,date,21/05/2026,2026-05-21,kept
+442,R441,amount,£252.90,252.90,kept
+443,R442,amount,£332.09,332.09,kept
+444,R443,name,  ACCOUNT 0912  ,ACCOUNT 0912,kept
+444,R443,date,23/05/2026,2026-05-23,kept
+444,R443,amount,£411.28,411.28,kept
+445,R444,date,24/05/2026,2026-05-24,kept
+445,R444,amount,£490.47,490.47,kept
+446,R445,amount,£569.66,569.66,kept
+447,R446,customer_id, 00915 ,00915,kept
+447,R446,date,26/05/2026,2026-05-26,kept
+447,R446,amount,£648.85,648.85,kept
+448,R447,name,  ACCOUNT 0916  ,ACCOUNT 0916,kept
+448,R447,date,27/05/2026,2026-05-27,kept
+448,R447,amount,£728.04,728.04,kept
+449,R448,amount,£807.23,807.23,kept
+450,R449,date,29/05/2026,2026-05-29,kept
+450,R449,amount,£886.42,886.42,kept
+451,R450,date,30/05/2026,2026-05-30,kept
+451,R450,amount,£70.61,70.61,kept
+452,R451,customer_id, 00920 ,00920,kept
+452,R451,name,  ACCOUNT 0920  ,ACCOUNT 0920,kept
+452,R451,amount,£149.80,149.80,kept
+453,R452,date,01/06/2026,2026-06-01,kept
+453,R452,amount,£228.99,228.99,kept
+454,R453,date,02/06/2026,2026-06-02,kept
+454,R453,amount,£308.18,308.18,kept
+455,R454,amount,£387.37,387.37,kept
+456,R455,name,  ACCOUNT 0924  ,ACCOUNT 0924,kept
+456,R455,date,04/06/2026,2026-06-04,kept
+456,R455,amount,£466.56,466.56,kept
+457,R456,customer_id, 00925 ,00925,kept
+457,R456,date,05/06/2026,2026-06-05,kept
+457,R456,amount,(£545.75),-545.75,kept
+458,R457,amount,£624.94,624.94,kept
+459,R458,date,07/06/2026,2026-06-07,kept
+459,R458,amount,£704.13,704.13,kept
+460,R459,name,  ACCOUNT 0928  ,ACCOUNT 0928,kept
+460,R459,date,08/06/2026,2026-06-08,kept
+460,R459,amount,£783.32,783.32,kept
+461,R460,amount,£862.51,862.51,kept
+462,R461,customer_id, 00930 ,00930,kept
+462,R461,date,10/06/2026,2026-06-10,kept
+462,R461,amount,£46.70,46.70,kept
+463,R462,date,11/06/2026,2026-06-11,kept
+463,R462,amount,£125.89,125.89,kept
+464,R463,name,  ACCOUNT 0932  ,ACCOUNT 0932,kept
+464,R463,amount,£205.08,205.08,kept
+465,R464,date,13/06/2026,2026-06-13,kept
+465,R464,amount,£284.27,284.27,kept
+466,R465,date,14/06/2026,2026-06-14,kept
+466,R465,amount,£363.46,363.46,kept
+467,R466,customer_id, 00935 ,00935,kept
+467,R466,amount,£442.65,442.65,kept
+468,R467,name,  ACCOUNT 0936  ,ACCOUNT 0936,kept
+468,R467,date,16/06/2026,2026-06-16,kept
+468,R467,amount,£521.84,521.84,kept
+469,R468,date,17/06/2026,2026-06-17,kept
+469,R468,amount,£601.03,601.03,kept
+470,R469,amount,£680.22,680.22,kept
+471,R470,date,19/06/2026,2026-06-19,kept
+471,R470,amount,£759.41,759.41,kept
+472,R471,customer_id, 00940 ,00940,kept
+472,R471,name,  ACCOUNT 0940  ,ACCOUNT 0940,kept
+472,R471,date,20/06/2026,2026-06-20,kept
+472,R471,amount,£838.60,838.60,kept
+473,R472,amount,£22.79,22.79,kept
+474,R473,date,22/06/2026,2026-06-22,kept
+474,R473,amount,(£101.98),-101.98,kept
+475,R474,date,23/06/2026,2026-06-23,kept
+475,R474,amount,£181.17,181.17,kept
+476,R475,name,  ACCOUNT 0944  ,ACCOUNT 0944,kept
+476,R475,amount,£260.36,260.36,kept
+477,R476,customer_id, 00945 ,00945,kept
+477,R476,date,25/06/2026,2026-06-25,kept
+477,R476,amount,£339.55,339.55,kept
+478,R477,date,26/06/2026,2026-06-26,kept
+478,R477,amount,£418.74,418.74,kept
+479,R478,amount,£497.93,497.93,kept
+480,R479,name,  ACCOUNT 0948  ,ACCOUNT 0948,kept
+480,R479,date,28/06/2026,2026-06-28,kept
+480,R479,amount,£577.12,577.12,kept
+481,R480,date,29/06/2026,2026-06-29,kept
+481,R480,amount,£656.31,656.31,kept
+482,R481,amount,(£5.00),-5.00,duplicate
+483,R482,date,08/04/2026,2026-04-08,duplicate
+483,R482,amount,£559.33,559.33,duplicate
+484,R483,date,15/04/2026,2026-04-15,duplicate
+484,R483,amount,£218.66,218.66,duplicate
+485,R484,amount,£772.99,772.99,duplicate
+486,R485,date,29/04/2026,2026-04-29,duplicate
+486,R485,amount,£432.32,432.32,duplicate
+487,R486,date,06/05/2026,2026-05-06,duplicate
+487,R486,amount,£91.65,91.65,duplicate
+488,R487,amount,£645.98,645.98,duplicate
+489,R488,date,20/05/2026,2026-05-20,duplicate
+489,R488,amount,£305.31,305.31,duplicate
+490,R489,date,27/05/2026,2026-05-27,duplicate
+490,R489,amount,£859.64,859.64,duplicate
+491,R490,amount,£518.97,518.97,duplicate
+492,R491,date,10/06/2026,2026-06-10,duplicate
+492,R491,amount,£178.30,178.30,duplicate
+493,R492,date,17/06/2026,2026-06-17,duplicate
+493,R492,amount,£732.63,732.63,duplicate
+494,R493,amount,£391.96,391.96,duplicate
+495,R494,date,02/04/2026,2026-04-02,duplicate
+495,R494,amount,£51.29,51.29,duplicate
+496,R495,date,09/04/2026,2026-04-09,duplicate
+496,R495,amount,£605.62,605.62,duplicate
+497,R496,amount,£264.95,264.95,duplicate
+498,R497,date,23/04/2026,2026-04-23,duplicate
+498,R497,amount,£819.28,819.28,duplicate
+499,R498,date,30/04/2026,2026-04-30,duplicate
+499,R498,amount,(£478.61),-478.61,duplicate
+500,R499,amount,£137.94,137.94,duplicate
+501,R500,date,14/05/2026,2026-05-14,duplicate
+501,R500,amount,£692.27,692.27,duplicate
+502,R501,date,21/05/2026,2026-05-21,duplicate
+502,R501,amount,£351.60,351.60,duplicate
+503,R502,amount,£10.93,10.93,duplicate
+504,R503,date,04/06/2026,2026-06-04,duplicate
+504,R503,amount,£565.26,565.26,duplicate
+505,R504,date,11/06/2026,2026-06-11,duplicate
+505,R504,amount,£224.59,224.59,duplicate
+506,R505,amount,£778.92,778.92,duplicate
+507,R506,date,25/06/2026,2026-06-25,duplicate
+507,R506,amount,£438.25,438.25,duplicate
+508,R507,date,03/04/2026,2026-04-03,duplicate
+508,R507,amount,£97.58,97.58,duplicate
+509,R508,amount,£651.91,651.91,duplicate
+510,R509,date,17/04/2026,2026-04-17,duplicate
+510,R509,amount,£311.24,311.24,duplicate
+511,R510,date,24/04/2026,2026-04-24,duplicate
+511,R510,amount,£865.57,865.57,duplicate
+512,R511,amount,£524.90,524.90,duplicate
+513,R512,date,08/05/2026,2026-05-08,duplicate
+513,R512,amount,£184.23,184.23,duplicate
+514,R513,date,15/05/2026,2026-05-15,duplicate
+514,R513,amount,£738.56,738.56,duplicate
+515,R514,amount,£397.89,397.89,duplicate
+516,R515,date,29/05/2026,2026-05-29,duplicate
+516,R515,amount,(£57.22),-57.22,duplicate
+517,R516,date,05/06/2026,2026-06-05,duplicate
+517,R516,amount,£611.55,611.55,duplicate
+518,R517,amount,£270.88,270.88,duplicate
+519,R518,date,19/06/2026,2026-06-19,duplicate
+519,R518,amount,£825.21,825.21,duplicate
+520,R519,date,26/06/2026,2026-06-26,duplicate
+520,R519,amount,£484.54,484.54,duplicate
+521,R520,amount,£143.87,143.87,duplicate
+522,R521,date,11/04/2026,2026-04-11,duplicate
+522,R521,amount,£698.20,698.20,duplicate
+523,R522,date,18/04/2026,2026-04-18,duplicate
+523,R522,amount,£357.53,357.53,duplicate
+524,R523,amount,£16.86,16.86,duplicate
+525,R524,date,02/05/2026,2026-05-02,duplicate
+525,R524,amount,£571.19,571.19,duplicate
+526,R525,date,09/05/2026,2026-05-09,duplicate
+526,R525,amount,£230.52,230.52,duplicate
+527,R526,amount,£784.85,784.85,duplicate
+528,R527,date,23/05/2026,2026-05-23,duplicate
+528,R527,amount,£444.18,444.18,duplicate
+529,R528,date,30/05/2026,2026-05-30,duplicate
+529,R528,amount,£103.51,103.51,duplicate
+530,R529,amount,£657.84,657.84,duplicate
+531,R530,date,13/06/2026,2026-06-13,duplicate
+531,R530,amount,£317.17,317.17,duplicate
+532,R531,date,20/06/2026,2026-06-20,duplicate
+532,R531,amount,£871.50,871.50,duplicate
+533,R532,amount,(£530.83),-530.83,duplicate
+534,R533,date,05/04/2026,2026-04-05,duplicate
+534,R533,amount,£190.16,190.16,duplicate
+535,R534,date,12/04/2026,2026-04-12,duplicate
+535,R534,amount,£744.49,744.49,duplicate
+536,R535,amount,£403.82,403.82,duplicate
+537,R536,date,26/04/2026,2026-04-26,duplicate
+537,R536,amount,£63.15,63.15,duplicate
+538,R537,date,03/05/2026,2026-05-03,duplicate
+538,R537,amount,£617.48,617.48,duplicate
+539,R538,amount,£276.81,276.81,duplicate
+540,R539,date,17/05/2026,2026-05-17,duplicate
+540,R539,amount,£831.14,831.14,duplicate
+541,R540,date,24/05/2026,2026-05-24,duplicate
+541,R540,amount,£490.47,490.47,duplicate

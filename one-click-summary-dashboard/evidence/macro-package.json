@@ -1,0 +1,22 @@
+{
+  "workbook": "output/sales-dashboard.xlsm",
+  "module": "Module1",
+  "source": "vba/SalesDashboard.bas",
+  "packaging_library": "pyOpenVBA 6.6.0",
+  "source_matches_embedded_module": true,
+  "project_modules": [
+    "ThisWorkbook",
+    "Sheet1",
+    "Module1"
+  ],
+  "source_sha256": "3a3f0dc83426a5403e0f9d0443ff354f7de68fb2cce8f60ffde9fc4d4a47c528",
+  "vba_project_sha256": "d1fddbe6691c174d1dee0153f4e395a9a134096d2dc31baf9a5b25cc2e706e19",
+  "workbook_sha256": "1e8ca7e67a1b0d32a434e590a13f3149eea54c51ad4e6ade8fa0ae9a0b2f842c",
+  "excel_execution": "not_run",
+  "scope": "Packaging and source extraction, not compilation or macro execution",
+  "opened_in": "LibreOffice 24.2.7.2 420(Build:2)",
+  "opened_with_macros_disabled": true,
+  "baseline_revenue_checked": "132141.82",
+  "baseline_paid_count_checked": 1139,
+  "open_check_seconds": 1.069
+}

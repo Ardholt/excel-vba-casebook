@@ -1,0 +1,7 @@
+{
+  "actual_vba_result": "PASS: baseline, append and repeat",
+  "reference": "output/runtime.json",
+  "macro_execution": "evidence/vba-run.json",
+  "macro_packaging": "evidence/macro-package.json",
+  "desktop_excel": "not_run"
+}

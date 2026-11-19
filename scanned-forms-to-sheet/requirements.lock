@@ -1,0 +1,4 @@
+# Exact versions used by the shared container for this case.
+openpyxl==3.1.2
+Pillow==10.2.0
+pytest==7.4.4

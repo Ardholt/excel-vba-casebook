@@ -1,0 +1,5 @@
+{
+  "renderer": "pagerender",
+  "captures_included": false,
+  "scope": "Page-preview captures are not included in this repository. Run scripts/preview.py to create a local capture; it does not establish live CI status."
+}

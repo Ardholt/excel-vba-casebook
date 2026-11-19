@@ -1,0 +1,18 @@
+{
+  "business_result": {
+    "input_records": 810,
+    "output_records": 810,
+    "excluded_records": 0,
+    "records_per_account": 270,
+    "period": [
+      "2026-10-01",
+      "2026-12-31"
+    ],
+    "discrepancy": "-0.25 GBP"
+  },
+  "final_tests": {
+    "passed": 30,
+    "failed": 0,
+    "evidence": "evidence/final-tests.json"
+  }
+}

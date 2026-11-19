@@ -1,0 +1,385 @@
+phase,image,field,expected,actual,result
+raw,entry-01.png,Form ID,F241,F241,correct
+raw,entry-01.png,Item code,IT-621,IT-621,correct
+raw,entry-01.png,Quantity,14,14,correct
+raw,entry-01.png,Amount,106.13,106.13,correct
+raw,entry-02.png,Form ID,F242,F242,correct
+raw,entry-02.png,Item code,IT-622,IT-622,correct
+raw,entry-02.png,Quantity,15,,unresolved
+raw,entry-02.png,Amount,125.26,125.26,correct
+raw,entry-03.png,Form ID,F243,F243,correct
+raw,entry-03.png,Item code,IT-623,IT-623,correct
+raw,entry-03.png,Quantity,16,16,correct
+raw,entry-03.png,Amount,144.39,144.39,correct
+raw,entry-04.png,Form ID,F244,F244,correct
+raw,entry-04.png,Item code,IT-624,,unresolved
+raw,entry-04.png,Quantity,17,17,correct
+raw,entry-04.png,Amount,163.52,,unresolved
+raw,entry-05.png,Form ID,F245,F245,correct
+raw,entry-05.png,Item code,IT-625,IT-625,correct
+raw,entry-05.png,Quantity,18,18,correct
+raw,entry-05.png,Amount,182.65,182.65,correct
+raw,entry-06.png,Form ID,F246,F246,correct
+raw,entry-06.png,Item code,IT-626,IT-626,correct
+raw,entry-06.png,Quantity,19,19,correct
+raw,entry-06.png,Amount,201.78,201.78,correct
+raw,entry-07.png,Form ID,F247,F247,correct
+raw,entry-07.png,Item code,IT-627,,unresolved
+raw,entry-07.png,Quantity,20,20,correct
+raw,entry-07.png,Amount,220.91,220.91,correct
+raw,entry-08.png,Form ID,F248,F248,correct
+raw,entry-08.png,Item code,IT-628,,unresolved
+raw,entry-08.png,Quantity,21,21,correct
+raw,entry-08.png,Amount,239.04,239.04,correct
+raw,entry-09.png,Form ID,F249,F249,correct
+raw,entry-09.png,Item code,IT-629,IT-629,correct
+raw,entry-09.png,Quantity,22,22,correct
+raw,entry-09.png,Amount,258.17,258.17,correct
+raw,entry-10.png,Form ID,F250,F250,correct
+raw,entry-10.png,Item code,IT-630,,unresolved
+raw,entry-10.png,Quantity,23,23,correct
+raw,entry-10.png,Amount,277.30,277.30,correct
+raw,entry-11.png,Form ID,F251,F251,correct
+raw,entry-11.png,Item code,IT-631,IT-631,correct
+raw,entry-11.png,Quantity,24,,unresolved
+raw,entry-11.png,Amount,296.43,296.43,correct
+raw,entry-12.png,Form ID,F252,F252,correct
+raw,entry-12.png,Item code,IT-632,IT-632,correct
+raw,entry-12.png,Quantity,25,25,correct
+raw,entry-12.png,Amount,315.56,315.56,correct
+raw,entry-13.png,Form ID,F253,F253,correct
+raw,entry-13.png,Item code,IT-633,IT-633,correct
+raw,entry-13.png,Quantity,26,26,correct
+raw,entry-13.png,Amount,334.69,334.69,correct
+raw,entry-14.png,Form ID,F254,F254,correct
+raw,entry-14.png,Item code,IT-634,IT-634,correct
+raw,entry-14.png,Quantity,27,,unresolved
+raw,entry-14.png,Amount,353.82,353.82,correct
+raw,entry-15.png,Form ID,F255,F255,correct
+raw,entry-15.png,Item code,IT-635,IT-635,correct
+raw,entry-15.png,Quantity,28,28,correct
+raw,entry-15.png,Amount,372.95,372.95,correct
+raw,entry-16.png,Form ID,F256,F256,correct
+raw,entry-16.png,Item code,IT-636,,unresolved
+raw,entry-16.png,Quantity,29,29,correct
+raw,entry-16.png,Amount,391.08,,unresolved
+raw,entry-17.png,Form ID,F257,F257,correct
+raw,entry-17.png,Item code,IT-637,IT-637,correct
+raw,entry-17.png,Quantity,30,30,correct
+raw,entry-17.png,Amount,410.21,410.21,correct
+raw,entry-18.png,Form ID,F258,F258,correct
+raw,entry-18.png,Item code,IT-638,IT-638,correct
+raw,entry-18.png,Quantity,31,31,correct
+raw,entry-18.png,Amount,429.34,429.34,correct
+raw,entry-19.png,Form ID,F259,F259,correct
+raw,entry-19.png,Item code,IT-639,,unresolved
+raw,entry-19.png,Quantity,32,32,correct
+raw,entry-19.png,Amount,448.47,448.47,correct
+raw,entry-20.png,Form ID,F260,F260,correct
+raw,entry-20.png,Item code,IT-640,,unresolved
+raw,entry-20.png,Quantity,33,33,correct
+raw,entry-20.png,Amount,467.60,467.60,correct
+raw,entry-21.png,Form ID,F261,F261,correct
+raw,entry-21.png,Item code,IT-641,,unresolved
+raw,entry-21.png,Quantity,34,34,correct
+raw,entry-21.png,Amount,486.73,486.73,correct
+raw,entry-22.png,Form ID,F262,F262,correct
+raw,entry-22.png,Item code,IT-642,,unresolved
+raw,entry-22.png,Quantity,35,35,correct
+raw,entry-22.png,Amount,505.86,505.86,correct
+raw,entry-23.png,Form ID,F263,F263,correct
+raw,entry-23.png,Item code,IT-643,IT-643,correct
+raw,entry-23.png,Quantity,36,,unresolved
+raw,entry-23.png,Amount,524.99,524.99,correct
+raw,entry-24.png,Form ID,F264,F264,correct
+raw,entry-24.png,Item code,IT-644,,unresolved
+raw,entry-24.png,Quantity,37,,unresolved
+raw,entry-24.png,Amount,543.12,543.12,correct
+raw,entry-25.png,Form ID,F265,F265,correct
+raw,entry-25.png,Item code,IT-645,IT-645,correct
+raw,entry-25.png,Quantity,38,38,correct
+raw,entry-25.png,Amount,562.25,562.25,correct
+raw,entry-26.png,Form ID,F266,F266,correct
+raw,entry-26.png,Item code,IT-646,,unresolved
+raw,entry-26.png,Quantity,39,39,correct
+raw,entry-26.png,Amount,581.38,581.38,correct
+raw,entry-27.png,Form ID,F267,F267,correct
+raw,entry-27.png,Item code,IT-647,,unresolved
+raw,entry-27.png,Quantity,40,40,correct
+raw,entry-27.png,Amount,600.51,600.51,correct
+raw,entry-28.png,Form ID,F268,F268,correct
+raw,entry-28.png,Item code,IT-648,,unresolved
+raw,entry-28.png,Quantity,41,41,correct
+raw,entry-28.png,Amount,619.64,,unresolved
+raw,entry-29.png,Form ID,F269,F269,correct
+raw,entry-29.png,Item code,IT-649,,unresolved
+raw,entry-29.png,Quantity,42,42,correct
+raw,entry-29.png,Amount,638.77,638.77,correct
+raw,entry-30.png,Form ID,F270,F270,correct
+raw,entry-30.png,Item code,IT-650,IT-650,correct
+raw,entry-30.png,Quantity,43,43,correct
+raw,entry-30.png,Amount,657.90,657.90,correct
+raw,entry-31.png,Form ID,F271,F271,correct
+raw,entry-31.png,Item code,IT-651,IT-651,correct
+raw,entry-31.png,Quantity,44,,unresolved
+raw,entry-31.png,Amount,676.03,676.03,correct
+raw,entry-32.png,Form ID,F272,F272,correct
+raw,entry-32.png,Item code,IT-652,,unresolved
+raw,entry-32.png,Quantity,45,45,correct
+raw,entry-32.png,Amount,695.16,695.16,correct
+raw,entry-33.png,Form ID,F273,F273,correct
+raw,entry-33.png,Item code,IT-653,IT-653,correct
+raw,entry-33.png,Quantity,46,46,correct
+raw,entry-33.png,Amount,714.29,714.29,correct
+raw,entry-34.png,Form ID,F274,F274,correct
+raw,entry-34.png,Item code,IT-654,,unresolved
+raw,entry-34.png,Quantity,47,,unresolved
+raw,entry-34.png,Amount,733.42,733.42,correct
+raw,entry-35.png,Form ID,F275,F275,correct
+raw,entry-35.png,Item code,IT-655,IT-655,correct
+raw,entry-35.png,Quantity,48,,unresolved
+raw,entry-35.png,Amount,752.55,752.55,correct
+raw,entry-36.png,Form ID,F276,F276,correct
+raw,entry-36.png,Item code,IT-656,IT-656,correct
+raw,entry-36.png,Quantity,49,49,correct
+raw,entry-36.png,Amount,771.68,771.68,correct
+raw,entry-37.png,Form ID,F277,F277,correct
+raw,entry-37.png,Item code,IT-657,IT-657,correct
+raw,entry-37.png,Quantity,50,50,correct
+raw,entry-37.png,Amount,790.81,790.81,correct
+raw,entry-38.png,Form ID,F278,F278,correct
+raw,entry-38.png,Item code,IT-658,IT-658,correct
+raw,entry-38.png,Quantity,51,,unresolved
+raw,entry-38.png,Amount,809.94,809.94,correct
+raw,entry-39.png,Form ID,F279,F279,correct
+raw,entry-39.png,Item code,IT-659,,unresolved
+raw,entry-39.png,Quantity,52,52,correct
+raw,entry-39.png,Amount,828.07,828.07,correct
+raw,entry-40.png,Form ID,F280,F280,correct
+raw,entry-40.png,Item code,IT-660,,unresolved
+raw,entry-40.png,Quantity,53,53,correct
+raw,entry-40.png,Amount,847.20,,unresolved
+raw,entry-41.png,Form ID,F281,F281,correct
+raw,entry-41.png,Item code,IT-661,,unresolved
+raw,entry-41.png,Quantity,54,54,correct
+raw,entry-41.png,Amount,866.33,866.33,correct
+raw,entry-42.png,Form ID,F282,F282,correct
+raw,entry-42.png,Item code,IT-662,,unresolved
+raw,entry-42.png,Quantity,55,55,correct
+raw,entry-42.png,Amount,885.46,885.46,correct
+raw,entry-43.png,Form ID,F283,F283,correct
+raw,entry-43.png,Item code,IT-663,IT-663,correct
+raw,entry-43.png,Quantity,56,56,correct
+raw,entry-43.png,Amount,904.59,904.59,correct
+raw,entry-44.png,Form ID,F284,F284,correct
+raw,entry-44.png,Item code,IT-664,,unresolved
+raw,entry-44.png,Quantity,57,,unresolved
+raw,entry-44.png,Amount,923.72,923.72,correct
+raw,entry-45.png,Form ID,F285,F285,correct
+raw,entry-45.png,Item code,IT-665,IT-665,correct
+raw,entry-45.png,Quantity,58,58,correct
+raw,entry-45.png,Amount,942.85,942.85,correct
+raw,entry-46.png,Form ID,F286,F286,correct
+raw,entry-46.png,Item code,IT-666,,unresolved
+raw,entry-46.png,Quantity,59,59,correct
+raw,entry-46.png,Amount,961.98,961.98,correct
+raw,entry-47.png,Form ID,F287,F287,correct
+raw,entry-47.png,Item code,IT-667,,unresolved
+raw,entry-47.png,Quantity,60,,unresolved
+raw,entry-47.png,Amount,980.11,980.11,correct
+raw,entry-48.png,Form ID,F288,F288,correct
+raw,entry-48.png,Item code,IT-668,,unresolved
+raw,entry-48.png,Quantity,61,61,correct
+raw,entry-48.png,Amount,999.24,999.24,correct
+reviewed,entry-01.png,Form ID,F241,F241,correct
+reviewed,entry-01.png,Item code,IT-621,IT-621,correct
+reviewed,entry-01.png,Quantity,14,14,correct
+reviewed,entry-01.png,Amount,106.13,106.13,correct
+reviewed,entry-02.png,Form ID,F242,F242,correct
+reviewed,entry-02.png,Item code,IT-622,IT-622,correct
+reviewed,entry-02.png,Quantity,15,,unresolved
+reviewed,entry-02.png,Amount,125.26,125.26,correct
+reviewed,entry-03.png,Form ID,F243,F243,correct
+reviewed,entry-03.png,Item code,IT-623,IT-623,correct
+reviewed,entry-03.png,Quantity,16,16,correct
+reviewed,entry-03.png,Amount,144.39,144.39,correct
+reviewed,entry-04.png,Form ID,F244,F244,correct
+reviewed,entry-04.png,Item code,IT-624,,unresolved
+reviewed,entry-04.png,Quantity,17,17,correct
+reviewed,entry-04.png,Amount,163.52,163.52,correct
+reviewed,entry-05.png,Form ID,F245,F245,correct
+reviewed,entry-05.png,Item code,IT-625,IT-625,correct
+reviewed,entry-05.png,Quantity,18,18,correct
+reviewed,entry-05.png,Amount,182.65,182.65,correct
+reviewed,entry-06.png,Form ID,F246,F246,correct
+reviewed,entry-06.png,Item code,IT-626,IT-626,correct
+reviewed,entry-06.png,Quantity,19,19,correct
+reviewed,entry-06.png,Amount,201.78,201.78,correct
+reviewed,entry-07.png,Form ID,F247,F247,correct
+reviewed,entry-07.png,Item code,IT-627,,unresolved
+reviewed,entry-07.png,Quantity,20,20,correct
+reviewed,entry-07.png,Amount,220.91,220.91,correct
+reviewed,entry-08.png,Form ID,F248,F248,correct
+reviewed,entry-08.png,Item code,IT-628,IT-628,correct
+reviewed,entry-08.png,Quantity,21,21,correct
+reviewed,entry-08.png,Amount,239.04,239.04,correct
+reviewed,entry-09.png,Form ID,F249,F249,correct
+reviewed,entry-09.png,Item code,IT-629,IT-629,correct
+reviewed,entry-09.png,Quantity,22,22,correct
+reviewed,entry-09.png,Amount,258.17,258.17,correct
+reviewed,entry-10.png,Form ID,F250,F250,correct
+reviewed,entry-10.png,Item code,IT-630,,unresolved
+reviewed,entry-10.png,Quantity,23,23,correct
+reviewed,entry-10.png,Amount,277.30,277.30,correct
+reviewed,entry-11.png,Form ID,F251,F251,correct
+reviewed,entry-11.png,Item code,IT-631,IT-631,correct
+reviewed,entry-11.png,Quantity,24,,unresolved
+reviewed,entry-11.png,Amount,296.43,296.43,correct
+reviewed,entry-12.png,Form ID,F252,F252,correct
+reviewed,entry-12.png,Item code,IT-632,IT-632,correct
+reviewed,entry-12.png,Quantity,25,25,correct
+reviewed,entry-12.png,Amount,315.56,315.56,correct
+reviewed,entry-13.png,Form ID,F253,F253,correct
+reviewed,entry-13.png,Item code,IT-633,IT-633,correct
+reviewed,entry-13.png,Quantity,26,26,correct
+reviewed,entry-13.png,Amount,334.69,334.69,correct
+reviewed,entry-14.png,Form ID,F254,F254,correct
+reviewed,entry-14.png,Item code,IT-634,IT-634,correct
+reviewed,entry-14.png,Quantity,27,,unresolved
+reviewed,entry-14.png,Amount,353.82,353.82,correct
+reviewed,entry-15.png,Form ID,F255,F255,correct
+reviewed,entry-15.png,Item code,IT-635,IT-635,correct
+reviewed,entry-15.png,Quantity,28,28,correct
+reviewed,entry-15.png,Amount,372.95,372.95,correct
+reviewed,entry-16.png,Form ID,F256,F256,correct
+reviewed,entry-16.png,Item code,IT-636,,unresolved
+reviewed,entry-16.png,Quantity,29,29,correct
+reviewed,entry-16.png,Amount,391.08,391.08,correct
+reviewed,entry-17.png,Form ID,F257,F257,correct
+reviewed,entry-17.png,Item code,IT-637,IT-637,correct
+reviewed,entry-17.png,Quantity,30,30,correct
+reviewed,entry-17.png,Amount,410.21,410.21,correct
+reviewed,entry-18.png,Form ID,F258,F258,correct
+reviewed,entry-18.png,Item code,IT-638,IT-638,correct
+reviewed,entry-18.png,Quantity,31,31,correct
+reviewed,entry-18.png,Amount,429.34,429.34,correct
+reviewed,entry-19.png,Form ID,F259,F259,correct
+reviewed,entry-19.png,Item code,IT-639,,unresolved
+reviewed,entry-19.png,Quantity,32,32,correct
+reviewed,entry-19.png,Amount,448.47,448.47,correct
+reviewed,entry-20.png,Form ID,F260,F260,correct
+reviewed,entry-20.png,Item code,IT-640,IT-640,correct
+reviewed,entry-20.png,Quantity,33,33,correct
+reviewed,entry-20.png,Amount,467.60,467.60,correct
+reviewed,entry-21.png,Form ID,F261,F261,correct
+reviewed,entry-21.png,Item code,IT-641,,unresolved
+reviewed,entry-21.png,Quantity,34,34,correct
+reviewed,entry-21.png,Amount,486.73,486.73,correct
+reviewed,entry-22.png,Form ID,F262,F262,correct
+reviewed,entry-22.png,Item code,IT-642,,unresolved
+reviewed,entry-22.png,Quantity,35,35,correct
+reviewed,entry-22.png,Amount,505.86,505.86,correct
+reviewed,entry-23.png,Form ID,F263,F263,correct
+reviewed,entry-23.png,Item code,IT-643,IT-643,correct
+reviewed,entry-23.png,Quantity,36,,unresolved
+reviewed,entry-23.png,Amount,524.99,524.99,correct
+reviewed,entry-24.png,Form ID,F264,F264,correct
+reviewed,entry-24.png,Item code,IT-644,,unresolved
+reviewed,entry-24.png,Quantity,37,,unresolved
+reviewed,entry-24.png,Amount,543.12,543.12,correct
+reviewed,entry-25.png,Form ID,F265,F265,correct
+reviewed,entry-25.png,Item code,IT-645,IT-645,correct
+reviewed,entry-25.png,Quantity,38,38,correct
+reviewed,entry-25.png,Amount,562.25,562.25,correct
+reviewed,entry-26.png,Form ID,F266,F266,correct
+reviewed,entry-26.png,Item code,IT-646,,unresolved
+reviewed,entry-26.png,Quantity,39,39,correct
+reviewed,entry-26.png,Amount,581.38,581.38,correct
+reviewed,entry-27.png,Form ID,F267,F267,correct
+reviewed,entry-27.png,Item code,IT-647,,unresolved
+reviewed,entry-27.png,Quantity,40,40,correct
+reviewed,entry-27.png,Amount,600.51,600.51,correct
+reviewed,entry-28.png,Form ID,F268,F268,correct
+reviewed,entry-28.png,Item code,IT-648,,unresolved
+reviewed,entry-28.png,Quantity,41,41,correct
+reviewed,entry-28.png,Amount,619.64,619.64,correct
+reviewed,entry-29.png,Form ID,F269,F269,correct
+reviewed,entry-29.png,Item code,IT-649,,unresolved
+reviewed,entry-29.png,Quantity,42,42,correct
+reviewed,entry-29.png,Amount,638.77,638.77,correct
+reviewed,entry-30.png,Form ID,F270,F270,correct
+reviewed,entry-30.png,Item code,IT-650,IT-650,correct
+reviewed,entry-30.png,Quantity,43,43,correct
+reviewed,entry-30.png,Amount,657.90,657.90,correct
+reviewed,entry-31.png,Form ID,F271,F271,correct
+reviewed,entry-31.png,Item code,IT-651,IT-651,correct
+reviewed,entry-31.png,Quantity,44,,unresolved
+reviewed,entry-31.png,Amount,676.03,676.03,correct
+reviewed,entry-32.png,Form ID,F272,F272,correct
+reviewed,entry-32.png,Item code,IT-652,IT-652,correct
+reviewed,entry-32.png,Quantity,45,45,correct
+reviewed,entry-32.png,Amount,695.16,695.16,correct
+reviewed,entry-33.png,Form ID,F273,F273,correct
+reviewed,entry-33.png,Item code,IT-653,IT-653,correct
+reviewed,entry-33.png,Quantity,46,46,correct
+reviewed,entry-33.png,Amount,714.29,714.29,correct
+reviewed,entry-34.png,Form ID,F274,F274,correct
+reviewed,entry-34.png,Item code,IT-654,,unresolved
+reviewed,entry-34.png,Quantity,47,,unresolved
+reviewed,entry-34.png,Amount,733.42,733.42,correct
+reviewed,entry-35.png,Form ID,F275,F275,correct
+reviewed,entry-35.png,Item code,IT-655,IT-655,correct
+reviewed,entry-35.png,Quantity,48,,unresolved
+reviewed,entry-35.png,Amount,752.55,752.55,correct
+reviewed,entry-36.png,Form ID,F276,F276,correct
+reviewed,entry-36.png,Item code,IT-656,IT-656,correct
+reviewed,entry-36.png,Quantity,49,49,correct
+reviewed,entry-36.png,Amount,771.68,771.68,correct
+reviewed,entry-37.png,Form ID,F277,F277,correct
+reviewed,entry-37.png,Item code,IT-657,IT-657,correct
+reviewed,entry-37.png,Quantity,50,50,correct
+reviewed,entry-37.png,Amount,790.81,790.81,correct
+reviewed,entry-38.png,Form ID,F278,F278,correct
+reviewed,entry-38.png,Item code,IT-658,IT-658,correct
+reviewed,entry-38.png,Quantity,51,,unresolved
+reviewed,entry-38.png,Amount,809.94,809.94,correct
+reviewed,entry-39.png,Form ID,F279,F279,correct
+reviewed,entry-39.png,Item code,IT-659,,unresolved
+reviewed,entry-39.png,Quantity,52,52,correct
+reviewed,entry-39.png,Amount,828.07,828.07,correct
+reviewed,entry-40.png,Form ID,F280,F280,correct
+reviewed,entry-40.png,Item code,IT-660,,unresolved
+reviewed,entry-40.png,Quantity,53,53,correct
+reviewed,entry-40.png,Amount,847.20,847.20,correct
+reviewed,entry-41.png,Form ID,F281,F281,correct
+reviewed,entry-41.png,Item code,IT-661,,unresolved
+reviewed,entry-41.png,Quantity,54,54,correct
+reviewed,entry-41.png,Amount,866.33,866.33,correct
+reviewed,entry-42.png,Form ID,F282,F282,correct
+reviewed,entry-42.png,Item code,IT-662,,unresolved
+reviewed,entry-42.png,Quantity,55,55,correct
+reviewed,entry-42.png,Amount,885.46,885.46,correct
+reviewed,entry-43.png,Form ID,F283,F283,correct
+reviewed,entry-43.png,Item code,IT-663,IT-663,correct
+reviewed,entry-43.png,Quantity,56,56,correct
+reviewed,entry-43.png,Amount,904.59,904.59,correct
+reviewed,entry-44.png,Form ID,F284,F284,correct
+reviewed,entry-44.png,Item code,IT-664,IT-664,correct
+reviewed,entry-44.png,Quantity,57,,unresolved
+reviewed,entry-44.png,Amount,923.72,923.72,correct
+reviewed,entry-45.png,Form ID,F285,F285,correct
+reviewed,entry-45.png,Item code,IT-665,IT-665,correct
+reviewed,entry-45.png,Quantity,58,58,correct
+reviewed,entry-45.png,Amount,942.85,942.85,correct
+reviewed,entry-46.png,Form ID,F286,F286,correct
+reviewed,entry-46.png,Item code,IT-666,,unresolved
+reviewed,entry-46.png,Quantity,59,59,correct
+reviewed,entry-46.png,Amount,961.98,961.98,correct
+reviewed,entry-47.png,Form ID,F287,F287,correct
+reviewed,entry-47.png,Item code,IT-667,,unresolved
+reviewed,entry-47.png,Quantity,60,,unresolved
+reviewed,entry-47.png,Amount,980.11,980.11,correct
+reviewed,entry-48.png,Form ID,F288,F288,correct
+reviewed,entry-48.png,Item code,IT-668,,unresolved
+reviewed,entry-48.png,Quantity,61,61,correct
+reviewed,entry-48.png,Amount,999.24,999.24,correct

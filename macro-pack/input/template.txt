@@ -1,0 +1,4 @@
+Reference: {{recipient_id}}
+Dear {{display_name}},
+Your statement amount is GBP {{amount}}.
+Please keep this letter with your records.

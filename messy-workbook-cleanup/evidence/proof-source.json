@@ -1,0 +1,37 @@
+{
+  "source": "input/input.xlsx",
+  "source_sheet": "Records",
+  "source_rows": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "after": "output/customer-register.xlsx",
+  "after_sheet": "Records",
+  "after_rows": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "after_source_rows": [
+    2,
+    4,
+    6,
+    7
+  ],
+  "audit": "output/audit.csv",
+  "display": "Opening source entries and opening cleaned Records. Removed repeats and entries needing review are absent from the cleaned list.",
+  "matching_fields": [
+    "customer_id",
+    "name",
+    "date",
+    "amount"
+  ],
+  "name_comparison": {
+    "first": "  ACCOUNT   N-01 ",
+    "duplicate": "account n-01",
+    "rule": "Trim and collapse whitespace; compare names with casefold."
+  }
+}

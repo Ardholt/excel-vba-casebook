@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-11-19T07:28:34.716000+00:00",
+  "software": {
+    "python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "pytest": "7.4.4",
+    "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "operating_system": {
+    "NAME": "Ubuntu",
+    "VERSION_ID": "24.04"
+  },
+  "execution": "Linux container; Python cleanup and tests; LibreOffice headless XLSX load and export",
+  "checks": {
+    "repeat_business_result_unchanged": true,
+    "cleaned_input_no_further_changes": true,
+    "libreoffice_all_sheet_values_preserved": true,
+    "source_files_unchanged": true
+  },
+  "seconds": {
+    "cleanup": 2.269845,
+    "libreoffice": 1.4879,
+    "tests": 9.3062,
+    "full_run": 16.6932
+  },
+  "artifacts_sha256": {
+    "customer-register.xlsx": "050737784aab640c73499eddf77a83c7ce3895d40eb2507568043ed7a7c073af",
+    "calc-checked.xlsx": "e5fb307da28bb0d7262561bda451c699be59cea864a6c897510737e54a845cde",
+    "report.json": "47b8bdd59cecf1e7c4dad7cbed8922f18e301f89df9284d62a51e5387e50dc87",
+    "test-results.txt": "2c5b1b394900bf7bc13a96bc41bd576a67e6e0a235d19869cc93c6fd8bf4f777"
+  },
+  "limitations": [
+    "Docker entrypoint and hosted CI are checked separately.",
+    "Currency signs are presentation only; inputs must use one currency.",
+    "No fuzzy identity merging; rejected amounts are excluded from totals."
+  ],
+  "supporting_evidence": {
+    "runner_and_visual_checks": "build-checks.json",
+    "replacement_folders": "path-options.json",
+    "hero": "hero.json"
+  }
+}

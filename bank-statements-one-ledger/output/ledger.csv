@@ -1,0 +1,811 @@
+account,source_file,source_row,id,date,description,amount,reported_balance,calculated_balance,difference,check
+ACCT-A,layout-a.csv,2,A001,2026-10-01,Customer receipt,450.00,1450.00,1450.00,0.00,OK
+ACCT-A,layout-a.csv,3,A002,2026-10-01,Supplies,-125.50,1324.50,1324.50,0.00,OK
+ACCT-A,layout-a.csv,4,A003,2026-10-02,Monthly charge,-10.00,1314.50,1314.50,0.00,OK
+ACCT-A,layout-a.csv,5,A004,2026-10-03,Customer receipt,220.00,1534.50,1534.50,0.00,OK
+ACCT-A,layout-a.csv,6,A005,2026-10-04,Equipment,-210.00,1324.50,1324.50,0.00,OK
+ACCT-A,layout-a.csv,7,A006,2026-10-04,Rounding charge,-0.10,1324.40,1324.40,0.00,OK
+ACCT-A,layout-a.csv,8,A007,2026-10-05,Customer receipt,185.00,1509.40,1509.40,0.00,OK
+ACCT-A,layout-a.csv,9,A008,2026-10-05,Supplies,-62.00,1447.40,1447.40,0.00,OK
+ACCT-A,layout-a.csv,10,A009,2026-10-05,Bank charge,-0.10,1447.30,1447.30,0.00,OK
+ACCT-A,layout-a.csv,11,A010,2026-10-06,Customer receipt,185.37,1632.67,1632.67,0.00,OK
+ACCT-A,layout-a.csv,12,A011,2026-10-06,Supplies,-62.71,1569.96,1569.96,0.00,OK
+ACCT-A,layout-a.csv,13,A012,2026-10-06,Bank charge,-0.10,1569.86,1569.86,0.00,OK
+ACCT-A,layout-a.csv,14,A013,2026-10-07,Customer receipt,185.74,1755.60,1755.60,0.00,OK
+ACCT-A,layout-a.csv,15,A014,2026-10-07,Supplies,-63.42,1692.18,1692.18,0.00,OK
+ACCT-A,layout-a.csv,16,A015,2026-10-07,Bank charge,-0.10,1692.08,1692.08,0.00,OK
+ACCT-A,layout-a.csv,17,A016,2026-10-08,Customer receipt,186.11,1878.19,1878.19,0.00,OK
+ACCT-A,layout-a.csv,18,A017,2026-10-08,Supplies,-64.13,1814.06,1814.06,0.00,OK
+ACCT-A,layout-a.csv,19,A018,2026-10-08,Bank charge,-0.10,1813.96,1813.96,0.00,OK
+ACCT-A,layout-a.csv,20,A019,2026-10-09,Customer receipt,186.48,2000.44,2000.44,0.00,OK
+ACCT-A,layout-a.csv,21,A020,2026-10-09,Supplies,-64.84,1935.60,1935.60,0.00,OK
+ACCT-A,layout-a.csv,22,A021,2026-10-09,Bank charge,-0.10,1935.50,1935.50,0.00,OK
+ACCT-A,layout-a.csv,23,A022,2026-10-10,Customer receipt,186.85,2122.35,2122.35,0.00,OK
+ACCT-A,layout-a.csv,24,A023,2026-10-10,Supplies,-65.55,2056.80,2056.80,0.00,OK
+ACCT-A,layout-a.csv,25,A024,2026-10-10,Bank charge,-0.10,2056.70,2056.70,0.00,OK
+ACCT-A,layout-a.csv,26,A025,2026-10-11,Customer receipt,187.22,2243.92,2243.92,0.00,OK
+ACCT-A,layout-a.csv,27,A026,2026-10-11,Supplies,-66.26,2177.66,2177.66,0.00,OK
+ACCT-A,layout-a.csv,28,A027,2026-10-11,Bank charge,-0.10,2177.56,2177.56,0.00,OK
+ACCT-A,layout-a.csv,29,A028,2026-10-12,Customer receipt,187.59,2365.15,2365.15,0.00,OK
+ACCT-A,layout-a.csv,30,A029,2026-10-12,Supplies,-66.97,2298.18,2298.18,0.00,OK
+ACCT-A,layout-a.csv,31,A030,2026-10-12,Bank charge,-0.10,2298.08,2298.08,0.00,OK
+ACCT-A,layout-a.csv,32,A031,2026-10-13,Customer receipt,187.96,2486.04,2486.04,0.00,OK
+ACCT-A,layout-a.csv,33,A032,2026-10-13,Supplies,-67.68,2418.36,2418.36,0.00,OK
+ACCT-A,layout-a.csv,34,A033,2026-10-13,Bank charge,-0.10,2418.26,2418.26,0.00,OK
+ACCT-A,layout-a.csv,35,A034,2026-10-14,Customer receipt,188.33,2606.59,2606.59,0.00,OK
+ACCT-A,layout-a.csv,36,A035,2026-10-14,Supplies,-68.39,2538.20,2538.20,0.00,OK
+ACCT-A,layout-a.csv,37,A036,2026-10-14,Bank charge,-0.10,2538.10,2538.10,0.00,OK
+ACCT-A,layout-a.csv,38,A037,2026-10-15,Customer receipt,188.70,2726.80,2726.80,0.00,OK
+ACCT-A,layout-a.csv,39,A038,2026-10-15,Supplies,-69.10,2657.70,2657.70,0.00,OK
+ACCT-A,layout-a.csv,40,A039,2026-10-15,Bank charge,-0.10,2657.60,2657.60,0.00,OK
+ACCT-A,layout-a.csv,41,A040,2026-10-16,Customer receipt,189.07,2846.67,2846.67,0.00,OK
+ACCT-A,layout-a.csv,42,A041,2026-10-16,Supplies,-69.81,2776.86,2776.86,0.00,OK
+ACCT-A,layout-a.csv,43,A042,2026-10-16,Bank charge,-0.10,2776.76,2776.76,0.00,OK
+ACCT-A,layout-a.csv,44,A043,2026-10-17,Customer receipt,189.44,2966.20,2966.20,0.00,OK
+ACCT-A,layout-a.csv,45,A044,2026-10-17,Supplies,-70.52,2895.68,2895.68,0.00,OK
+ACCT-A,layout-a.csv,46,A045,2026-10-17,Bank charge,-0.10,2895.58,2895.58,0.00,OK
+ACCT-A,layout-a.csv,47,A046,2026-10-18,Customer receipt,189.81,3085.39,3085.39,0.00,OK
+ACCT-A,layout-a.csv,48,A047,2026-10-18,Supplies,-71.23,3014.16,3014.16,0.00,OK
+ACCT-A,layout-a.csv,49,A048,2026-10-18,Bank charge,-0.10,3014.06,3014.06,0.00,OK
+ACCT-A,layout-a.csv,50,A049,2026-10-19,Customer receipt,190.18,3204.24,3204.24,0.00,OK
+ACCT-A,layout-a.csv,51,A050,2026-10-19,Supplies,-71.94,3132.30,3132.30,0.00,OK
+ACCT-A,layout-a.csv,52,A051,2026-10-19,Bank charge,-0.10,3132.20,3132.20,0.00,OK
+ACCT-A,layout-a.csv,53,A052,2026-10-20,Customer receipt,190.55,3322.75,3322.75,0.00,OK
+ACCT-A,layout-a.csv,54,A053,2026-10-20,Supplies,-72.65,3250.10,3250.10,0.00,OK
+ACCT-A,layout-a.csv,55,A054,2026-10-20,Bank charge,-0.10,3250.00,3250.00,0.00,OK
+ACCT-A,layout-a.csv,56,A055,2026-10-21,Customer receipt,190.92,3440.92,3440.92,0.00,OK
+ACCT-A,layout-a.csv,57,A056,2026-10-21,Supplies,-73.36,3367.56,3367.56,0.00,OK
+ACCT-A,layout-a.csv,58,A057,2026-10-21,Bank charge,-0.10,3367.46,3367.46,0.00,OK
+ACCT-A,layout-a.csv,59,A058,2026-10-22,Customer receipt,191.29,3558.75,3558.75,0.00,OK
+ACCT-A,layout-a.csv,60,A059,2026-10-22,Supplies,-74.07,3484.68,3484.68,0.00,OK
+ACCT-A,layout-a.csv,61,A060,2026-10-22,Bank charge,-0.10,3484.58,3484.58,0.00,OK
+ACCT-A,layout-a.csv,62,A061,2026-10-23,Customer receipt,191.66,3676.24,3676.24,0.00,OK
+ACCT-A,layout-a.csv,63,A062,2026-10-23,Supplies,-74.78,3601.46,3601.46,0.00,OK
+ACCT-A,layout-a.csv,64,A063,2026-10-23,Bank charge,-0.10,3601.36,3601.36,0.00,OK
+ACCT-A,layout-a.csv,65,A064,2026-10-24,Customer receipt,192.03,3793.39,3793.39,0.00,OK
+ACCT-A,layout-a.csv,66,A065,2026-10-24,Supplies,-75.49,3717.90,3717.90,0.00,OK
+ACCT-A,layout-a.csv,67,A066,2026-10-24,Bank charge,-0.10,3717.80,3717.80,0.00,OK
+ACCT-A,layout-a.csv,68,A067,2026-10-25,Customer receipt,192.40,3910.20,3910.20,0.00,OK
+ACCT-A,layout-a.csv,69,A068,2026-10-25,Supplies,-76.20,3834.00,3834.00,0.00,OK
+ACCT-A,layout-a.csv,70,A069,2026-10-25,Bank charge,-0.10,3833.90,3833.90,0.00,OK
+ACCT-A,layout-a.csv,71,A070,2026-10-26,Customer receipt,192.77,4026.67,4026.67,0.00,OK
+ACCT-A,layout-a.csv,72,A071,2026-10-26,Supplies,-76.91,3949.76,3949.76,0.00,OK
+ACCT-A,layout-a.csv,73,A072,2026-10-26,Bank charge,-0.10,3949.66,3949.66,0.00,OK
+ACCT-A,layout-a.csv,74,A073,2026-10-27,Customer receipt,193.14,4142.80,4142.80,0.00,OK
+ACCT-A,layout-a.csv,75,A074,2026-10-27,Supplies,-77.62,4065.18,4065.18,0.00,OK
+ACCT-A,layout-a.csv,76,A075,2026-10-27,Bank charge,-0.10,4065.08,4065.08,0.00,OK
+ACCT-A,layout-a.csv,77,A076,2026-10-28,Customer receipt,193.51,4258.59,4258.59,0.00,OK
+ACCT-A,layout-a.csv,78,A077,2026-10-28,Supplies,-78.33,4180.26,4180.26,0.00,OK
+ACCT-A,layout-a.csv,79,A078,2026-10-28,Bank charge,-0.10,4180.16,4180.16,0.00,OK
+ACCT-A,layout-a.csv,80,A079,2026-10-29,Customer receipt,193.88,4374.04,4374.04,0.00,OK
+ACCT-A,layout-a.csv,81,A080,2026-10-29,Supplies,-79.04,4295.00,4295.00,0.00,OK
+ACCT-A,layout-a.csv,82,A081,2026-10-29,Bank charge,-0.10,4294.90,4294.90,0.00,OK
+ACCT-A,layout-a.csv,83,A082,2026-10-30,Customer receipt,194.25,4489.15,4489.15,0.00,OK
+ACCT-A,layout-a.csv,84,A083,2026-10-30,Supplies,-79.75,4409.40,4409.40,0.00,OK
+ACCT-A,layout-a.csv,85,A084,2026-10-30,Bank charge,-0.10,4409.30,4409.30,0.00,OK
+ACCT-A,layout-a.csv,86,A085,2026-10-31,Customer receipt,194.62,4603.92,4603.92,0.00,OK
+ACCT-A,layout-a.csv,87,A086,2026-10-31,Supplies,-80.46,4523.46,4523.46,0.00,OK
+ACCT-A,layout-a.csv,88,A087,2026-10-31,Bank charge,-0.10,4523.36,4523.36,0.00,OK
+ACCT-A,layout-a.csv,89,A088,2026-11-01,Customer receipt,194.99,4718.35,4718.35,0.00,OK
+ACCT-A,layout-a.csv,90,A089,2026-11-01,Supplies,-81.17,4637.18,4637.18,0.00,OK
+ACCT-A,layout-a.csv,91,A090,2026-11-01,Bank charge,-15.00,4622.18,4622.18,0.00,OK
+ACCT-A,layout-a.csv,92,A091,2026-11-02,Customer receipt,195.36,4817.54,4817.54,0.00,OK
+ACCT-A,layout-a.csv,93,A092,2026-11-02,Supplies,-81.88,4735.66,4735.66,0.00,OK
+ACCT-A,layout-a.csv,94,A093,2026-11-02,Bank charge,-0.10,4735.56,4735.56,0.00,OK
+ACCT-A,layout-a.csv,95,A094,2026-11-03,Customer receipt,195.73,4931.29,4931.29,0.00,OK
+ACCT-A,layout-a.csv,96,A095,2026-11-03,Supplies,-82.59,4848.70,4848.70,0.00,OK
+ACCT-A,layout-a.csv,97,A096,2026-11-03,Bank charge,-0.10,4848.60,4848.60,0.00,OK
+ACCT-A,layout-a.csv,98,A097,2026-11-04,Customer receipt,196.10,5044.70,5044.70,0.00,OK
+ACCT-A,layout-a.csv,99,A098,2026-11-04,Supplies,-83.30,4961.40,4961.40,0.00,OK
+ACCT-A,layout-a.csv,100,A099,2026-11-04,Bank charge,-0.10,4961.30,4961.30,0.00,OK
+ACCT-A,layout-a.csv,101,A100,2026-11-05,Customer receipt,196.47,5157.77,5157.77,0.00,OK
+ACCT-A,layout-a.csv,102,A101,2026-11-05,Supplies,-84.01,5073.76,5073.76,0.00,OK
+ACCT-A,layout-a.csv,103,A102,2026-11-05,Bank charge,-0.10,5073.66,5073.66,0.00,OK
+ACCT-A,layout-a.csv,104,A103,2026-11-06,Customer receipt,196.84,5270.50,5270.50,0.00,OK
+ACCT-A,layout-a.csv,105,A104,2026-11-06,Supplies,-84.72,5185.78,5185.78,0.00,OK
+ACCT-A,layout-a.csv,106,A105,2026-11-06,Bank charge,-0.10,5185.68,5185.68,0.00,OK
+ACCT-A,layout-a.csv,107,A106,2026-11-07,Customer receipt,197.21,5382.89,5382.89,0.00,OK
+ACCT-A,layout-a.csv,108,A107,2026-11-07,Supplies,-85.43,5297.46,5297.46,0.00,OK
+ACCT-A,layout-a.csv,109,A108,2026-11-07,Bank charge,-0.10,5297.36,5297.36,0.00,OK
+ACCT-A,layout-a.csv,110,A109,2026-11-08,Customer receipt,197.58,5494.94,5494.94,0.00,OK
+ACCT-A,layout-a.csv,111,A110,2026-11-08,Supplies,-86.14,5408.80,5408.80,0.00,OK
+ACCT-A,layout-a.csv,112,A111,2026-11-08,Bank charge,-0.10,5408.70,5408.70,0.00,OK
+ACCT-A,layout-a.csv,113,A112,2026-11-09,Customer receipt,197.95,5606.65,5606.65,0.00,OK
+ACCT-A,layout-a.csv,114,A113,2026-11-09,Supplies,-86.85,5519.80,5519.80,0.00,OK
+ACCT-A,layout-a.csv,115,A114,2026-11-09,Bank charge,-0.10,5519.70,5519.70,0.00,OK
+ACCT-A,layout-a.csv,116,A115,2026-11-10,Customer receipt,198.32,5718.02,5718.02,0.00,OK
+ACCT-A,layout-a.csv,117,A116,2026-11-10,Supplies,-87.56,5630.46,5630.46,0.00,OK
+ACCT-A,layout-a.csv,118,A117,2026-11-10,Bank charge,-0.10,5630.36,5630.36,0.00,OK
+ACCT-A,layout-a.csv,119,A118,2026-11-11,Customer receipt,198.69,5829.05,5829.05,0.00,OK
+ACCT-A,layout-a.csv,120,A119,2026-11-11,Supplies,-88.27,5740.78,5740.78,0.00,OK
+ACCT-A,layout-a.csv,121,A120,2026-11-11,Bank charge,-0.10,5740.68,5740.68,0.00,OK
+ACCT-A,layout-a.csv,122,A121,2026-11-12,Customer receipt,199.06,5939.74,5939.74,0.00,OK
+ACCT-A,layout-a.csv,123,A122,2026-11-12,Supplies,-88.98,5850.76,5850.76,0.00,OK
+ACCT-A,layout-a.csv,124,A123,2026-11-12,Bank charge,-0.10,5850.66,5850.66,0.00,OK
+ACCT-A,layout-a.csv,125,A124,2026-11-13,Customer receipt,199.43,6050.09,6050.09,0.00,OK
+ACCT-A,layout-a.csv,126,A125,2026-11-13,Supplies,-89.69,5960.40,5960.40,0.00,OK
+ACCT-A,layout-a.csv,127,A126,2026-11-13,Bank charge,-0.10,5960.30,5960.30,0.00,OK
+ACCT-A,layout-a.csv,128,A127,2026-11-14,Customer receipt,199.80,6160.10,6160.10,0.00,OK
+ACCT-A,layout-a.csv,129,A128,2026-11-14,Supplies,-90.40,6069.70,6069.70,0.00,OK
+ACCT-A,layout-a.csv,130,A129,2026-11-14,Bank charge,-0.10,6069.60,6069.60,0.00,OK
+ACCT-A,layout-a.csv,131,A130,2026-11-15,Customer receipt,200.17,6269.77,6269.77,0.00,OK
+ACCT-A,layout-a.csv,132,A131,2026-11-15,Supplies,-91.11,6178.66,6178.66,0.00,OK
+ACCT-A,layout-a.csv,133,A132,2026-11-15,Bank charge,-0.10,6178.56,6178.56,0.00,OK
+ACCT-A,layout-a.csv,134,A133,2026-11-16,Customer receipt,200.54,6379.10,6379.10,0.00,OK
+ACCT-A,layout-a.csv,135,A134,2026-11-16,Supplies,-91.82,6287.28,6287.28,0.00,OK
+ACCT-A,layout-a.csv,136,A135,2026-11-16,Bank charge,-0.10,6287.18,6287.18,0.00,OK
+ACCT-A,layout-a.csv,137,A136,2026-11-17,Customer receipt,200.91,6488.09,6488.09,0.00,OK
+ACCT-A,layout-a.csv,138,A137,2026-11-17,Supplies,-92.53,6395.56,6395.56,0.00,OK
+ACCT-A,layout-a.csv,139,A138,2026-11-17,Bank charge,-0.10,6395.46,6395.46,0.00,OK
+ACCT-A,layout-a.csv,140,A139,2026-11-18,Customer receipt,201.28,6596.74,6596.74,0.00,OK
+ACCT-A,layout-a.csv,141,A140,2026-11-18,Supplies,-93.24,6503.50,6503.50,0.00,OK
+ACCT-A,layout-a.csv,142,A141,2026-11-18,Bank charge,-0.10,6503.40,6503.40,0.00,OK
+ACCT-A,layout-a.csv,143,A142,2026-11-19,Customer receipt,201.65,6705.05,6705.05,0.00,OK
+ACCT-A,layout-a.csv,144,A143,2026-11-19,Supplies,-93.95,6611.10,6611.10,0.00,OK
+ACCT-A,layout-a.csv,145,A144,2026-11-19,Bank charge,-0.10,6611.00,6611.00,0.00,OK
+ACCT-A,layout-a.csv,146,A145,2026-11-20,Customer receipt,202.02,6813.02,6813.02,0.00,OK
+ACCT-A,layout-a.csv,147,A146,2026-11-20,Supplies,-94.66,6718.36,6718.36,0.00,OK
+ACCT-A,layout-a.csv,148,A147,2026-11-20,Bank charge,-0.10,6718.26,6718.26,0.00,OK
+ACCT-A,layout-a.csv,149,A148,2026-11-21,Customer receipt,202.39,6920.65,6920.65,0.00,OK
+ACCT-A,layout-a.csv,150,A149,2026-11-21,Supplies,-95.37,6825.28,6825.28,0.00,OK
+ACCT-A,layout-a.csv,151,A150,2026-11-21,Bank charge,-0.10,6825.18,6825.18,0.00,OK
+ACCT-A,layout-a.csv,152,A151,2026-11-22,Customer receipt,202.76,7027.94,7027.94,0.00,OK
+ACCT-A,layout-a.csv,153,A152,2026-11-22,Supplies,-96.08,6931.86,6931.86,0.00,OK
+ACCT-A,layout-a.csv,154,A153,2026-11-22,Bank charge,-0.10,6931.76,6931.76,0.00,OK
+ACCT-A,layout-a.csv,155,A154,2026-11-23,Customer receipt,203.13,7134.89,7134.89,0.00,OK
+ACCT-A,layout-a.csv,156,A155,2026-11-23,Supplies,-96.79,7038.10,7038.10,0.00,OK
+ACCT-A,layout-a.csv,157,A156,2026-11-23,Bank charge,-0.10,7038.00,7038.00,0.00,OK
+ACCT-A,layout-a.csv,158,A157,2026-11-24,Customer receipt,203.50,7241.50,7241.50,0.00,OK
+ACCT-A,layout-a.csv,159,A158,2026-11-24,Supplies,-97.50,7144.00,7144.00,0.00,OK
+ACCT-A,layout-a.csv,160,A159,2026-11-24,Bank charge,-0.10,7143.90,7143.90,0.00,OK
+ACCT-A,layout-a.csv,161,A160,2026-11-25,Customer receipt,203.87,7347.77,7347.77,0.00,OK
+ACCT-A,layout-a.csv,162,A161,2026-11-25,Supplies,-98.21,7249.56,7249.56,0.00,OK
+ACCT-A,layout-a.csv,163,A162,2026-11-25,Bank charge,-0.10,7249.46,7249.46,0.00,OK
+ACCT-A,layout-a.csv,164,A163,2026-11-26,Customer receipt,204.24,7453.70,7453.70,0.00,OK
+ACCT-A,layout-a.csv,165,A164,2026-11-26,Supplies,-98.92,7354.78,7354.78,0.00,OK
+ACCT-A,layout-a.csv,166,A165,2026-11-26,Bank charge,-0.10,7354.68,7354.68,0.00,OK
+ACCT-A,layout-a.csv,167,A166,2026-11-27,Customer receipt,204.61,7559.29,7559.29,0.00,OK
+ACCT-A,layout-a.csv,168,A167,2026-11-27,Supplies,-99.63,7459.66,7459.66,0.00,OK
+ACCT-A,layout-a.csv,169,A168,2026-11-27,Bank charge,-0.10,7459.56,7459.56,0.00,OK
+ACCT-A,layout-a.csv,170,A169,2026-11-28,Customer receipt,204.98,7664.54,7664.54,0.00,OK
+ACCT-A,layout-a.csv,171,A170,2026-11-28,Supplies,-100.34,7564.20,7564.20,0.00,OK
+ACCT-A,layout-a.csv,172,A171,2026-11-28,Bank charge,-0.10,7564.10,7564.10,0.00,OK
+ACCT-A,layout-a.csv,173,A172,2026-11-29,Customer receipt,205.35,7769.45,7769.45,0.00,OK
+ACCT-A,layout-a.csv,174,A173,2026-11-29,Supplies,-101.05,7668.40,7668.40,0.00,OK
+ACCT-A,layout-a.csv,175,A174,2026-11-29,Bank charge,-0.10,7668.30,7668.30,0.00,OK
+ACCT-A,layout-a.csv,176,A175,2026-11-30,Customer receipt,205.72,7874.02,7874.02,0.00,OK
+ACCT-A,layout-a.csv,177,A176,2026-11-30,Supplies,-101.76,7772.26,7772.26,0.00,OK
+ACCT-A,layout-a.csv,178,A177,2026-11-30,Bank charge,-0.10,7772.16,7772.16,0.00,OK
+ACCT-A,layout-a.csv,179,A178,2026-12-01,Customer receipt,206.09,7978.25,7978.25,0.00,OK
+ACCT-A,layout-a.csv,180,A179,2026-12-01,Supplies,-102.47,7875.78,7875.78,0.00,OK
+ACCT-A,layout-a.csv,181,A180,2026-12-01,Bank charge,-15.00,7860.78,7860.78,0.00,OK
+ACCT-A,layout-a.csv,182,A181,2026-12-02,Customer receipt,206.46,8067.24,8067.24,0.00,OK
+ACCT-A,layout-a.csv,183,A182,2026-12-02,Supplies,-103.18,7964.06,7964.06,0.00,OK
+ACCT-A,layout-a.csv,184,A183,2026-12-02,Bank charge,-0.10,7963.96,7963.96,0.00,OK
+ACCT-A,layout-a.csv,185,A184,2026-12-03,Customer receipt,206.83,8170.79,8170.79,0.00,OK
+ACCT-A,layout-a.csv,186,A185,2026-12-03,Supplies,-103.89,8066.90,8066.90,0.00,OK
+ACCT-A,layout-a.csv,187,A186,2026-12-03,Bank charge,-0.10,8066.80,8066.80,0.00,OK
+ACCT-A,layout-a.csv,188,A187,2026-12-04,Customer receipt,207.20,8274.00,8274.00,0.00,OK
+ACCT-A,layout-a.csv,189,A188,2026-12-04,Supplies,-104.60,8169.40,8169.40,0.00,OK
+ACCT-A,layout-a.csv,190,A189,2026-12-04,Bank charge,-0.10,8169.30,8169.30,0.00,OK
+ACCT-A,layout-a.csv,191,A190,2026-12-05,Customer receipt,207.57,8376.87,8376.87,0.00,OK
+ACCT-A,layout-a.csv,192,A191,2026-12-05,Supplies,-105.31,8271.56,8271.56,0.00,OK
+ACCT-A,layout-a.csv,193,A192,2026-12-05,Bank charge,-0.10,8271.46,8271.46,0.00,OK
+ACCT-A,layout-a.csv,194,A193,2026-12-06,Customer receipt,207.94,8479.40,8479.40,0.00,OK
+ACCT-A,layout-a.csv,195,A194,2026-12-06,Supplies,-106.02,8373.38,8373.38,0.00,OK
+ACCT-A,layout-a.csv,196,A195,2026-12-06,Bank charge,-0.10,8373.28,8373.28,0.00,OK
+ACCT-A,layout-a.csv,197,A196,2026-12-07,Customer receipt,208.31,8581.59,8581.59,0.00,OK
+ACCT-A,layout-a.csv,198,A197,2026-12-07,Supplies,-106.73,8474.86,8474.86,0.00,OK
+ACCT-A,layout-a.csv,199,A198,2026-12-07,Bank charge,-0.10,8474.76,8474.76,0.00,OK
+ACCT-A,layout-a.csv,200,A199,2026-12-08,Customer receipt,208.68,8683.44,8683.44,0.00,OK
+ACCT-A,layout-a.csv,201,A200,2026-12-08,Supplies,-107.44,8576.00,8576.00,0.00,OK
+ACCT-A,layout-a.csv,202,A201,2026-12-08,Bank charge,-0.10,8575.90,8575.90,0.00,OK
+ACCT-A,layout-a.csv,203,A202,2026-12-09,Customer receipt,209.05,8784.95,8784.95,0.00,OK
+ACCT-A,layout-a.csv,204,A203,2026-12-09,Supplies,-108.15,8676.80,8676.80,0.00,OK
+ACCT-A,layout-a.csv,205,A204,2026-12-09,Bank charge,-0.10,8676.70,8676.70,0.00,OK
+ACCT-A,layout-a.csv,206,A205,2026-12-10,Customer receipt,209.42,8886.12,8886.12,0.00,OK
+ACCT-A,layout-a.csv,207,A206,2026-12-10,Supplies,-108.86,8777.26,8777.26,0.00,OK
+ACCT-A,layout-a.csv,208,A207,2026-12-10,Bank charge,-0.10,8777.16,8777.16,0.00,OK
+ACCT-A,layout-a.csv,209,A208,2026-12-11,Customer receipt,209.79,8986.95,8986.95,0.00,OK
+ACCT-A,layout-a.csv,210,A209,2026-12-11,Supplies,-109.57,8877.38,8877.38,0.00,OK
+ACCT-A,layout-a.csv,211,A210,2026-12-11,Bank charge,-0.10,8877.28,8877.28,0.00,OK
+ACCT-A,layout-a.csv,212,A211,2026-12-12,Customer receipt,210.16,9087.44,9087.44,0.00,OK
+ACCT-A,layout-a.csv,213,A212,2026-12-12,Supplies,-110.28,8977.16,8977.16,0.00,OK
+ACCT-A,layout-a.csv,214,A213,2026-12-12,Bank charge,-0.10,8977.06,8977.06,0.00,OK
+ACCT-A,layout-a.csv,215,A214,2026-12-13,Customer receipt,210.53,9187.59,9187.59,0.00,OK
+ACCT-A,layout-a.csv,216,A215,2026-12-13,Supplies,-110.99,9076.60,9076.60,0.00,OK
+ACCT-A,layout-a.csv,217,A216,2026-12-13,Bank charge,-0.10,9076.50,9076.50,0.00,OK
+ACCT-A,layout-a.csv,218,A217,2026-12-14,Customer receipt,210.90,9287.40,9287.40,0.00,OK
+ACCT-A,layout-a.csv,219,A218,2026-12-14,Supplies,-111.70,9175.70,9175.70,0.00,OK
+ACCT-A,layout-a.csv,220,A219,2026-12-14,Bank charge,-0.10,9175.60,9175.60,0.00,OK
+ACCT-A,layout-a.csv,221,A220,2026-12-15,Customer receipt,211.27,9386.87,9386.87,0.00,OK
+ACCT-A,layout-a.csv,222,A221,2026-12-15,Supplies,-112.41,9274.46,9274.46,0.00,OK
+ACCT-A,layout-a.csv,223,A222,2026-12-15,Bank charge,-0.10,9274.36,9274.36,0.00,OK
+ACCT-A,layout-a.csv,224,A223,2026-12-16,Customer receipt,211.64,9486.00,9486.00,0.00,OK
+ACCT-A,layout-a.csv,225,A224,2026-12-16,Supplies,-113.12,9372.88,9372.88,0.00,OK
+ACCT-A,layout-a.csv,226,A225,2026-12-16,Bank charge,-0.10,9372.78,9372.78,0.00,OK
+ACCT-A,layout-a.csv,227,A226,2026-12-17,Customer receipt,212.01,9584.79,9584.79,0.00,OK
+ACCT-A,layout-a.csv,228,A227,2026-12-17,Supplies,-113.83,9470.96,9470.96,0.00,OK
+ACCT-A,layout-a.csv,229,A228,2026-12-17,Bank charge,-0.10,9470.86,9470.86,0.00,OK
+ACCT-A,layout-a.csv,230,A229,2026-12-18,Customer receipt,212.38,9683.24,9683.24,0.00,OK
+ACCT-A,layout-a.csv,231,A230,2026-12-18,Supplies,-114.54,9568.70,9568.70,0.00,OK
+ACCT-A,layout-a.csv,232,A231,2026-12-18,Bank charge,-0.10,9568.60,9568.60,0.00,OK
+ACCT-A,layout-a.csv,233,A232,2026-12-19,Customer receipt,212.75,9781.35,9781.35,0.00,OK
+ACCT-A,layout-a.csv,234,A233,2026-12-19,Supplies,-115.25,9666.10,9666.10,0.00,OK
+ACCT-A,layout-a.csv,235,A234,2026-12-19,Bank charge,-0.10,9666.00,9666.00,0.00,OK
+ACCT-A,layout-a.csv,236,A235,2026-12-20,Customer receipt,213.12,9879.12,9879.12,0.00,OK
+ACCT-A,layout-a.csv,237,A236,2026-12-20,Supplies,-115.96,9763.16,9763.16,0.00,OK
+ACCT-A,layout-a.csv,238,A237,2026-12-20,Bank charge,-0.10,9763.06,9763.06,0.00,OK
+ACCT-A,layout-a.csv,239,A238,2026-12-21,Customer receipt,213.49,9976.55,9976.55,0.00,OK
+ACCT-A,layout-a.csv,240,A239,2026-12-21,Supplies,-116.67,9859.88,9859.88,0.00,OK
+ACCT-A,layout-a.csv,241,A240,2026-12-21,Bank charge,-0.10,9859.78,9859.78,0.00,OK
+ACCT-A,layout-a.csv,242,A241,2026-12-22,Customer receipt,213.86,10073.64,10073.64,0.00,OK
+ACCT-A,layout-a.csv,243,A242,2026-12-22,Supplies,-117.38,9956.26,9956.26,0.00,OK
+ACCT-A,layout-a.csv,244,A243,2026-12-22,Bank charge,-0.10,9956.16,9956.16,0.00,OK
+ACCT-A,layout-a.csv,245,A244,2026-12-23,Customer receipt,214.23,10170.39,10170.39,0.00,OK
+ACCT-A,layout-a.csv,246,A245,2026-12-23,Supplies,-118.09,10052.30,10052.30,0.00,OK
+ACCT-A,layout-a.csv,247,A246,2026-12-23,Bank charge,-0.10,10052.20,10052.20,0.00,OK
+ACCT-A,layout-a.csv,248,A247,2026-12-24,Customer receipt,214.60,10266.80,10266.80,0.00,OK
+ACCT-A,layout-a.csv,249,A248,2026-12-24,Supplies,-118.80,10148.00,10148.00,0.00,OK
+ACCT-A,layout-a.csv,250,A249,2026-12-24,Bank charge,-0.10,10147.90,10147.90,0.00,OK
+ACCT-A,layout-a.csv,251,A250,2026-12-25,Customer receipt,214.97,10362.87,10362.87,0.00,OK
+ACCT-A,layout-a.csv,252,A251,2026-12-25,Supplies,-119.51,10243.36,10243.36,0.00,OK
+ACCT-A,layout-a.csv,253,A252,2026-12-25,Bank charge,-0.10,10243.26,10243.26,0.00,OK
+ACCT-A,layout-a.csv,254,A253,2026-12-26,Customer receipt,215.34,10458.60,10458.60,0.00,OK
+ACCT-A,layout-a.csv,255,A254,2026-12-26,Supplies,-120.22,10338.38,10338.38,0.00,OK
+ACCT-A,layout-a.csv,256,A255,2026-12-26,Bank charge,-0.10,10338.28,10338.28,0.00,OK
+ACCT-A,layout-a.csv,257,A256,2026-12-27,Customer receipt,215.71,10553.99,10553.99,0.00,OK
+ACCT-A,layout-a.csv,258,A257,2026-12-27,Supplies,-120.93,10433.06,10433.06,0.00,OK
+ACCT-A,layout-a.csv,259,A258,2026-12-27,Bank charge,-0.10,10432.96,10432.96,0.00,OK
+ACCT-A,layout-a.csv,260,A259,2026-12-28,Customer receipt,216.08,10649.04,10649.04,0.00,OK
+ACCT-A,layout-a.csv,261,A260,2026-12-28,Supplies,-121.64,10527.40,10527.40,0.00,OK
+ACCT-A,layout-a.csv,262,A261,2026-12-28,Bank charge,-0.10,10527.30,10527.30,0.00,OK
+ACCT-A,layout-a.csv,263,A262,2026-12-29,Customer receipt,216.45,10743.75,10743.75,0.00,OK
+ACCT-A,layout-a.csv,264,A263,2026-12-29,Supplies,-122.35,10621.40,10621.40,0.00,OK
+ACCT-A,layout-a.csv,265,A264,2026-12-29,Bank charge,-0.10,10621.30,10621.30,0.00,OK
+ACCT-A,layout-a.csv,266,A265,2026-12-30,Customer receipt,216.82,10838.12,10838.12,0.00,OK
+ACCT-A,layout-a.csv,267,A266,2026-12-30,Supplies,-123.06,10715.06,10715.06,0.00,OK
+ACCT-A,layout-a.csv,268,A267,2026-12-30,Bank charge,-0.10,10714.96,10714.96,0.00,OK
+ACCT-A,layout-a.csv,269,A268,2026-12-31,Customer receipt,217.19,10932.15,10932.15,0.00,OK
+ACCT-A,layout-a.csv,270,A269,2026-12-31,Supplies,-123.77,10808.38,10808.38,0.00,OK
+ACCT-A,layout-a.csv,271,A270,2026-12-31,Bank charge,-0.10,10808.28,10808.28,0.00,OK
+ACCT-B,layout-b.xlsx,2,B001,2026-10-01,Customer receipt,450.00,950.00,950.00,0.00,OK
+ACCT-B,layout-b.xlsx,3,B002,2026-10-01,Rent,-500.00,450.00,450.00,0.00,OK
+ACCT-B,layout-b.xlsx,4,B003,2026-10-02,Monthly charge,-10.00,440.00,440.00,0.00,OK
+ACCT-B,layout-b.xlsx,5,B004,2026-10-03,Supplier refund,25.50,465.50,465.50,0.00,OK
+ACCT-B,layout-b.xlsx,6,B005,2026-10-04,Supplies,-90.00,375.50,375.50,0.00,OK
+ACCT-B,layout-b.xlsx,7,B006,2026-10-04,Rounding charge,-0.10,375.40,375.40,0.00,OK
+ACCT-B,layout-b.xlsx,8,B007,2026-10-05,Customer receipt,185.53,560.93,560.93,0.00,OK
+ACCT-B,layout-b.xlsx,9,B008,2026-10-05,Supplies,-63.01,497.92,497.92,0.00,OK
+ACCT-B,layout-b.xlsx,10,B009,2026-10-05,Bank charge,-0.10,497.82,497.82,0.00,OK
+ACCT-B,layout-b.xlsx,11,B010,2026-10-06,Customer receipt,185.90,683.72,683.72,0.00,OK
+ACCT-B,layout-b.xlsx,12,B011,2026-10-06,Supplies,-63.72,620.00,620.00,0.00,OK
+ACCT-B,layout-b.xlsx,13,B012,2026-10-06,Bank charge,-0.10,619.90,619.90,0.00,OK
+ACCT-B,layout-b.xlsx,14,B013,2026-10-07,Customer receipt,186.27,806.17,806.17,0.00,OK
+ACCT-B,layout-b.xlsx,15,B014,2026-10-07,Supplies,-64.43,741.74,741.74,0.00,OK
+ACCT-B,layout-b.xlsx,16,B015,2026-10-07,Bank charge,-0.10,741.64,741.64,0.00,OK
+ACCT-B,layout-b.xlsx,17,B016,2026-10-08,Customer receipt,186.64,928.28,928.28,0.00,OK
+ACCT-B,layout-b.xlsx,18,B017,2026-10-08,Supplies,-65.14,863.14,863.14,0.00,OK
+ACCT-B,layout-b.xlsx,19,B018,2026-10-08,Bank charge,-0.10,863.04,863.04,0.00,OK
+ACCT-B,layout-b.xlsx,20,B019,2026-10-09,Customer receipt,187.01,1050.05,1050.05,0.00,OK
+ACCT-B,layout-b.xlsx,21,B020,2026-10-09,Supplies,-65.85,984.20,984.20,0.00,OK
+ACCT-B,layout-b.xlsx,22,B021,2026-10-09,Bank charge,-0.10,984.10,984.10,0.00,OK
+ACCT-B,layout-b.xlsx,23,B022,2026-10-10,Customer receipt,187.38,1171.48,1171.48,0.00,OK
+ACCT-B,layout-b.xlsx,24,B023,2026-10-10,Supplies,-66.56,1104.92,1104.92,0.00,OK
+ACCT-B,layout-b.xlsx,25,B024,2026-10-10,Bank charge,-0.10,1104.82,1104.82,0.00,OK
+ACCT-B,layout-b.xlsx,26,B025,2026-10-11,Customer receipt,187.75,1292.57,1292.57,0.00,OK
+ACCT-B,layout-b.xlsx,27,B026,2026-10-11,Supplies,-67.27,1225.30,1225.30,0.00,OK
+ACCT-B,layout-b.xlsx,28,B027,2026-10-11,Bank charge,-0.10,1225.20,1225.20,0.00,OK
+ACCT-B,layout-b.xlsx,29,B028,2026-10-12,Customer receipt,188.12,1413.32,1413.32,0.00,OK
+ACCT-B,layout-b.xlsx,30,B029,2026-10-12,Supplies,-67.98,1345.34,1345.34,0.00,OK
+ACCT-B,layout-b.xlsx,31,B030,2026-10-12,Bank charge,-0.10,1345.24,1345.24,0.00,OK
+ACCT-B,layout-b.xlsx,32,B031,2026-10-13,Customer receipt,188.49,1533.73,1533.73,0.00,OK
+ACCT-B,layout-b.xlsx,33,B032,2026-10-13,Supplies,-68.69,1465.04,1465.04,0.00,OK
+ACCT-B,layout-b.xlsx,34,B033,2026-10-13,Bank charge,-0.10,1464.94,1464.94,0.00,OK
+ACCT-B,layout-b.xlsx,35,B034,2026-10-14,Customer receipt,188.86,1653.80,1653.80,0.00,OK
+ACCT-B,layout-b.xlsx,36,B035,2026-10-14,Supplies,-69.40,1584.40,1584.40,0.00,OK
+ACCT-B,layout-b.xlsx,37,B036,2026-10-14,Bank charge,-0.10,1584.30,1584.30,0.00,OK
+ACCT-B,layout-b.xlsx,38,B037,2026-10-15,Customer receipt,189.23,1773.53,1773.53,0.00,OK
+ACCT-B,layout-b.xlsx,39,B038,2026-10-15,Supplies,-70.11,1703.42,1703.42,0.00,OK
+ACCT-B,layout-b.xlsx,40,B039,2026-10-15,Bank charge,-0.10,1703.32,1703.32,0.00,OK
+ACCT-B,layout-b.xlsx,41,B040,2026-10-16,Customer receipt,189.60,1892.92,1892.92,0.00,OK
+ACCT-B,layout-b.xlsx,42,B041,2026-10-16,Supplies,-70.82,1822.10,1822.10,0.00,OK
+ACCT-B,layout-b.xlsx,43,B042,2026-10-16,Bank charge,-0.10,1822.00,1822.00,0.00,OK
+ACCT-B,layout-b.xlsx,44,B043,2026-10-17,Customer receipt,189.97,2011.97,2011.97,0.00,OK
+ACCT-B,layout-b.xlsx,45,B044,2026-10-17,Supplies,-71.53,1940.44,1940.44,0.00,OK
+ACCT-B,layout-b.xlsx,46,B045,2026-10-17,Bank charge,-0.10,1940.34,1940.34,0.00,OK
+ACCT-B,layout-b.xlsx,47,B046,2026-10-18,Customer receipt,190.34,2130.68,2130.68,0.00,OK
+ACCT-B,layout-b.xlsx,48,B047,2026-10-18,Supplies,-72.24,2058.44,2058.44,0.00,OK
+ACCT-B,layout-b.xlsx,49,B048,2026-10-18,Bank charge,-0.10,2058.34,2058.34,0.00,OK
+ACCT-B,layout-b.xlsx,50,B049,2026-10-19,Customer receipt,190.71,2249.05,2249.05,0.00,OK
+ACCT-B,layout-b.xlsx,51,B050,2026-10-19,Supplies,-72.95,2176.10,2176.10,0.00,OK
+ACCT-B,layout-b.xlsx,52,B051,2026-10-19,Bank charge,-0.10,2176.00,2176.00,0.00,OK
+ACCT-B,layout-b.xlsx,53,B052,2026-10-20,Customer receipt,191.08,2367.08,2367.08,0.00,OK
+ACCT-B,layout-b.xlsx,54,B053,2026-10-20,Supplies,-73.66,2293.42,2293.42,0.00,OK
+ACCT-B,layout-b.xlsx,55,B054,2026-10-20,Bank charge,-0.10,2293.32,2293.32,0.00,OK
+ACCT-B,layout-b.xlsx,56,B055,2026-10-21,Customer receipt,191.45,2484.77,2484.77,0.00,OK
+ACCT-B,layout-b.xlsx,57,B056,2026-10-21,Supplies,-74.37,2410.40,2410.40,0.00,OK
+ACCT-B,layout-b.xlsx,58,B057,2026-10-21,Bank charge,-0.10,2410.30,2410.30,0.00,OK
+ACCT-B,layout-b.xlsx,59,B058,2026-10-22,Customer receipt,191.82,2602.12,2602.12,0.00,OK
+ACCT-B,layout-b.xlsx,60,B059,2026-10-22,Supplies,-75.08,2527.04,2527.04,0.00,OK
+ACCT-B,layout-b.xlsx,61,B060,2026-10-22,Bank charge,-0.10,2526.94,2526.94,0.00,OK
+ACCT-B,layout-b.xlsx,62,B061,2026-10-23,Customer receipt,192.19,2719.13,2719.13,0.00,OK
+ACCT-B,layout-b.xlsx,63,B062,2026-10-23,Supplies,-75.79,2643.34,2643.34,0.00,OK
+ACCT-B,layout-b.xlsx,64,B063,2026-10-23,Bank charge,-0.10,2643.24,2643.24,0.00,OK
+ACCT-B,layout-b.xlsx,65,B064,2026-10-24,Customer receipt,192.56,2835.80,2835.80,0.00,OK
+ACCT-B,layout-b.xlsx,66,B065,2026-10-24,Supplies,-76.50,2759.30,2759.30,0.00,OK
+ACCT-B,layout-b.xlsx,67,B066,2026-10-24,Bank charge,-0.10,2759.20,2759.20,0.00,OK
+ACCT-B,layout-b.xlsx,68,B067,2026-10-25,Customer receipt,192.93,2952.13,2952.13,0.00,OK
+ACCT-B,layout-b.xlsx,69,B068,2026-10-25,Supplies,-77.21,2874.92,2874.92,0.00,OK
+ACCT-B,layout-b.xlsx,70,B069,2026-10-25,Bank charge,-0.10,2874.82,2874.82,0.00,OK
+ACCT-B,layout-b.xlsx,71,B070,2026-10-26,Customer receipt,193.30,3068.12,3068.12,0.00,OK
+ACCT-B,layout-b.xlsx,72,B071,2026-10-26,Supplies,-77.92,2990.20,2990.20,0.00,OK
+ACCT-B,layout-b.xlsx,73,B072,2026-10-26,Bank charge,-0.10,2990.10,2990.10,0.00,OK
+ACCT-B,layout-b.xlsx,74,B073,2026-10-27,Customer receipt,193.67,3183.77,3183.77,0.00,OK
+ACCT-B,layout-b.xlsx,75,B074,2026-10-27,Supplies,-78.63,3105.14,3105.14,0.00,OK
+ACCT-B,layout-b.xlsx,76,B075,2026-10-27,Bank charge,-0.10,3105.04,3105.04,0.00,OK
+ACCT-B,layout-b.xlsx,77,B076,2026-10-28,Customer receipt,194.04,3299.08,3299.08,0.00,OK
+ACCT-B,layout-b.xlsx,78,B077,2026-10-28,Supplies,-79.34,3219.74,3219.74,0.00,OK
+ACCT-B,layout-b.xlsx,79,B078,2026-10-28,Bank charge,-0.10,3219.64,3219.64,0.00,OK
+ACCT-B,layout-b.xlsx,80,B079,2026-10-29,Customer receipt,194.41,3414.05,3414.05,0.00,OK
+ACCT-B,layout-b.xlsx,81,B080,2026-10-29,Supplies,-80.05,3334.00,3334.00,0.00,OK
+ACCT-B,layout-b.xlsx,82,B081,2026-10-29,Bank charge,-0.10,3333.90,3333.90,0.00,OK
+ACCT-B,layout-b.xlsx,83,B082,2026-10-30,Customer receipt,194.78,3528.68,3528.68,0.00,OK
+ACCT-B,layout-b.xlsx,84,B083,2026-10-30,Supplies,-80.76,3447.92,3447.92,0.00,OK
+ACCT-B,layout-b.xlsx,85,B084,2026-10-30,Bank charge,-0.10,3447.82,3447.82,0.00,OK
+ACCT-B,layout-b.xlsx,86,B085,2026-10-31,Customer receipt,195.15,3642.97,3642.97,0.00,OK
+ACCT-B,layout-b.xlsx,87,B086,2026-10-31,Supplies,-81.47,3561.50,3561.50,0.00,OK
+ACCT-B,layout-b.xlsx,88,B087,2026-10-31,Bank charge,-0.10,3561.40,3561.40,0.00,OK
+ACCT-B,layout-b.xlsx,89,B088,2026-11-01,Customer receipt,195.52,3756.92,3756.92,0.00,OK
+ACCT-B,layout-b.xlsx,90,B089,2026-11-01,Supplies,-82.18,3674.74,3674.74,0.00,OK
+ACCT-B,layout-b.xlsx,91,B090,2026-11-01,Bank charge,-15.00,3659.74,3659.74,0.00,OK
+ACCT-B,layout-b.xlsx,92,B091,2026-11-02,Customer receipt,195.89,3855.63,3855.63,0.00,OK
+ACCT-B,layout-b.xlsx,93,B092,2026-11-02,Supplies,-82.89,3772.74,3772.74,0.00,OK
+ACCT-B,layout-b.xlsx,94,B093,2026-11-02,Bank charge,-0.10,3772.64,3772.64,0.00,OK
+ACCT-B,layout-b.xlsx,95,B094,2026-11-03,Customer receipt,196.26,3968.90,3968.90,0.00,OK
+ACCT-B,layout-b.xlsx,96,B095,2026-11-03,Supplies,-83.60,3885.30,3885.30,0.00,OK
+ACCT-B,layout-b.xlsx,97,B096,2026-11-03,Bank charge,-0.10,3885.20,3885.20,0.00,OK
+ACCT-B,layout-b.xlsx,98,B097,2026-11-04,Customer receipt,196.63,4081.83,4081.83,0.00,OK
+ACCT-B,layout-b.xlsx,99,B098,2026-11-04,Supplies,-84.31,3997.52,3997.52,0.00,OK
+ACCT-B,layout-b.xlsx,100,B099,2026-11-04,Bank charge,-0.10,3997.42,3997.42,0.00,OK
+ACCT-B,layout-b.xlsx,101,B100,2026-11-05,Customer receipt,197.00,4194.42,4194.42,0.00,OK
+ACCT-B,layout-b.xlsx,102,B101,2026-11-05,Supplies,-85.02,4109.40,4109.40,0.00,OK
+ACCT-B,layout-b.xlsx,103,B102,2026-11-05,Bank charge,-0.10,4109.30,4109.30,0.00,OK
+ACCT-B,layout-b.xlsx,104,B103,2026-11-06,Customer receipt,197.37,4306.67,4306.67,0.00,OK
+ACCT-B,layout-b.xlsx,105,B104,2026-11-06,Supplies,-85.73,4220.94,4220.94,0.00,OK
+ACCT-B,layout-b.xlsx,106,B105,2026-11-06,Bank charge,-0.10,4220.84,4220.84,0.00,OK
+ACCT-B,layout-b.xlsx,107,B106,2026-11-07,Customer receipt,197.74,4418.58,4418.58,0.00,OK
+ACCT-B,layout-b.xlsx,108,B107,2026-11-07,Supplies,-86.44,4332.14,4332.14,0.00,OK
+ACCT-B,layout-b.xlsx,109,B108,2026-11-07,Bank charge,-0.10,4332.04,4332.04,0.00,OK
+ACCT-B,layout-b.xlsx,110,B109,2026-11-08,Customer receipt,198.11,4530.15,4530.15,0.00,OK
+ACCT-B,layout-b.xlsx,111,B110,2026-11-08,Supplies,-87.15,4443.00,4443.00,0.00,OK
+ACCT-B,layout-b.xlsx,112,B111,2026-11-08,Bank charge,-0.10,4442.90,4442.90,0.00,OK
+ACCT-B,layout-b.xlsx,113,B112,2026-11-09,Customer receipt,198.48,4641.38,4641.38,0.00,OK
+ACCT-B,layout-b.xlsx,114,B113,2026-11-09,Supplies,-87.86,4553.52,4553.52,0.00,OK
+ACCT-B,layout-b.xlsx,115,B114,2026-11-09,Bank charge,-0.10,4553.42,4553.42,0.00,OK
+ACCT-B,layout-b.xlsx,116,B115,2026-11-10,Customer receipt,198.85,4752.27,4752.27,0.00,OK
+ACCT-B,layout-b.xlsx,117,B116,2026-11-10,Supplies,-88.57,4663.70,4663.70,0.00,OK
+ACCT-B,layout-b.xlsx,118,B117,2026-11-10,Bank charge,-0.10,4663.60,4663.60,0.00,OK
+ACCT-B,layout-b.xlsx,119,B118,2026-11-11,Customer receipt,199.22,4862.82,4862.82,0.00,OK
+ACCT-B,layout-b.xlsx,120,B119,2026-11-11,Supplies,-89.28,4773.54,4773.54,0.00,OK
+ACCT-B,layout-b.xlsx,121,B120,2026-11-11,Bank charge,-0.10,4773.44,4773.44,0.00,OK
+ACCT-B,layout-b.xlsx,122,B121,2026-11-12,Customer receipt,199.59,4973.03,4973.03,0.00,OK
+ACCT-B,layout-b.xlsx,123,B122,2026-11-12,Supplies,-89.99,4883.04,4883.04,0.00,OK
+ACCT-B,layout-b.xlsx,124,B123,2026-11-12,Bank charge,-0.10,4882.94,4882.94,0.00,OK
+ACCT-B,layout-b.xlsx,125,B124,2026-11-13,Customer receipt,199.96,5082.90,5082.90,0.00,OK
+ACCT-B,layout-b.xlsx,126,B125,2026-11-13,Supplies,-90.70,4992.20,4992.20,0.00,OK
+ACCT-B,layout-b.xlsx,127,B126,2026-11-13,Bank charge,-0.10,4992.10,4992.10,0.00,OK
+ACCT-B,layout-b.xlsx,128,B127,2026-11-14,Customer receipt,200.33,5192.43,5192.43,0.00,OK
+ACCT-B,layout-b.xlsx,129,B128,2026-11-14,Supplies,-91.41,5101.02,5101.02,0.00,OK
+ACCT-B,layout-b.xlsx,130,B129,2026-11-14,Bank charge,-0.10,5100.92,5100.92,0.00,OK
+ACCT-B,layout-b.xlsx,131,B130,2026-11-15,Customer receipt,200.70,5301.62,5301.62,0.00,OK
+ACCT-B,layout-b.xlsx,132,B131,2026-11-15,Supplies,-92.12,5209.50,5209.50,0.00,OK
+ACCT-B,layout-b.xlsx,133,B132,2026-11-15,Bank charge,-0.10,5209.40,5209.40,0.00,OK
+ACCT-B,layout-b.xlsx,134,B133,2026-11-16,Customer receipt,201.07,5410.47,5410.47,0.00,OK
+ACCT-B,layout-b.xlsx,135,B134,2026-11-16,Supplies,-92.83,5317.64,5317.64,0.00,OK
+ACCT-B,layout-b.xlsx,136,B135,2026-11-16,Bank charge,-0.10,5317.54,5317.54,0.00,OK
+ACCT-B,layout-b.xlsx,137,B136,2026-11-17,Customer receipt,201.44,5518.98,5518.98,0.00,OK
+ACCT-B,layout-b.xlsx,138,B137,2026-11-17,Supplies,-93.54,5425.44,5425.44,0.00,OK
+ACCT-B,layout-b.xlsx,139,B138,2026-11-17,Bank charge,-0.10,5425.34,5425.34,0.00,OK
+ACCT-B,layout-b.xlsx,140,B139,2026-11-18,Customer receipt,201.81,5627.15,5627.15,0.00,OK
+ACCT-B,layout-b.xlsx,141,B140,2026-11-18,Supplies,-94.25,5532.90,5532.90,0.00,OK
+ACCT-B,layout-b.xlsx,142,B141,2026-11-18,Bank charge,-0.10,5532.80,5532.80,0.00,OK
+ACCT-B,layout-b.xlsx,143,B142,2026-11-19,Customer receipt,202.18,5734.98,5734.98,0.00,OK
+ACCT-B,layout-b.xlsx,144,B143,2026-11-19,Supplies,-94.96,5640.02,5640.02,0.00,OK
+ACCT-B,layout-b.xlsx,145,B144,2026-11-19,Bank charge,-0.10,5639.92,5639.92,0.00,OK
+ACCT-B,layout-b.xlsx,146,B145,2026-11-20,Customer receipt,202.55,5842.47,5842.47,0.00,OK
+ACCT-B,layout-b.xlsx,147,B146,2026-11-20,Supplies,-95.67,5746.80,5746.80,0.00,OK
+ACCT-B,layout-b.xlsx,148,B147,2026-11-20,Bank charge,-0.10,5746.70,5746.70,0.00,OK
+ACCT-B,layout-b.xlsx,149,B148,2026-11-21,Customer receipt,202.92,5949.62,5949.62,0.00,OK
+ACCT-B,layout-b.xlsx,150,B149,2026-11-21,Supplies,-96.38,5853.24,5853.24,0.00,OK
+ACCT-B,layout-b.xlsx,151,B150,2026-11-21,Bank charge,-0.10,5853.14,5853.14,0.00,OK
+ACCT-B,layout-b.xlsx,152,B151,2026-11-22,Customer receipt,203.29,6056.43,6056.43,0.00,OK
+ACCT-B,layout-b.xlsx,153,B152,2026-11-22,Supplies,-97.09,5959.34,5959.34,0.00,OK
+ACCT-B,layout-b.xlsx,154,B153,2026-11-22,Bank charge,-0.10,5959.24,5959.24,0.00,OK
+ACCT-B,layout-b.xlsx,155,B154,2026-11-23,Customer receipt,203.66,6162.90,6162.90,0.00,OK
+ACCT-B,layout-b.xlsx,156,B155,2026-11-23,Supplies,-97.80,6065.10,6065.10,0.00,OK
+ACCT-B,layout-b.xlsx,157,B156,2026-11-23,Bank charge,-0.10,6065.00,6065.00,0.00,OK
+ACCT-B,layout-b.xlsx,158,B157,2026-11-24,Customer receipt,204.03,6269.03,6269.03,0.00,OK
+ACCT-B,layout-b.xlsx,159,B158,2026-11-24,Supplies,-98.51,6170.52,6170.52,0.00,OK
+ACCT-B,layout-b.xlsx,160,B159,2026-11-24,Bank charge,-0.10,6170.42,6170.42,0.00,OK
+ACCT-B,layout-b.xlsx,161,B160,2026-11-25,Customer receipt,204.40,6374.82,6374.82,0.00,OK
+ACCT-B,layout-b.xlsx,162,B161,2026-11-25,Supplies,-99.22,6275.60,6275.60,0.00,OK
+ACCT-B,layout-b.xlsx,163,B162,2026-11-25,Bank charge,-0.10,6275.50,6275.50,0.00,OK
+ACCT-B,layout-b.xlsx,164,B163,2026-11-26,Customer receipt,204.77,6480.27,6480.27,0.00,OK
+ACCT-B,layout-b.xlsx,165,B164,2026-11-26,Supplies,-99.93,6380.34,6380.34,0.00,OK
+ACCT-B,layout-b.xlsx,166,B165,2026-11-26,Bank charge,-0.10,6380.24,6380.24,0.00,OK
+ACCT-B,layout-b.xlsx,167,B166,2026-11-27,Customer receipt,205.14,6585.38,6585.38,0.00,OK
+ACCT-B,layout-b.xlsx,168,B167,2026-11-27,Supplies,-100.64,6484.74,6484.74,0.00,OK
+ACCT-B,layout-b.xlsx,169,B168,2026-11-27,Bank charge,-0.10,6484.64,6484.64,0.00,OK
+ACCT-B,layout-b.xlsx,170,B169,2026-11-28,Customer receipt,205.51,6690.15,6690.15,0.00,OK
+ACCT-B,layout-b.xlsx,171,B170,2026-11-28,Supplies,-101.35,6588.80,6588.80,0.00,OK
+ACCT-B,layout-b.xlsx,172,B171,2026-11-28,Bank charge,-0.10,6588.70,6588.70,0.00,OK
+ACCT-B,layout-b.xlsx,173,B172,2026-11-29,Customer receipt,205.88,6794.58,6794.58,0.00,OK
+ACCT-B,layout-b.xlsx,174,B173,2026-11-29,Supplies,-102.06,6692.52,6692.52,0.00,OK
+ACCT-B,layout-b.xlsx,175,B174,2026-11-29,Bank charge,-0.10,6692.42,6692.42,0.00,OK
+ACCT-B,layout-b.xlsx,176,B175,2026-11-30,Customer receipt,206.25,6898.67,6898.67,0.00,OK
+ACCT-B,layout-b.xlsx,177,B176,2026-11-30,Supplies,-102.77,6795.90,6795.90,0.00,OK
+ACCT-B,layout-b.xlsx,178,B177,2026-11-30,Bank charge,-0.10,6795.80,6795.80,0.00,OK
+ACCT-B,layout-b.xlsx,179,B178,2026-12-01,Customer receipt,206.62,7002.42,7002.42,0.00,OK
+ACCT-B,layout-b.xlsx,180,B179,2026-12-01,Supplies,-103.48,6898.94,6898.94,0.00,OK
+ACCT-B,layout-b.xlsx,181,B180,2026-12-01,Bank charge,-15.00,6883.94,6883.94,0.00,OK
+ACCT-B,layout-b.xlsx,182,B181,2026-12-02,Customer receipt,206.99,7090.93,7090.93,0.00,OK
+ACCT-B,layout-b.xlsx,183,B182,2026-12-02,Supplies,-104.19,6986.74,6986.74,0.00,OK
+ACCT-B,layout-b.xlsx,184,B183,2026-12-02,Bank charge,-0.10,6986.64,6986.64,0.00,OK
+ACCT-B,layout-b.xlsx,185,B184,2026-12-03,Customer receipt,207.36,7194.00,7194.00,0.00,OK
+ACCT-B,layout-b.xlsx,186,B185,2026-12-03,Supplies,-104.90,7089.10,7089.10,0.00,OK
+ACCT-B,layout-b.xlsx,187,B186,2026-12-03,Bank charge,-0.10,7089.00,7089.00,0.00,OK
+ACCT-B,layout-b.xlsx,188,B187,2026-12-04,Customer receipt,207.73,7296.73,7296.73,0.00,OK
+ACCT-B,layout-b.xlsx,189,B188,2026-12-04,Supplies,-105.61,7191.12,7191.12,0.00,OK
+ACCT-B,layout-b.xlsx,190,B189,2026-12-04,Bank charge,-0.10,7191.02,7191.02,0.00,OK
+ACCT-B,layout-b.xlsx,191,B190,2026-12-05,Customer receipt,208.10,7399.12,7399.12,0.00,OK
+ACCT-B,layout-b.xlsx,192,B191,2026-12-05,Supplies,-106.32,7292.80,7292.80,0.00,OK
+ACCT-B,layout-b.xlsx,193,B192,2026-12-05,Bank charge,-0.10,7292.70,7292.70,0.00,OK
+ACCT-B,layout-b.xlsx,194,B193,2026-12-06,Customer receipt,208.47,7501.17,7501.17,0.00,OK
+ACCT-B,layout-b.xlsx,195,B194,2026-12-06,Supplies,-107.03,7394.14,7394.14,0.00,OK
+ACCT-B,layout-b.xlsx,196,B195,2026-12-06,Bank charge,-0.10,7394.04,7394.04,0.00,OK
+ACCT-B,layout-b.xlsx,197,B196,2026-12-07,Customer receipt,208.84,7602.88,7602.88,0.00,OK
+ACCT-B,layout-b.xlsx,198,B197,2026-12-07,Supplies,-107.74,7495.14,7495.14,0.00,OK
+ACCT-B,layout-b.xlsx,199,B198,2026-12-07,Bank charge,-0.10,7495.04,7495.04,0.00,OK
+ACCT-B,layout-b.xlsx,200,B199,2026-12-08,Customer receipt,209.21,7704.25,7704.25,0.00,OK
+ACCT-B,layout-b.xlsx,201,B200,2026-12-08,Supplies,-108.45,7595.80,7595.80,0.00,OK
+ACCT-B,layout-b.xlsx,202,B201,2026-12-08,Bank charge,-0.10,7595.70,7595.70,0.00,OK
+ACCT-B,layout-b.xlsx,203,B202,2026-12-09,Customer receipt,209.58,7805.28,7805.28,0.00,OK
+ACCT-B,layout-b.xlsx,204,B203,2026-12-09,Supplies,-109.16,7696.12,7696.12,0.00,OK
+ACCT-B,layout-b.xlsx,205,B204,2026-12-09,Bank charge,-0.10,7696.02,7696.02,0.00,OK
+ACCT-B,layout-b.xlsx,206,B205,2026-12-10,Customer receipt,209.95,7905.97,7905.97,0.00,OK
+ACCT-B,layout-b.xlsx,207,B206,2026-12-10,Supplies,-109.87,7796.10,7796.10,0.00,OK
+ACCT-B,layout-b.xlsx,208,B207,2026-12-10,Bank charge,-0.10,7796.00,7796.00,0.00,OK
+ACCT-B,layout-b.xlsx,209,B208,2026-12-11,Customer receipt,210.32,8006.32,8006.32,0.00,OK
+ACCT-B,layout-b.xlsx,210,B209,2026-12-11,Supplies,-110.58,7895.74,7895.74,0.00,OK
+ACCT-B,layout-b.xlsx,211,B210,2026-12-11,Bank charge,-0.10,7895.64,7895.64,0.00,OK
+ACCT-B,layout-b.xlsx,212,B211,2026-12-12,Customer receipt,210.69,8106.33,8106.33,0.00,OK
+ACCT-B,layout-b.xlsx,213,B212,2026-12-12,Supplies,-111.29,7995.04,7995.04,0.00,OK
+ACCT-B,layout-b.xlsx,214,B213,2026-12-12,Bank charge,-0.10,7994.94,7994.94,0.00,OK
+ACCT-B,layout-b.xlsx,215,B214,2026-12-13,Customer receipt,211.06,8206.00,8206.00,0.00,OK
+ACCT-B,layout-b.xlsx,216,B215,2026-12-13,Supplies,-112.00,8094.00,8094.00,0.00,OK
+ACCT-B,layout-b.xlsx,217,B216,2026-12-13,Bank charge,-0.10,8093.90,8093.90,0.00,OK
+ACCT-B,layout-b.xlsx,218,B217,2026-12-14,Customer receipt,211.43,8305.33,8305.33,0.00,OK
+ACCT-B,layout-b.xlsx,219,B218,2026-12-14,Supplies,-112.71,8192.62,8192.62,0.00,OK
+ACCT-B,layout-b.xlsx,220,B219,2026-12-14,Bank charge,-0.10,8192.52,8192.52,0.00,OK
+ACCT-B,layout-b.xlsx,221,B220,2026-12-15,Customer receipt,211.80,8404.32,8404.32,0.00,OK
+ACCT-B,layout-b.xlsx,222,B221,2026-12-15,Supplies,-113.42,8290.90,8290.90,0.00,OK
+ACCT-B,layout-b.xlsx,223,B222,2026-12-15,Bank charge,-0.10,8290.80,8290.80,0.00,OK
+ACCT-B,layout-b.xlsx,224,B223,2026-12-16,Customer receipt,212.17,8502.97,8502.97,0.00,OK
+ACCT-B,layout-b.xlsx,225,B224,2026-12-16,Supplies,-114.13,8388.84,8388.84,0.00,OK
+ACCT-B,layout-b.xlsx,226,B225,2026-12-16,Bank charge,-0.10,8388.74,8388.74,0.00,OK
+ACCT-B,layout-b.xlsx,227,B226,2026-12-17,Customer receipt,212.54,8601.28,8601.28,0.00,OK
+ACCT-B,layout-b.xlsx,228,B227,2026-12-17,Supplies,-114.84,8486.44,8486.44,0.00,OK
+ACCT-B,layout-b.xlsx,229,B228,2026-12-17,Bank charge,-0.10,8486.34,8486.34,0.00,OK
+ACCT-B,layout-b.xlsx,230,B229,2026-12-18,Customer receipt,212.91,8699.25,8699.25,0.00,OK
+ACCT-B,layout-b.xlsx,231,B230,2026-12-18,Supplies,-115.55,8583.70,8583.70,0.00,OK
+ACCT-B,layout-b.xlsx,232,B231,2026-12-18,Bank charge,-0.10,8583.60,8583.60,0.00,OK
+ACCT-B,layout-b.xlsx,233,B232,2026-12-19,Customer receipt,213.28,8796.88,8796.88,0.00,OK
+ACCT-B,layout-b.xlsx,234,B233,2026-12-19,Supplies,-116.26,8680.62,8680.62,0.00,OK
+ACCT-B,layout-b.xlsx,235,B234,2026-12-19,Bank charge,-0.10,8680.52,8680.52,0.00,OK
+ACCT-B,layout-b.xlsx,236,B235,2026-12-20,Customer receipt,213.65,8894.17,8894.17,0.00,OK
+ACCT-B,layout-b.xlsx,237,B236,2026-12-20,Supplies,-116.97,8777.20,8777.20,0.00,OK
+ACCT-B,layout-b.xlsx,238,B237,2026-12-20,Bank charge,-0.10,8777.10,8777.10,0.00,OK
+ACCT-B,layout-b.xlsx,239,B238,2026-12-21,Customer receipt,214.02,8991.12,8991.12,0.00,OK
+ACCT-B,layout-b.xlsx,240,B239,2026-12-21,Supplies,-117.68,8873.44,8873.44,0.00,OK
+ACCT-B,layout-b.xlsx,241,B240,2026-12-21,Bank charge,-0.10,8873.34,8873.34,0.00,OK
+ACCT-B,layout-b.xlsx,242,B241,2026-12-22,Customer receipt,214.39,9087.73,9087.73,0.00,OK
+ACCT-B,layout-b.xlsx,243,B242,2026-12-22,Supplies,-118.39,8969.34,8969.34,0.00,OK
+ACCT-B,layout-b.xlsx,244,B243,2026-12-22,Bank charge,-0.10,8969.24,8969.24,0.00,OK
+ACCT-B,layout-b.xlsx,245,B244,2026-12-23,Customer receipt,214.76,9184.00,9184.00,0.00,OK
+ACCT-B,layout-b.xlsx,246,B245,2026-12-23,Supplies,-119.10,9064.90,9064.90,0.00,OK
+ACCT-B,layout-b.xlsx,247,B246,2026-12-23,Bank charge,-0.10,9064.80,9064.80,0.00,OK
+ACCT-B,layout-b.xlsx,248,B247,2026-12-24,Customer receipt,215.13,9279.93,9279.93,0.00,OK
+ACCT-B,layout-b.xlsx,249,B248,2026-12-24,Supplies,-119.81,9160.12,9160.12,0.00,OK
+ACCT-B,layout-b.xlsx,250,B249,2026-12-24,Bank charge,-0.10,9160.02,9160.02,0.00,OK
+ACCT-B,layout-b.xlsx,251,B250,2026-12-25,Customer receipt,215.50,9375.52,9375.52,0.00,OK
+ACCT-B,layout-b.xlsx,252,B251,2026-12-25,Supplies,-120.52,9255.00,9255.00,0.00,OK
+ACCT-B,layout-b.xlsx,253,B252,2026-12-25,Bank charge,-0.10,9254.90,9254.90,0.00,OK
+ACCT-B,layout-b.xlsx,254,B253,2026-12-26,Customer receipt,215.87,9470.77,9470.77,0.00,OK
+ACCT-B,layout-b.xlsx,255,B254,2026-12-26,Supplies,-121.23,9349.54,9349.54,0.00,OK
+ACCT-B,layout-b.xlsx,256,B255,2026-12-26,Bank charge,-0.10,9349.44,9349.44,0.00,OK
+ACCT-B,layout-b.xlsx,257,B256,2026-12-27,Customer receipt,216.24,9565.68,9565.68,0.00,OK
+ACCT-B,layout-b.xlsx,258,B257,2026-12-27,Supplies,-121.94,9443.74,9443.74,0.00,OK
+ACCT-B,layout-b.xlsx,259,B258,2026-12-27,Bank charge,-0.10,9443.64,9443.64,0.00,OK
+ACCT-B,layout-b.xlsx,260,B259,2026-12-28,Customer receipt,216.61,9660.25,9660.25,0.00,OK
+ACCT-B,layout-b.xlsx,261,B260,2026-12-28,Supplies,-122.65,9537.60,9537.60,0.00,OK
+ACCT-B,layout-b.xlsx,262,B261,2026-12-28,Bank charge,-0.10,9537.50,9537.50,0.00,OK
+ACCT-B,layout-b.xlsx,263,B262,2026-12-29,Customer receipt,216.98,9754.48,9754.48,0.00,OK
+ACCT-B,layout-b.xlsx,264,B263,2026-12-29,Supplies,-123.36,9631.12,9631.12,0.00,OK
+ACCT-B,layout-b.xlsx,265,B264,2026-12-29,Bank charge,-0.10,9631.02,9631.02,0.00,OK
+ACCT-B,layout-b.xlsx,266,B265,2026-12-30,Customer receipt,217.35,9848.37,9848.37,0.00,OK
+ACCT-B,layout-b.xlsx,267,B266,2026-12-30,Supplies,-124.07,9724.30,9724.30,0.00,OK
+ACCT-B,layout-b.xlsx,268,B267,2026-12-30,Bank charge,-0.10,9724.20,9724.20,0.00,OK
+ACCT-B,layout-b.xlsx,269,B268,2026-12-31,Customer receipt,217.72,9941.92,9941.92,0.00,OK
+ACCT-B,layout-b.xlsx,270,B269,2026-12-31,Supplies,-124.78,9817.14,9817.14,0.00,OK
+ACCT-B,layout-b.xlsx,271,B270,2026-12-31,Bank charge,-0.10,9817.04,9817.04,0.00,OK
+ACCT-C,layout-c.csv,2,C001,2026-10-01,Customer receipt,100.00,850.00,850.00,0.00,OK
+ACCT-C,layout-c.csv,3,C002,2026-10-01,Supplies,-200.00,650.00,650.00,0.00,OK
+ACCT-C,layout-c.csv,4,C003,2026-10-02,Monthly charge,-15.00,635.00,635.00,0.00,OK
+ACCT-C,layout-c.csv,5,C004,2026-10-03,Customer receipt,70.00,705.00,705.00,0.00,OK
+ACCT-C,layout-c.csv,6,C005,2026-10-04,Equipment,-200.00,505.00,505.00,0.00,OK
+ACCT-C,layout-c.csv,7,C006,2026-10-04,No-charge adjustment,0.00,505.00,505.00,0.00,OK
+ACCT-C,layout-c.csv,8,C007,2026-10-05,Customer receipt,186.06,691.06,691.06,0.00,OK
+ACCT-C,layout-c.csv,9,C008,2026-10-05,Supplies,-64.02,627.04,627.04,0.00,OK
+ACCT-C,layout-c.csv,10,C009,2026-10-05,Bank charge,-0.10,626.94,626.94,0.00,OK
+ACCT-C,layout-c.csv,11,C010,2026-10-06,Customer receipt,186.43,813.37,813.37,0.00,OK
+ACCT-C,layout-c.csv,12,C011,2026-10-06,Supplies,-64.73,748.64,748.64,0.00,OK
+ACCT-C,layout-c.csv,13,C012,2026-10-06,Bank charge,-0.10,748.54,748.54,0.00,OK
+ACCT-C,layout-c.csv,14,C013,2026-10-07,Customer receipt,186.80,935.34,935.34,0.00,OK
+ACCT-C,layout-c.csv,15,C014,2026-10-07,Supplies,-65.44,869.90,869.90,0.00,OK
+ACCT-C,layout-c.csv,16,C015,2026-10-07,Bank charge,-0.10,869.80,869.80,0.00,OK
+ACCT-C,layout-c.csv,17,C016,2026-10-08,Customer receipt,187.17,1056.97,1056.97,0.00,OK
+ACCT-C,layout-c.csv,18,C017,2026-10-08,Supplies,-66.15,990.82,990.82,0.00,OK
+ACCT-C,layout-c.csv,19,C018,2026-10-08,Bank charge,-0.10,990.72,990.72,0.00,OK
+ACCT-C,layout-c.csv,20,C019,2026-10-09,Customer receipt,187.54,1178.26,1178.26,0.00,OK
+ACCT-C,layout-c.csv,21,C020,2026-10-09,Supplies,-66.86,1111.40,1111.40,0.00,OK
+ACCT-C,layout-c.csv,22,C021,2026-10-09,Bank charge,-0.10,1111.30,1111.30,0.00,OK
+ACCT-C,layout-c.csv,23,C022,2026-10-10,Customer receipt,187.91,1299.21,1299.21,0.00,OK
+ACCT-C,layout-c.csv,24,C023,2026-10-10,Supplies,-67.57,1231.64,1231.64,0.00,OK
+ACCT-C,layout-c.csv,25,C024,2026-10-10,Bank charge,-0.10,1231.54,1231.54,0.00,OK
+ACCT-C,layout-c.csv,26,C025,2026-10-11,Customer receipt,188.28,1419.82,1419.82,0.00,OK
+ACCT-C,layout-c.csv,27,C026,2026-10-11,Supplies,-68.28,1351.54,1351.54,0.00,OK
+ACCT-C,layout-c.csv,28,C027,2026-10-11,Bank charge,-0.10,1351.44,1351.44,0.00,OK
+ACCT-C,layout-c.csv,29,C028,2026-10-12,Customer receipt,188.65,1540.09,1540.09,0.00,OK
+ACCT-C,layout-c.csv,30,C029,2026-10-12,Supplies,-68.99,1471.10,1471.10,0.00,OK
+ACCT-C,layout-c.csv,31,C030,2026-10-12,Bank charge,-0.10,1471.00,1471.00,0.00,OK
+ACCT-C,layout-c.csv,32,C031,2026-10-13,Customer receipt,189.02,1660.02,1660.02,0.00,OK
+ACCT-C,layout-c.csv,33,C032,2026-10-13,Supplies,-69.70,1590.32,1590.32,0.00,OK
+ACCT-C,layout-c.csv,34,C033,2026-10-13,Bank charge,-0.10,1590.22,1590.22,0.00,OK
+ACCT-C,layout-c.csv,35,C034,2026-10-14,Customer receipt,189.39,1779.61,1779.61,0.00,OK
+ACCT-C,layout-c.csv,36,C035,2026-10-14,Supplies,-70.41,1709.20,1709.20,0.00,OK
+ACCT-C,layout-c.csv,37,C036,2026-10-14,Bank charge,-0.10,1709.10,1709.10,0.00,OK
+ACCT-C,layout-c.csv,38,C037,2026-10-15,Customer receipt,189.76,1898.86,1898.86,0.00,OK
+ACCT-C,layout-c.csv,39,C038,2026-10-15,Supplies,-71.12,1827.74,1827.74,0.00,OK
+ACCT-C,layout-c.csv,40,C039,2026-10-15,Bank charge,-0.10,1827.64,1827.64,0.00,OK
+ACCT-C,layout-c.csv,41,C040,2026-10-16,Customer receipt,190.13,2017.77,2017.77,0.00,OK
+ACCT-C,layout-c.csv,42,C041,2026-10-16,Supplies,-71.83,1945.94,1945.94,0.00,OK
+ACCT-C,layout-c.csv,43,C042,2026-10-16,Bank charge,-0.10,1945.84,1945.84,0.00,OK
+ACCT-C,layout-c.csv,44,C043,2026-10-17,Customer receipt,190.50,2136.34,2136.34,0.00,OK
+ACCT-C,layout-c.csv,45,C044,2026-10-17,Supplies,-72.54,2063.80,2063.80,0.00,OK
+ACCT-C,layout-c.csv,46,C045,2026-10-17,Bank charge,-0.10,2063.70,2063.70,0.00,OK
+ACCT-C,layout-c.csv,47,C046,2026-10-18,Customer receipt,190.87,2254.57,2254.57,0.00,OK
+ACCT-C,layout-c.csv,48,C047,2026-10-18,Supplies,-73.25,2181.32,2181.32,0.00,OK
+ACCT-C,layout-c.csv,49,C048,2026-10-18,Bank charge,-0.10,2181.22,2181.22,0.00,OK
+ACCT-C,layout-c.csv,50,C049,2026-10-19,Customer receipt,191.24,2372.46,2372.46,0.00,OK
+ACCT-C,layout-c.csv,51,C050,2026-10-19,Supplies,-73.96,2298.50,2298.50,0.00,OK
+ACCT-C,layout-c.csv,52,C051,2026-10-19,Bank charge,-0.10,2298.40,2298.40,0.00,OK
+ACCT-C,layout-c.csv,53,C052,2026-10-20,Customer receipt,191.61,2490.01,2490.01,0.00,OK
+ACCT-C,layout-c.csv,54,C053,2026-10-20,Supplies,-74.67,2415.34,2415.34,0.00,OK
+ACCT-C,layout-c.csv,55,C054,2026-10-20,Bank charge,-0.10,2415.24,2415.24,0.00,OK
+ACCT-C,layout-c.csv,56,C055,2026-10-21,Customer receipt,191.98,2607.22,2607.22,0.00,OK
+ACCT-C,layout-c.csv,57,C056,2026-10-21,Supplies,-75.38,2531.84,2531.84,0.00,OK
+ACCT-C,layout-c.csv,58,C057,2026-10-21,Bank charge,-0.10,2531.74,2531.74,0.00,OK
+ACCT-C,layout-c.csv,59,C058,2026-10-22,Customer receipt,192.35,2724.09,2724.09,0.00,OK
+ACCT-C,layout-c.csv,60,C059,2026-10-22,Supplies,-76.09,2648.00,2648.00,0.00,OK
+ACCT-C,layout-c.csv,61,C060,2026-10-22,Bank charge,-0.10,2647.90,2647.90,0.00,OK
+ACCT-C,layout-c.csv,62,C061,2026-10-23,Customer receipt,192.72,2840.62,2840.62,0.00,OK
+ACCT-C,layout-c.csv,63,C062,2026-10-23,Supplies,-76.80,2763.82,2763.82,0.00,OK
+ACCT-C,layout-c.csv,64,C063,2026-10-23,Bank charge,-0.10,2763.72,2763.72,0.00,OK
+ACCT-C,layout-c.csv,65,C064,2026-10-24,Customer receipt,193.09,2956.81,2956.81,0.00,OK
+ACCT-C,layout-c.csv,66,C065,2026-10-24,Supplies,-77.51,2879.30,2879.30,0.00,OK
+ACCT-C,layout-c.csv,67,C066,2026-10-24,Bank charge,-0.10,2879.20,2879.20,0.00,OK
+ACCT-C,layout-c.csv,68,C067,2026-10-25,Customer receipt,193.46,3072.66,3072.66,0.00,OK
+ACCT-C,layout-c.csv,69,C068,2026-10-25,Supplies,-78.22,2994.44,2994.44,0.00,OK
+ACCT-C,layout-c.csv,70,C069,2026-10-25,Bank charge,-0.10,2994.34,2994.34,0.00,OK
+ACCT-C,layout-c.csv,71,C070,2026-10-26,Customer receipt,193.83,3188.17,3188.17,0.00,OK
+ACCT-C,layout-c.csv,72,C071,2026-10-26,Supplies,-78.93,3109.24,3109.24,0.00,OK
+ACCT-C,layout-c.csv,73,C072,2026-10-26,Bank charge,-0.10,3109.14,3109.14,0.00,OK
+ACCT-C,layout-c.csv,74,C073,2026-10-27,Customer receipt,194.20,3303.34,3303.34,0.00,OK
+ACCT-C,layout-c.csv,75,C074,2026-10-27,Supplies,-79.64,3223.70,3223.70,0.00,OK
+ACCT-C,layout-c.csv,76,C075,2026-10-27,Bank charge,-0.10,3223.60,3223.60,0.00,OK
+ACCT-C,layout-c.csv,77,C076,2026-10-28,Customer receipt,194.57,3418.17,3418.17,0.00,OK
+ACCT-C,layout-c.csv,78,C077,2026-10-28,Supplies,-80.35,3337.82,3337.82,0.00,OK
+ACCT-C,layout-c.csv,79,C078,2026-10-28,Bank charge,-0.10,3337.72,3337.72,0.00,OK
+ACCT-C,layout-c.csv,80,C079,2026-10-29,Customer receipt,194.94,3532.66,3532.66,0.00,OK
+ACCT-C,layout-c.csv,81,C080,2026-10-29,Supplies,-81.06,3451.60,3451.60,0.00,OK
+ACCT-C,layout-c.csv,82,C081,2026-10-29,Bank charge,-0.10,3451.50,3451.50,0.00,OK
+ACCT-C,layout-c.csv,83,C082,2026-10-30,Customer receipt,195.31,3646.81,3646.81,0.00,OK
+ACCT-C,layout-c.csv,84,C083,2026-10-30,Supplies,-81.77,3565.04,3565.04,0.00,OK
+ACCT-C,layout-c.csv,85,C084,2026-10-30,Bank charge,-0.10,3564.94,3564.94,0.00,OK
+ACCT-C,layout-c.csv,86,C085,2026-10-31,Customer receipt,195.68,3760.62,3760.62,0.00,OK
+ACCT-C,layout-c.csv,87,C086,2026-10-31,Supplies,-82.48,3678.14,3678.14,0.00,OK
+ACCT-C,layout-c.csv,88,C087,2026-10-31,Bank charge,-0.10,3678.04,3678.04,0.00,OK
+ACCT-C,layout-c.csv,89,C088,2026-11-01,Customer receipt,196.05,3874.09,3874.09,0.00,OK
+ACCT-C,layout-c.csv,90,C089,2026-11-01,Supplies,-83.19,3790.90,3790.90,0.00,OK
+ACCT-C,layout-c.csv,91,C090,2026-11-01,Bank charge,-15.00,3775.90,3775.90,0.00,OK
+ACCT-C,layout-c.csv,92,C091,2026-11-02,Customer receipt,196.42,3972.32,3972.32,0.00,OK
+ACCT-C,layout-c.csv,93,C092,2026-11-02,Supplies,-83.90,3888.42,3888.42,0.00,OK
+ACCT-C,layout-c.csv,94,C093,2026-11-02,Bank charge,-0.10,3888.32,3888.32,0.00,OK
+ACCT-C,layout-c.csv,95,C094,2026-11-03,Customer receipt,196.79,4085.11,4085.11,0.00,OK
+ACCT-C,layout-c.csv,96,C095,2026-11-03,Supplies,-84.61,4000.50,4000.50,0.00,OK
+ACCT-C,layout-c.csv,97,C096,2026-11-03,Bank charge,-0.10,4000.40,4000.40,0.00,OK
+ACCT-C,layout-c.csv,98,C097,2026-11-04,Customer receipt,197.16,4197.56,4197.56,0.00,OK
+ACCT-C,layout-c.csv,99,C098,2026-11-04,Supplies,-85.32,4112.24,4112.24,0.00,OK
+ACCT-C,layout-c.csv,100,C099,2026-11-04,Bank charge,-0.10,4112.14,4112.14,0.00,OK
+ACCT-C,layout-c.csv,101,C100,2026-11-05,Customer receipt,197.53,4309.67,4309.67,0.00,OK
+ACCT-C,layout-c.csv,102,C101,2026-11-05,Supplies,-86.03,4223.64,4223.64,0.00,OK
+ACCT-C,layout-c.csv,103,C102,2026-11-05,Bank charge,-0.10,4223.54,4223.54,0.00,OK
+ACCT-C,layout-c.csv,104,C103,2026-11-06,Customer receipt,197.90,4421.44,4421.44,0.00,OK
+ACCT-C,layout-c.csv,105,C104,2026-11-06,Supplies,-86.74,4334.70,4334.70,0.00,OK
+ACCT-C,layout-c.csv,106,C105,2026-11-06,Bank charge,-0.10,4334.60,4334.60,0.00,OK
+ACCT-C,layout-c.csv,107,C106,2026-11-07,Customer receipt,198.27,4532.87,4532.87,0.00,OK
+ACCT-C,layout-c.csv,108,C107,2026-11-07,Supplies,-87.45,4445.42,4445.42,0.00,OK
+ACCT-C,layout-c.csv,109,C108,2026-11-07,Bank charge,-0.10,4445.32,4445.32,0.00,OK
+ACCT-C,layout-c.csv,110,C109,2026-11-08,Customer receipt,198.64,4643.96,4643.96,0.00,OK
+ACCT-C,layout-c.csv,111,C110,2026-11-08,Supplies,-88.16,4555.80,4555.80,0.00,OK
+ACCT-C,layout-c.csv,112,C111,2026-11-08,Bank charge,-0.10,4555.70,4555.70,0.00,OK
+ACCT-C,layout-c.csv,113,C112,2026-11-09,Customer receipt,199.01,4754.71,4754.71,0.00,OK
+ACCT-C,layout-c.csv,114,C113,2026-11-09,Supplies,-88.87,4665.84,4665.84,0.00,OK
+ACCT-C,layout-c.csv,115,C114,2026-11-09,Bank charge,-0.10,4665.74,4665.74,0.00,OK
+ACCT-C,layout-c.csv,116,C115,2026-11-10,Customer receipt,199.38,4865.12,4865.12,0.00,OK
+ACCT-C,layout-c.csv,117,C116,2026-11-10,Supplies,-89.58,4775.54,4775.54,0.00,OK
+ACCT-C,layout-c.csv,118,C117,2026-11-10,Bank charge,-0.10,4775.44,4775.44,0.00,OK
+ACCT-C,layout-c.csv,119,C118,2026-11-11,Customer receipt,199.75,4975.19,4975.19,0.00,OK
+ACCT-C,layout-c.csv,120,C119,2026-11-11,Supplies,-90.29,4884.90,4884.90,0.00,OK
+ACCT-C,layout-c.csv,121,C120,2026-11-11,Bank charge,-0.10,4884.80,4884.80,0.00,OK
+ACCT-C,layout-c.csv,122,C121,2026-11-12,Customer receipt,200.12,5084.92,5084.92,0.00,OK
+ACCT-C,layout-c.csv,123,C122,2026-11-12,Supplies,-91.00,4993.92,4993.92,0.00,OK
+ACCT-C,layout-c.csv,124,C123,2026-11-12,Bank charge,-0.10,4993.82,4993.82,0.00,OK
+ACCT-C,layout-c.csv,125,C124,2026-11-13,Customer receipt,200.49,5194.31,5194.31,0.00,OK
+ACCT-C,layout-c.csv,126,C125,2026-11-13,Supplies,-91.71,5102.60,5102.60,0.00,OK
+ACCT-C,layout-c.csv,127,C126,2026-11-13,Bank charge,-0.10,5102.50,5102.50,0.00,OK
+ACCT-C,layout-c.csv,128,C127,2026-11-14,Customer receipt,200.86,5303.36,5303.36,0.00,OK
+ACCT-C,layout-c.csv,129,C128,2026-11-14,Supplies,-92.42,5210.94,5210.94,0.00,OK
+ACCT-C,layout-c.csv,130,C129,2026-11-14,Bank charge,-0.10,5210.84,5210.84,0.00,OK
+ACCT-C,layout-c.csv,131,C130,2026-11-15,Customer receipt,201.23,5412.07,5412.07,0.00,OK
+ACCT-C,layout-c.csv,132,C131,2026-11-15,Supplies,-93.13,5318.94,5318.94,0.00,OK
+ACCT-C,layout-c.csv,133,C132,2026-11-15,Bank charge,-0.10,5318.84,5318.84,0.00,OK
+ACCT-C,layout-c.csv,134,C133,2026-11-16,Customer receipt,201.60,5520.44,5520.44,0.00,OK
+ACCT-C,layout-c.csv,135,C134,2026-11-16,Supplies,-93.84,5426.60,5426.60,0.00,OK
+ACCT-C,layout-c.csv,136,C135,2026-11-16,Bank charge,-0.10,5426.50,5426.50,0.00,OK
+ACCT-C,layout-c.csv,137,C136,2026-11-17,Customer receipt,201.97,5628.47,5628.47,0.00,OK
+ACCT-C,layout-c.csv,138,C137,2026-11-17,Supplies,-94.55,5533.92,5533.92,0.00,OK
+ACCT-C,layout-c.csv,139,C138,2026-11-17,Bank charge,-0.10,5533.82,5533.82,0.00,OK
+ACCT-C,layout-c.csv,140,C139,2026-11-18,Customer receipt,202.34,5736.16,5736.16,0.00,OK
+ACCT-C,layout-c.csv,141,C140,2026-11-18,Supplies,-95.26,5640.90,5640.90,0.00,OK
+ACCT-C,layout-c.csv,142,C141,2026-11-18,Bank charge,-0.10,5640.80,5640.80,0.00,OK
+ACCT-C,layout-c.csv,143,C142,2026-11-19,Customer receipt,202.71,5843.51,5843.51,0.00,OK
+ACCT-C,layout-c.csv,144,C143,2026-11-19,Supplies,-95.97,5747.54,5747.54,0.00,OK
+ACCT-C,layout-c.csv,145,C144,2026-11-19,Bank charge,-0.10,5747.44,5747.44,0.00,OK
+ACCT-C,layout-c.csv,146,C145,2026-11-20,Customer receipt,203.08,5950.52,5950.52,0.00,OK
+ACCT-C,layout-c.csv,147,C146,2026-11-20,Supplies,-96.68,5853.84,5853.84,0.00,OK
+ACCT-C,layout-c.csv,148,C147,2026-11-20,Bank charge,-0.10,5853.74,5853.74,0.00,OK
+ACCT-C,layout-c.csv,149,C148,2026-11-21,Customer receipt,203.45,6057.19,6057.19,0.00,OK
+ACCT-C,layout-c.csv,150,C149,2026-11-21,Supplies,-97.39,5959.80,5959.80,0.00,OK
+ACCT-C,layout-c.csv,151,C150,2026-11-21,Bank charge,-0.10,5959.70,5959.70,0.00,OK
+ACCT-C,layout-c.csv,152,C151,2026-11-22,Customer receipt,203.82,6163.52,6163.52,0.00,OK
+ACCT-C,layout-c.csv,153,C152,2026-11-22,Supplies,-98.10,6065.42,6065.42,0.00,OK
+ACCT-C,layout-c.csv,154,C153,2026-11-22,Bank charge,-0.10,6065.32,6065.32,0.00,OK
+ACCT-C,layout-c.csv,155,C154,2026-11-23,Customer receipt,204.19,6269.51,6269.51,0.00,OK
+ACCT-C,layout-c.csv,156,C155,2026-11-23,Supplies,-98.81,6170.70,6170.70,0.00,OK
+ACCT-C,layout-c.csv,157,C156,2026-11-23,Bank charge,-0.10,6170.60,6170.60,0.00,OK
+ACCT-C,layout-c.csv,158,C157,2026-11-24,Customer receipt,204.56,6375.16,6375.16,0.00,OK
+ACCT-C,layout-c.csv,159,C158,2026-11-24,Supplies,-99.52,6275.64,6275.64,0.00,OK
+ACCT-C,layout-c.csv,160,C159,2026-11-24,Bank charge,-0.10,6275.54,6275.54,0.00,OK
+ACCT-C,layout-c.csv,161,C160,2026-11-25,Customer receipt,204.93,6480.47,6480.47,0.00,OK
+ACCT-C,layout-c.csv,162,C161,2026-11-25,Supplies,-100.23,6380.24,6380.24,0.00,OK
+ACCT-C,layout-c.csv,163,C162,2026-11-25,Bank charge,-0.10,6380.14,6380.14,0.00,OK
+ACCT-C,layout-c.csv,164,C163,2026-11-26,Customer receipt,205.30,6585.44,6585.44,0.00,OK
+ACCT-C,layout-c.csv,165,C164,2026-11-26,Supplies,-100.94,6484.50,6484.50,0.00,OK
+ACCT-C,layout-c.csv,166,C165,2026-11-26,Bank charge,-0.10,6484.40,6484.40,0.00,OK
+ACCT-C,layout-c.csv,167,C166,2026-11-27,Customer receipt,205.67,6690.07,6690.07,0.00,OK
+ACCT-C,layout-c.csv,168,C167,2026-11-27,Supplies,-101.65,6588.42,6588.42,0.00,OK
+ACCT-C,layout-c.csv,169,C168,2026-11-27,Bank charge,-0.10,6588.32,6588.32,0.00,OK
+ACCT-C,layout-c.csv,170,C169,2026-11-28,Customer receipt,206.04,6794.36,6794.36,0.00,OK
+ACCT-C,layout-c.csv,171,C170,2026-11-28,Supplies,-102.36,6692.00,6692.00,0.00,OK
+ACCT-C,layout-c.csv,172,C171,2026-11-28,Bank charge,-0.10,6691.90,6691.90,0.00,OK
+ACCT-C,layout-c.csv,173,C172,2026-11-29,Customer receipt,206.41,6898.31,6898.31,0.00,OK
+ACCT-C,layout-c.csv,174,C173,2026-11-29,Supplies,-103.07,6795.24,6795.24,0.00,OK
+ACCT-C,layout-c.csv,175,C174,2026-11-29,Bank charge,-0.10,6795.14,6795.14,0.00,OK
+ACCT-C,layout-c.csv,176,C175,2026-11-30,Customer receipt,206.78,7001.92,7001.92,0.00,OK
+ACCT-C,layout-c.csv,177,C176,2026-11-30,Supplies,-103.78,6898.14,6898.14,0.00,OK
+ACCT-C,layout-c.csv,178,C177,2026-11-30,Bank charge,-0.10,6898.04,6898.04,0.00,OK
+ACCT-C,layout-c.csv,179,C178,2026-12-01,Customer receipt,207.15,7105.19,7105.19,0.00,OK
+ACCT-C,layout-c.csv,180,C179,2026-12-01,Supplies,-104.49,7000.70,7000.70,0.00,OK
+ACCT-C,layout-c.csv,181,C180,2026-12-01,Bank charge,-15.00,6985.70,6985.70,0.00,OK
+ACCT-C,layout-c.csv,182,C181,2026-12-02,Customer receipt,207.52,7193.22,7193.22,0.00,OK
+ACCT-C,layout-c.csv,183,C182,2026-12-02,Supplies,-105.20,7088.02,7088.02,0.00,OK
+ACCT-C,layout-c.csv,184,C183,2026-12-02,Bank charge,-0.10,7087.92,7087.92,0.00,OK
+ACCT-C,layout-c.csv,185,C184,2026-12-03,Customer receipt,207.89,7295.81,7295.81,0.00,OK
+ACCT-C,layout-c.csv,186,C185,2026-12-03,Supplies,-105.91,7189.90,7189.90,0.00,OK
+ACCT-C,layout-c.csv,187,C186,2026-12-03,Bank charge,-0.10,7189.80,7189.80,0.00,OK
+ACCT-C,layout-c.csv,188,C187,2026-12-04,Customer receipt,208.26,7398.06,7398.06,0.00,OK
+ACCT-C,layout-c.csv,189,C188,2026-12-04,Supplies,-106.62,7291.44,7291.44,0.00,OK
+ACCT-C,layout-c.csv,190,C189,2026-12-04,Bank charge,-0.10,7291.34,7291.34,0.00,OK
+ACCT-C,layout-c.csv,191,C190,2026-12-05,Customer receipt,208.63,7499.97,7499.97,0.00,OK
+ACCT-C,layout-c.csv,192,C191,2026-12-05,Supplies,-107.33,7392.64,7392.64,0.00,OK
+ACCT-C,layout-c.csv,193,C192,2026-12-05,Bank charge,-0.10,7392.54,7392.54,0.00,OK
+ACCT-C,layout-c.csv,194,C193,2026-12-06,Customer receipt,209.00,7601.54,7601.54,0.00,OK
+ACCT-C,layout-c.csv,195,C194,2026-12-06,Supplies,-108.04,7493.50,7493.50,0.00,OK
+ACCT-C,layout-c.csv,196,C195,2026-12-06,Bank charge,-0.10,7493.40,7493.40,0.00,OK
+ACCT-C,layout-c.csv,197,C196,2026-12-07,Customer receipt,209.37,7702.77,7702.77,0.00,OK
+ACCT-C,layout-c.csv,198,C197,2026-12-07,Supplies,-108.75,7594.02,7594.02,0.00,OK
+ACCT-C,layout-c.csv,199,C198,2026-12-07,Bank charge,-0.10,7593.92,7593.92,0.00,OK
+ACCT-C,layout-c.csv,200,C199,2026-12-08,Customer receipt,209.74,7803.66,7803.66,0.00,OK
+ACCT-C,layout-c.csv,201,C200,2026-12-08,Supplies,-109.46,7694.20,7694.20,0.00,OK
+ACCT-C,layout-c.csv,202,C201,2026-12-08,Bank charge,-0.10,7694.10,7694.10,0.00,OK
+ACCT-C,layout-c.csv,203,C202,2026-12-09,Customer receipt,210.11,7904.21,7904.21,0.00,OK
+ACCT-C,layout-c.csv,204,C203,2026-12-09,Supplies,-110.17,7794.04,7794.04,0.00,OK
+ACCT-C,layout-c.csv,205,C204,2026-12-09,Bank charge,-0.10,7793.94,7793.94,0.00,OK
+ACCT-C,layout-c.csv,206,C205,2026-12-10,Customer receipt,210.48,8004.42,8004.42,0.00,OK
+ACCT-C,layout-c.csv,207,C206,2026-12-10,Supplies,-110.88,7893.54,7893.54,0.00,OK
+ACCT-C,layout-c.csv,208,C207,2026-12-10,Bank charge,-0.10,7893.44,7893.44,0.00,OK
+ACCT-C,layout-c.csv,209,C208,2026-12-11,Customer receipt,210.85,8104.29,8104.29,0.00,OK
+ACCT-C,layout-c.csv,210,C209,2026-12-11,Supplies,-111.59,7992.70,7992.70,0.00,OK
+ACCT-C,layout-c.csv,211,C210,2026-12-11,Bank charge,-0.10,7992.60,7992.60,0.00,OK
+ACCT-C,layout-c.csv,212,C211,2026-12-12,Customer receipt,211.22,8203.82,8203.82,0.00,OK
+ACCT-C,layout-c.csv,213,C212,2026-12-12,Supplies,-112.30,8091.52,8091.52,0.00,OK
+ACCT-C,layout-c.csv,214,C213,2026-12-12,Bank charge,-0.10,8091.42,8091.42,0.00,OK
+ACCT-C,layout-c.csv,215,C214,2026-12-13,Customer receipt,211.59,8303.01,8303.01,0.00,OK
+ACCT-C,layout-c.csv,216,C215,2026-12-13,Supplies,-113.01,8190.00,8190.00,0.00,OK
+ACCT-C,layout-c.csv,217,C216,2026-12-13,Bank charge,-0.10,8189.90,8189.90,0.00,OK
+ACCT-C,layout-c.csv,218,C217,2026-12-14,Customer receipt,211.96,8401.86,8401.86,0.00,OK
+ACCT-C,layout-c.csv,219,C218,2026-12-14,Supplies,-113.72,8288.14,8288.14,0.00,OK
+ACCT-C,layout-c.csv,220,C219,2026-12-14,Bank charge,-0.10,8288.04,8288.04,0.00,OK
+ACCT-C,layout-c.csv,221,C220,2026-12-15,Customer receipt,212.33,8500.37,8500.37,0.00,OK
+ACCT-C,layout-c.csv,222,C221,2026-12-15,Supplies,-114.43,8385.94,8385.94,0.00,OK
+ACCT-C,layout-c.csv,223,C222,2026-12-15,Bank charge,-0.10,8385.84,8385.84,0.00,OK
+ACCT-C,layout-c.csv,224,C223,2026-12-16,Customer receipt,212.70,8598.54,8598.54,0.00,OK
+ACCT-C,layout-c.csv,225,C224,2026-12-16,Supplies,-115.14,8483.40,8483.40,0.00,OK
+ACCT-C,layout-c.csv,226,C225,2026-12-16,Bank charge,-0.10,8483.30,8483.30,0.00,OK
+ACCT-C,layout-c.csv,227,C226,2026-12-17,Customer receipt,213.07,8696.37,8696.37,0.00,OK
+ACCT-C,layout-c.csv,228,C227,2026-12-17,Supplies,-115.85,8580.52,8580.52,0.00,OK
+ACCT-C,layout-c.csv,229,C228,2026-12-17,Bank charge,-0.10,8580.42,8580.42,0.00,OK
+ACCT-C,layout-c.csv,230,C229,2026-12-18,Customer receipt,213.44,8793.86,8793.86,0.00,OK
+ACCT-C,layout-c.csv,231,C230,2026-12-18,Supplies,-116.56,8677.30,8677.30,0.00,OK
+ACCT-C,layout-c.csv,232,C231,2026-12-18,Bank charge,-0.10,8677.20,8677.20,0.00,OK
+ACCT-C,layout-c.csv,233,C232,2026-12-19,Customer receipt,213.81,8891.01,8891.01,0.00,OK
+ACCT-C,layout-c.csv,234,C233,2026-12-19,Supplies,-117.27,8773.74,8773.74,0.00,OK
+ACCT-C,layout-c.csv,235,C234,2026-12-19,Bank charge,-0.10,8773.64,8773.64,0.00,OK
+ACCT-C,layout-c.csv,236,C235,2026-12-20,Customer receipt,214.18,8987.82,8987.82,0.00,OK
+ACCT-C,layout-c.csv,237,C236,2026-12-20,Supplies,-117.98,8869.84,8869.84,0.00,OK
+ACCT-C,layout-c.csv,238,C237,2026-12-20,Bank charge,-0.10,8869.74,8869.74,0.00,OK
+ACCT-C,layout-c.csv,239,C238,2026-12-21,Customer receipt,214.55,9084.29,9084.29,0.00,OK
+ACCT-C,layout-c.csv,240,C239,2026-12-21,Supplies,-118.69,8965.60,8965.60,0.00,OK
+ACCT-C,layout-c.csv,241,C240,2026-12-21,Bank charge,-0.10,8965.50,8965.50,0.00,OK
+ACCT-C,layout-c.csv,242,C241,2026-12-22,Customer receipt,214.92,9180.42,9180.42,0.00,OK
+ACCT-C,layout-c.csv,243,C242,2026-12-22,Supplies,-119.40,9061.02,9061.02,0.00,OK
+ACCT-C,layout-c.csv,244,C243,2026-12-22,Bank charge,-0.10,9060.92,9060.92,0.00,OK
+ACCT-C,layout-c.csv,245,C244,2026-12-23,Customer receipt,215.29,9276.21,9276.21,0.00,OK
+ACCT-C,layout-c.csv,246,C245,2026-12-23,Supplies,-120.11,9156.10,9156.10,0.00,OK
+ACCT-C,layout-c.csv,247,C246,2026-12-23,Bank charge,-0.10,9156.00,9156.00,0.00,OK
+ACCT-C,layout-c.csv,248,C247,2026-12-24,Customer receipt,215.66,9371.66,9371.66,0.00,OK
+ACCT-C,layout-c.csv,249,C248,2026-12-24,Supplies,-120.82,9250.84,9250.84,0.00,OK
+ACCT-C,layout-c.csv,250,C249,2026-12-24,Bank charge,-0.10,9250.74,9250.74,0.00,OK
+ACCT-C,layout-c.csv,251,C250,2026-12-25,Customer receipt,216.03,9466.77,9466.77,0.00,OK
+ACCT-C,layout-c.csv,252,C251,2026-12-25,Supplies,-121.53,9345.24,9345.24,0.00,OK
+ACCT-C,layout-c.csv,253,C252,2026-12-25,Bank charge,-0.10,9345.14,9345.14,0.00,OK
+ACCT-C,layout-c.csv,254,C253,2026-12-26,Customer receipt,216.40,9561.54,9561.54,0.00,OK
+ACCT-C,layout-c.csv,255,C254,2026-12-26,Supplies,-122.24,9439.30,9439.30,0.00,OK
+ACCT-C,layout-c.csv,256,C255,2026-12-26,Bank charge,-0.10,9439.20,9439.20,0.00,OK
+ACCT-C,layout-c.csv,257,C256,2026-12-27,Customer receipt,216.77,9655.97,9655.97,0.00,OK
+ACCT-C,layout-c.csv,258,C257,2026-12-27,Supplies,-122.95,9533.02,9533.02,0.00,OK
+ACCT-C,layout-c.csv,259,C258,2026-12-27,Bank charge,-0.10,9532.92,9532.92,0.00,OK
+ACCT-C,layout-c.csv,260,C259,2026-12-28,Customer receipt,217.14,9750.06,9750.06,0.00,OK
+ACCT-C,layout-c.csv,261,C260,2026-12-28,Supplies,-123.66,9626.40,9626.40,0.00,OK
+ACCT-C,layout-c.csv,262,C261,2026-12-28,Bank charge,-0.10,9626.30,9626.30,0.00,OK
+ACCT-C,layout-c.csv,263,C262,2026-12-29,Customer receipt,217.51,9843.81,9843.81,0.00,OK
+ACCT-C,layout-c.csv,264,C263,2026-12-29,Supplies,-124.37,9719.44,9719.44,0.00,OK
+ACCT-C,layout-c.csv,265,C264,2026-12-29,Bank charge,-0.10,9719.34,9719.34,0.00,OK
+ACCT-C,layout-c.csv,266,C265,2026-12-30,Customer receipt,217.88,9937.22,9937.22,0.00,OK
+ACCT-C,layout-c.csv,267,C266,2026-12-30,Supplies,-125.08,9812.14,9812.14,0.00,OK
+ACCT-C,layout-c.csv,268,C267,2026-12-30,Bank charge,-0.10,9812.04,9812.04,0.00,OK
+ACCT-C,layout-c.csv,269,C268,2026-12-31,Customer receipt,218.25,10030.29,10030.29,0.00,OK
+ACCT-C,layout-c.csv,270,C269,2026-12-31,Supplies,-125.79,9904.50,9904.50,0.00,OK
+ACCT-C,layout-c.csv,271,C270,2026-12-31,No-charge adjustment,0.00,9904.25,9904.50,-0.25,MISMATCH

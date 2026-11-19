@@ -1,0 +1,4 @@
+Reference: C025
+Dear Account 025,
+Your statement amount is GBP 306.25.
+Please keep this letter with your records.

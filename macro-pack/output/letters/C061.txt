@@ -1,0 +1,4 @@
+Reference: C061
+Dear Account 061,
+Your statement amount is GBP 747.25.
+Please keep this letter with your records.

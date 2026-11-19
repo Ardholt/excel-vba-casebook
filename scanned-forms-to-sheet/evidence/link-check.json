@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source": "README.md",
+  "unresolved_case_links": [],
+  "root_links": [
+    "../README.md"
+  ],
+  "remote_ci_badge": "Required live URL retained unchanged"
+}

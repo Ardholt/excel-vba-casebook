@@ -1,0 +1,4 @@
+Reference: C070
+Dear Account 070,
+Your statement amount is GBP 857.50.
+Please keep this letter with your records.

@@ -1,0 +1,21 @@
+{
+  "source_before": "images/hero-before.png",
+  "source_after": "images/hero-after.png",
+  "source_sha256": {
+    "images/hero-before.png": "fc7a4788639a60a914cab64948c0a3f77954280ad9bd09619aca9d413ff659d4",
+    "images/hero-after.png": "f049309040fa45190918362802ad3e09f67a93e088d683797a2a50e018c35553",
+    "output/report.json": "c6db9de1203ed72fea843e6ce582cf81b16af7e72624bc9748f9eb28a5424070"
+  },
+  "rendered_sha256": {
+    "media/before.png": "edc088b42e97acae19dba0182e0a84b9e94aa63104609657a350306a629e8d39",
+    "media/after.png": "82f0350c109dd28a6f0a9091271fa3a7d598dfb3cf9fa48780990434674b5a60",
+    "media/hero.png": "7a2d60706b419d9147193691603e6ec9e9e910f01006a7af1bc007b4282268da"
+  },
+  "dimensions": [
+    1200,
+    1178
+  ],
+  "method": "Shared before/after style; exact worksheet values; panels enlarged and padded below.",
+  "software": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org",
+  "runtime_seconds": 1.364687
+}

@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "runs": 2,
+  "checks": [
+    "Moved and reversed headers",
+    "Directories with spaces",
+    "Case-sensitive IDs with wildcard characters",
+    "Leading-zero ID retained",
+    "Half-up positive and negative calculations",
+    "Repeated payment IDs held",
+    "Unmatched payment retained",
+    "Same CSV bytes on second run",
+    "Input bytes unchanged",
+    "Unrelated output file retained"
+  ],
+  "expected_balances": {
+    "BILL*1": "2.00",
+    "bill*1": "-5.00",
+    "000045": "5.00"
+  },
+  "observed_balances": {
+    "BILL*1": "2.00",
+    "bill*1": "-5.00",
+    "000045": "5.00"
+  },
+  "run_seconds": [
+    2.429,
+    2.404
+  ],
+  "total_seconds": 4.84,
+  "software_record": "runtime.json",
+  "recipe": "../scripts/check_replacement.py"
+}

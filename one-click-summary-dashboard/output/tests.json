@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "exit_code": 0,
+  "passed": 24,
+  "elapsed_seconds": 2.34,
+  "command": "python3 -m pytest -q -p no:cacheprovider tests",
+  "scope": "Python reference business logic; no VBA execution"
+}

@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""Build the README's case list from cases.json."""
+import argparse
+import json
+from pathlib import Path
+import re
+
+
+def index(data):
+    lines = []
+    for case in data['cases']:
+        lines.append(f"{case['number']}. **[{case['problem']}]({case['folder']}/README.md)**  ")
+        if case.get('result'):
+            result = case['result']
+            if case.get('result_url'):
+                result = f"[{result}]({case['result_url']})"
+            lines.append(f"   {result}  ")
+        lines.append(f"   [View page]({case['pages_url']}) · " + ' · '.join(case['kinds']))
+        lines.append('')
+    return '\n'.join(lines).rstrip() + '\n'
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('manifest', type=Path)
+    parser.add_argument('--write', type=Path)
+    args = parser.parse_args()
+    markdown = index(json.loads(args.manifest.read_text()))
+    if args.write:
+        updated, count = re.subn(
+            r'(<!-- cases:start -->\n).*?(<!-- cases:end -->)',
+            lambda match: match[1] + markdown + match[2],
+            args.write.read_text(), flags=re.S)
+        if count != 1:
+            parser.error('README must contain one pair of case markers')
+        args.write.write_text(updated)
+    else:
+        print(markdown, end='')
+
+
+if __name__ == '__main__':
+    main()

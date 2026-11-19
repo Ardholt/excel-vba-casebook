@@ -1,0 +1,174 @@
+{
+  "implementation": "VBA from output/sales-dashboard.xlsm; RefreshDashboardHeadless invokes the same RefreshSalesCore as the button",
+  "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
+  "source_sha256": "3a3f0dc83426a5403e0f9d0443ff354f7de68fb2cce8f60ffde9fc4d4a47c528",
+  "workbook_sha256": "1e8ca7e67a1b0d32a434e590a13f3149eea54c51ad4e6ade8fa0ae9a0b2f842c",
+  "not_exercised": [
+    "Excel desktop execution",
+    "Shape OnAction assignment and button click",
+    "Interactive failure dialog"
+  ],
+  "excel_execution": "not_run",
+  "runs": [
+    {
+      "paid_revenue": "132141.82",
+      "paid_count": 1139,
+      "pending_amount": "12805.32",
+      "input_records": 1320,
+      "accepted_records": 1288,
+      "rejected_records": 32,
+      "paid_by_month": {
+        "2025-01": "6973.95",
+        "2025-02": "7541.38",
+        "2025-03": "8803.11",
+        "2025-04": "9868.83",
+        "2025-05": "10521.09",
+        "2025-06": "10121.77",
+        "2025-07": "11545.58",
+        "2025-08": "12651.48",
+        "2025-09": "10673.51",
+        "2025-10": "11710.97",
+        "2025-11": "14113.52",
+        "2025-12": "17616.63"
+      },
+      "paid_by_category": {
+        "Garden": "23270.70",
+        "Hardware": "21180.17",
+        "Household": "21473.76",
+        "Lighting": "19708.35",
+        "Paint": "23505.85",
+        "Tools": "23002.99"
+      },
+      "source_rows_unchanged": true,
+      "all_accepted_rows_match": true,
+      "all_audit_rows_match": true,
+      "chart_ranges": [
+        {
+          "start_row": 11,
+          "end_row": 23,
+          "start_column": 1,
+          "end_column": 2
+        },
+        {
+          "start_row": 25,
+          "end_row": 31,
+          "start_column": 1,
+          "end_column": 2
+        }
+      ],
+      "phase": "before",
+      "seconds": 7.575,
+      "saved_output": "output/vba-before.xlsx",
+      "saved_sha256": "bb9326d95e1ebb4c6ae53fef1881999168e2c17fa1a6076bf9a570c3903646e8"
+    },
+    {
+      "paid_revenue": "133102.36",
+      "paid_count": 1149,
+      "pending_amount": "13055.32",
+      "input_records": 1332,
+      "accepted_records": 1300,
+      "rejected_records": 32,
+      "paid_by_month": {
+        "2025-01": "6973.95",
+        "2025-02": "7541.38",
+        "2025-03": "8803.11",
+        "2025-04": "9868.83",
+        "2025-05": "10521.09",
+        "2025-06": "10121.77",
+        "2025-07": "11545.58",
+        "2025-08": "12651.48",
+        "2025-09": "10673.51",
+        "2025-10": "11710.97",
+        "2025-11": "14113.52",
+        "2025-12": "17616.63",
+        "2026-01": "960.54"
+      },
+      "paid_by_category": {
+        "Garden": "23358.10",
+        "Hardware": "21187.72",
+        "Household": "21492.51",
+        "Lighting": "19773.25",
+        "Paint": "23533.34",
+        "Repairs": "325.50",
+        "Tools": "23431.94"
+      },
+      "source_rows_unchanged": true,
+      "all_accepted_rows_match": true,
+      "all_audit_rows_match": true,
+      "chart_ranges": [
+        {
+          "start_row": 11,
+          "end_row": 24,
+          "start_column": 1,
+          "end_column": 2
+        },
+        {
+          "start_row": 26,
+          "end_row": 33,
+          "start_column": 1,
+          "end_column": 2
+        }
+      ],
+      "phase": "after",
+      "seconds": 7.537,
+      "saved_output": "output/vba-after.xlsx",
+      "saved_sha256": "d618c83c264f5a4e2c29ee4634f39fbd95901e671e0aa433348f9a4ac4a4c9bc"
+    },
+    {
+      "paid_revenue": "133102.36",
+      "paid_count": 1149,
+      "pending_amount": "13055.32",
+      "input_records": 1332,
+      "accepted_records": 1300,
+      "rejected_records": 32,
+      "paid_by_month": {
+        "2025-01": "6973.95",
+        "2025-02": "7541.38",
+        "2025-03": "8803.11",
+        "2025-04": "9868.83",
+        "2025-05": "10521.09",
+        "2025-06": "10121.77",
+        "2025-07": "11545.58",
+        "2025-08": "12651.48",
+        "2025-09": "10673.51",
+        "2025-10": "11710.97",
+        "2025-11": "14113.52",
+        "2025-12": "17616.63",
+        "2026-01": "960.54"
+      },
+      "paid_by_category": {
+        "Garden": "23358.10",
+        "Hardware": "21187.72",
+        "Household": "21492.51",
+        "Lighting": "19773.25",
+        "Paint": "23533.34",
+        "Repairs": "325.50",
+        "Tools": "23431.94"
+      },
+      "source_rows_unchanged": true,
+      "all_accepted_rows_match": true,
+      "all_audit_rows_match": true,
+      "chart_ranges": [
+        {
+          "start_row": 11,
+          "end_row": 24,
+          "start_column": 1,
+          "end_column": 2
+        },
+        {
+          "start_row": 26,
+          "end_row": 33,
+          "start_column": 1,
+          "end_column": 2
+        }
+      ],
+      "phase": "repeat",
+      "seconds": 7.518,
+      "saved_output": "output/vba-repeat.xlsx",
+      "saved_sha256": "095968d8ef68d3dbaa958c0d2a867d95a8493f90bfee8a09c05bfef13fe6c6c1"
+    }
+  ],
+  "imported_source_matches": true,
+  "result": "PASS",
+  "elapsed_seconds": 25.855
+}

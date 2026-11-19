@@ -1,0 +1,26 @@
+{
+  "date_order": "DMY",
+  "input_records": 550,
+  "kept_records": 472,
+  "duplicate_records": 65,
+  "rejected_records": 13,
+  "field_changes": 1085,
+  "valid_source_amount": "220259.68",
+  "kept_amount": "194075.70",
+  "duplicate_amount": "26183.98",
+  "rejected_amount_policy": "Excluded from totals; raw values and reasons retained in rejected.csv.",
+  "checks": {
+    "every_source_row_accounted_for": true,
+    "valid_amount_conserved": true,
+    "unique_source_rows": true
+  },
+  "business_result_sha256": "f560c7e5bf9b85839eb099baf34bb2b61bbe148a0355e761959a13c585cb74e6",
+  "inputs": {
+    "input.xlsx": "fc9278932497e760ab8e86d0421c101fa5d443d4c4782f0b8aa511b2f3a9b4ca",
+    "rules.json": "5409c7e870d58f101e17c5cf52601ecded6af54b044beaa02382321e331fefc3"
+  },
+  "runtime_seconds": 2.269845,
+  "software": {
+    "openpyxl": "3.1.2"
+  }
+}

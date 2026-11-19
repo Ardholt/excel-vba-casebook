@@ -1,0 +1,26 @@
+{
+  "file": "media/hero.png",
+  "source": "output/vba-after.xlsx",
+  "width": 780,
+  "height": 930,
+  "sha256": "f93d5d0c0e84ab64c2f66fc6fffd61ae40247b2ec595d5bcaa7ebf6e875a8031",
+  "source_sha256": "d618c83c264f5a4e2c29ee4634f39fbd95901e671e0aa433348f9a4ac4a4c9bc",
+  "region": "Dashboard!A11:B33",
+  "visible_months": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01"
+  ],
+  "categories": [
+    "Garden",
+    "Hardware",
+    "Household",
+    "Lighting",
+    "Paint",
+    "Repairs",
+    "Tools"
+  ],
+  "presentation": "Earlier months hidden; month heading shortened. All figures are unchanged saved VBA results.",
+  "figures": "output/report.json"
+}

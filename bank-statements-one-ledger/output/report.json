@@ -1,0 +1,80 @@
+{
+  "input_records": 810,
+  "output_records": 810,
+  "excluded_records": 0,
+  "exclusion_reasons": [],
+  "currency": "GBP",
+  "accounts": [
+    {
+      "period_start": "2026-10-01",
+      "period_end": "2026-12-31",
+      "account": "ACCT-A",
+      "source_file": "layout-a.csv",
+      "input_records": 270,
+      "ledger_records": 270,
+      "rejected_records": 0,
+      "opening_balance": "1000.00",
+      "credits": "18366.36",
+      "debits": "8558.08",
+      "net_movement": "9808.28",
+      "calculated_close": "10808.28",
+      "declared_close": "10808.28",
+      "closing_difference": "0.00",
+      "running_mismatches": 0,
+      "status": "OK"
+    },
+    {
+      "period_start": "2026-10-01",
+      "period_end": "2026-12-31",
+      "account": "ACCT-B",
+      "source_file": "layout-b.xlsx",
+      "input_records": 270,
+      "ledger_records": 270,
+      "rejected_records": 0,
+      "opening_balance": "500.00",
+      "credits": "18218.50",
+      "debits": "8901.46",
+      "net_movement": "9317.04",
+      "calculated_close": "9817.04",
+      "declared_close": "9817.04",
+      "closing_difference": "0.00",
+      "running_mismatches": 0,
+      "status": "OK"
+    },
+    {
+      "period_start": "2026-10-01",
+      "period_end": "2026-12-31",
+      "account": "ACCT-C",
+      "source_file": "layout-c.csv",
+      "input_records": 270,
+      "ledger_records": 270,
+      "rejected_records": 0,
+      "opening_balance": "750.00",
+      "credits": "17959.64",
+      "debits": "8805.14",
+      "net_movement": "9154.50",
+      "calculated_close": "9904.50",
+      "declared_close": "9904.25",
+      "closing_difference": "-0.25",
+      "running_mismatches": 1,
+      "status": "REVIEW"
+    }
+  ],
+  "running_balance_mismatches": 1,
+  "closing_balance_mismatches": 1,
+  "total_credits": "54544.50",
+  "total_debits": "26264.68",
+  "net_movement": "28279.82",
+  "checks": {
+    "records_conserved": true,
+    "provenance_unique": true
+  },
+  "result": "REVIEW_REQUIRED",
+  "input_sha256": {
+    "accounts.json": "cf13cbc691acd244bea60350f0f23ac2c12f505ed4c1f36ebd25f907df798c71",
+    "layout-a.csv": "8b20a637c411c930fb9b04efef156c6b0afa705320a344bf214f1cf5ed83a903",
+    "layout-b.xlsx": "c4783bea7aa1e1b0f4574077a9f94d3dd031c659dd3f699d0c92259a23ddcb4c",
+    "layout-c.csv": "d484cc3821b30edc0e6a50b9e8ea939312dacc4bda212b404264e066088e7fee"
+  },
+  "runtime_seconds": 0.734847
+}

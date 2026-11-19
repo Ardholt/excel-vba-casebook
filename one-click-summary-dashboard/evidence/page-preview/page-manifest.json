@@ -1,0 +1,34 @@
+[
+  {
+    "file": "390-first.png",
+    "viewport": [
+      390,
+      844
+    ],
+    "full_page": false
+  },
+  {
+    "file": "390-full.png",
+    "viewport": [
+      390,
+      844
+    ],
+    "full_page": true
+  },
+  {
+    "file": "1366-first.png",
+    "viewport": [
+      1366,
+      900
+    ],
+    "full_page": false
+  },
+  {
+    "file": "1366-full.png",
+    "viewport": [
+      1366,
+      900
+    ],
+    "full_page": true
+  }
+]

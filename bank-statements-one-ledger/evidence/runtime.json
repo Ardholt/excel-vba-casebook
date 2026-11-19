@@ -1,0 +1,61 @@
+{
+  "executed_at_utc": "2026-11-19T04:54:10.312928+00:00",
+  "environment": "Ubuntu 24.04 container",
+  "software": {
+    "python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "pytest": "7.4.4",
+    "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "command": "bash scripts/inner.sh",
+  "input_sha256": {
+    "accounts.json": "cf13cbc691acd244bea60350f0f23ac2c12f505ed4c1f36ebd25f907df798c71",
+    "layout-a.csv": "8b20a637c411c930fb9b04efef156c6b0afa705320a344bf214f1cf5ed83a903",
+    "layout-b.xlsx": "c4783bea7aa1e1b0f4574077a9f94d3dd031c659dd3f699d0c92259a23ddcb4c",
+    "layout-c.csv": "d484cc3821b30edc0e6a50b9e8ea939312dacc4bda212b404264e066088e7fee"
+  },
+  "code_sha256": {
+    "scripts/capture_page.py": "c7690fd0c844187b7055385ca199a7a884a5ffd8c852bf75d0aafcc06072af36",
+    "scripts/check_paths.py": "fe99dcdc323867cbc7361fd9c5e4aeddbfff5ea07af29e8b5c65ff7d4f283078",
+    "scripts/ledger.py": "c47022d723496688a4839f6b5256cee2f4d303311470b638c93c0a08597d3fc1",
+    "scripts/make_inputs.py": "176333e5c06b0400ed7fb5d436d240c3c4bf215fb6a983b8e48a71a4e2364ad2",
+    "scripts/metadata.py": "853a4b64e291a022daea4134f5b0d274e68ec2c361aaca571a582fce9700a6f6",
+    "scripts/pipeline.py": "f1884fa415a9e978b090f9fccc076bd9e0bff5396831219db285100cdabcdea4",
+    "scripts/proof.py": "a39678a1c8b34048fb7dfaf5e4063e286a3d609b751eda797edd0fc3c6471f81",
+    "scripts/render_proof.py": "b6deccfbd49c7e73121cc8b0e4a4cf412f6ec0db86174be9824a00ad3cf4ab83",
+    "scripts/verify.py": "c029582715e106d5e920b55f7c9ee71d7523bc98a11c7c76778c4ebca24be655",
+    "tests/test_ledger.py": "10036c7c251a7c3c12a2bf34e63f0bc48e12caf95382be3dc8e55b9fcbe291c8"
+  },
+  "runtime_seconds": 5.361846,
+  "consolidation_seconds": 0.734847,
+  "libreoffice_check_seconds": 1.310559,
+  "test_seconds": 3.238672,
+  "tests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "checks": {
+    "records_and_money_conserved": true,
+    "running_and_closing_checks_verified": true,
+    "libreoffice_cell_values_match": true,
+    "nonempty_cells_compared": 9055
+  },
+  "diagnostic_result": "REVIEW_REQUIRED",
+  "result": "PASS",
+  "limitations": [
+    "Clean-host Docker wrapper and live GitHub/Pages checks are separate repository acceptance.",
+    "A reported balance discrepancy is a diagnostic finding, not a balanced statement."
+  ],
+  "output_sha256": {
+    "ledger.xlsx": "7820b93b864b1edd03378224a5dcb0796bf4e137ed770a195a08a406281fd057",
+    "ledger-checked.xlsx": "6e705c5a3d4bfa9c49590651166612752ec4252cf641597b22cb72a0ccf7dd11",
+    "input-overview.xlsx": "39af18b968cac733bfd8a2678545b46f294a4f00a345e97aa649642ad18d689b",
+    "report.json": "c6db9de1203ed72fea843e6ce582cf81b16af7e72624bc9748f9eb28a5424070",
+    "ledger.csv": "3a6f922cf850c73310405ef968fe80188a0935ea673d8fefbd76847ae5241421",
+    "reconciliation.csv": "75188339ead48297582e5fcee391b3ab60f7b740477b963c69be37d07ffd7c81",
+    "exceptions.csv": "81fb5465580a459eee60ce0d7ace72b6d67fa30e7407b9def91ea1dab413c1f1",
+    "rejected.csv": "c5a9bdaca904d3e57d15f2337bb5db6a49f793d3f5ed8ad74c15101806d0a3d9",
+    "reconciliation.md": "be8d6b71d2d3a66e0a47972c8f2fac1482f69f415e783f05e4e7bee34456b00a"
+  },
+  "code_scope": "Recorded transformation and check sources. The auxiliary hero renderer is recorded separately."
+}

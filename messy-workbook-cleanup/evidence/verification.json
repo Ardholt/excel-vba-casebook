@@ -1,0 +1,29 @@
+{
+  "command": "bash scripts/inner.sh",
+  "checked_utc": "2026-11-19T07:28:17Z",
+  "exit_code": 0,
+  "seconds": 16.998,
+  "test_summaries": [
+    "37 passed in 9.10s"
+  ],
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "input/input.xlsx": "fc9278932497e760ab8e86d0421c101fa5d443d4c4782f0b8aa511b2f3a9b4ca",
+    "input/rules.json": "5409c7e870d58f101e17c5cf52601ecded6af54b044beaa02382321e331fefc3"
+  },
+  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "source_sha256": {
+    "scripts/workbook_meta.py": "585b50a6a058bfce677331912ba943e864cf233c78ce6eec165c4350652a8c33",
+    "scripts/inner.sh": "e6d61f95acceb9959f617e55eb9f2729504a5204464320e9214ce5e43c4fe297",
+    "scripts/normalize_records.py": "051ea7b04fefc90d7ed1fba75604bf3c5cb227c7dcf8a40ac751172da0b5ca5b",
+    "scripts/verify_run.py": "a7660090f07f03f659cd01f99160c4e09fbf158520bf08e833107f89f565d44f",
+    "scripts/render_page.py": "c768251addaa75dac44589ce2a757a8408b158c3492fc10280867ef30b1c77c3",
+    "scripts/generate_input.py": "fe6fbe645589b2e4e47125e3e097dba7180be2df41a6b2cb90e8527a154ceeb3",
+    "scripts/build_proof.py": "c92ebad365aa164510442d7335f4d2b5bf79030d6aa2cf2994d73a379f0ecc18",
+    "scripts/finish_images.py": "1f3cdfd13c442ad5942dd1fccd631612f60e888065695e457887bf7e0c56e2d3",
+    "scripts/render_assets.py": "157ba4ece34136e4b8a889d10ed8570c0bc49b20aea70243632cd0c08a75d5e8",
+    "scripts/check_custom_paths.py": "7f9ff1b4f863c45d467b8a96ebfe3e8a3f04d7323d6b4fe99ef22306e39867b1",
+    "tests/conftest.py": "ed278ed5c139573458dc8c4f1582b747728cbb3246f6948a4073c139fa8ebf1c",
+    "tests/test_cleanup.py": "3881c93e7b986269b26f4e7a56a10f9c26879b77157e16d7d4e7cd758c8ad15e"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "repo": "Ardholt/excel-vba-casebook",
+  "casebook": "Excel & VBA Casebook",
+  "line": "Eight spreadsheet problems, with the files, checks and steps for each.",
+  "about": "Eight spreadsheet problems, with the files, checks and steps for each.",
+  "website": "https://ardholt.com/p/",
+  "topics": [
+    "excel",
+    "vba",
+    "data-cleaning",
+    "reconciliation",
+    "spreadsheet-automation"
+  ],
+  "pages_root": "https://ardholt.github.io/excel-vba-casebook/",
+  "licence": "MIT",
+  "cases": [
+    {
+      "slug": "messy-workbook-cleanup",
+      "folder": "messy-workbook-cleanup",
+      "number": 1,
+      "title": "Customer list with duplicates: 65 repeat entries removed",
+      "problem": "Customer list with duplicates: 65 repeat entries removed",
+      "tags": [
+        "Spreadsheet cleanup",
+        "Data validation"
+      ],
+      "kinds": [
+        "Spreadsheet cleanup",
+        "Data validation"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/messy-workbook-cleanup/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/messy-workbook-cleanup/",
+      "result": ""
+    },
+    {
+      "slug": "bank-statements-one-ledger",
+      "folder": "bank-statements-one-ledger",
+      "number": 2,
+      "title": "Three bank accounts, one sheet: all 810 transactions kept",
+      "problem": "Three bank accounts, one sheet: all 810 transactions kept",
+      "tags": [
+        "Bank statements",
+        "Reconciliation"
+      ],
+      "kinds": [
+        "Bank statements",
+        "Reconciliation"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/bank-statements-one-ledger/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/bank-statements-one-ledger/",
+      "result": ""
+    },
+    {
+      "slug": "fuzzy-duplicate-customers",
+      "folder": "fuzzy-duplicate-customers",
+      "number": 3,
+      "title": "Repeated customer names: 40 approved joins",
+      "problem": "Repeated customer names: 40 approved joins",
+      "tags": [
+        "Customer records",
+        "Duplicate review"
+      ],
+      "kinds": [
+        "Customer records",
+        "Duplicate review"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/fuzzy-duplicate-customers/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/fuzzy-duplicate-customers/",
+      "result": ""
+    },
+    {
+      "slug": "one-click-summary-dashboard",
+      "folder": "one-click-summary-dashboard",
+      "number": 4,
+      "title": "Sales dashboard out of date: £960.54 now counted",
+      "problem": "Sales dashboard out of date: £960.54 now counted",
+      "tags": [
+        "Sales reporting",
+        "Dashboard"
+      ],
+      "kinds": [
+        "Sales reporting",
+        "Dashboard"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/one-click-summary-dashboard/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/one-click-summary-dashboard/",
+      "result": ""
+    },
+    {
+      "slug": "scanned-forms-to-sheet",
+      "folder": "scanned-forms-to-sheet",
+      "number": 5,
+      "title": "Scans to a spreadsheet: 48 forms, unclear entries flagged",
+      "problem": "Scans to a spreadsheet: 48 forms, unclear entries flagged",
+      "tags": [
+        "Data entry",
+        "Scanned forms"
+      ],
+      "kinds": [
+        "Data entry",
+        "Scanned forms"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/scanned-forms-to-sheet/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/scanned-forms-to-sheet/",
+      "result": ""
+    },
+    {
+      "slug": "invoices-checked-reconciled",
+      "folder": "invoices-checked-reconciled",
+      "number": 6,
+      "title": "Invoices that don’t add up: 7 totals flagged",
+      "problem": "Invoices that don’t add up: 7 totals flagged",
+      "tags": [
+        "Invoices",
+        "Payment reconciliation"
+      ],
+      "kinds": [
+        "Invoices",
+        "Payment reconciliation"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/invoices-checked-reconciled/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/invoices-checked-reconciled/",
+      "result": ""
+    },
+    {
+      "slug": "macro-pack",
+      "folder": "macro-pack",
+      "number": 7,
+      "title": "Sheets and letters by hand? 1,200 rows put in order",
+      "problem": "Sheets and letters by hand? 1,200 rows put in order",
+      "tags": [
+        "Spreadsheet automation",
+        "Letters"
+      ],
+      "kinds": [
+        "Spreadsheet automation",
+        "Letters"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/macro-pack/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/macro-pack/",
+      "result": ""
+    },
+    {
+      "slug": "combine-many-files",
+      "folder": "combine-many-files",
+      "number": 8,
+      "title": "50 Shop Files: 5,520 Rows in One Monthly Table",
+      "problem": "50 Shop Files: 5,520 Rows in One Monthly Table",
+      "tags": [
+        "File consolidation",
+        "Refresh"
+      ],
+      "kinds": [
+        "File consolidation",
+        "Refresh"
+      ],
+      "readme_url": "https://github.com/Ardholt/excel-vba-casebook/blob/main/combine-many-files/README.md",
+      "pages_url": "https://ardholt.github.io/excel-vba-casebook/combine-many-files/",
+      "result": ""
+    }
+  ]
+}

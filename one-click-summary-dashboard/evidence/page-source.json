@@ -1,0 +1,5 @@
+{
+  "readme_sha256": "5a606be1258e3628251b2edab1855dc6618616cc1a8fda5c86e4726f6997c180",
+  "offline_substitution": "The network-isolated capture omits only the remote CI badge image, retaining its workflow link as text; the README retains the real badge URL.",
+  "ci_status_claimed_by_preview": false
+}

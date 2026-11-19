@@ -1,0 +1,6 @@
+# Versions exercised in the shared Ubuntu 24.04 container.
+# Build with ../docker/Dockerfile; no host pip installation is required.
+openpyxl==3.1.2
+XlsxWriter==3.1.9
+pytest==7.4.4
+Pillow==10.2.0

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "pytest": "7.4.4",
+  "tests": 23,
+  "passed": 23,
+  "duration_seconds": 1.5183,
+  "results": [
+    {
+      "test": "test_bundled_approval_conserves_every_id",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_no_confirmation_even_exact_names_stay_separate",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_compatible_chain_keeps_final_target_and_original_fields",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_batch_never_partly_merges[pairs0-Unknown]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_batch_never_partly_merges[pairs1-Conflicting]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_batch_never_partly_merges[pairs2-Cycle]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_batch_never_partly_merges[pairs3-Self]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_batch_never_partly_merges[pairs4-Unknown]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_batch_never_partly_merges[pairs5-Cycle]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_repeated_confirmation_is_idempotent",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_rerun_uses_immutable_sources_and_does_not_accumulate",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_headers_can_move_and_reorder",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_customer_identity_rejected[rows0]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_customer_identity_rejected[rows1]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_invalid_customer_identity_rejected[rows2]",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_numeric_id_rejected_to_protect_leading_zeros",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_blank_or_different_area_never_proposes",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_close_spelling_proposes_with_reason",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_no_same_or_nested_output_folder",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_formula_like_names_are_literal_text",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_input_error_replaces_stale_pass_report",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_unreadable_workbook_cannot_leave_success_report",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_typo_and_ltd_limited_pair_requires_explicit_approval",
+      "outcome": "passed"
+    }
+  ]
+}

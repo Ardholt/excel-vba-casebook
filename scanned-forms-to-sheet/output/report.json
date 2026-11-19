@@ -1,0 +1,26 @@
+{
+  "input_forms": 48,
+  "output_rows": 48,
+  "fields_per_form": 4,
+  "total_fields": 192,
+  "raw": {
+    "populated": 153,
+    "unresolved": 39
+  },
+  "reviewed": {
+    "populated": 161,
+    "unresolved": 31,
+    "confirmations_applied": 8
+  },
+  "review_errors": [],
+  "excluded_forms": 0,
+  "confidence_threshold": 85,
+  "runtime_seconds": 17.949,
+  "checks": {
+    "all_fields_accounted": true,
+    "unique_field_locations": true,
+    "review_valid": true,
+    "ocr_operational": true
+  },
+  "status": "passed"
+}

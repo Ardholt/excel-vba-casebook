@@ -1,0 +1,23 @@
+{
+  "layout-a.csv": {
+    "account": "ACCT-A",
+    "currency": "GBP",
+    "opening_balance": "1000.00",
+    "closing_balance": "10808.28",
+    "date_order": "DMY"
+  },
+  "layout-b.xlsx": {
+    "account": "ACCT-B",
+    "currency": "GBP",
+    "opening_balance": "500.00",
+    "closing_balance": "9817.04",
+    "date_order": "MDY"
+  },
+  "layout-c.csv": {
+    "account": "ACCT-C",
+    "currency": "GBP",
+    "opening_balance": "750.00",
+    "closing_balance": "9904.25",
+    "date_order": "DMY"
+  }
+}

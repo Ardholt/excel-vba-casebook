@@ -1,0 +1,37 @@
+{
+  "result": "PASS",
+  "workbooks_with_clean_properties": [
+    "output/checked-ledger.xlsx",
+    "output/invoice-views.xlsx",
+    "input/input.xlsx"
+  ],
+  "png_images_without_metadata": [
+    {
+      "file": "images/after.png",
+      "width": 780,
+      "height": 240
+    },
+    {
+      "file": "images/before.png",
+      "width": 780,
+      "height": 579
+    },
+    {
+      "file": "images/invoice.png",
+      "width": 780,
+      "height": 442
+    },
+    {
+      "file": "media/hero.png",
+      "width": 1200,
+      "height": 1178
+    }
+  ],
+  "final_tests": {
+    "passed": 31,
+    "command": "bash scripts/inner.sh",
+    "verification": "verification.json"
+  },
+  "source_unchanged": true,
+  "shared_repository_links": "Root README and shared Dockerfile are supplied by the containing repository."
+}

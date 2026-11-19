@@ -1,0 +1,4 @@
+Reference: C013
+Dear Account 013,
+Your statement amount is GBP 159.25.
+Please keep this letter with your records.

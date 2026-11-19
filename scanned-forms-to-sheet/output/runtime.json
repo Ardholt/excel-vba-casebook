@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-11-19T04:40:04.110075+00:00",
+  "input_unchanged": true,
+  "software": {
+    "Python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "Pillow": "10.2.0",
+    "pytest": "7.4.4",
+    "Tesseract": "tesseract 5.3.4",
+    "LibreOffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "execution": "Linux container; image extraction, workbook production, openpyxl checks and business tests. LibreOffice rendering is recorded separately.",
+  "test_summary": "24 passed in 2.72s",
+  "test_exit_code": 0,
+  "test_seconds": 2.955,
+  "total_seconds": 21.114,
+  "limitations": [
+    "Confidence is an OCR heuristic, not a probability of correctness.",
+    "Accuracy applies only to the supplied image set."
+  ]
+}

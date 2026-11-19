@@ -1,0 +1,19 @@
+{
+  "input/input.xlsx": "6b45850809c89878434d88626b5a0562007b642d948054bd376ad93e5672f8ba",
+  "input/template.txt": "351f9c420061db1d12f533cab278218d416a3f3e22fe850c96639171d90c710a",
+  "macro-pack.xlsm": "77ec7afcfc9c282debf48eda62b47dbb581624927f18ad4e739eed76538b6a6c",
+  "output/after.xlsx": "57aff204d4a7b5a05a8c0393daa5f5fe4fc6bc934515d6d9c4ed2e521aa8b8f5",
+  "output/letters.zip": "6d35f0b6df328f097fd7467c8e1e3cc833a1c295ea43b600555dc78b5fe5e22c",
+  "vba/MergeTables.bas": "7dd71fb2c9b28acdc8175bb08a5dd8d566d1c4bcfc9aa6ab1dcf55f5a2b91592",
+  "vba/RenameSheets.bas": "06582e747e631d209b49ab786c7c6475f349c0c19fb54af921096af3dc986dfb",
+  "vba/MakeLetters.bas": "008b81a2ea4db5eb27e8f1a564b788ca6d1534a13213e4c6ecd43c40d0bd8af3",
+  "vba/SplitRows.bas": "ec2f73bcdc3f4ddb22d6d7aba0535320827d11cf7055dc7b0e8a5368a29b12ba",
+  "output/vba/rename-before.xlsx": "9b9f54612b3291e4f971fdb034b271e5063f62fea6f14f662c6ba8d5c2a9c0c5",
+  "output/vba/split-before.xlsx": "e6c48da0661f60c9b862858084f4ca012dbd8d2d6ada97861bc37b433012cc64",
+  "output/vba/rename-after.xlsx": "473b38769b703c79d71d5ca278331402a96ebc26dfd6a1a2ed887c1570c8a8f5",
+  "output/vba/letters-after.xlsx": "91b9272c8f77d3d5407d4a0be1020f19bf442a0efeec5396635798c31994d745",
+  "output/vba/split-after.xlsx": "4922c911ef9757cb2b6546e3501adf57fd1a857a53ccf3ee8e566ecbc114b4ae",
+  "output/vba/letters-before.xlsx": "473b38769b703c79d71d5ca278331402a96ebc26dfd6a1a2ed887c1570c8a8f5",
+  "output/vba/merge-after.xlsx": "9b9f54612b3291e4f971fdb034b271e5063f62fea6f14f662c6ba8d5c2a9c0c5",
+  "output/vba/merge-before.xlsx": "4922c911ef9757cb2b6546e3501adf57fd1a857a53ccf3ee8e566ecbc114b4ae"
+}

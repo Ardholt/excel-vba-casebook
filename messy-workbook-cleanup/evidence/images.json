@@ -1,0 +1,21 @@
+{
+  "renderer": "LibreOffice sheet export through xlrender; PNG rasterization with Poppler",
+  "source_workbook": "evidence/proof.xlsx",
+  "sheets": [
+    "Before",
+    "After"
+  ],
+  "pixels": [
+    780,
+    600
+  ],
+  "frame_order": [
+    "After",
+    "Before"
+  ],
+  "frame_milliseconds": [
+    3200,
+    2200
+  ],
+  "postprocessing": "White canvas padding only; PNG metadata removed; two-frame GIF."
+}

@@ -1,0 +1,15 @@
+.env
+*.log
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/bundle/
+.DS_Store
+~$*
+.~lock.*#

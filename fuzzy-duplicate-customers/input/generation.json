@@ -1,0 +1,6 @@
+{
+  "generator": "scripts/build_input.py",
+  "python": "3.12.3",
+  "openpyxl": "3.1.2",
+  "description": "Customer register with spelling variants and an explicit confirmation list."
+}

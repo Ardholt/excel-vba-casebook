@@ -1,0 +1,11 @@
+{
+  "workbooks_checked": 9,
+  "pngs_checked": 8,
+  "identifying_workbook_properties": "empty",
+  "png_text_and_exif_chunks": 0,
+  "content_scan_findings": [],
+  "local_case_links": "All resolve",
+  "recorded_hashes": "PASS: source, packaged workbook, saved VBA outputs, reference workbooks, sheet captures, hero, README and page captures",
+  "visual_review": "The published worksheet views and hero show four recent months and all seven categories.",
+  "scope": "Exact-text checks, identifying document properties, PNG metadata, local links and recorded hashes, plus manual image review; not a general security certification"
+}

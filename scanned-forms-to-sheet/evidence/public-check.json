@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "scope": "Text leak scan; workbook core/app metadata; external workbook links; PNG EXIF and attribution metadata. Visual inspection and publication review are separate checks."
+}

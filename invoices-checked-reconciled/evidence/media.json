@@ -1,0 +1,32 @@
+{
+  "method": "LibreOffice sheet export from single-sheet copies; PNG metadata stripped; shared casebook hero layout",
+  "images": [
+    {
+      "file": "../images/before.png",
+      "source": "../input/input.xlsx",
+      "sheet": "Overview"
+    },
+    {
+      "file": "../images/after.png",
+      "source": "../output/checked-ledger.xlsx",
+      "sheet": "Payment list",
+      "range": "A1:C4",
+      "values": "../output/invoices.csv"
+    },
+    {
+      "file": "../images/invoice.png",
+      "source": "../output/invoice-views.xlsx",
+      "sheet": "Invoice 017",
+      "invoice_id": "INV-0017"
+    },
+    {
+      "file": "../media/hero.png",
+      "sources": [
+        "../images/before.png",
+        "../images/after.png"
+      ],
+      "numbers": "../output/report.json"
+    }
+  ],
+  "page_preview": "Page-preview captures are not included in this repository."
+}

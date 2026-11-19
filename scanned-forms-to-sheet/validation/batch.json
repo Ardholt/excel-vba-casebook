@@ -1,0 +1,292 @@
+{
+  "forms": 48,
+  "fields": 192,
+  "conditions": {
+    "clear": 28,
+    "hard to read": 8,
+    "obscured": 12
+  },
+  "supplied_confirmations": 8,
+  "files": [
+    {
+      "image": "entry-01.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-02.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-03.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-04.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Amount"
+      ]
+    },
+    {
+      "image": "entry-05.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-06.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-07.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-08.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-09.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-10.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-11.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-12.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-13.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-14.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-15.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-16.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Amount"
+      ]
+    },
+    {
+      "image": "entry-17.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-18.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-19.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-20.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-21.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-22.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-23.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-24.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-25.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-26.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-27.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-28.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Amount"
+      ]
+    },
+    {
+      "image": "entry-29.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-30.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-31.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-32.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-33.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-34.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-35.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-36.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-37.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-38.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-39.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-40.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Amount"
+      ]
+    },
+    {
+      "image": "entry-41.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-42.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-43.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-44.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Item code"
+      ]
+    },
+    {
+      "image": "entry-45.png",
+      "condition": "hard to read",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-46.png",
+      "condition": "clear",
+      "affected_fields": []
+    },
+    {
+      "image": "entry-47.png",
+      "condition": "obscured",
+      "affected_fields": [
+        "Quantity"
+      ]
+    },
+    {
+      "image": "entry-48.png",
+      "condition": "clear",
+      "affected_fields": []
+    }
+  ]
+}

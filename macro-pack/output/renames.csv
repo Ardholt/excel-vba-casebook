@@ -1,0 +1,8 @@
+old,new,status
+North old,North,renamed
+South old,South,renamed
+Missing,New tab,rejected: missing source
+Keep A,North,rejected: destination exists
+Keep B,Bad/name,rejected: invalid name
+Keep C,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,rejected: invalid name
+Keep D,'Bad,rejected: invalid name

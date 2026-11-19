@@ -1,0 +1,5 @@
+{
+  "source": "README.md",
+  "captures_included": false,
+  "scope": "Page-preview captures are not included in this repository. Run the page script to make a local capture; it does not establish live CI status."
+}

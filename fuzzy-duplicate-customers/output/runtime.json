@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "environment": "Ubuntu 24.04 container",
+  "python": "3.12.3",
+  "openpyxl": "3.1.2",
+  "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
+  "execution": "Python produces XLSX workbooks; LibreOffice headless reopens and exports checked.xlsx; openpyxl compares all sheet values.",
+  "verified_sheets": [
+    "Customers",
+    "Proposed",
+    "Confirmed",
+    "Audit",
+    "Errors"
+  ],
+  "source_id_count": 480,
+  "retained_id_count": 440,
+  "no_confirmation_unchanged_count": 480,
+  "check_seconds": 0.2832,
+  "limitations": [
+    "Proposals are limited to nonblank equal normalized area codes and name similarity at least 0.82; they may miss duplicates or suggest distinct customers.",
+    "Customer fields come from the retained target; original fields remain in Audit."
+  ]
+}

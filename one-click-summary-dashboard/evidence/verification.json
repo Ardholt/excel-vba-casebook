@@ -1,0 +1,33 @@
+{
+  "command": "bash scripts/inner.sh",
+  "checked_utc": "2026-11-19T07:28:44Z",
+  "exit_code": 0,
+  "seconds": 7.503,
+  "test_summaries": [
+    "24 passed in 2.16s"
+  ],
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "input/input.xlsx": "da9a440ee54f6c2cb7ea17c68f16ed52eb37764b2d1b75c39c15d70aec81c5f0",
+    "input/new-sales.xlsx": "4c058aaee19a738ca0ca1c8951cc762a1cc7a07f19f0e7a1177bbb87d83f1717",
+    "input/SCHEMA.md": "133e528e3a03e719fb497362ea72a52e2931cef6892373a8762ab1073d650edc",
+    "input/before.xlsx": "bbcdfb7ae1f25e854254c371419eedad71ae2be0c96084dab7e1d169cb33183a"
+  },
+  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "source_sha256": {
+    "scripts/page_evidence.py": "68b491099e736cfd82c90f8d3b31ca996c0623db356f24677ac48e15bd4ef3c3",
+    "scripts/workbook_meta.py": "34f2e5624ad674cb48a381c90fbccd264cbc54899470de79d827b1242bc9ad6b",
+    "scripts/dashboard.py": "82677396adb852eda4a1c998ab5b9b52a860d5d629ab88568749a3cc057a8bde",
+    "scripts/render_evidence.py": "58c3379742339863624c75ddff92dedb9068ae58fce364d2907a083373a40116",
+    "scripts/inner.sh": "5570587e7a86ae58694d0d31d65e4207c2bb62bf901fc94b6f753428d244a8bf",
+    "scripts/render_page.py": "607255f7f2374098a1c3cb95b8b5c0832ede814f367be27e4733b7850876e2da",
+    "scripts/make_hero.py": "80e6625f6b9a5ad37d5031c6dbf7b013cf7991a7dde75b8bf9f669bf04740ed2",
+    "scripts/test_run.py": "4fd5e66563946116dd2f8ae23406077ca01e407f7456f7004654811f89500f96",
+    "scripts/verify_macro_open.py": "6741b8a40deb30320a21ef885fff01ebc284f2f5d4c72e9bc0a2738f9d636725",
+    "scripts/generate_input.py": "14b131ab0173f842835c78bbbb6129a219841b04d8d35a54e2bee4cda2c0ca16",
+    "scripts/package_macro.py": "6bb780d78a907e22a9a9354c79664ea7d40b3df48f816e443ea1df80ef4b9935",
+    "scripts/run_reference.py": "0531dee677f531e598c2863778997fc780ea931b3d7b02e4ad89cc8251a85535",
+    "scripts/run_vba.py": "1c57a98093b0d6fe96364a88fa7cf1ba3cd0f203f72b5ef3d2472f7dc20d7a3b",
+    "tests/test_dashboard.py": "b0098c67b1930330782aad6c6ef7e57d9495e488bb98039ed132bdb09f9fb7c8"
+  }
+}

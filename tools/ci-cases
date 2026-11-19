@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""List the case folders present; reject incomplete runnable folders."""
+import json
+from pathlib import Path
+import re
+
+root = Path(__file__).resolve().parent.parent
+known = {case['slug'] for case in json.loads((root / 'cases.json').read_text())['cases']}
+cases = []
+for folder in sorted(root.iterdir()):
+    if not folder.is_dir() or folder.name.startswith('.'):
+        continue
+    if folder.name not in known and not (folder / 'run.sh').exists() and not (folder / 'input').is_dir():
+        continue
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', folder.name):
+        raise SystemExit(f'Invalid case folder: {folder.name}')
+    for required in ('README.md', 'run.sh', 'tests'):
+        if not (folder / required).exists():
+            raise SystemExit(f'Missing {folder.name}/{required}')
+    cases.append(folder.name)
+if not cases:
+    raise SystemExit('No cases found')
+print(json.dumps({'case': cases}, separators=(',', ':')))

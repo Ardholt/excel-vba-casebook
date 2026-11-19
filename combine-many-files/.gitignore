@@ -1,0 +1,3 @@
+!input/files/~$*.xlsx
+__pycache__/
+.pytest_cache/

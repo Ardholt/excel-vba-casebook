@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+output/.test-temp/
+output/.recalc/
+output/.lo-profile/

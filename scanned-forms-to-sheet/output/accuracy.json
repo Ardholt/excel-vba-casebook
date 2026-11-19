@@ -1,0 +1,14 @@
+{
+  "denominator": 192,
+  "scope": "Only the supplied image set, compared with the separate answer key.",
+  "raw": {
+    "correct": 153,
+    "unresolved": 39,
+    "errors": 0
+  },
+  "reviewed": {
+    "correct": 161,
+    "unresolved": 31,
+    "errors": 0
+  }
+}

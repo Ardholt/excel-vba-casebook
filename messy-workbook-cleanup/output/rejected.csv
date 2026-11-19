@@ -1,0 +1,14 @@
+source_row,row_id,customer_id,name,date,amount,reason
+5,R004,00093,Account S-01,31/02/2026,120.00,invalid date
+29,R028,00228,Account 028,2026-04-29,"12,34.50",invalid amount
+30,R029,00229,Account 029,2026-04-30,not entered,invalid amount
+542,R541,01000,Account 1000,31/06/2026,40.00,invalid date
+543,R542,01001,Account 1001,2026-06-30,"12,34.50",invalid amount
+544,R543,01002,Account 1002,31/06/2026,40.00,invalid date
+545,R544,01003,Account 1003,2026-06-30,"12,34.50",invalid amount
+546,R545,01004,Account 1004,31/06/2026,40.00,invalid date
+547,R546,01005,Account 1005,2026-06-30,"12,34.50",invalid amount
+548,R547,01006,Account 1006,31/06/2026,40.00,invalid date
+549,R548,01007,Account 1007,2026-06-30,"12,34.50",invalid amount
+550,R549,01008,Account 1008,31/06/2026,40.00,invalid date
+551,R550,01009,Account 1009,2026-06-30,"12,34.50",invalid amount

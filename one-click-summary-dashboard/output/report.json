@@ -1,0 +1,104 @@
+{
+  "input_records": 1332,
+  "accepted_records": 1300,
+  "rejected_records": 32,
+  "paid_count": 1149,
+  "pending_count": 106,
+  "cancelled_count": 45,
+  "paid_revenue": "133102.36",
+  "pending_amount": "13055.32",
+  "cancelled_amount_excluded": "6069.30",
+  "negative_paid_count": 46,
+  "duplicate_rows_excluded": 24,
+  "rejection_reasons": {
+    "Duplicate sale ID: all occurrences excluded": 24,
+    "Invalid ISO date": 3,
+    "Invalid amount: decimal with up to two places required": 2,
+    "Invalid status": 1,
+    "Missing category": 1,
+    "Missing sale ID": 1
+  },
+  "paid_by_month": {
+    "2025-01": "6973.95",
+    "2025-02": "7541.38",
+    "2025-03": "8803.11",
+    "2025-04": "9868.83",
+    "2025-05": "10521.09",
+    "2025-06": "10121.77",
+    "2025-07": "11545.58",
+    "2025-08": "12651.48",
+    "2025-09": "10673.51",
+    "2025-10": "11710.97",
+    "2025-11": "14113.52",
+    "2025-12": "17616.63",
+    "2026-01": "960.54"
+  },
+  "paid_by_category": {
+    "Garden": "23358.10",
+    "Hardware": "21187.72",
+    "Household": "21492.51",
+    "Lighting": "19773.25",
+    "Paint": "23533.34",
+    "Repairs": "325.50",
+    "Tools": "23431.94"
+  },
+  "checks": {
+    "records_conserved": true,
+    "month_total_matches": true,
+    "category_total_matches": true,
+    "accepted_ids_unique": true,
+    "recalculated_values_match": true
+  },
+  "input_sha256": "da9a440ee54f6c2cb7ea17c68f16ed52eb37764b2d1b75c39c15d70aec81c5f0",
+  "before": {
+    "input_records": 1320,
+    "accepted_records": 1288,
+    "rejected_records": 32,
+    "paid_count": 1139,
+    "pending_count": 105,
+    "cancelled_count": 44,
+    "paid_revenue": "132141.82",
+    "pending_amount": "12805.32",
+    "cancelled_amount_excluded": "5944.30",
+    "negative_paid_count": 45,
+    "duplicate_rows_excluded": 24,
+    "rejection_reasons": {
+      "Duplicate sale ID: all occurrences excluded": 24,
+      "Invalid ISO date": 3,
+      "Invalid amount: decimal with up to two places required": 2,
+      "Invalid status": 1,
+      "Missing category": 1,
+      "Missing sale ID": 1
+    },
+    "paid_by_month": {
+      "2025-01": "6973.95",
+      "2025-02": "7541.38",
+      "2025-03": "8803.11",
+      "2025-04": "9868.83",
+      "2025-05": "10521.09",
+      "2025-06": "10121.77",
+      "2025-07": "11545.58",
+      "2025-08": "12651.48",
+      "2025-09": "10673.51",
+      "2025-10": "11710.97",
+      "2025-11": "14113.52",
+      "2025-12": "17616.63"
+    },
+    "paid_by_category": {
+      "Garden": "23270.70",
+      "Hardware": "21180.17",
+      "Household": "21473.76",
+      "Lighting": "19708.35",
+      "Paint": "23505.85",
+      "Tools": "23002.99"
+    },
+    "checks": {
+      "records_conserved": true,
+      "month_total_matches": true,
+      "category_total_matches": true,
+      "accepted_ids_unique": true
+    }
+  },
+  "paid_revenue_change": "960.54",
+  "runtime_seconds": 4.334
+}

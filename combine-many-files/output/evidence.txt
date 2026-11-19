@@ -1,0 +1,9 @@
+Source workbooks: 50
+Accepted: 46
+Empty: 2
+Rejected: 2
+Ignored: 1
+Rows combined: 5520
+Amount total: 238441.92
+Rows are retained by source identity, including equal-looking records.
+See manifest.csv for every file and rejections.csv for reasons.

@@ -1,0 +1,4 @@
+Reference: C017
+Dear Account 017,
+Your statement amount is GBP 208.25.
+Please keep this letter with your records.

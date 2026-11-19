@@ -1,0 +1,30 @@
+{
+  "command": "bash scripts/inner.sh",
+  "checked_utc": "2026-11-19T07:29:17Z",
+  "exit_code": 0,
+  "seconds": 8.158,
+  "test_summaries": [
+    "24 passed in 6.75s"
+  ],
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "input/input.xlsx": "6b45850809c89878434d88626b5a0562007b642d948054bd376ad93e5672f8ba",
+    "input/template.txt": "351f9c420061db1d12f533cab278218d416a3f3e22fe850c96639171d90c710a"
+  },
+  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "source_sha256": {
+    "scripts/check_output.py": "e1f36d129ed677369a5f28b60155f809311d7eb0310cff034bb59dc40ef2e689",
+    "scripts/inner.sh": "b47c1e8926e7b47f27dfb3aa388f6495dfaf0bd8f22050a821f655d7f9f5b3a4",
+    "scripts/make_gifs.py": "51bfc7890a445feabb0dd8cc09b9152014f61afadfd09fe03436d2640d9ef39d",
+    "scripts/page_preview.py": "f9136d97420ce33ada1276f1898a90fdd3fd7a01328ea4ec0044a6d19676cd27",
+    "scripts/make_input.py": "8cc69726db6f1100be5a227e550c286bec32b37c091afff258d00d687296ce69",
+    "scripts/scrub.py": "d6896f12068110be09d1795c8628aad6f47d3a7e969234a2f50ffaa51107bb68",
+    "scripts/package_license.py": "e2cbc518fa8b5c72ff1b1750dcaca9c9ce62c7115027cd279f6caf655ffb3fcc",
+    "scripts/make_views.py": "39af89e57d818bb4bcbe7b3caa45ecc0ca373b110d7b244d437529d24183a0db",
+    "scripts/build_candidate.py": "390cc3ea68b109a082947cf8a6518dd0695b9f81b47f204e8091ffaad0e7e6ed",
+    "scripts/reference.py": "3bfdfa7f62d09215b5d80016f40f6bf77a925f83f779c49fd4328e38f88ab1d9",
+    "scripts/package_vba.py": "81d443c1d8f8470ff4b3f816b4e77f96c05489d80986bff5b68b194d567cb90c",
+    "scripts/run_vba.py": "6297988e44463e05df8dfda67276104e6c45434e4221411bd46c892f8ea89928",
+    "tests/test_business.py": "b4008169b2ca3214fb03d155878e543945479a002971a6484e10bd9b17df02b9"
+  }
+}

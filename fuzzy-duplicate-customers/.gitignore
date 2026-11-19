@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+.page-preview.md
+.hero-tmp/

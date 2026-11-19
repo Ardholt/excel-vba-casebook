@@ -1,0 +1,4 @@
+{
+  "source": "output/vba/<action>-<state>.xlsx",
+  "views": "Opening records from the recorded workbook snapshots; rename views show all seven requests; letter view shows the first complete letter. Column headings and rename decisions use plain wording. Names, amounts and row counts are unchanged; complete source logs are retained."
+}

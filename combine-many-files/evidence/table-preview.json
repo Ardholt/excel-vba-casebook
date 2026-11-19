@@ -1,0 +1,63 @@
+{
+  "source": "output/consolidated.xlsx",
+  "sheet": "Combined",
+  "view": "First entry from each of the first two shop files; original values retained.",
+  "header_labels": {
+    "Date": "date",
+    "Amount": "amount",
+    "From file": "source_file"
+  },
+  "rows": [
+    {
+      "combined_sheet_row": 2,
+      "source_file": "01_2025-01_B01.xlsx",
+      "source_row": 2,
+      "date": "2025-01-01",
+      "amount": 9.08,
+      "record_id": "B01-01-0001"
+    },
+    {
+      "combined_sheet_row": 122,
+      "source_file": "02_2025-01_B02.xlsx",
+      "source_row": 2,
+      "date": "2025-01-01",
+      "amount": 9.79,
+      "record_id": "B02-01-0001"
+    }
+  ],
+  "before": [
+    {
+      "file": "01_2025-01_B01.xlsx",
+      "original_headers": [
+        "record_id",
+        "date",
+        "category",
+        "amount",
+        "branch"
+      ],
+      "visible_headers": [
+        "date",
+        "amount",
+        "branch"
+      ]
+    },
+    {
+      "file": "02_2025-01_B02.xlsx",
+      "original_headers": [
+        "amount",
+        "branch",
+        "record_id",
+        "date",
+        "category"
+      ],
+      "visible_headers": [
+        "amount",
+        "branch",
+        "date"
+      ]
+    }
+  ],
+  "checks": {
+    "visible_values_match_source_and_combined": true
+  }
+}

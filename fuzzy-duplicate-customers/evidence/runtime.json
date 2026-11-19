@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "environment": "Ubuntu 24.04 container",
+  "python": "3.12.3",
+  "openpyxl": "3.1.2",
+  "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
+  "execution": "Python produces XLSX workbooks; LibreOffice headless reopens and exports checked.xlsx; openpyxl compares all sheet values.",
+  "verified_sheets": [
+    "Customers",
+    "Proposed",
+    "Confirmed",
+    "Audit",
+    "Errors"
+  ],
+  "source_id_count": 480,
+  "retained_id_count": 440,
+  "no_confirmation_unchanged_count": 480,
+  "check_seconds": 0.2832,
+  "limitations": [
+    "Proposals are limited to nonblank equal normalized area codes and name similarity at least 0.82; they may miss duplicates or suggest distinct customers.",
+    "Customer fields come from the retained target; original fields remain in Audit."
+  ],
+  "business_report": "output/report.json",
+  "test_results": "output/test-results.json",
+  "inputs": {
+    "input/input.xlsx": "5b2c8987f85d40a1d3591e5db971e3819d2f3c5b2088d897c27c3bd968ec7984",
+    "input/confirmed.csv": "c187ab259847c39958c84a714daffa716c093b3a29b0e2cec8fea059da71016f"
+  },
+  "outputs": {
+    "output/result.xlsx": "a11dea3c1d5ab65c209ce2df298bb9b156aef9f1ebb937d9e92fb58894e5e5cd",
+    "output/checked.xlsx": "39b4ed7d39764132f89d91b32385a756a3a58777f876938a4580be18182ed41b",
+    "output/audit.csv": "a8f85c909be9c7c7f0714613d4ab0e583a25b7f873f03b5a2ec145369d479baa",
+    "output/proposed.csv": "4dd4046975c77e0d0bf649d5204108d8313e354fc5096ca7ad245eb138f844d4"
+  },
+  "transformation_seconds": 0.6096,
+  "tests": {
+    "status": "PASS",
+    "pytest": "7.4.4",
+    "tests": 23,
+    "passed": 23,
+    "duration_seconds": 1.5183,
+    "results": [
+      {
+        "test": "test_bundled_approval_conserves_every_id",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_no_confirmation_even_exact_names_stay_separate",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_compatible_chain_keeps_final_target_and_original_fields",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_batch_never_partly_merges[pairs0-Unknown]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_batch_never_partly_merges[pairs1-Conflicting]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_batch_never_partly_merges[pairs2-Cycle]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_batch_never_partly_merges[pairs3-Self]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_batch_never_partly_merges[pairs4-Unknown]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_batch_never_partly_merges[pairs5-Cycle]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_repeated_confirmation_is_idempotent",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_rerun_uses_immutable_sources_and_does_not_accumulate",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_headers_can_move_and_reorder",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_customer_identity_rejected[rows0]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_customer_identity_rejected[rows1]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_invalid_customer_identity_rejected[rows2]",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_numeric_id_rejected_to_protect_leading_zeros",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_blank_or_different_area_never_proposes",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_close_spelling_proposes_with_reason",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_no_same_or_nested_output_folder",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_formula_like_names_are_literal_text",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_input_error_replaces_stale_pass_report",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_unreadable_workbook_cannot_leave_success_report",
+        "outcome": "passed"
+      },
+      {
+        "test": "test_typo_and_ltd_limited_pair_requires_explicit_approval",
+        "outcome": "passed"
+      }
+    ]
+  }
+}

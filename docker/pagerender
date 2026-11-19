@@ -1,0 +1,37 @@
+#!/opt/page/bin/python
+"""Local GFM preview; Playwright Apache-2.0, Chromium BSD, github-markdown-css MIT."""
+import argparse, functools, http.server, json, pathlib, tempfile, threading
+from markdown_it import MarkdownIt
+from mdit_py_plugins.tasklists import tasklists_plugin
+from playwright.sync_api import sync_playwright
+p=argparse.ArgumentParser();p.add_argument('readme');p.add_argument('outdir');a=p.parse_args()
+source=pathlib.Path(a.readme).resolve(); out=pathlib.Path(a.outdir).resolve();out.mkdir(parents=True,exist_ok=True)
+md=MarkdownIt('gfm-like', {'html': True}).use(tasklists_plugin)
+css=pathlib.Path('/opt/page/github-markdown.css').read_text()
+page_html='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><style>'+css+'\nbody{margin:0;background:#fff}.markdown-body{box-sizing:border-box;min-width:200px;max-width:1012px;margin:0 auto;padding:32px;color:#1f2328;background:white}@media(max-width:767px){.markdown-body{padding:16px}}</style><article class="markdown-body">'+md.render(source.read_text())+'</article>'
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def log_message(self,*args):pass
+handler=functools.partial(Handler,directory=str(source.parent))
+server=http.server.ThreadingHTTPServer(('127.0.0.1',0),handler)
+threading.Thread(target=server.serve_forever,daemon=True).start()
+try:
+    with sync_playwright() as pw:
+        browser=pw.chromium.launch(headless=True,args=['--no-sandbox'])
+        records=[]
+        for width,height in [(390,844),(1366,900)]:
+            page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1,color_scheme='light')
+            url=f'http://127.0.0.1:{server.server_port}/__readme_preview__.html'
+            # Serve the HTML at the README's directory, so images and links stay relative.
+            page.route(url,lambda route:route.fulfill(status=200,content_type='text/html',body=page_html))
+            page.goto(url,wait_until='networkidle'); page.evaluate('document.fonts.ready')
+            page.evaluate('Promise.all([...document.images].map(i => i.complete ? Promise.resolve() : new Promise(r => {i.onload=r;i.onerror=r})))')
+            broken=page.locator('img').evaluate_all('(xs)=>xs.filter(x=>!x.naturalWidth).map(x=>x.getAttribute("src"))')
+            if broken:raise RuntimeError('Unresolved README images: '+repr(broken))
+            for label,full in [('first',False),('full',True)]:
+                name=f'{width}-{label}.png';page.screenshot(path=str(out/name),full_page=full)
+                records.append({'file':name,'viewport':[width,height],'full_page':full})
+            page.close()
+        browser.close()
+    (out/'page-manifest.json').write_text(json.dumps(records,indent=2)+'\n')
+    print('pagerender: 390 and 1366 px, first screen and full page')
+finally:server.shutdown()

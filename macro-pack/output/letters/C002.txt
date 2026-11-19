@@ -1,0 +1,4 @@
+Reference: C002
+Dear Account 002,
+Your statement amount is GBP 24.50.
+Please keep this letter with your records.

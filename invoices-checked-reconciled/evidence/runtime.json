@@ -1,0 +1,37 @@
+{
+  "executed_at_utc": "2026-11-19T07:29:17.277363+00:00",
+  "execution": "Python build and business checks; LibreOffice headless recalculation",
+  "software": {
+    "python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "LibreOffice": "LibreOffice 24.2.7.2 420(Build:2)",
+    "pytest": "7.4.4",
+    "os": "Ubuntu 24.04.5 LTS"
+  },
+  "input_sha256": "30ef38846848df140e8b77c5be60d55f3c9eb0edfd473bbc86dd22f530c7dc20",
+  "input_file": "input.xlsx",
+  "command": "bash scripts/inner.sh",
+  "formula_cells_checked": 1920,
+  "checks": {
+    "all_line_rows_accounted_for": true,
+    "all_invoice_rows_accounted_for": true,
+    "all_payment_rows_accounted_for": true,
+    "payment_money_conserved": true,
+    "net_plus_tax_equals_gross": true,
+    "gross_less_allocated_equals_balance": true,
+    "libreoffice_values_match_decimal": true,
+    "source_unchanged": true
+  },
+  "tests": "31 passed in 0.71s",
+  "timings_seconds": {
+    "build": 0.901,
+    "recalculate_and_compare": 1.329,
+    "tests": 0.877,
+    "total": 3.234
+  },
+  "limitations": [
+    "Docker entry point has not been run here; repository CI must check it.",
+    "Duplicate payment IDs remain held for confirmation.",
+    "Declared mismatches remain open; they are not silently corrected."
+  ]
+}

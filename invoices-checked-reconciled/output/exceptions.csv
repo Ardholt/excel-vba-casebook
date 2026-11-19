@@ -1,0 +1,18 @@
+sheet,source_row,invoice_id,record_id,reason,detail
+Invoices,18,INV-0017,INV-0017,declared_mismatch,Declared minus calculated: 2.35
+Invoices,35,INV-0034,INV-0034,declared_mismatch,Declared minus calculated: 2.35
+Invoices,52,INV-0051,INV-0051,declared_mismatch,Declared minus calculated: 2.35
+Invoices,69,INV-0068,INV-0068,declared_mismatch,Declared minus calculated: 2.35
+Invoices,86,INV-0085,INV-0085,declared_mismatch,Declared minus calculated: 2.35
+Invoices,103,INV-0102,INV-0102,declared_mismatch,Declared minus calculated: 2.35
+Invoices,120,INV-0119,INV-0119,declared_mismatch,Declared minus calculated: 2.35
+Payments,9,INV-0008,PAY-0008,duplicate_payment_id,Every occurrence held; confirm identity before allocating
+Payments,37,INV-0034,PAY-0034,duplicate_payment_id,Every occurrence held; confirm identity before allocating
+Payments,63,INV-0061,PAY-0061,duplicate_payment_id,Every occurrence held; confirm identity before allocating
+Payments,124,INV-0008,PAY-0008,duplicate_payment_id,Every occurrence held; confirm identity before allocating
+Payments,125,INV-0034,PAY-0034,duplicate_payment_id,Every occurrence held; confirm identity before allocating
+Payments,126,INV-0061,PAY-0061,duplicate_payment_id,Every occurrence held; confirm identity before allocating
+Payments,127,INV-9001,UN-001,unallocated_payment,"No complete, unique invoice to allocate against"
+Payments,128,INV-9002,UN-002,unallocated_payment,"No complete, unique invoice to allocate against"
+Payments,129,INV-9003,UN-003,unallocated_payment,"No complete, unique invoice to allocate against"
+Payments,130,INV-9004,UN-004,unallocated_payment,"No complete, unique invoice to allocate against"

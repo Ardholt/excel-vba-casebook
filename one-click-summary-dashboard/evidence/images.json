@@ -1,0 +1,27 @@
+{
+  "renderer": "LibreOffice through xlrender; macros disabled",
+  "captures": [
+    {
+      "file": "images/dashboard.png",
+      "source": "output/vba-after.xlsx",
+      "width": 780,
+      "height": 664,
+      "sha256": "536c8b623f2585fcfabac0f64e51501b9857652b887a9f9a5c28a37b40bdbf82"
+    },
+    {
+      "file": "images/before.png",
+      "source": "output/vba-before.xlsx",
+      "width": 780,
+      "height": 664,
+      "sha256": "a17111421d9a3144f53f3003642ca89d9fcd6acca610274885388017f88f7936"
+    },
+    {
+      "file": "images/breakdown.png",
+      "source": "output/vba-after.xlsx",
+      "width": 780,
+      "height": 1518,
+      "sha256": "2a0420174477ed19a8aa247a263d3331d106c0bc09107e9ebde99c5f9316bd6d",
+      "region": "Dashboard!A11:B33"
+    }
+  ]
+}

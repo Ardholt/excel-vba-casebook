@@ -1,0 +1,41 @@
+{
+  "image": "entry-42.png",
+  "field": "Item code",
+  "rectangle": "410,247,945,314",
+  "form_id": "F282",
+  "value": "",
+  "source": "output/fields.csv",
+  "fields": [
+    {
+      "field": "Form ID",
+      "rectangle": "410,147,945,214",
+      "value": "F282",
+      "reason": ""
+    },
+    {
+      "field": "Item code",
+      "rectangle": "410,247,945,314",
+      "value": "",
+      "reason": "Low OCR confidence"
+    },
+    {
+      "field": "Quantity",
+      "rectangle": "410,347,945,414",
+      "value": "55",
+      "reason": ""
+    },
+    {
+      "field": "Amount",
+      "rectangle": "410,447,945,514",
+      "value": "885.46",
+      "reason": ""
+    }
+  ],
+  "views": [
+    "output/hero-before.xlsx",
+    "output/hero-after.xlsx"
+  ],
+  "presentation": "Actual scan field crops rearranged into a compact grid, paired with values from the reviewed workbook; blank cell shaded for checking.",
+  "forms": 48,
+  "remaining_checks": 31
+}

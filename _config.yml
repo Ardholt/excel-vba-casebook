@@ -1,0 +1,41 @@
+title: Excel & VBA Casebook
+description: Eight spreadsheet problems, with the files, checks and steps for each.
+repository: Ardholt/excel-vba-casebook
+url: https://ardholt.github.io
+baseurl: /excel-vba-casebook
+lang: en-GB
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true
+
+# All four are on GitHub Pages' default list; naming them keeps a local build identical.
+plugins:
+  - jekyll-optional-front-matter   # README.md files need no front matter
+  - jekyll-readme-index            # README.md becomes the folder's index page
+  - jekyll-relative-links          # [x](01-case/README.md) and ../README.md links become page links
+  - jekyll-titles-from-headings    # the page title is the README's H1
+
+titles_from_headings:
+  strip_title: false               # keep the H1 on the page; it is the case's headline
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+
+exclude:
+  - tools
+  - cases.json
+  - "**/node_modules"
+  - "**/__pycache__"
+  - "**/.pytest_cache"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github

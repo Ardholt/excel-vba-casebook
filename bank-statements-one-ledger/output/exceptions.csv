@@ -1,0 +1,3 @@
+account,source_file,source_row,check,expected,reported,difference
+ACCT-C,layout-c.csv,271,running_balance,9904.50,9904.25,-0.25
+ACCT-C,accounts.json,,closing_balance,9904.50,9904.25,-0.25

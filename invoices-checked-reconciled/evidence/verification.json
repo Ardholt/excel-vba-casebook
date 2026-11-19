@@ -1,0 +1,25 @@
+{
+  "command": "bash scripts/inner.sh",
+  "checked_utc": "2026-11-19T07:29:13Z",
+  "exit_code": 0,
+  "seconds": 3.482,
+  "test_summaries": [
+    "31 passed in 0.71s"
+  ],
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "input/input.xlsx": "30ef38846848df140e8b77c5be60d55f3c9eb0edfd473bbc86dd22f530c7dc20"
+  },
+  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "source_sha256": {
+    "scripts/inner.sh": "e41b7c33be1ce9b45c1d6d940bc5586a824a09d2902635eded68d349892a6bdc",
+    "scripts/run_pipeline.py": "52a7eb0eaf8a920ed8858eb072a07c696daf6d15e7810cfa36c33bf0c70705ea",
+    "scripts/preview_page.py": "0d3b793c730b27eddc6e49d48abfb68cb9031a134b7557132ed0b261044b63ff",
+    "scripts/reconcile.py": "28919343da1d8d1116c85d3e81ecbff2003e3e734df9a612f43f567d3c78916e",
+    "scripts/generate_input.py": "2d2d07575dd82f9ed5c82b1b5b506e31dfa981a0715c247133be8fb2395fdb92",
+    "scripts/prepare_views.py": "4ee236c5077fd50b809951d525167a4ee02cd73235140e70b448fb781d38d8ec",
+    "scripts/render_proof.sh": "0fd0c752169ecc9dff6023fe7a05f350d864265539bba145ee34a7205bf27e29",
+    "scripts/check_replacement.py": "52f348a0f6b27e522ae1e75f791818f0c5ae98629de18c447629df11828fe00e",
+    "tests/test_reconcile.py": "49e7777845ada2adaa360a783c4e7b8471bfd82fefbf5f1288839a82a0f02e22"
+  }
+}

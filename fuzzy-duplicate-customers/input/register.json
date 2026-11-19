@@ -1,0 +1,13 @@
+{
+  "source_records": 480,
+  "confirmed_links": 40,
+  "must_remain_separate": [
+    "C0041",
+    "C0441"
+  ],
+  "blank_area_ids": [
+    "C0080",
+    "C0480"
+  ],
+  "approval_policy": "The bundled confirmation list is an explicit review decision; proposals are never copied into it automatically."
+}

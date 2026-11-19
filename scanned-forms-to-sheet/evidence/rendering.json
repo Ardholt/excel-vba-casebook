@@ -1,0 +1,58 @@
+{
+  "method": "LibreOffice sheet export and Poppler rasterisation; shared before/after figure composition",
+  "sheets": [
+    {
+      "image": "images/01-Proof.png",
+      "workbook": "output/proof.xlsx",
+      "pixels": [
+        780,
+        586
+      ],
+      "render_seconds": 1.569,
+      "sha256": "0480aee7d96e6c62bbc897e429e7497861e1873d7b7b801bf766bb2791de3764"
+    },
+    {
+      "image": "images/01-Readable.png",
+      "workbook": "output/readable-proof.xlsx",
+      "pixels": [
+        780,
+        506
+      ],
+      "render_seconds": 1.63,
+      "sha256": "40feb076921fdbdbaa3f3c85499a8cc68b4f309e5ac02344f23344891ef94b68"
+    },
+    {
+      "image": "images/01-Before.png",
+      "workbook": "output/hero-before.xlsx",
+      "pixels": [
+        780,
+        287
+      ],
+      "render_seconds": 1.215,
+      "sha256": "17f2b2a6a58aae2d92e034975124c97383904ee51a2ac4a8823415aaa6ccf668"
+    },
+    {
+      "image": "images/01-After.png",
+      "workbook": "output/hero-after.xlsx",
+      "pixels": [
+        780,
+        302
+      ],
+      "render_seconds": 1.212,
+      "sha256": "9182d5620d4cc1ecb27ad669b45a303ef27d874fad22e6c7ee4b044042b2e9dd"
+    }
+  ],
+  "hero": {
+    "image": "media/hero.png",
+    "pixels": [
+      1200,
+      1178
+    ],
+    "source_views": [
+      "media/before.png",
+      "media/after.png"
+    ],
+    "sha256": "d69850c36d9b8e4e2aa98ecc1313e6b3831f7be888e8e66f8b804b8788a373cf",
+    "template": "Shared casebook stacked before/after style; renderer and fonts in tools/hero."
+  }
+}

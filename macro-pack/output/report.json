@@ -1,0 +1,76 @@
+{
+  "implementation": "Python reference",
+  "input_records": {
+    "split": 1200,
+    "merge_a": 480,
+    "merge_b": 360,
+    "rename": 7,
+    "recipients": 80
+  },
+  "split": {
+    "rows": 1200,
+    "groups": 6,
+    "output_rows": 1200,
+    "value_total": "158779.50"
+  },
+  "merge": {
+    "rows": 840,
+    "duplicate_rows_preserved": 12,
+    "value_total": "108746.00"
+  },
+  "rename": {
+    "renamed": 2,
+    "rejected": 5
+  },
+  "letters": {
+    "written": 80
+  },
+  "exclusions": {
+    "split": 0,
+    "merge": 0,
+    "letters": 0,
+    "rename_reasons": [
+      [
+        "North old",
+        "North",
+        "renamed"
+      ],
+      [
+        "South old",
+        "South",
+        "renamed"
+      ],
+      [
+        "Missing",
+        "New tab",
+        "rejected: missing source"
+      ],
+      [
+        "Keep A",
+        "North",
+        "rejected: destination exists"
+      ],
+      [
+        "Keep B",
+        "Bad/name",
+        "rejected: invalid name"
+      ],
+      [
+        "Keep C",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "rejected: invalid name"
+      ],
+      [
+        "Keep D",
+        "'Bad",
+        "rejected: invalid name"
+      ]
+    ]
+  },
+  "runtime_seconds": 0.485,
+  "checks": {
+    "split_conserved": true,
+    "merge_conserved": true,
+    "letter_count_matches": true
+  }
+}

@@ -1,0 +1,4 @@
+Reference: C028
+Dear Account 028,
+Your statement amount is GBP 343.00.
+Please keep this letter with your records.

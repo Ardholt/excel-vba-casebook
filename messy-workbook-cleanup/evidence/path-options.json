@@ -1,0 +1,18 @@
+{
+  "command": "bash scripts/inner.sh --input <folder with spaces> --output <folder with spaces>",
+  "checks": {
+    "input_and_output_paths_with_spaces": true,
+    "business_result_matches_default": true,
+    "sources_unchanged": true
+  },
+  "business_result_sha256": "f560c7e5bf9b85839eb099baf34bb2b61bbe148a0355e761959a13c585cb74e6",
+  "software": {
+    "python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "pytest": "7.4.4",
+    "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "seconds": 22.7151,
+  "test_result": ".....................................                                    [100%]\n37 passed in 12.50s",
+  "scope": "Container command options; the outer Docker mount route is a repository-level check."
+}

@@ -1,0 +1,9 @@
+{
+  "source": "validation/batch.json",
+  "form_images": 48,
+  "forms_per_image": 1,
+  "pages_for_price_scope": 48,
+  "basis": "Each supplied single-form image is treated as one page for this batch; the advertised fixed price covers up to 15 pages.",
+  "advertised_page_limit": 15,
+  "scope": "Price comparison only; no assertion about physical scan sheets."
+}

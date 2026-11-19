@@ -1,0 +1,18 @@
+{
+  "execution": "Linux container; Python tests and LibreOffice headless checks",
+  "command": "bash scripts/inner.sh",
+  "input_records": 550,
+  "tests_passed": 37,
+  "runtime": "runtime.json",
+  "replacement_folders_check": "path-options.json",
+  "sheet_images_inspected": [
+    "../images/before.png",
+    "../images/after.png"
+  ],
+  "hero_inspected": "../media/hero.png",
+  "page_preview": {
+    "captures_included": false,
+    "phone_first_screen_inspected": true,
+    "scope": "The local README preview was inspected at 390 pixels; captures are not included in this repository."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "unclear": {
+    "image": "entry-04.png",
+    "field": "Amount",
+    "box": [
+      410,
+      447,
+      945,
+      514
+    ]
+  },
+  "readable": {
+    "image": "entry-01.png",
+    "fields": [
+      {
+        "field": "Form ID",
+        "box": "410,147,945,214",
+        "value": "F241"
+      },
+      {
+        "field": "Item code",
+        "box": "410,247,945,314",
+        "value": "IT-621"
+      },
+      {
+        "field": "Quantity",
+        "box": "410,347,945,414",
+        "value": "14"
+      },
+      {
+        "field": "Amount",
+        "box": "410,447,945,514",
+        "value": "106.13"
+      }
+    ]
+  },
+  "reports": [
+    "output/fields.csv",
+    "output/accuracy.json",
+    "output/review-audit.csv"
+  ]
+}

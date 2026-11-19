@@ -1,0 +1,4 @@
+period_start,period_end,account,source_file,input_records,ledger_records,rejected_records,opening_balance,credits,debits,net_movement,calculated_close,declared_close,closing_difference,running_mismatches,status
+2026-10-01,2026-12-31,ACCT-A,layout-a.csv,270,270,0,1000.00,18366.36,8558.08,9808.28,10808.28,10808.28,0.00,0,OK
+2026-10-01,2026-12-31,ACCT-B,layout-b.xlsx,270,270,0,500.00,18218.50,8901.46,9317.04,9817.04,9817.04,0.00,0,OK
+2026-10-01,2026-12-31,ACCT-C,layout-c.csv,270,270,0,750.00,17959.64,8805.14,9154.50,9904.50,9904.25,-0.25,1,REVIEW

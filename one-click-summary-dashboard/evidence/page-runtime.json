@@ -1,0 +1,32 @@
+{
+  "renderer": "pagerender; GitHub-style local Markdown preview",
+  "playwright": "1.56.0",
+  "chromium": "141.0.7390.37",
+  "captures": [
+    {
+      "file": "evidence/page-preview/1366-first.png",
+      "width": 1366,
+      "height": 900,
+      "sha256": "65f00e681866104c9d263a19c68a6a7e3082069897f45d7f417890c001fe368b"
+    },
+    {
+      "file": "evidence/page-preview/1366-full.png",
+      "width": 1366,
+      "height": 2280,
+      "sha256": "a1bf59d2a470dfaed93c6aaec0b768f6785dc3cbbdd07f945a2e01b5c78c0413"
+    },
+    {
+      "file": "evidence/page-preview/390-first.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "f97f08aeb8c9d72496e19a129d4590a7ea9a649f7ff04cd06b20f4cc923ef01b"
+    },
+    {
+      "file": "evidence/page-preview/390-full.png",
+      "width": 390,
+      "height": 3023,
+      "sha256": "50c8f4474ddbbfac59ef7ee071523166d0fe82b992e1931930780472a2ebbff8"
+    }
+  ],
+  "scope": "Local README preview in Chromium, not a signed-out visit to the published GitHub or Pages site"
+}

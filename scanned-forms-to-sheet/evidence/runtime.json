@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-11-19T04:40:04.110075+00:00",
+  "input_unchanged": true,
+  "software": {
+    "Python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "Pillow": "10.2.0",
+    "pytest": "7.4.4",
+    "Tesseract": "tesseract 5.3.4",
+    "LibreOffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "execution": "Linux container; image extraction, workbook production, openpyxl checks and business tests. LibreOffice rendering is recorded separately.",
+  "test_summary": "24 passed in 2.72s",
+  "test_exit_code": 0,
+  "test_seconds": 2.955,
+  "total_seconds": 21.114,
+  "limitations": [
+    "Confidence is an OCR heuristic, not a probability of correctness.",
+    "Accuracy applies only to the supplied image set."
+  ],
+  "libreoffice_checks": {
+    "method": "Opened and exported using LibreOffice Calc; every sheet value compared with the original using openpyxl.",
+    "workbooks": {
+      "input-inventory.xlsx": true,
+      "extracted.xlsx": true,
+      "reviewed.xlsx": true
+    },
+    "seconds": 2.927,
+    "proof": "images/01-Proof.png rendered from output/proof.xlsx by LibreOffice Calc and Poppler."
+  },
+  "execution_platform": "GitHub Actions runner container",
+  "rendering_evidence": "evidence/rendering.json",
+  "post_render_tests": {
+    "command": "python3 -m pytest -q -p no:cacheprovider tests",
+    "summary": "24 passed in 2.73s",
+    "exit_code": 0,
+    "seconds": 2.885
+  }
+}

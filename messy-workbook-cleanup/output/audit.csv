@@ -1,0 +1,551 @@
+source_row,row_id,status,kept_source_row,reason,value_row_id,value_customer_id,value_name,value_date,value_amount
+2,R001,kept,,valid unique record,R001,00071,ACCOUNT N-01,2026-04-03,1240.50
+3,R002,duplicate,2,exact normalized match; first source row retained,R002,00071,account n-01,2026-04-03,1240.50
+4,R003,kept,,valid unique record,R003,00082,Account W-01,2026-04-17,-85.20
+5,R004,rejected,,invalid date,R004,00093,Account S-01,31/02/2026,120.00
+6,R005,kept,,valid unique record,R005,00105,Account 005,2026-04-06,71.08
+7,R006,kept,,valid unique record,R006,00106,Account 006,2026-04-07,84.87
+8,R007,kept,,valid unique record,R007,00107,Account 007,2026-04-08,98.66
+9,R008,kept,,valid unique record,R008,00108,Account 008,2026-04-09,112.45
+10,R009,kept,,valid unique record,R009,00109,Account 009,2026-04-10,126.24
+11,R010,kept,,valid unique record,R010,00110,Account 010,2026-04-11,140.03
+12,R011,kept,,valid unique record,R011,00111,Account 011,2026-04-12,153.82
+13,R012,kept,,valid unique record,R012,00112,Account 012,2026-04-13,167.61
+14,R013,kept,,valid unique record,R013,00113,Account 013,2026-04-14,181.40
+15,R014,kept,,valid unique record,R014,00114,Account 014,2026-04-15,195.19
+16,R015,kept,,valid unique record,R015,00115,Account 015,2026-04-16,208.98
+17,R016,kept,,valid unique record,R016,00116,Account 016,2026-04-17,222.77
+18,R017,kept,,valid unique record,R017,00117,Account 017,2026-04-18,236.56
+19,R018,kept,,valid unique record,R018,00118,Account 018,2026-04-19,250.35
+20,R019,kept,,valid unique record,R019,00119,Account 019,2026-04-20,264.14
+21,R020,kept,,valid unique record,R020,00120,Account 020,2026-04-21,277.93
+22,R021,kept,,valid unique record,R021,00121,Account 021,2026-04-22,291.72
+23,R022,kept,,valid unique record,R022,00122,Account 022,2026-04-23,305.51
+24,R023,kept,,valid unique record,R023,00123,Account 023,2026-04-24,319.30
+25,R024,duplicate,6,exact normalized match; first source row retained,R024,00105,ACCOUNT 005,2026-04-06,71.08
+26,R025,duplicate,9,exact normalized match; first source row retained,R025,00108,ACCOUNT 008,2026-04-09,112.45
+27,R026,duplicate,13,exact normalized match; first source row retained,R026,00112,ACCOUNT 012,2026-04-13,167.61
+28,R027,duplicate,18,exact normalized match; first source row retained,R027,00117,ACCOUNT 017,2026-04-18,236.56
+29,R028,rejected,,invalid amount,R028,00228,Account 028,2026-04-29,"12,34.50"
+30,R029,rejected,,invalid amount,R029,00229,Account 029,2026-04-30,not entered
+31,R030,kept,,valid unique record,R030,00330,Account N-01,2026-04-03,1240.50
+32,R031,kept,,valid unique record,R031,00500,ACCOUNT 0500,2026-04-01,-5.00
+33,R032,kept,,valid unique record,R032,00501,Account 0501,2026-04-02,84.19
+34,R033,kept,,valid unique record,R033,00502,Account 0502,2026-04-03,163.38
+35,R034,kept,,valid unique record,R034,00503,Account 0503,2026-04-04,242.57
+36,R035,kept,,valid unique record,R035,00504,ACCOUNT 0504,2026-04-05,321.76
+37,R036,kept,,valid unique record,R036,00505,Account 0505,2026-04-06,400.95
+38,R037,kept,,valid unique record,R037,00506,Account 0506,2026-04-07,480.14
+39,R038,kept,,valid unique record,R038,00507,Account 0507,2026-04-08,559.33
+40,R039,kept,,valid unique record,R039,00508,ACCOUNT 0508,2026-04-09,638.52
+41,R040,kept,,valid unique record,R040,00509,Account 0509,2026-04-10,717.71
+42,R041,kept,,valid unique record,R041,00510,Account 0510,2026-04-11,796.90
+43,R042,kept,,valid unique record,R042,00511,Account 0511,2026-04-12,876.09
+44,R043,kept,,valid unique record,R043,00512,ACCOUNT 0512,2026-04-13,60.28
+45,R044,kept,,valid unique record,R044,00513,Account 0513,2026-04-14,139.47
+46,R045,kept,,valid unique record,R045,00514,Account 0514,2026-04-15,218.66
+47,R046,kept,,valid unique record,R046,00515,Account 0515,2026-04-16,297.85
+48,R047,kept,,valid unique record,R047,00516,ACCOUNT 0516,2026-04-17,377.04
+49,R048,kept,,valid unique record,R048,00517,Account 0517,2026-04-18,-456.23
+50,R049,kept,,valid unique record,R049,00518,Account 0518,2026-04-19,535.42
+51,R050,kept,,valid unique record,R050,00519,Account 0519,2026-04-20,614.61
+52,R051,kept,,valid unique record,R051,00520,ACCOUNT 0520,2026-04-21,693.80
+53,R052,kept,,valid unique record,R052,00521,Account 0521,2026-04-22,772.99
+54,R053,kept,,valid unique record,R053,00522,Account 0522,2026-04-23,852.18
+55,R054,kept,,valid unique record,R054,00523,Account 0523,2026-04-24,36.37
+56,R055,kept,,valid unique record,R055,00524,ACCOUNT 0524,2026-04-25,115.56
+57,R056,kept,,valid unique record,R056,00525,Account 0525,2026-04-26,194.75
+58,R057,kept,,valid unique record,R057,00526,Account 0526,2026-04-27,273.94
+59,R058,kept,,valid unique record,R058,00527,Account 0527,2026-04-28,353.13
+60,R059,kept,,valid unique record,R059,00528,ACCOUNT 0528,2026-04-29,432.32
+61,R060,kept,,valid unique record,R060,00529,Account 0529,2026-04-30,511.51
+62,R061,kept,,valid unique record,R061,00530,Account 0530,2026-05-01,590.70
+63,R062,kept,,valid unique record,R062,00531,Account 0531,2026-05-02,669.89
+64,R063,kept,,valid unique record,R063,00532,ACCOUNT 0532,2026-05-03,749.08
+65,R064,kept,,valid unique record,R064,00533,Account 0533,2026-05-04,828.27
+66,R065,kept,,valid unique record,R065,00534,Account 0534,2026-05-05,-12.46
+67,R066,kept,,valid unique record,R066,00535,Account 0535,2026-05-06,91.65
+68,R067,kept,,valid unique record,R067,00536,ACCOUNT 0536,2026-05-07,170.84
+69,R068,kept,,valid unique record,R068,00537,Account 0537,2026-05-08,250.03
+70,R069,kept,,valid unique record,R069,00538,Account 0538,2026-05-09,329.22
+71,R070,kept,,valid unique record,R070,00539,Account 0539,2026-05-10,408.41
+72,R071,kept,,valid unique record,R071,00540,ACCOUNT 0540,2026-05-11,487.60
+73,R072,kept,,valid unique record,R072,00541,Account 0541,2026-05-12,566.79
+74,R073,kept,,valid unique record,R073,00542,Account 0542,2026-05-13,645.98
+75,R074,kept,,valid unique record,R074,00543,Account 0543,2026-05-14,725.17
+76,R075,kept,,valid unique record,R075,00544,ACCOUNT 0544,2026-05-15,804.36
+77,R076,kept,,valid unique record,R076,00545,Account 0545,2026-05-16,883.55
+78,R077,kept,,valid unique record,R077,00546,Account 0546,2026-05-17,67.74
+79,R078,kept,,valid unique record,R078,00547,Account 0547,2026-05-18,146.93
+80,R079,kept,,valid unique record,R079,00548,ACCOUNT 0548,2026-05-19,226.12
+81,R080,kept,,valid unique record,R080,00549,Account 0549,2026-05-20,305.31
+82,R081,kept,,valid unique record,R081,00550,Account 0550,2026-05-21,384.50
+83,R082,kept,,valid unique record,R082,00551,Account 0551,2026-05-22,-463.69
+84,R083,kept,,valid unique record,R083,00552,ACCOUNT 0552,2026-05-23,542.88
+85,R084,kept,,valid unique record,R084,00553,Account 0553,2026-05-24,622.07
+86,R085,kept,,valid unique record,R085,00554,Account 0554,2026-05-25,701.26
+87,R086,kept,,valid unique record,R086,00555,Account 0555,2026-05-26,780.45
+88,R087,kept,,valid unique record,R087,00556,ACCOUNT 0556,2026-05-27,859.64
+89,R088,kept,,valid unique record,R088,00557,Account 0557,2026-05-28,43.83
+90,R089,kept,,valid unique record,R089,00558,Account 0558,2026-05-29,123.02
+91,R090,kept,,valid unique record,R090,00559,Account 0559,2026-05-30,202.21
+92,R091,kept,,valid unique record,R091,00560,ACCOUNT 0560,2026-05-31,281.40
+93,R092,kept,,valid unique record,R092,00561,Account 0561,2026-06-01,360.59
+94,R093,kept,,valid unique record,R093,00562,Account 0562,2026-06-02,439.78
+95,R094,kept,,valid unique record,R094,00563,Account 0563,2026-06-03,518.97
+96,R095,kept,,valid unique record,R095,00564,ACCOUNT 0564,2026-06-04,598.16
+97,R096,kept,,valid unique record,R096,00565,Account 0565,2026-06-05,677.35
+98,R097,kept,,valid unique record,R097,00566,Account 0566,2026-06-06,756.54
+99,R098,kept,,valid unique record,R098,00567,Account 0567,2026-06-07,835.73
+100,R099,kept,,valid unique record,R099,00568,ACCOUNT 0568,2026-06-08,-19.92
+101,R100,kept,,valid unique record,R100,00569,Account 0569,2026-06-09,99.11
+102,R101,kept,,valid unique record,R101,00570,Account 0570,2026-06-10,178.30
+103,R102,kept,,valid unique record,R102,00571,Account 0571,2026-06-11,257.49
+104,R103,kept,,valid unique record,R103,00572,ACCOUNT 0572,2026-06-12,336.68
+105,R104,kept,,valid unique record,R104,00573,Account 0573,2026-06-13,415.87
+106,R105,kept,,valid unique record,R105,00574,Account 0574,2026-06-14,495.06
+107,R106,kept,,valid unique record,R106,00575,Account 0575,2026-06-15,574.25
+108,R107,kept,,valid unique record,R107,00576,ACCOUNT 0576,2026-06-16,653.44
+109,R108,kept,,valid unique record,R108,00577,Account 0577,2026-06-17,732.63
+110,R109,kept,,valid unique record,R109,00578,Account 0578,2026-06-18,811.82
+111,R110,kept,,valid unique record,R110,00579,Account 0579,2026-06-19,891.01
+112,R111,kept,,valid unique record,R111,00580,ACCOUNT 0580,2026-06-20,75.20
+113,R112,kept,,valid unique record,R112,00581,Account 0581,2026-06-21,154.39
+114,R113,kept,,valid unique record,R113,00582,Account 0582,2026-06-22,233.58
+115,R114,kept,,valid unique record,R114,00583,Account 0583,2026-06-23,312.77
+116,R115,kept,,valid unique record,R115,00584,ACCOUNT 0584,2026-06-24,391.96
+117,R116,kept,,valid unique record,R116,00585,Account 0585,2026-06-25,-471.15
+118,R117,kept,,valid unique record,R117,00586,Account 0586,2026-06-26,550.34
+119,R118,kept,,valid unique record,R118,00587,Account 0587,2026-06-27,629.53
+120,R119,kept,,valid unique record,R119,00588,ACCOUNT 0588,2026-06-28,708.72
+121,R120,kept,,valid unique record,R120,00589,Account 0589,2026-06-29,787.91
+122,R121,kept,,valid unique record,R121,00590,Account 0590,2026-04-01,867.10
+123,R122,kept,,valid unique record,R122,00591,Account 0591,2026-04-02,51.29
+124,R123,kept,,valid unique record,R123,00592,ACCOUNT 0592,2026-04-03,130.48
+125,R124,kept,,valid unique record,R124,00593,Account 0593,2026-04-04,209.67
+126,R125,kept,,valid unique record,R125,00594,Account 0594,2026-04-05,288.86
+127,R126,kept,,valid unique record,R126,00595,Account 0595,2026-04-06,368.05
+128,R127,kept,,valid unique record,R127,00596,ACCOUNT 0596,2026-04-07,447.24
+129,R128,kept,,valid unique record,R128,00597,Account 0597,2026-04-08,526.43
+130,R129,kept,,valid unique record,R129,00598,Account 0598,2026-04-09,605.62
+131,R130,kept,,valid unique record,R130,00599,Account 0599,2026-04-10,684.81
+132,R131,kept,,valid unique record,R131,00600,ACCOUNT 0600,2026-04-11,764.00
+133,R132,kept,,valid unique record,R132,00601,Account 0601,2026-04-12,843.19
+134,R133,kept,,valid unique record,R133,00602,Account 0602,2026-04-13,-27.38
+135,R134,kept,,valid unique record,R134,00603,Account 0603,2026-04-14,106.57
+136,R135,kept,,valid unique record,R135,00604,ACCOUNT 0604,2026-04-15,185.76
+137,R136,kept,,valid unique record,R136,00605,Account 0605,2026-04-16,264.95
+138,R137,kept,,valid unique record,R137,00606,Account 0606,2026-04-17,344.14
+139,R138,kept,,valid unique record,R138,00607,Account 0607,2026-04-18,423.33
+140,R139,kept,,valid unique record,R139,00608,ACCOUNT 0608,2026-04-19,502.52
+141,R140,kept,,valid unique record,R140,00609,Account 0609,2026-04-20,581.71
+142,R141,kept,,valid unique record,R141,00610,Account 0610,2026-04-21,660.90
+143,R142,kept,,valid unique record,R142,00611,Account 0611,2026-04-22,740.09
+144,R143,kept,,valid unique record,R143,00612,ACCOUNT 0612,2026-04-23,819.28
+145,R144,kept,,valid unique record,R144,00613,Account 0613,2026-04-24,898.47
+146,R145,kept,,valid unique record,R145,00614,Account 0614,2026-04-25,82.66
+147,R146,kept,,valid unique record,R146,00615,Account 0615,2026-04-26,161.85
+148,R147,kept,,valid unique record,R147,00616,ACCOUNT 0616,2026-04-27,241.04
+149,R148,kept,,valid unique record,R148,00617,Account 0617,2026-04-28,320.23
+150,R149,kept,,valid unique record,R149,00618,Account 0618,2026-04-29,399.42
+151,R150,kept,,valid unique record,R150,00619,Account 0619,2026-04-30,-478.61
+152,R151,kept,,valid unique record,R151,00620,ACCOUNT 0620,2026-05-01,557.80
+153,R152,kept,,valid unique record,R152,00621,Account 0621,2026-05-02,636.99
+154,R153,kept,,valid unique record,R153,00622,Account 0622,2026-05-03,716.18
+155,R154,kept,,valid unique record,R154,00623,Account 0623,2026-05-04,795.37
+156,R155,kept,,valid unique record,R155,00624,ACCOUNT 0624,2026-05-05,874.56
+157,R156,kept,,valid unique record,R156,00625,Account 0625,2026-05-06,58.75
+158,R157,kept,,valid unique record,R157,00626,Account 0626,2026-05-07,137.94
+159,R158,kept,,valid unique record,R158,00627,Account 0627,2026-05-08,217.13
+160,R159,kept,,valid unique record,R159,00628,ACCOUNT 0628,2026-05-09,296.32
+161,R160,kept,,valid unique record,R160,00629,Account 0629,2026-05-10,375.51
+162,R161,kept,,valid unique record,R161,00630,Account 0630,2026-05-11,454.70
+163,R162,kept,,valid unique record,R162,00631,Account 0631,2026-05-12,533.89
+164,R163,kept,,valid unique record,R163,00632,ACCOUNT 0632,2026-05-13,613.08
+165,R164,kept,,valid unique record,R164,00633,Account 0633,2026-05-14,692.27
+166,R165,kept,,valid unique record,R165,00634,Account 0634,2026-05-15,771.46
+167,R166,kept,,valid unique record,R166,00635,Account 0635,2026-05-16,850.65
+168,R167,kept,,valid unique record,R167,00636,ACCOUNT 0636,2026-05-17,-34.84
+169,R168,kept,,valid unique record,R168,00637,Account 0637,2026-05-18,114.03
+170,R169,kept,,valid unique record,R169,00638,Account 0638,2026-05-19,193.22
+171,R170,kept,,valid unique record,R170,00639,Account 0639,2026-05-20,272.41
+172,R171,kept,,valid unique record,R171,00640,ACCOUNT 0640,2026-05-21,351.60
+173,R172,kept,,valid unique record,R172,00641,Account 0641,2026-05-22,430.79
+174,R173,kept,,valid unique record,R173,00642,Account 0642,2026-05-23,509.98
+175,R174,kept,,valid unique record,R174,00643,Account 0643,2026-05-24,589.17
+176,R175,kept,,valid unique record,R175,00644,ACCOUNT 0644,2026-05-25,668.36
+177,R176,kept,,valid unique record,R176,00645,Account 0645,2026-05-26,747.55
+178,R177,kept,,valid unique record,R177,00646,Account 0646,2026-05-27,826.74
+179,R178,kept,,valid unique record,R178,00647,Account 0647,2026-05-28,10.93
+180,R179,kept,,valid unique record,R179,00648,ACCOUNT 0648,2026-05-29,90.12
+181,R180,kept,,valid unique record,R180,00649,Account 0649,2026-05-30,169.31
+182,R181,kept,,valid unique record,R181,00650,Account 0650,2026-05-31,248.50
+183,R182,kept,,valid unique record,R182,00651,Account 0651,2026-06-01,327.69
+184,R183,kept,,valid unique record,R183,00652,ACCOUNT 0652,2026-06-02,406.88
+185,R184,kept,,valid unique record,R184,00653,Account 0653,2026-06-03,-486.07
+186,R185,kept,,valid unique record,R185,00654,Account 0654,2026-06-04,565.26
+187,R186,kept,,valid unique record,R186,00655,Account 0655,2026-06-05,644.45
+188,R187,kept,,valid unique record,R187,00656,ACCOUNT 0656,2026-06-06,723.64
+189,R188,kept,,valid unique record,R188,00657,Account 0657,2026-06-07,802.83
+190,R189,kept,,valid unique record,R189,00658,Account 0658,2026-06-08,882.02
+191,R190,kept,,valid unique record,R190,00659,Account 0659,2026-06-09,66.21
+192,R191,kept,,valid unique record,R191,00660,ACCOUNT 0660,2026-06-10,145.40
+193,R192,kept,,valid unique record,R192,00661,Account 0661,2026-06-11,224.59
+194,R193,kept,,valid unique record,R193,00662,Account 0662,2026-06-12,303.78
+195,R194,kept,,valid unique record,R194,00663,Account 0663,2026-06-13,382.97
+196,R195,kept,,valid unique record,R195,00664,ACCOUNT 0664,2026-06-14,462.16
+197,R196,kept,,valid unique record,R196,00665,Account 0665,2026-06-15,541.35
+198,R197,kept,,valid unique record,R197,00666,Account 0666,2026-06-16,620.54
+199,R198,kept,,valid unique record,R198,00667,Account 0667,2026-06-17,699.73
+200,R199,kept,,valid unique record,R199,00668,ACCOUNT 0668,2026-06-18,778.92
+201,R200,kept,,valid unique record,R200,00669,Account 0669,2026-06-19,858.11
+202,R201,kept,,valid unique record,R201,00670,Account 0670,2026-06-20,-42.30
+203,R202,kept,,valid unique record,R202,00671,Account 0671,2026-06-21,121.49
+204,R203,kept,,valid unique record,R203,00672,ACCOUNT 0672,2026-06-22,200.68
+205,R204,kept,,valid unique record,R204,00673,Account 0673,2026-06-23,279.87
+206,R205,kept,,valid unique record,R205,00674,Account 0674,2026-06-24,359.06
+207,R206,kept,,valid unique record,R206,00675,Account 0675,2026-06-25,438.25
+208,R207,kept,,valid unique record,R207,00676,ACCOUNT 0676,2026-06-26,517.44
+209,R208,kept,,valid unique record,R208,00677,Account 0677,2026-06-27,596.63
+210,R209,kept,,valid unique record,R209,00678,Account 0678,2026-06-28,675.82
+211,R210,kept,,valid unique record,R210,00679,Account 0679,2026-06-29,755.01
+212,R211,kept,,valid unique record,R211,00680,ACCOUNT 0680,2026-04-01,834.20
+213,R212,kept,,valid unique record,R212,00681,Account 0681,2026-04-02,18.39
+214,R213,kept,,valid unique record,R213,00682,Account 0682,2026-04-03,97.58
+215,R214,kept,,valid unique record,R214,00683,Account 0683,2026-04-04,176.77
+216,R215,kept,,valid unique record,R215,00684,ACCOUNT 0684,2026-04-05,255.96
+217,R216,kept,,valid unique record,R216,00685,Account 0685,2026-04-06,335.15
+218,R217,kept,,valid unique record,R217,00686,Account 0686,2026-04-07,414.34
+219,R218,kept,,valid unique record,R218,00687,Account 0687,2026-04-08,-493.53
+220,R219,kept,,valid unique record,R219,00688,ACCOUNT 0688,2026-04-09,572.72
+221,R220,kept,,valid unique record,R220,00689,Account 0689,2026-04-10,651.91
+222,R221,kept,,valid unique record,R221,00690,Account 0690,2026-04-11,731.10
+223,R222,kept,,valid unique record,R222,00691,Account 0691,2026-04-12,810.29
+224,R223,kept,,valid unique record,R223,00692,ACCOUNT 0692,2026-04-13,889.48
+225,R224,kept,,valid unique record,R224,00693,Account 0693,2026-04-14,73.67
+226,R225,kept,,valid unique record,R225,00694,Account 0694,2026-04-15,152.86
+227,R226,kept,,valid unique record,R226,00695,Account 0695,2026-04-16,232.05
+228,R227,kept,,valid unique record,R227,00696,ACCOUNT 0696,2026-04-17,311.24
+229,R228,kept,,valid unique record,R228,00697,Account 0697,2026-04-18,390.43
+230,R229,kept,,valid unique record,R229,00698,Account 0698,2026-04-19,469.62
+231,R230,kept,,valid unique record,R230,00699,Account 0699,2026-04-20,548.81
+232,R231,kept,,valid unique record,R231,00700,ACCOUNT 0700,2026-04-21,628.00
+233,R232,kept,,valid unique record,R232,00701,Account 0701,2026-04-22,707.19
+234,R233,kept,,valid unique record,R233,00702,Account 0702,2026-04-23,786.38
+235,R234,kept,,valid unique record,R234,00703,Account 0703,2026-04-24,865.57
+236,R235,kept,,valid unique record,R235,00704,ACCOUNT 0704,2026-04-25,-49.76
+237,R236,kept,,valid unique record,R236,00705,Account 0705,2026-04-26,128.95
+238,R237,kept,,valid unique record,R237,00706,Account 0706,2026-04-27,208.14
+239,R238,kept,,valid unique record,R238,00707,Account 0707,2026-04-28,287.33
+240,R239,kept,,valid unique record,R239,00708,ACCOUNT 0708,2026-04-29,366.52
+241,R240,kept,,valid unique record,R240,00709,Account 0709,2026-04-30,445.71
+242,R241,kept,,valid unique record,R241,00710,Account 0710,2026-05-01,524.90
+243,R242,kept,,valid unique record,R242,00711,Account 0711,2026-05-02,604.09
+244,R243,kept,,valid unique record,R243,00712,ACCOUNT 0712,2026-05-03,683.28
+245,R244,kept,,valid unique record,R244,00713,Account 0713,2026-05-04,762.47
+246,R245,kept,,valid unique record,R245,00714,Account 0714,2026-05-05,841.66
+247,R246,kept,,valid unique record,R246,00715,Account 0715,2026-05-06,25.85
+248,R247,kept,,valid unique record,R247,00716,ACCOUNT 0716,2026-05-07,105.04
+249,R248,kept,,valid unique record,R248,00717,Account 0717,2026-05-08,184.23
+250,R249,kept,,valid unique record,R249,00718,Account 0718,2026-05-09,263.42
+251,R250,kept,,valid unique record,R250,00719,Account 0719,2026-05-10,342.61
+252,R251,kept,,valid unique record,R251,00720,ACCOUNT 0720,2026-05-11,421.80
+253,R252,kept,,valid unique record,R252,00721,Account 0721,2026-05-12,-500.99
+254,R253,kept,,valid unique record,R253,00722,Account 0722,2026-05-13,580.18
+255,R254,kept,,valid unique record,R254,00723,Account 0723,2026-05-14,659.37
+256,R255,kept,,valid unique record,R255,00724,ACCOUNT 0724,2026-05-15,738.56
+257,R256,kept,,valid unique record,R256,00725,Account 0725,2026-05-16,817.75
+258,R257,kept,,valid unique record,R257,00726,Account 0726,2026-05-17,896.94
+259,R258,kept,,valid unique record,R258,00727,Account 0727,2026-05-18,81.13
+260,R259,kept,,valid unique record,R259,00728,ACCOUNT 0728,2026-05-19,160.32
+261,R260,kept,,valid unique record,R260,00729,Account 0729,2026-05-20,239.51
+262,R261,kept,,valid unique record,R261,00730,Account 0730,2026-05-21,318.70
+263,R262,kept,,valid unique record,R262,00731,Account 0731,2026-05-22,397.89
+264,R263,kept,,valid unique record,R263,00732,ACCOUNT 0732,2026-05-23,477.08
+265,R264,kept,,valid unique record,R264,00733,Account 0733,2026-05-24,556.27
+266,R265,kept,,valid unique record,R265,00734,Account 0734,2026-05-25,635.46
+267,R266,kept,,valid unique record,R266,00735,Account 0735,2026-05-26,714.65
+268,R267,kept,,valid unique record,R267,00736,ACCOUNT 0736,2026-05-27,793.84
+269,R268,kept,,valid unique record,R268,00737,Account 0737,2026-05-28,873.03
+270,R269,kept,,valid unique record,R269,00738,Account 0738,2026-05-29,-57.22
+271,R270,kept,,valid unique record,R270,00739,Account 0739,2026-05-30,136.41
+272,R271,kept,,valid unique record,R271,00740,ACCOUNT 0740,2026-05-31,215.60
+273,R272,kept,,valid unique record,R272,00741,Account 0741,2026-06-01,294.79
+274,R273,kept,,valid unique record,R273,00742,Account 0742,2026-06-02,373.98
+275,R274,kept,,valid unique record,R274,00743,Account 0743,2026-06-03,453.17
+276,R275,kept,,valid unique record,R275,00744,ACCOUNT 0744,2026-06-04,532.36
+277,R276,kept,,valid unique record,R276,00745,Account 0745,2026-06-05,611.55
+278,R277,kept,,valid unique record,R277,00746,Account 0746,2026-06-06,690.74
+279,R278,kept,,valid unique record,R278,00747,Account 0747,2026-06-07,769.93
+280,R279,kept,,valid unique record,R279,00748,ACCOUNT 0748,2026-06-08,849.12
+281,R280,kept,,valid unique record,R280,00749,Account 0749,2026-06-09,33.31
+282,R281,kept,,valid unique record,R281,00750,Account 0750,2026-06-10,112.50
+283,R282,kept,,valid unique record,R282,00751,Account 0751,2026-06-11,191.69
+284,R283,kept,,valid unique record,R283,00752,ACCOUNT 0752,2026-06-12,270.88
+285,R284,kept,,valid unique record,R284,00753,Account 0753,2026-06-13,350.07
+286,R285,kept,,valid unique record,R285,00754,Account 0754,2026-06-14,429.26
+287,R286,kept,,valid unique record,R286,00755,Account 0755,2026-06-15,-508.45
+288,R287,kept,,valid unique record,R287,00756,ACCOUNT 0756,2026-06-16,587.64
+289,R288,kept,,valid unique record,R288,00757,Account 0757,2026-06-17,666.83
+290,R289,kept,,valid unique record,R289,00758,Account 0758,2026-06-18,746.02
+291,R290,kept,,valid unique record,R290,00759,Account 0759,2026-06-19,825.21
+292,R291,kept,,valid unique record,R291,00760,ACCOUNT 0760,2026-06-20,9.40
+293,R292,kept,,valid unique record,R292,00761,Account 0761,2026-06-21,88.59
+294,R293,kept,,valid unique record,R293,00762,Account 0762,2026-06-22,167.78
+295,R294,kept,,valid unique record,R294,00763,Account 0763,2026-06-23,246.97
+296,R295,kept,,valid unique record,R295,00764,ACCOUNT 0764,2026-06-24,326.16
+297,R296,kept,,valid unique record,R296,00765,Account 0765,2026-06-25,405.35
+298,R297,kept,,valid unique record,R297,00766,Account 0766,2026-06-26,484.54
+299,R298,kept,,valid unique record,R298,00767,Account 0767,2026-06-27,563.73
+300,R299,kept,,valid unique record,R299,00768,ACCOUNT 0768,2026-06-28,642.92
+301,R300,kept,,valid unique record,R300,00769,Account 0769,2026-06-29,722.11
+302,R301,kept,,valid unique record,R301,00770,Account 0770,2026-04-01,801.30
+303,R302,kept,,valid unique record,R302,00771,Account 0771,2026-04-02,880.49
+304,R303,kept,,valid unique record,R303,00772,ACCOUNT 0772,2026-04-03,-64.68
+305,R304,kept,,valid unique record,R304,00773,Account 0773,2026-04-04,143.87
+306,R305,kept,,valid unique record,R305,00774,Account 0774,2026-04-05,223.06
+307,R306,kept,,valid unique record,R306,00775,Account 0775,2026-04-06,302.25
+308,R307,kept,,valid unique record,R307,00776,ACCOUNT 0776,2026-04-07,381.44
+309,R308,kept,,valid unique record,R308,00777,Account 0777,2026-04-08,460.63
+310,R309,kept,,valid unique record,R309,00778,Account 0778,2026-04-09,539.82
+311,R310,kept,,valid unique record,R310,00779,Account 0779,2026-04-10,619.01
+312,R311,kept,,valid unique record,R311,00780,ACCOUNT 0780,2026-04-11,698.20
+313,R312,kept,,valid unique record,R312,00781,Account 0781,2026-04-12,777.39
+314,R313,kept,,valid unique record,R313,00782,Account 0782,2026-04-13,856.58
+315,R314,kept,,valid unique record,R314,00783,Account 0783,2026-04-14,40.77
+316,R315,kept,,valid unique record,R315,00784,ACCOUNT 0784,2026-04-15,119.96
+317,R316,kept,,valid unique record,R316,00785,Account 0785,2026-04-16,199.15
+318,R317,kept,,valid unique record,R317,00786,Account 0786,2026-04-17,278.34
+319,R318,kept,,valid unique record,R318,00787,Account 0787,2026-04-18,357.53
+320,R319,kept,,valid unique record,R319,00788,ACCOUNT 0788,2026-04-19,436.72
+321,R320,kept,,valid unique record,R320,00789,Account 0789,2026-04-20,-515.91
+322,R321,kept,,valid unique record,R321,00790,Account 0790,2026-04-21,595.10
+323,R322,kept,,valid unique record,R322,00791,Account 0791,2026-04-22,674.29
+324,R323,kept,,valid unique record,R323,00792,ACCOUNT 0792,2026-04-23,753.48
+325,R324,kept,,valid unique record,R324,00793,Account 0793,2026-04-24,832.67
+326,R325,kept,,valid unique record,R325,00794,Account 0794,2026-04-25,16.86
+327,R326,kept,,valid unique record,R326,00795,Account 0795,2026-04-26,96.05
+328,R327,kept,,valid unique record,R327,00796,ACCOUNT 0796,2026-04-27,175.24
+329,R328,kept,,valid unique record,R328,00797,Account 0797,2026-04-28,254.43
+330,R329,kept,,valid unique record,R329,00798,Account 0798,2026-04-29,333.62
+331,R330,kept,,valid unique record,R330,00799,Account 0799,2026-04-30,412.81
+332,R331,kept,,valid unique record,R331,00800,ACCOUNT 0800,2026-05-01,492.00
+333,R332,kept,,valid unique record,R332,00801,Account 0801,2026-05-02,571.19
+334,R333,kept,,valid unique record,R333,00802,Account 0802,2026-05-03,650.38
+335,R334,kept,,valid unique record,R334,00803,Account 0803,2026-05-04,729.57
+336,R335,kept,,valid unique record,R335,00804,ACCOUNT 0804,2026-05-05,808.76
+337,R336,kept,,valid unique record,R336,00805,Account 0805,2026-05-06,887.95
+338,R337,kept,,valid unique record,R337,00806,Account 0806,2026-05-07,-72.14
+339,R338,kept,,valid unique record,R338,00807,Account 0807,2026-05-08,151.33
+340,R339,kept,,valid unique record,R339,00808,ACCOUNT 0808,2026-05-09,230.52
+341,R340,kept,,valid unique record,R340,00809,Account 0809,2026-05-10,309.71
+342,R341,kept,,valid unique record,R341,00810,Account 0810,2026-05-11,388.90
+343,R342,kept,,valid unique record,R342,00811,Account 0811,2026-05-12,468.09
+344,R343,kept,,valid unique record,R343,00812,ACCOUNT 0812,2026-05-13,547.28
+345,R344,kept,,valid unique record,R344,00813,Account 0813,2026-05-14,626.47
+346,R345,kept,,valid unique record,R345,00814,Account 0814,2026-05-15,705.66
+347,R346,kept,,valid unique record,R346,00815,Account 0815,2026-05-16,784.85
+348,R347,kept,,valid unique record,R347,00816,ACCOUNT 0816,2026-05-17,864.04
+349,R348,kept,,valid unique record,R348,00817,Account 0817,2026-05-18,48.23
+350,R349,kept,,valid unique record,R349,00818,Account 0818,2026-05-19,127.42
+351,R350,kept,,valid unique record,R350,00819,Account 0819,2026-05-20,206.61
+352,R351,kept,,valid unique record,R351,00820,ACCOUNT 0820,2026-05-21,285.80
+353,R352,kept,,valid unique record,R352,00821,Account 0821,2026-05-22,364.99
+354,R353,kept,,valid unique record,R353,00822,Account 0822,2026-05-23,444.18
+355,R354,kept,,valid unique record,R354,00823,Account 0823,2026-05-24,-523.37
+356,R355,kept,,valid unique record,R355,00824,ACCOUNT 0824,2026-05-25,602.56
+357,R356,kept,,valid unique record,R356,00825,Account 0825,2026-05-26,681.75
+358,R357,kept,,valid unique record,R357,00826,Account 0826,2026-05-27,760.94
+359,R358,kept,,valid unique record,R358,00827,Account 0827,2026-05-28,840.13
+360,R359,kept,,valid unique record,R359,00828,ACCOUNT 0828,2026-05-29,24.32
+361,R360,kept,,valid unique record,R360,00829,Account 0829,2026-05-30,103.51
+362,R361,kept,,valid unique record,R361,00830,Account 0830,2026-05-31,182.70
+363,R362,kept,,valid unique record,R362,00831,Account 0831,2026-06-01,261.89
+364,R363,kept,,valid unique record,R363,00832,ACCOUNT 0832,2026-06-02,341.08
+365,R364,kept,,valid unique record,R364,00833,Account 0833,2026-06-03,420.27
+366,R365,kept,,valid unique record,R365,00834,Account 0834,2026-06-04,499.46
+367,R366,kept,,valid unique record,R366,00835,Account 0835,2026-06-05,578.65
+368,R367,kept,,valid unique record,R367,00836,ACCOUNT 0836,2026-06-06,657.84
+369,R368,kept,,valid unique record,R368,00837,Account 0837,2026-06-07,737.03
+370,R369,kept,,valid unique record,R369,00838,Account 0838,2026-06-08,816.22
+371,R370,kept,,valid unique record,R370,00839,Account 0839,2026-06-09,895.41
+372,R371,kept,,valid unique record,R371,00840,ACCOUNT 0840,2026-06-10,-79.60
+373,R372,kept,,valid unique record,R372,00841,Account 0841,2026-06-11,158.79
+374,R373,kept,,valid unique record,R373,00842,Account 0842,2026-06-12,237.98
+375,R374,kept,,valid unique record,R374,00843,Account 0843,2026-06-13,317.17
+376,R375,kept,,valid unique record,R375,00844,ACCOUNT 0844,2026-06-14,396.36
+377,R376,kept,,valid unique record,R376,00845,Account 0845,2026-06-15,475.55
+378,R377,kept,,valid unique record,R377,00846,Account 0846,2026-06-16,554.74
+379,R378,kept,,valid unique record,R378,00847,Account 0847,2026-06-17,633.93
+380,R379,kept,,valid unique record,R379,00848,ACCOUNT 0848,2026-06-18,713.12
+381,R380,kept,,valid unique record,R380,00849,Account 0849,2026-06-19,792.31
+382,R381,kept,,valid unique record,R381,00850,Account 0850,2026-06-20,871.50
+383,R382,kept,,valid unique record,R382,00851,Account 0851,2026-06-21,55.69
+384,R383,kept,,valid unique record,R383,00852,ACCOUNT 0852,2026-06-22,134.88
+385,R384,kept,,valid unique record,R384,00853,Account 0853,2026-06-23,214.07
+386,R385,kept,,valid unique record,R385,00854,Account 0854,2026-06-24,293.26
+387,R386,kept,,valid unique record,R386,00855,Account 0855,2026-06-25,372.45
+388,R387,kept,,valid unique record,R387,00856,ACCOUNT 0856,2026-06-26,451.64
+389,R388,kept,,valid unique record,R388,00857,Account 0857,2026-06-27,-530.83
+390,R389,kept,,valid unique record,R389,00858,Account 0858,2026-06-28,610.02
+391,R390,kept,,valid unique record,R390,00859,Account 0859,2026-06-29,689.21
+392,R391,kept,,valid unique record,R391,00860,ACCOUNT 0860,2026-04-01,768.40
+393,R392,kept,,valid unique record,R392,00861,Account 0861,2026-04-02,847.59
+394,R393,kept,,valid unique record,R393,00862,Account 0862,2026-04-03,31.78
+395,R394,kept,,valid unique record,R394,00863,Account 0863,2026-04-04,110.97
+396,R395,kept,,valid unique record,R395,00864,ACCOUNT 0864,2026-04-05,190.16
+397,R396,kept,,valid unique record,R396,00865,Account 0865,2026-04-06,269.35
+398,R397,kept,,valid unique record,R397,00866,Account 0866,2026-04-07,348.54
+399,R398,kept,,valid unique record,R398,00867,Account 0867,2026-04-08,427.73
+400,R399,kept,,valid unique record,R399,00868,ACCOUNT 0868,2026-04-09,506.92
+401,R400,kept,,valid unique record,R400,00869,Account 0869,2026-04-10,586.11
+402,R401,kept,,valid unique record,R401,00870,Account 0870,2026-04-11,665.30
+403,R402,kept,,valid unique record,R402,00871,Account 0871,2026-04-12,744.49
+404,R403,kept,,valid unique record,R403,00872,ACCOUNT 0872,2026-04-13,823.68
+405,R404,kept,,valid unique record,R404,00873,Account 0873,2026-04-14,7.87
+406,R405,kept,,valid unique record,R405,00874,Account 0874,2026-04-15,-87.06
+407,R406,kept,,valid unique record,R406,00875,Account 0875,2026-04-16,166.25
+408,R407,kept,,valid unique record,R407,00876,ACCOUNT 0876,2026-04-17,245.44
+409,R408,kept,,valid unique record,R408,00877,Account 0877,2026-04-18,324.63
+410,R409,kept,,valid unique record,R409,00878,Account 0878,2026-04-19,403.82
+411,R410,kept,,valid unique record,R410,00879,Account 0879,2026-04-20,483.01
+412,R411,kept,,valid unique record,R411,00880,ACCOUNT 0880,2026-04-21,562.20
+413,R412,kept,,valid unique record,R412,00881,Account 0881,2026-04-22,641.39
+414,R413,kept,,valid unique record,R413,00882,Account 0882,2026-04-23,720.58
+415,R414,kept,,valid unique record,R414,00883,Account 0883,2026-04-24,799.77
+416,R415,kept,,valid unique record,R415,00884,ACCOUNT 0884,2026-04-25,878.96
+417,R416,kept,,valid unique record,R416,00885,Account 0885,2026-04-26,63.15
+418,R417,kept,,valid unique record,R417,00886,Account 0886,2026-04-27,142.34
+419,R418,kept,,valid unique record,R418,00887,Account 0887,2026-04-28,221.53
+420,R419,kept,,valid unique record,R419,00888,ACCOUNT 0888,2026-04-29,300.72
+421,R420,kept,,valid unique record,R420,00889,Account 0889,2026-04-30,379.91
+422,R421,kept,,valid unique record,R421,00890,Account 0890,2026-05-01,459.10
+423,R422,kept,,valid unique record,R422,00891,Account 0891,2026-05-02,-538.29
+424,R423,kept,,valid unique record,R423,00892,ACCOUNT 0892,2026-05-03,617.48
+425,R424,kept,,valid unique record,R424,00893,Account 0893,2026-05-04,696.67
+426,R425,kept,,valid unique record,R425,00894,Account 0894,2026-05-05,775.86
+427,R426,kept,,valid unique record,R426,00895,Account 0895,2026-05-06,855.05
+428,R427,kept,,valid unique record,R427,00896,ACCOUNT 0896,2026-05-07,39.24
+429,R428,kept,,valid unique record,R428,00897,Account 0897,2026-05-08,118.43
+430,R429,kept,,valid unique record,R429,00898,Account 0898,2026-05-09,197.62
+431,R430,kept,,valid unique record,R430,00899,Account 0899,2026-05-10,276.81
+432,R431,kept,,valid unique record,R431,00900,ACCOUNT 0900,2026-05-11,356.00
+433,R432,kept,,valid unique record,R432,00901,Account 0901,2026-05-12,435.19
+434,R433,kept,,valid unique record,R433,00902,Account 0902,2026-05-13,514.38
+435,R434,kept,,valid unique record,R434,00903,Account 0903,2026-05-14,593.57
+436,R435,kept,,valid unique record,R435,00904,ACCOUNT 0904,2026-05-15,672.76
+437,R436,kept,,valid unique record,R436,00905,Account 0905,2026-05-16,751.95
+438,R437,kept,,valid unique record,R437,00906,Account 0906,2026-05-17,831.14
+439,R438,kept,,valid unique record,R438,00907,Account 0907,2026-05-18,15.33
+440,R439,kept,,valid unique record,R439,00908,ACCOUNT 0908,2026-05-19,-94.52
+441,R440,kept,,valid unique record,R440,00909,Account 0909,2026-05-20,173.71
+442,R441,kept,,valid unique record,R441,00910,Account 0910,2026-05-21,252.90
+443,R442,kept,,valid unique record,R442,00911,Account 0911,2026-05-22,332.09
+444,R443,kept,,valid unique record,R443,00912,ACCOUNT 0912,2026-05-23,411.28
+445,R444,kept,,valid unique record,R444,00913,Account 0913,2026-05-24,490.47
+446,R445,kept,,valid unique record,R445,00914,Account 0914,2026-05-25,569.66
+447,R446,kept,,valid unique record,R446,00915,Account 0915,2026-05-26,648.85
+448,R447,kept,,valid unique record,R447,00916,ACCOUNT 0916,2026-05-27,728.04
+449,R448,kept,,valid unique record,R448,00917,Account 0917,2026-05-28,807.23
+450,R449,kept,,valid unique record,R449,00918,Account 0918,2026-05-29,886.42
+451,R450,kept,,valid unique record,R450,00919,Account 0919,2026-05-30,70.61
+452,R451,kept,,valid unique record,R451,00920,ACCOUNT 0920,2026-05-31,149.80
+453,R452,kept,,valid unique record,R452,00921,Account 0921,2026-06-01,228.99
+454,R453,kept,,valid unique record,R453,00922,Account 0922,2026-06-02,308.18
+455,R454,kept,,valid unique record,R454,00923,Account 0923,2026-06-03,387.37
+456,R455,kept,,valid unique record,R455,00924,ACCOUNT 0924,2026-06-04,466.56
+457,R456,kept,,valid unique record,R456,00925,Account 0925,2026-06-05,-545.75
+458,R457,kept,,valid unique record,R457,00926,Account 0926,2026-06-06,624.94
+459,R458,kept,,valid unique record,R458,00927,Account 0927,2026-06-07,704.13
+460,R459,kept,,valid unique record,R459,00928,ACCOUNT 0928,2026-06-08,783.32
+461,R460,kept,,valid unique record,R460,00929,Account 0929,2026-06-09,862.51
+462,R461,kept,,valid unique record,R461,00930,Account 0930,2026-06-10,46.70
+463,R462,kept,,valid unique record,R462,00931,Account 0931,2026-06-11,125.89
+464,R463,kept,,valid unique record,R463,00932,ACCOUNT 0932,2026-06-12,205.08
+465,R464,kept,,valid unique record,R464,00933,Account 0933,2026-06-13,284.27
+466,R465,kept,,valid unique record,R465,00934,Account 0934,2026-06-14,363.46
+467,R466,kept,,valid unique record,R466,00935,Account 0935,2026-06-15,442.65
+468,R467,kept,,valid unique record,R467,00936,ACCOUNT 0936,2026-06-16,521.84
+469,R468,kept,,valid unique record,R468,00937,Account 0937,2026-06-17,601.03
+470,R469,kept,,valid unique record,R469,00938,Account 0938,2026-06-18,680.22
+471,R470,kept,,valid unique record,R470,00939,Account 0939,2026-06-19,759.41
+472,R471,kept,,valid unique record,R471,00940,ACCOUNT 0940,2026-06-20,838.60
+473,R472,kept,,valid unique record,R472,00941,Account 0941,2026-06-21,22.79
+474,R473,kept,,valid unique record,R473,00942,Account 0942,2026-06-22,-101.98
+475,R474,kept,,valid unique record,R474,00943,Account 0943,2026-06-23,181.17
+476,R475,kept,,valid unique record,R475,00944,ACCOUNT 0944,2026-06-24,260.36
+477,R476,kept,,valid unique record,R476,00945,Account 0945,2026-06-25,339.55
+478,R477,kept,,valid unique record,R477,00946,Account 0946,2026-06-26,418.74
+479,R478,kept,,valid unique record,R478,00947,Account 0947,2026-06-27,497.93
+480,R479,kept,,valid unique record,R479,00948,ACCOUNT 0948,2026-06-28,577.12
+481,R480,kept,,valid unique record,R480,00949,Account 0949,2026-06-29,656.31
+482,R481,duplicate,32,exact normalized match; first source row retained,R481,00500,account 0500,2026-04-01,-5.00
+483,R482,duplicate,39,exact normalized match; first source row retained,R482,00507,account 0507,2026-04-08,559.33
+484,R483,duplicate,46,exact normalized match; first source row retained,R483,00514,account 0514,2026-04-15,218.66
+485,R484,duplicate,53,exact normalized match; first source row retained,R484,00521,account 0521,2026-04-22,772.99
+486,R485,duplicate,60,exact normalized match; first source row retained,R485,00528,account 0528,2026-04-29,432.32
+487,R486,duplicate,67,exact normalized match; first source row retained,R486,00535,account 0535,2026-05-06,91.65
+488,R487,duplicate,74,exact normalized match; first source row retained,R487,00542,account 0542,2026-05-13,645.98
+489,R488,duplicate,81,exact normalized match; first source row retained,R488,00549,account 0549,2026-05-20,305.31
+490,R489,duplicate,88,exact normalized match; first source row retained,R489,00556,account 0556,2026-05-27,859.64
+491,R490,duplicate,95,exact normalized match; first source row retained,R490,00563,account 0563,2026-06-03,518.97
+492,R491,duplicate,102,exact normalized match; first source row retained,R491,00570,account 0570,2026-06-10,178.30
+493,R492,duplicate,109,exact normalized match; first source row retained,R492,00577,account 0577,2026-06-17,732.63
+494,R493,duplicate,116,exact normalized match; first source row retained,R493,00584,account 0584,2026-06-24,391.96
+495,R494,duplicate,123,exact normalized match; first source row retained,R494,00591,account 0591,2026-04-02,51.29
+496,R495,duplicate,130,exact normalized match; first source row retained,R495,00598,account 0598,2026-04-09,605.62
+497,R496,duplicate,137,exact normalized match; first source row retained,R496,00605,account 0605,2026-04-16,264.95
+498,R497,duplicate,144,exact normalized match; first source row retained,R497,00612,account 0612,2026-04-23,819.28
+499,R498,duplicate,151,exact normalized match; first source row retained,R498,00619,account 0619,2026-04-30,-478.61
+500,R499,duplicate,158,exact normalized match; first source row retained,R499,00626,account 0626,2026-05-07,137.94
+501,R500,duplicate,165,exact normalized match; first source row retained,R500,00633,account 0633,2026-05-14,692.27
+502,R501,duplicate,172,exact normalized match; first source row retained,R501,00640,account 0640,2026-05-21,351.60
+503,R502,duplicate,179,exact normalized match; first source row retained,R502,00647,account 0647,2026-05-28,10.93
+504,R503,duplicate,186,exact normalized match; first source row retained,R503,00654,account 0654,2026-06-04,565.26
+505,R504,duplicate,193,exact normalized match; first source row retained,R504,00661,account 0661,2026-06-11,224.59
+506,R505,duplicate,200,exact normalized match; first source row retained,R505,00668,account 0668,2026-06-18,778.92
+507,R506,duplicate,207,exact normalized match; first source row retained,R506,00675,account 0675,2026-06-25,438.25
+508,R507,duplicate,214,exact normalized match; first source row retained,R507,00682,account 0682,2026-04-03,97.58
+509,R508,duplicate,221,exact normalized match; first source row retained,R508,00689,account 0689,2026-04-10,651.91
+510,R509,duplicate,228,exact normalized match; first source row retained,R509,00696,account 0696,2026-04-17,311.24
+511,R510,duplicate,235,exact normalized match; first source row retained,R510,00703,account 0703,2026-04-24,865.57
+512,R511,duplicate,242,exact normalized match; first source row retained,R511,00710,account 0710,2026-05-01,524.90
+513,R512,duplicate,249,exact normalized match; first source row retained,R512,00717,account 0717,2026-05-08,184.23
+514,R513,duplicate,256,exact normalized match; first source row retained,R513,00724,account 0724,2026-05-15,738.56
+515,R514,duplicate,263,exact normalized match; first source row retained,R514,00731,account 0731,2026-05-22,397.89
+516,R515,duplicate,270,exact normalized match; first source row retained,R515,00738,account 0738,2026-05-29,-57.22
+517,R516,duplicate,277,exact normalized match; first source row retained,R516,00745,account 0745,2026-06-05,611.55
+518,R517,duplicate,284,exact normalized match; first source row retained,R517,00752,account 0752,2026-06-12,270.88
+519,R518,duplicate,291,exact normalized match; first source row retained,R518,00759,account 0759,2026-06-19,825.21
+520,R519,duplicate,298,exact normalized match; first source row retained,R519,00766,account 0766,2026-06-26,484.54
+521,R520,duplicate,305,exact normalized match; first source row retained,R520,00773,account 0773,2026-04-04,143.87
+522,R521,duplicate,312,exact normalized match; first source row retained,R521,00780,account 0780,2026-04-11,698.20
+523,R522,duplicate,319,exact normalized match; first source row retained,R522,00787,account 0787,2026-04-18,357.53
+524,R523,duplicate,326,exact normalized match; first source row retained,R523,00794,account 0794,2026-04-25,16.86
+525,R524,duplicate,333,exact normalized match; first source row retained,R524,00801,account 0801,2026-05-02,571.19
+526,R525,duplicate,340,exact normalized match; first source row retained,R525,00808,account 0808,2026-05-09,230.52
+527,R526,duplicate,347,exact normalized match; first source row retained,R526,00815,account 0815,2026-05-16,784.85
+528,R527,duplicate,354,exact normalized match; first source row retained,R527,00822,account 0822,2026-05-23,444.18
+529,R528,duplicate,361,exact normalized match; first source row retained,R528,00829,account 0829,2026-05-30,103.51
+530,R529,duplicate,368,exact normalized match; first source row retained,R529,00836,account 0836,2026-06-06,657.84
+531,R530,duplicate,375,exact normalized match; first source row retained,R530,00843,account 0843,2026-06-13,317.17
+532,R531,duplicate,382,exact normalized match; first source row retained,R531,00850,account 0850,2026-06-20,871.50
+533,R532,duplicate,389,exact normalized match; first source row retained,R532,00857,account 0857,2026-06-27,-530.83
+534,R533,duplicate,396,exact normalized match; first source row retained,R533,00864,account 0864,2026-04-05,190.16
+535,R534,duplicate,403,exact normalized match; first source row retained,R534,00871,account 0871,2026-04-12,744.49
+536,R535,duplicate,410,exact normalized match; first source row retained,R535,00878,account 0878,2026-04-19,403.82
+537,R536,duplicate,417,exact normalized match; first source row retained,R536,00885,account 0885,2026-04-26,63.15
+538,R537,duplicate,424,exact normalized match; first source row retained,R537,00892,account 0892,2026-05-03,617.48
+539,R538,duplicate,431,exact normalized match; first source row retained,R538,00899,account 0899,2026-05-10,276.81
+540,R539,duplicate,438,exact normalized match; first source row retained,R539,00906,account 0906,2026-05-17,831.14
+541,R540,duplicate,445,exact normalized match; first source row retained,R540,00913,account 0913,2026-05-24,490.47
+542,R541,rejected,,invalid date,R541,01000,Account 1000,31/06/2026,40.00
+543,R542,rejected,,invalid amount,R542,01001,Account 1001,2026-06-30,"12,34.50"
+544,R543,rejected,,invalid date,R543,01002,Account 1002,31/06/2026,40.00
+545,R544,rejected,,invalid amount,R544,01003,Account 1003,2026-06-30,"12,34.50"
+546,R545,rejected,,invalid date,R545,01004,Account 1004,31/06/2026,40.00
+547,R546,rejected,,invalid amount,R546,01005,Account 1005,2026-06-30,"12,34.50"
+548,R547,rejected,,invalid date,R547,01006,Account 1006,31/06/2026,40.00
+549,R548,rejected,,invalid amount,R548,01007,Account 1007,2026-06-30,"12,34.50"
+550,R549,rejected,,invalid date,R549,01008,Account 1008,31/06/2026,40.00
+551,R550,rejected,,invalid amount,R550,01009,Account 1009,2026-06-30,"12,34.50"

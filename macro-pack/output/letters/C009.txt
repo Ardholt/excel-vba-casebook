@@ -1,0 +1,4 @@
+Reference: C009
+Dear Account 009,
+Your statement amount is GBP 110.25.
+Please keep this letter with your records.

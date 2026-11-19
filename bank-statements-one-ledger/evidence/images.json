@@ -1,0 +1,61 @@
+{
+  "software": {
+    "python": "3.12.3",
+    "openpyxl": "3.1.2",
+    "pytest": "7.4.4",
+    "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "images": [
+    {
+      "file": "images/balance-checks.png",
+      "source": "output/ledger.xlsx",
+      "sheet": "Balance checks",
+      "width": 780,
+      "height": 527,
+      "source_sha256": "7820b93b864b1edd03378224a5dcb0796bf4e137ed770a195a08a406281fd057",
+      "sha256": "923c2de2ad3c674b9fac5e1ca607c32452103d0f88b3b3ccb7efbc26fdaf964b",
+      "method": "Selected worksheet copied to a single-sheet workbook, LibreOffice export rasterized and trimmed; pixels preserved; metadata stripped"
+    },
+    {
+      "file": "images/statement-layouts.png",
+      "source": "output/input-overview.xlsx",
+      "sheet": "Statement layouts",
+      "width": 780,
+      "height": 1569,
+      "source_sha256": "39af18b968cac733bfd8a2678545b46f294a4f00a345e97aa649642ad18d689b",
+      "sha256": "836506e60a73eef6ab76e476ec0c973a67aca5e653d6dfb5e41fe43de0f1b49a",
+      "method": "Selected worksheet copied to a single-sheet workbook, LibreOffice export rasterized and trimmed; pixels preserved; metadata stripped"
+    },
+    {
+      "file": "images/trace-a-balance.png",
+      "source": "output/ledger.xlsx",
+      "sheet": "Trace a balance",
+      "width": 780,
+      "height": 902,
+      "source_sha256": "7820b93b864b1edd03378224a5dcb0796bf4e137ed770a195a08a406281fd057",
+      "sha256": "ac4a55b6d100d2953e2e8e99d12ba487b163a22845c6aa252cfb8a1fc66f07c0",
+      "method": "Selected worksheet copied to a single-sheet workbook, LibreOffice export rasterized and trimmed; pixels preserved; metadata stripped"
+    },
+    {
+      "file": "images/hero-before.png",
+      "source": "output/input-overview.xlsx",
+      "sheet": "Source balance proof",
+      "width": 780,
+      "height": 238,
+      "source_sha256": "39af18b968cac733bfd8a2678545b46f294a4f00a345e97aa649642ad18d689b",
+      "sha256": "fc7a4788639a60a914cab64948c0a3f77954280ad9bd09619aca9d413ff659d4",
+      "method": "Selected worksheet copied to a single-sheet workbook, LibreOffice export rasterized and trimmed; pixels preserved; metadata stripped"
+    },
+    {
+      "file": "images/hero-after.png",
+      "source": "output/ledger.xlsx",
+      "sheet": "Closing balance proof",
+      "width": 780,
+      "height": 238,
+      "source_sha256": "7820b93b864b1edd03378224a5dcb0796bf4e137ed770a195a08a406281fd057",
+      "sha256": "f049309040fa45190918362802ad3e09f67a93e088d683797a2a50e018c35553",
+      "method": "Selected worksheet copied to a single-sheet workbook, LibreOffice export rasterized and trimmed; pixels preserved; metadata stripped"
+    }
+  ],
+  "runtime_seconds": 7.197868
+}
