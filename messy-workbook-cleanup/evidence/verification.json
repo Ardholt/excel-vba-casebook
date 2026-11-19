@@ -30,7 +30,7 @@
     "scripts/render_assets.py": {
       "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
       "recorded_sha256": "157ba4ece34136e4b8a889d10ed8570c0bc49b20aea70243632cd0c08a75d5e8",
-      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+      "identity_basis": "Exact source-byte SHA-256 match at the recorded revision; revision identifies this file, not an inferred whole-run revision."
     }
   }
 }

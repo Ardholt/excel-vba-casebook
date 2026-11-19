@@ -118,5 +118,5 @@
       "unchanged_member_count": 26
     }
   ],
-  "historical_evidence": "verification.json, checksums.json, tests.txt, reference-checks.txt and runtime.json retain the pre-correction measurements and hashes. An exact whole-run source revision is unavailable in the supplied source-history.json; recorded hashes identify the historical source/input bytes. The archives linked from runtime.json now have the instruction-only edit listed here; their business data remains byte-identical."
+  "historical_evidence": "verification.json, checksums.json, tests.txt, reference-checks.txt and runtime.json retain the pre-correction measurements and hashes. An exact whole-run source revision is unavailable; recorded hashes identify the historical source/input bytes. The archives linked from runtime.json now have the instruction-only edit listed here; their business data remains byte-identical."
 }

@@ -26,7 +26,7 @@
     "scripts/render_proof.sh": {
       "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
       "recorded_sha256": "0fd0c752169ecc9dff6023fe7a05f350d864265539bba145ee34a7205bf27e29",
-      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+      "identity_basis": "Exact source-byte SHA-256 match at the recorded revision; revision identifies this file, not an inferred whole-run revision."
     }
   }
 }

@@ -81,17 +81,17 @@
     "scripts/make_page_assets.py": {
       "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
       "recorded_sha256": "821c7fb291df904656b37d3f8d24032c7b315e518821537bc28ac4334c482f0d",
-      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+      "identity_basis": "Exact source-byte SHA-256 match at the recorded revision; revision identifies this file, not an inferred whole-run revision."
     },
     "scripts/render_owner_page.py": {
       "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
       "recorded_sha256": "fe62051b5c16f84b3bf3b827a976773dcc4c11fd7b7144aac38c537aa018363e",
-      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+      "identity_basis": "Exact source-byte SHA-256 match at the recorded revision; revision identifies this file, not an inferred whole-run revision."
     },
     "scripts/write_page.py": {
       "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
       "recorded_sha256": "7489aad05b0b01e7daa9d78a34859ff2e43f06169e4685c9c97cc3a580e4d441",
-      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+      "identity_basis": "Exact source-byte SHA-256 match at the recorded revision; revision identifies this file, not an inferred whole-run revision."
     }
   }
 }
