@@ -11,7 +11,7 @@
     "input/input.xlsx": "fc9278932497e760ab8e86d0421c101fa5d443d4c4782f0b8aa511b2f3a9b4ca",
     "input/rules.json": "5409c7e870d58f101e17c5cf52601ecded6af54b044beaa02382321e331fefc3"
   },
-  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "scope": "Historical execution snapshot. Published inputs and scripts run in a separate copy; business tests check the regenerated output. Results and hashes are retained from that run; they do not verify current rendering/page source bytes. No rerun is implied by the publishing corrections.",
   "source_sha256": {
     "scripts/workbook_meta.py": "585b50a6a058bfce677331912ba943e864cf233c78ce6eec165c4350652a8c33",
     "scripts/inner.sh": "e6d61f95acceb9959f617e55eb9f2729504a5204464320e9214ce5e43c4fe297",
@@ -25,5 +25,12 @@
     "scripts/check_custom_paths.py": "7f9ff1b4f863c45d467b8a96ebfe3e8a3f04d7323d6b4fe99ef22306e39867b1",
     "tests/conftest.py": "ed278ed5c139573458dc8c4f1582b747728cbb3246f6948a4073c139fa8ebf1c",
     "tests/test_cleanup.py": "3881c93e7b986269b26f4e7a56a10f9c26879b77157e16d7d4e7cd758c8ad15e"
+  },
+  "historical_rendering_sources": {
+    "scripts/render_assets.py": {
+      "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
+      "recorded_sha256": "157ba4ece34136e4b8a889d10ed8570c0bc49b20aea70243632cd0c08a75d5e8",
+      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+    }
   }
 }

@@ -49,5 +49,6 @@
   "split_new_group_and_duplicates_checked": true,
   "split_removed_group_and_empty_input_checked": true,
   "split_unrelated_file_preserved": true,
-  "export_note": "LibreOffice executed the imported macros. SaveGroup uses its LibreOffice branch with the native OOXML filter; the Excel SaveAs branch is separate. Snapshots are UNO exports after macro execution. GIFs show sheet snapshots, not desktop recordings."
+  "export_note": "LibreOffice executed the imported macros. SaveGroup uses its LibreOffice branch with the native OOXML filter; the Excel SaveAs branch is separate. Snapshots are UNO exports after macro execution. GIFs show sheet snapshots, not desktop recordings.",
+  "scope": "Historical macro execution before the instruction-only publishing correction. Linked snapshot workbooks now have Instructions!C2 corrected; all other member bytes are unchanged. Measurements are retained, with no macro rerun. See publishing-corrections.json."
 }

@@ -52,6 +52,8 @@ A developer can reuse the check with new statements in the [supported layouts](e
 
 ## How it is tested
 
+The [verification record](evidence/verification.json) is a historical run; its source hashes identify that snapshot, not the current rendering/page sources.
+
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
 - [30 tests passed](output/checks.txt): source rows and money are conserved, including same-day transactions, charges, credits and separate accounts.

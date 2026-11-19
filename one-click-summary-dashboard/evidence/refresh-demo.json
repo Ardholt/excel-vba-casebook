@@ -1,6 +1,6 @@
 {
   "file": "media/refresh.gif",
-  "sha256": "23b6e8c3697ca41995f1271accd622b85c97a89a1bcefcbc0653da0aa9129209",
+  "sha256": "4bfca53ec83fc71e64753b709a77a5b19a59240a772d7d6b199466ada9145887",
   "method": "Saved-view replay, not a desktop screen recording; captions identify the recorded accessibility button actions.",
   "button_events": "output/vba-run.json",
   "frames": [

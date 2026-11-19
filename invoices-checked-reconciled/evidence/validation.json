@@ -34,5 +34,6 @@
   },
   "source_unchanged": true,
   "shared_repository_links": "Root README and shared Dockerfile are supplied by the containing repository.",
-  "page_review": "page-review.json"
+  "page_review": "page-review.json",
+  "scope": "Historical validation snapshot. source_unchanged and final_tests describe that recorded run, not subsequent rendering/page edits; see verification.json for historical source identity."
 }

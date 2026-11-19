@@ -13,7 +13,7 @@
     "input/layout-b.xlsx": "c4783bea7aa1e1b0f4574077a9f94d3dd031c659dd3f699d0c92259a23ddcb4c",
     "input/layout-c.csv": "d484cc3821b30edc0e6a50b9e8ea939312dacc4bda212b404264e066088e7fee"
   },
-  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "scope": "Historical execution snapshot. Published inputs and scripts run in a separate copy; business tests check the regenerated output. Results and hashes are retained from that run; they do not verify current rendering/page source bytes. No rerun is implied by the publishing corrections.",
   "source_sha256": {
     "scripts/check_paths.py": "fe99dcdc323867cbc7361fd9c5e4aeddbfff5ea07af29e8b5c65ff7d4f283078",
     "scripts/ledger.py": "c47022d723496688a4839f6b5256cee2f4d303311470b638c93c0a08597d3fc1",
@@ -27,5 +27,12 @@
     "scripts/make_inputs.py": "176333e5c06b0400ed7fb5d436d240c3c4bf215fb6a983b8e48a71a4e2364ad2",
     "scripts/proof.py": "a39678a1c8b34048fb7dfaf5e4063e286a3d609b751eda797edd0fc3c6471f81",
     "tests/test_ledger.py": "10036c7c251a7c3c12a2bf34e63f0bc48e12caf95382be3dc8e55b9fcbe291c8"
+  },
+  "historical_rendering_sources": {
+    "scripts/page_pass.py": {
+      "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
+      "recorded_sha256": "6ac538327ba60e2e87d39deb620452f10502d320b5ea589aa1bcbea164655aea",
+      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+    }
   }
 }

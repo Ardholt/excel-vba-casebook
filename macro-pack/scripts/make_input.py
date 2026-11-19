@@ -5,7 +5,7 @@ from reference import add,style
 
 def build():
     b=openpyxl.Workbook(); b.remove(b.active)
-    add(b,'Instructions',['Task','Before','Ready after run'],[['Split','1,200 mixed rows','Group sheets'],['Merge','Columns in different order','One aligned table'],['Rename','Conflicts in the map','Accepted + rejected'],['Letters','80 records + a template','One file per record']])
+    add(b,'Instructions',['Task','Before','Ready after run'],[['Split','1,200 mixed rows','Separate group workbooks'],['Merge','Columns in different order','One aligned table'],['Rename','Conflicts in the map','Accepted + rejected'],['Letters','80 records + a template','One file per record']])
     rows=[[f'R{i:04}',f'G{(i-1)%6+1:02}',float(Decimal(i%97+1)*Decimal('2.75'))] for i in range(1,1201)]
     add(b,'Data',['record_id','group','value'],rows)
     a=rows[:480]; other=rows[480:828]+rows[:12]

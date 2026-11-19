@@ -31,5 +31,5 @@
     "tests/test_button_outputs.py": "b7f3d8940d4ddb5205a74b10f7436b59a96985f64d9532e38b170483878da320",
     "vba/SalesDashboard.bas": "c38019cbf60ca42022a9c58b21fff45ee47b3c95b1f61f10fff47c993707bd97"
   },
-  "scope": "Container execution of the same inner command used by run.sh; fresh button artifacts and Python business tests."
+  "scope": "Historical snapshot before the refresh GIF palette correction. Container execution of the same inner command used by run.sh; fresh button artifacts and Python business tests. Recorded results and hashes, including scripts/make_refresh_demo.py, identify that run rather than current replay-renderer bytes. No macro or business-test rerun for the publishing correction; refresh-demo.json identifies the regenerated GIF."
 }

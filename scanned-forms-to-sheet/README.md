@@ -60,6 +60,8 @@ This rebuilds the workbooks and check lists, runs the tests, and prints PASS or 
 
 ## How it is tested
 
+The [verification record](evidence/verification.json) is a historical run; its source hashes identify that snapshot, not the current rendering/page sources.
+
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
 - [Business tests](tests/test_business.py) read fresh scans, check accepted values and require a reason for each blank.

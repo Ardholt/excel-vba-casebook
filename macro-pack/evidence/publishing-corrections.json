@@ -1,0 +1,122 @@
+{
+  "checked_utc": "2026-11-19T14:55:56.333659+00:00",
+  "scope": "Static publishing correction only: Instructions!C2 changed from Group sheets to Separate group workbooks. Each archive has exactly one XML member changed by literal replacement; all other uncompressed member bytes, including VBA, buttons, drawings, relationships, styles, properties and data, are unchanged. No macros or business tests rerun.",
+  "generator": {
+    "path": "scripts/make_input.py",
+    "before_sha256": "8cc69726db6f1100be5a227e550c286bec32b37c091afff258d00d687296ce69",
+    "after_sha256": "5075f8ec359eee279d0a33f31f76d88fc1bc9ab62b4bf32aa208a8b497149b3a"
+  },
+  "workbooks": [
+    {
+      "path": "input/input.xlsx",
+      "before_sha256": "6b45850809c89878434d88626b5a0562007b642d948054bd376ad93e5672f8ba",
+      "after_sha256": "812a9b11d805e92814d899799db43193d1852eb154e089ebf4161660f6f7ae08",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/worksheets/sheet1.xml",
+      "member_before_sha256": "4472a8471ee47253e1fff81ae76703b2b585c40c2bb3afe92aec4d3764837203",
+      "member_after_sha256": "2ddbbefdf397a3edf1321e38743ecb2e07edf9ed6afd9c0d28edf6e321cb413f",
+      "unchanged_member_count": 19
+    },
+    {
+      "path": "macro-pack.xlsm",
+      "before_sha256": "fa7eaf4530b68ab0df282453f0cba2234324886cb6794309ae446179d581dcc0",
+      "after_sha256": "5f6f2004aff69ed683d45f7476a095014c685cc73733ebb4ae3e08f7632f8ac3",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "b6415684f9fe960fba343cbe00e32b7164e032f793cb0d1cbbf1215125fbacdc",
+      "member_after_sha256": "15af4a16d4773251177aee8a22d1b2f69b9144a4d44aabc5a65e5d8e78faad36",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/after.xlsx",
+      "before_sha256": "2efa9ff40f6371c2572ba7051aa581352a4de7d9a0bf3fc723f7584f242f6089",
+      "after_sha256": "8bc4420357c2ae3e9c57c271cc0c8e828adfd892e05fdce27ce90414ea850e06",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/worksheets/sheet1.xml",
+      "member_before_sha256": "4472a8471ee47253e1fff81ae76703b2b585c40c2bb3afe92aec4d3764837203",
+      "member_after_sha256": "2ddbbefdf397a3edf1321e38743ecb2e07edf9ed6afd9c0d28edf6e321cb413f",
+      "unchanged_member_count": 24
+    },
+    {
+      "path": "output/vba/letters-after.xlsx",
+      "before_sha256": "eeab12778dcb4dcacbf49183e5dbfd78d35bad8cbfd38cddb6c6b68412f3537f",
+      "after_sha256": "1adf24b9c0a1749cf66b7e01fdd5f41f9f8f20f4c83bc98d0e73aa9f64838757",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "abf03cc6651a0192a7459f6361553cac666dccc5210d130b1b2e5877296977e6",
+      "member_after_sha256": "e8def8cbf11cbca8f020c9461b1a889b70b20a9a12ffcbbcaae16a394624a29a",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/letters-before.xlsx",
+      "before_sha256": "dc2c815403b9ed68c6be2e089ee939795dc50522407f6ac57193af623c981711",
+      "after_sha256": "89ba9a3e8b7140d670d8c507ef90e9ddc3089f973732e90eca315bd9243fa446",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "f5069b9c2f9e32bdc2ff95634a5bc37375b4a806b6816a6af354223a997c2117",
+      "member_after_sha256": "3e47310064dc87870d71b35379b26272ca0a302daadc9b23d5ef78682bfa8b97",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/merge-after.xlsx",
+      "before_sha256": "5d5e6a9bf3c8125103af7021d1e0c0c4a6900632a7b3a9ea4d6e8f5767f1b63c",
+      "after_sha256": "3b94211140711b2b27ed7c1cf0bef7bc7ea3c0b2c3581f232e117969ea458c8a",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "940f9795bcd40ee185a27f0b0a939a25b1d8994b6caa577661406e99b096d2cc",
+      "member_after_sha256": "d006c0ef6663b49bc73bf5ae27916283f2b03e70ae7bf0f1fb5a5ae2e46ead9e",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/merge-before.xlsx",
+      "before_sha256": "9bee46096a4b416b96836c9b212d6d75b3c5ac69a681479c481414228688cdfd",
+      "after_sha256": "d6c73b907ec231aaec5e6a6c9fcbeecfb3bb662fdb9f242e28d212cbadafb745",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "bd25cf7e3c6c544e43666d606532ae7c9d5dcbf3535c8f3f3f0d4432a9e27e71",
+      "member_after_sha256": "8b95027eea230297483e19e26e7bd58416cc8b29303b4a6a33a440b94ee515e8",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/rename-after.xlsx",
+      "before_sha256": "a062aa4b6e2ae556ea7f833cd2db6840c95f7d662c0eced478449f2a0e344693",
+      "after_sha256": "d20c52f184ad2b17fa52817c18ce770d867d7001c110381c44bbf0fca0587276",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "f5069b9c2f9e32bdc2ff95634a5bc37375b4a806b6816a6af354223a997c2117",
+      "member_after_sha256": "3e47310064dc87870d71b35379b26272ca0a302daadc9b23d5ef78682bfa8b97",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/rename-before.xlsx",
+      "before_sha256": "f1905614de021b1d01cc7e3e68ee61bdec8ce9be3c6b33da5114e517f06af328",
+      "after_sha256": "c13a06546024c7beeac66e49304180daabc8dec4ef3532ffbd7f120b84bbf2ab",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "940f9795bcd40ee185a27f0b0a939a25b1d8994b6caa577661406e99b096d2cc",
+      "member_after_sha256": "d006c0ef6663b49bc73bf5ae27916283f2b03e70ae7bf0f1fb5a5ae2e46ead9e",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/split-after.xlsx",
+      "before_sha256": "bfbd7805c48d261bef7fd798345af6bded25c94dc9d69f072a5d99c31a40a264",
+      "after_sha256": "db41bc7f3ecbfec42c8d96f6f23a86f5eaffa81b7cd26b0377d0ec9cad1f9549",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "bd25cf7e3c6c544e43666d606532ae7c9d5dcbf3535c8f3f3f0d4432a9e27e71",
+      "member_after_sha256": "8b95027eea230297483e19e26e7bd58416cc8b29303b4a6a33a440b94ee515e8",
+      "unchanged_member_count": 26
+    },
+    {
+      "path": "output/vba/split-before.xlsx",
+      "before_sha256": "584ae7274175d74200f0b4dc8bbe8df6b92ef7384a8a1477eedc223f01d2253b",
+      "after_sha256": "909d577c367fb60e6f982315756954a5312f6eef1dd212ecc55f7b2974f5c77a",
+      "cell": "Instructions!C2",
+      "changed_member": "xl/sharedStrings.xml",
+      "member_before_sha256": "781eaef8d7f2f34078dbb866c2ffb8c2405513204c1bfcd7988d8f91be6dd556",
+      "member_after_sha256": "09b5d022e3622169da66f1bd460f52814019eb4762e5d5f8d0ef7fc8d43dcc1f",
+      "unchanged_member_count": 26
+    }
+  ],
+  "historical_evidence": "verification.json, checksums.json, tests.txt, reference-checks.txt and runtime.json retain the pre-correction measurements and hashes. An exact whole-run source revision is unavailable in the supplied source-history.json; recorded hashes identify the historical source/input bytes. The archives linked from runtime.json now have the instruction-only edit listed here; their business data remains byte-identical."
+}

@@ -49,6 +49,8 @@ This rebuilds the cleaned workbook in `output/`, runs the checks and prints PASS
 
 ## How it is tested
 
+The [verification record](evidence/verification.json) is a historical run; its source hashes identify that snapshot, not the current rendering/page sources.
+
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
 - [37 tests](output/standalone-tests.txt) check date order, identifiers, invalid values, duplicate links, changed inputs and exact record/money totals.

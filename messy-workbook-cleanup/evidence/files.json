@@ -210,5 +210,9 @@
   "tests/test_cleanup.py": {
     "bytes": 9627,
     "sha256": "3881c93e7b986269b26f4e7a56a10f9c26879b77157e16d7d4e7cd758c8ad15e"
+  },
+  "_scope": {
+    "kind": "historical",
+    "note": "Retained artifact inventory before later publishing corrections; recorded sizes/hashes, including README.md and evidence/verification.json, identify those historical bytes rather than current files."
   }
 }

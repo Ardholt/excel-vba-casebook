@@ -11,7 +11,7 @@
     "input/input.xlsx": "6b45850809c89878434d88626b5a0562007b642d948054bd376ad93e5672f8ba",
     "input/template.txt": "351f9c420061db1d12f533cab278218d416a3f3e22fe850c96639171d90c710a"
   },
-  "scope": "Reference outputs and business tests executed in the container. Actual macro execution is recorded separately in runtime.json.",
+  "scope": "Historical snapshot before the Instructions!C2 publishing correction. Reference outputs and business tests executed in the container. Actual macro execution is recorded separately in runtime.json. All measurements and recorded hashes refer to the original run, including the old input/input.xlsx and scripts/make_input.py bytes. Exact run revision unavailable in supplied source-history.json; recorded hashes are the source identity. See publishing-corrections.json for current static archive checks; no runtime rerun.",
   "source_sha256": {
     "run.sh": "1c5fd9eccfc5b373e5681e59252cff8b081cf0c4e2415f0a5809a0b8397b051b",
     "scripts/build_candidate.py": "ae5570d9fd084cdacb63c7dbe61f777b04de145136e39b7a94ab70cd3bd59b8d",

@@ -65,6 +65,8 @@ The command above runs the Python reference and its tests; the [separate VBA run
 
 The retained before/after animations use workbook snapshots from those macro runs: [split](images/split.gif), [merge](images/merge.gif), [rename](images/rename.gif), [letters](images/letters.gif). The full [split](output/vba/split-after.xlsx), [merge](output/vba/merge-after.xlsx), [rename](output/vba/rename-after.xlsx) and [letter](output/vba/letters-after.xlsx) snapshots are available to inspect.
 
+The [publishing correction record](evidence/publishing-corrections.json) documents the instruction-only edit to Instructions!C2 in the downloads and snapshots. Runtime measurements and [recorded hashes](evidence/checksums.json) remain historical; no macros were rerun for that edit.
+
 Readable VBA: [split](vba/SplitRows.bas) · [merge](vba/MergeTables.bas) · [rename](vba/RenameSheets.bas) · [letters](vba/MakeLetters.bas).
 
 ---

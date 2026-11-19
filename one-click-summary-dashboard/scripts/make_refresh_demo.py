@@ -16,7 +16,14 @@ for image,label in zip(images,labels):
     draw=ImageDraw.Draw(frame);draw.rectangle((0,0,width,55),fill='#142F43')
     draw.text((20,12),label,font=font,fill='white')
     frames.append(frame)
-frames[0].save('media/refresh.gif',save_all=True,append_images=frames[1:],duration=[2200,3000,2600],loop=0,disposal=2)
+# Use one explicit palette for every opaque frame. Implicit per-frame RGB
+# conversion can remap dark glyph fills when GIF frames are composited.
+atlas=Image.new('RGB',(width,(height+58)*len(frames)),'white')
+for index,frame in enumerate(frames):
+    atlas.paste(frame,(0,index*(height+58)))
+palette=atlas.quantize(colors=256,method=Image.Quantize.MEDIANCUT)
+indexed=[frame.quantize(palette=palette,dither=Image.Dither.NONE) for frame in frames]
+indexed[0].save('media/refresh.gif',save_all=True,append_images=indexed[1:],duration=[2200,3000,2600],loop=0,disposal=2,optimize=False)
 Path('evidence/refresh-demo.json').write_text(json.dumps({
     'file':'media/refresh.gif','sha256':hashlib.sha256(Path('media/refresh.gif').read_bytes()).hexdigest(),
     'method':'Saved-view replay, not a desktop screen recording; captions identify the recorded accessibility button actions.',

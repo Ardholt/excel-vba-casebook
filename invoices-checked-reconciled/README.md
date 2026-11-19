@@ -66,6 +66,8 @@ It rebuilds the files and prints `PASS` or `FAIL`. [Setup and instructions for a
 
 ## How it is tested
 
+The [verification record](evidence/verification.json) is a historical run; its source hashes identify that snapshot, not the current rendering/page sources.
+
 [![Tests](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml/badge.svg)](https://github.com/Ardholt/excel-vba-casebook/actions/workflows/ci.yml)
 
 The `.xlsx` workbooks were produced with [Python 3.12.3 and openpyxl 3.1.2](evidence/runtime.json), then checked with [LibreOffice 24.2.7.2: all 1,920 recalculated formula cells matched](evidence/runtime.json).

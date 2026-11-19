@@ -59,7 +59,7 @@
     "input/forms/entry-48.png": "f161ca00b05a1b947ec122d546213dbc804530902e5c9b54e5ee53727d3646ee",
     "input/forms/entry-04.png": "6e138dcdcfee834b6c8b7a44cd691e580985399148d8a0d2a182ca147801866a"
   },
-  "scope": "Published inputs and scripts run in a separate copy; business tests check the regenerated output.",
+  "scope": "Historical execution snapshot. Published inputs and scripts run in a separate copy; business tests check the regenerated output. Results and hashes are retained from that run; they do not verify current rendering/page source bytes. No rerun is implied by the publishing corrections.",
   "source_sha256": {
     "scripts/check_output.py": "fcde47ae69ca99fbe931125f738f4e9ab3c6f4ac37ec751668060a02e41294b3",
     "scripts/extract.py": "d539da9b85b3a41fb125710989c5c0073b21ae0931dbc13f0060040ca0267413",
@@ -76,5 +76,22 @@
     "scripts/write_page.py": "7489aad05b0b01e7daa9d78a34859ff2e43f06169e4685c9c97cc3a580e4d441",
     "scripts/execute.py": "3283097a93b9ef5c7d928ace806f44b9c12cb595e7b26c352a36ed838b6f9490",
     "tests/test_business.py": "3c52f079da2e1ff518efa13a5078c3232692681f6511c804ed8df20a0f9d16d8"
+  },
+  "historical_rendering_sources": {
+    "scripts/make_page_assets.py": {
+      "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
+      "recorded_sha256": "821c7fb291df904656b37d3f8d24032c7b315e518821537bc28ac4334c482f0d",
+      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+    },
+    "scripts/render_owner_page.py": {
+      "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
+      "recorded_sha256": "fe62051b5c16f84b3bf3b827a976773dcc4c11fd7b7144aac38c537aa018363e",
+      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+    },
+    "scripts/write_page.py": {
+      "source_revision": "c038da6d9513b548d6987e29ecb8c29e79341056",
+      "recorded_sha256": "7489aad05b0b01e7daa9d78a34859ff2e43f06169e4685c9c97cc3a580e4d441",
+      "identity_basis": "Exact source-byte SHA-256 match in supplied source-history.json; revision identifies this file, not an inferred whole-run revision."
+    }
   }
 }
